@@ -8,7 +8,7 @@ CONSTRUCT {
     ?item wdt:P31 ?nature  ;
           a ?artsdata_type ;
           schema:description ?description ;
-          rdfs:label ?itemLabel ;
+          schema:name ?itemLabel ;
           schema:memberOf wd:Q71859269 .
 }
 WHERE {

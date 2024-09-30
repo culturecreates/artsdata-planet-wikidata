@@ -8,7 +8,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Fannie Bellefeuille"
   } ],
@@ -25,7 +25,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Danse K par K"
   } ],
@@ -44,7 +44,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "DansEncorps"
   } ],
@@ -61,7 +61,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Margaret Grenier"
   } ],
@@ -78,7 +78,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kaha:wi Dance Theatre"
   } ],
@@ -99,7 +99,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Zab Maboungou / Compagnie Danse Nyata Nyata"
   } ],
@@ -120,7 +120,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Andrew Kyrzyk"
   } ],
@@ -137,7 +137,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Yvonne Ng"
   } ],
@@ -154,7 +154,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "tiger princess dance projects"
   } ],
@@ -171,7 +171,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Collette \"Coco\" Murray"
   } ],
@@ -188,7 +188,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Sophia Wolfe"
   } ],
@@ -205,7 +205,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Anandam"
   } ],
@@ -224,7 +224,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "La danse sur les routes du Québec"
   } ],
@@ -245,7 +245,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Fall for Dance North"
   } ],
@@ -266,7 +266,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "New Works"
   } ],
@@ -287,7 +287,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Dance Umbrella of Ontario"
   } ],
@@ -308,7 +308,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Eponymous"
   } ],
@@ -327,7 +327,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Propeller Dance"
   } ],
@@ -348,7 +348,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Decidedly Jazz Danceworks"
   } ],
@@ -371,7 +371,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Sarah Williams"
   } ],
@@ -388,7 +388,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Karen Fennell"
   } ],
@@ -405,7 +405,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Susanna Hood"
   } ],
@@ -422,7 +422,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Dominique Turcotte"
   } ],
@@ -439,7 +439,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Léa Tremblay Fong"
   } ],
@@ -456,7 +456,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Catherine Pelletier-Voyer"
   } ],
@@ -473,7 +473,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Nancy Rheault"
   } ],
@@ -490,7 +490,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Laura Perron"
   } ],
@@ -507,7 +507,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Karine Rathle"
   } ],
@@ -524,7 +524,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Port Theatre"
   } ],
@@ -545,7 +545,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Cameron Fraser-Monroe"
   } ],
@@ -562,7 +562,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Cora Kozaris"
   } ],
@@ -579,7 +579,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Daniella Beltrami"
   } ],
@@ -596,7 +596,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Sursaut Dance Company"
   } ],
@@ -617,7 +617,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Studio 303"
   } ],
@@ -636,7 +636,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Rhodnie Désir"
   } ],
@@ -653,7 +653,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Alysa Pires"
   } ],
@@ -670,7 +670,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Victoria May"
   } ],
@@ -687,7 +687,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Jeanette Kotowich"
   } ],
@@ -704,7 +704,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Aeris Körper"
   } ],
@@ -723,7 +723,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "dance: made in canada/ fait au canada Festival"
   } ],
@@ -742,7 +742,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Dance Ontario"
   } ],
@@ -759,7 +759,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Charles Gao"
   } ],
@@ -776,7 +776,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Gilles Savary"
   } ],
@@ -793,7 +793,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Jamila Shani Joseph"
   } ],
@@ -810,7 +810,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Helen Duval"
   } ],
@@ -827,7 +827,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Sylvie Desrosiers"
   } ],
@@ -844,7 +844,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Compagnie de la Citadelle"
   } ],
@@ -865,7 +865,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Three Left Feet"
   } ],
@@ -886,7 +886,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Nova Dance"
   } ],
@@ -903,7 +903,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Fujiwara Dance Inventions"
   } ],
@@ -920,7 +920,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Dancers Of Damelahamid"
   } ],
@@ -937,7 +937,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Public Recordings Performance Projects"
   } ],
@@ -954,7 +954,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Little Pear Garden Collective"
   } ],
@@ -971,7 +971,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Animals of Distinction Arts Society"
   } ],
@@ -988,7 +988,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Arts Orillia"
   } ],
@@ -1005,7 +1005,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Ballet Edmonton"
   } ],
@@ -1022,7 +1022,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Ballet Kelowna"
   } ],
@@ -1041,7 +1041,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "CADA EAST / Canadian Alliance of Dance Artists East"
   } ],
@@ -1058,7 +1058,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "CADA West/ Canadian Alliance of Dance Artists (West)"
   } ],
@@ -1075,7 +1075,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "CanAsian Dance Festival"
   } ],
@@ -1092,7 +1092,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Compaigni V'ni Dansi"
   } ],
@@ -1109,7 +1109,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Company 605"
   } ],
@@ -1126,7 +1126,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "CORPUS Dance Projects"
   } ],
@@ -1143,7 +1143,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Côté Danse"
   } ],
@@ -1160,7 +1160,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Dance Arts Institute"
   } ],
@@ -1177,7 +1177,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Dance NL"
   } ],
@@ -1194,7 +1194,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Dance Nova Scotia"
   } ],
@@ -1211,7 +1211,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Dance Saskatchewan"
   } ],
@@ -1228,7 +1228,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Dance West Network"
   } ],
@@ -1245,7 +1245,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Dancemakers"
   } ],
@@ -1262,7 +1262,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Dancers' Studio West"
   } ],
@@ -1279,7 +1279,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "DD Arts"
   } ],
@@ -1296,7 +1296,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Dreamwalker Dance"
   } ],
@@ -1313,7 +1313,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "FakeKnot"
   } ],
@@ -1330,7 +1330,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Friday Creeations"
   } ],
@@ -1347,7 +1347,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Frog In Hand"
   } ],
@@ -1364,7 +1364,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Good Women Dance Collective"
   } ],
@@ -1383,7 +1383,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Ground Up Dance Festival"
   } ],
@@ -1400,7 +1400,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Healthy Dancer Canada"
   } ],
@@ -1417,7 +1417,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Hub 14"
   } ],
@@ -1434,7 +1434,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Human Body Expression"
   } ],
@@ -1451,7 +1451,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kaeja d'Dance"
   } ],
@@ -1468,7 +1468,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kala Dance Collective"
   } ],
@@ -1485,7 +1485,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "KasheDance"
   } ],
@@ -1502,7 +1502,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kidd Pivot Performing Arts Society"
   } ],
@@ -1519,7 +1519,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kinetic"
   } ],
@@ -1540,7 +1540,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "LookUp Theatre"
   } ],
@@ -1557,7 +1557,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Lua Shayenne Dance Company"
   } ],
@@ -1574,7 +1574,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Mafa Dance Village"
   } ],
@@ -1591,7 +1591,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Margie Gillis Dance Foundation"
   } ],
@@ -1608,7 +1608,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Method Dance"
   } ],
@@ -1625,7 +1625,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Mocean Dance"
   } ],
@@ -1642,7 +1642,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Moonhorse Dance Theatre"
   } ],
@@ -1659,7 +1659,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Moonlight Ballet"
   } ],
@@ -1676,7 +1676,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Neighborhood Dance Works"
   } ],
@@ -1693,7 +1693,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Ottawa Dance Directive"
   } ],
@@ -1710,7 +1710,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Out Innerspace"
   } ],
@@ -1727,7 +1727,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Pounds Per Square Inch Performance"
   } ],
@@ -1744,7 +1744,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Pro Arte Danza Performance Inc"
   } ],
@@ -1761,7 +1761,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Rachel Meyer Society"
   } ],
@@ -1778,7 +1778,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Raven Spirit Dance Society"
   } ],
@@ -1795,7 +1795,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "REAson d'etre dance productions"
   } ],
@@ -1812,7 +1812,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Rock Bottom Movement"
   } ],
@@ -1829,7 +1829,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Sahana Dance Company"
   } ],
@@ -1846,7 +1846,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Sampradaya Dance Creations"
   } ],
@@ -1863,7 +1863,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Sara Porter Productions"
   } ],
@@ -1880,7 +1880,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Tara Luz Danse"
   } ],
@@ -1897,7 +1897,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "The Chimera Project Dance Theatre"
   } ],
@@ -1914,7 +1914,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "The Dance Current"
   } ],
@@ -1931,7 +1931,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "The Richmond Academy Of Dance"
   } ],
@@ -1948,7 +1948,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Tribal Crackling Wind"
   } ],
@@ -1965,7 +1965,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Vizari Arts"
   } ],
@@ -1982,7 +1982,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Wen Wei Dance"
   } ],
@@ -1999,7 +1999,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Young Lungs Dance Exchange"
   } ],
@@ -2016,7 +2016,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Zata Omm Dance Projects"
   } ],
@@ -2033,7 +2033,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Sarah Gallos"
   } ],
@@ -2050,7 +2050,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Sarah Adam"
   } ],
@@ -2067,7 +2067,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Mohamed Moumen Albaridi"
   } ],
@@ -2084,7 +2084,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Mary-Louise Albert"
   } ],
@@ -2101,7 +2101,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Carla Alcantara"
   } ],
@@ -2118,7 +2118,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Patricia Allison"
   } ],
@@ -2135,7 +2135,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Tânia Amaral"
   } ],
@@ -2152,7 +2152,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Giovanna Andreotti"
   } ],
@@ -2169,7 +2169,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Serenella Argueta"
   } ],
@@ -2186,7 +2186,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Elizabeth Armitage"
   } ],
@@ -2203,7 +2203,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Jacinte Armstrong"
   } ],
@@ -2220,7 +2220,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Jean Assamoa"
   } ],
@@ -2237,7 +2237,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Maria Avila"
   } ],
@@ -2254,7 +2254,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Flany Ba"
   } ],
@@ -2271,7 +2271,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Zahra Badua"
   } ],
@@ -2288,7 +2288,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Zelma Badu-Younge"
   } ],
@@ -2305,7 +2305,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kristen Bailey"
   } ],
@@ -2322,7 +2322,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Natasha Bakht"
   } ],
@@ -2339,7 +2339,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Stephanie Ballard"
   } ],
@@ -2356,7 +2356,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Jobina Bardai"
   } ],
@@ -2373,7 +2373,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Andrew Barrett"
   } ],
@@ -2390,7 +2390,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Danielle Baskerville"
   } ],
@@ -2407,7 +2407,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Julian Beairsto"
   } ],
@@ -2424,7 +2424,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Mélanie Bennett"
   } ],
@@ -2441,7 +2441,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Melanie Bennett"
   } ],
@@ -2458,7 +2458,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Miriam Benoy"
   } ],
@@ -2475,7 +2475,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Carolina Bergonzoni"
   } ],
@@ -2492,7 +2492,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Andre Bessette"
   } ],
@@ -2509,7 +2509,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Arnaldo Betancourt"
   } ],
@@ -2526,7 +2526,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Nova Bhattacharya"
   } ],
@@ -2543,7 +2543,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "lo bil"
   } ],
@@ -2560,7 +2560,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Heath Birkholz"
   } ],
@@ -2577,7 +2577,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Lacey Blowers"
   } ],
@@ -2594,7 +2594,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Sydney Bluck"
   } ],
@@ -2611,7 +2611,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Audrey Boccara"
   } ],
@@ -2628,7 +2628,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Sandra Bodenhamer"
   } ],
@@ -2645,7 +2645,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Eliane Bowden"
   } ],
@@ -2662,7 +2662,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Lauren Brady"
   } ],
@@ -2679,7 +2679,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Robyn Breen"
   } ],
@@ -2696,7 +2696,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Bryn Bridgen"
   } ],
@@ -2713,7 +2713,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Julia Bridger"
   } ],
@@ -2730,7 +2730,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Dawn Briscoe"
   } ],
@@ -2747,7 +2747,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Angela Brown"
   } ],
@@ -2764,7 +2764,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Blessyl Buan"
   } ],
@@ -2781,7 +2781,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Johanna Bundon"
   } ],
@@ -2798,7 +2798,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Allison Burns"
   } ],
@@ -2815,7 +2815,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Susie Burpee"
   } ],
@@ -2832,7 +2832,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Josh Cameron"
   } ],
@@ -2849,7 +2849,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Heather Cameron"
   } ],
@@ -2866,7 +2866,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Mackenzie Carlson"
   } ],
@@ -2883,7 +2883,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Olivia Cesarano"
   } ],
@@ -2900,7 +2900,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Brianne Chan"
   } ],
@@ -2917,7 +2917,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kingston Chan"
   } ],
@@ -2934,7 +2934,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kaili Che"
   } ],
@@ -2951,7 +2951,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Yu Chieh (David) Chen"
   } ],
@@ -2968,7 +2968,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Peter Chen"
   } ],
@@ -2985,7 +2985,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Yvonne Chew"
   } ],
@@ -3002,7 +3002,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Fan-Rong Chiu"
   } ],
@@ -3019,7 +3019,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Alicia Clark"
   } ],
@@ -3036,7 +3036,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Brianna Clarke"
   } ],
@@ -3053,7 +3053,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Emily Clarke"
   } ],
@@ -3070,7 +3070,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Sara Coffin"
   } ],
@@ -3087,7 +3087,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Caitlin Coflin"
   } ],
@@ -3104,7 +3104,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Bill Coleman"
   } ],
@@ -3121,7 +3121,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Miriam Colvin"
   } ],
@@ -3138,7 +3138,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Alexandra Contreras"
   } ],
@@ -3155,7 +3155,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Constance Cooke"
   } ],
@@ -3172,7 +3172,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Rayn Cook-Thomas"
   } ],
@@ -3189,7 +3189,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Andrea Cownden"
   } ],
@@ -3206,7 +3206,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Shondra Cromwell-Krywulak"
   } ],
@@ -3223,7 +3223,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kaleah Crump"
   } ],
@@ -3240,7 +3240,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Joanne Cuffe"
   } ],
@@ -3257,7 +3257,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Tracy Cumberbatch"
   } ],
@@ -3274,7 +3274,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Allison Cummings"
   } ],
@@ -3291,7 +3291,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Jennifer Dahl"
   } ],
@@ -3308,7 +3308,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Tanya Dahms"
   } ],
@@ -3325,7 +3325,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Renata De la Cruz Monteon"
   } ],
@@ -3342,7 +3342,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Maria Belen de Rama"
   } ],
@@ -3359,7 +3359,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Palak Dhiman"
   } ],
@@ -3376,7 +3376,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Caleb Di Pomponio"
   } ],
@@ -3393,7 +3393,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Geoffrey Dollar"
   } ],
@@ -3410,7 +3410,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Beth Durnie"
   } ],
@@ -3427,7 +3427,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Prathyusha Dwibhashi"
   } ],
@@ -3444,7 +3444,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Leelee Oluwatoyosi Eko Davis"
   } ],
@@ -3461,7 +3461,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Camille Ensminger"
   } ],
@@ -3478,7 +3478,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Enna Esquivel"
   } ],
@@ -3495,7 +3495,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Tasha Faye Evans"
   } ],
@@ -3512,7 +3512,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Alyssa Favero"
   } ],
@@ -3529,7 +3529,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Maria Fekecz-Mangan"
   } ],
@@ -3546,7 +3546,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Heather Finn"
   } ],
@@ -3563,7 +3563,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Janita Frantsi"
   } ],
@@ -3580,7 +3580,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Emmalena Fredriksson"
   } ],
@@ -3597,7 +3597,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Luciana Freire D'Anunciação"
   } ],
@@ -3614,7 +3614,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Francesca Frewer"
   } ],
@@ -3631,7 +3631,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Natasha Frid Finlay"
   } ],
@@ -3648,7 +3648,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Natalie Fullerton"
   } ],
@@ -3665,7 +3665,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Jessie Garon"
   } ],
@@ -3682,7 +3682,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Hayley Gawthrop"
   } ],
@@ -3699,7 +3699,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Alexei Geronimo"
   } ],
@@ -3716,7 +3716,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Rachel Ginter"
   } ],
@@ -3733,7 +3733,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Meghan Goodman"
   } ],
@@ -3750,7 +3750,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Danielle Gould"
   } ],
@@ -3767,7 +3767,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Raven Grenier"
   } ],
@@ -3784,7 +3784,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Stacey Grubb"
   } ],
@@ -3801,7 +3801,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Edz Gyamfi"
   } ],
@@ -3818,7 +3818,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Robert Halley"
   } ],
@@ -3835,7 +3835,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Amy Hampton"
   } ],
@@ -3852,7 +3852,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Liat Har Lev"
   } ],
@@ -3869,7 +3869,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Sophia Hassenstein"
   } ],
@@ -3886,7 +3886,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Oksana Hayduk"
   } ],
@@ -3903,7 +3903,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Linda Hayes"
   } ],
@@ -3920,7 +3920,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Brelene Hemington-Laskoski"
   } ],
@@ -3937,7 +3937,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Georgia Hidson"
   } ],
@@ -3954,7 +3954,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kiera Hill"
   } ],
@@ -3971,7 +3971,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kathryn Hood"
   } ],
@@ -3988,7 +3988,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Sarah Hopkin"
   } ],
@@ -4005,7 +4005,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Stacey Horton"
   } ],
@@ -4022,7 +4022,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Emily Hughes"
   } ],
@@ -4039,7 +4039,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Abby Hunter"
   } ],
@@ -4056,7 +4056,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Sarah Hutton"
   } ],
@@ -4073,7 +4073,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Hannah Ilkiw"
   } ],
@@ -4090,7 +4090,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Tetsuya Imura"
   } ],
@@ -4107,7 +4107,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Candice Irwin"
   } ],
@@ -4124,7 +4124,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Sebastian Issighos"
   } ],
@@ -4141,7 +4141,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Desiree James"
   } ],
@@ -4158,7 +4158,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Rumi Jeraj"
   } ],
@@ -4175,7 +4175,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Paula Johnson"
   } ],
@@ -4192,7 +4192,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Meredith Kalaman"
   } ],
@@ -4209,7 +4209,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Arno Kamolika"
   } ],
@@ -4226,7 +4226,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Yurie Kaneko"
   } ],
@@ -4243,7 +4243,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Anushka Kashyap"
   } ],
@@ -4260,7 +4260,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Sarah Kennedy"
   } ],
@@ -4277,7 +4277,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Emma Kerson"
   } ],
@@ -4294,7 +4294,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Shawn Kim"
   } ],
@@ -4311,7 +4311,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Jane Kirby"
   } ],
@@ -4328,7 +4328,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Karla Kloeble"
   } ],
@@ -4345,7 +4345,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Roxanne Korpan"
   } ],
@@ -4362,7 +4362,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Samantha Krystal"
   } ],
@@ -4379,7 +4379,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Ekaterina Kuznetsova"
   } ],
@@ -4396,7 +4396,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Louis Laberge-Côté"
   } ],
@@ -4413,7 +4413,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Holly LaRoche"
   } ],
@@ -4430,7 +4430,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Mayumi Lashbrook"
   } ],
@@ -4447,7 +4447,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Carmen Leardi"
   } ],
@@ -4464,7 +4464,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Juolin Lee"
   } ],
@@ -4481,7 +4481,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Lilia Leon Tovar"
   } ],
@@ -4498,7 +4498,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Irina Lerman"
   } ],
@@ -4515,7 +4515,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Krystal HoiKei Leung"
   } ],
@@ -4532,7 +4532,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Yuetong Li"
   } ],
@@ -4549,7 +4549,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kevin Li"
   } ],
@@ -4566,7 +4566,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Jalianne Li"
   } ],
@@ -4583,7 +4583,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Stephanie Lilley"
   } ],
@@ -4600,7 +4600,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Suzanne Liska"
   } ],
@@ -4617,7 +4617,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Shannon Litzenberger"
   } ],
@@ -4634,7 +4634,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kimberly Low"
   } ],
@@ -4651,7 +4651,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Jia Yi Luo"
   } ],
@@ -4668,7 +4668,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Danielle Mackenzie Long"
   } ],
@@ -4685,7 +4685,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Rebecca MacLeod"
   } ],
@@ -4702,7 +4702,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Rachel Maddock"
   } ],
@@ -4719,7 +4719,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Bailey Madill"
   } ],
@@ -4736,7 +4736,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Mafa Makhubalo"
   } ],
@@ -4753,7 +4753,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Miki Mappin"
   } ],
@@ -4770,7 +4770,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Alexa Mardon"
   } ],
@@ -4787,7 +4787,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Darian Mark"
   } ],
@@ -4804,7 +4804,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Brodie Marples"
   } ],
@@ -4821,7 +4821,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Lisa Martin"
   } ],
@@ -4838,7 +4838,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Victoria Mata"
   } ],
@@ -4855,7 +4855,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Espirito Santo Mauricio"
   } ],
@@ -4872,7 +4872,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Ludovica Mazzucato"
   } ],
@@ -4889,7 +4889,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Nikki McCall"
   } ],
@@ -4906,7 +4906,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Molly McDermott"
   } ],
@@ -4923,7 +4923,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Belinda McGuire"
   } ],
@@ -4940,7 +4940,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kiara McIlravey"
   } ],
@@ -4957,7 +4957,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Michelle McMillan"
   } ],
@@ -4974,7 +4974,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Allison McNeill"
   } ],
@@ -4991,7 +4991,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Sarah McQueston"
   } ],
@@ -5008,7 +5008,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Sierra Megas"
   } ],
@@ -5025,7 +5025,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Marcus Merasty"
   } ],
@@ -5042,7 +5042,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Sarah Mercer"
   } ],
@@ -5059,7 +5059,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Brenna Metzmeier"
   } ],
@@ -5076,7 +5076,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Nina Milanovski"
   } ],
@@ -5093,7 +5093,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Ysadora Miranda Dias"
   } ],
@@ -5110,7 +5110,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Stephanie Mitro"
   } ],
@@ -5127,7 +5127,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Connie Moker Wernikowski"
   } ],
@@ -5144,7 +5144,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Sally Morgan"
   } ],
@@ -5161,7 +5161,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kaitlin Nelson"
   } ],
@@ -5178,7 +5178,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Allison Nichol Longtin"
   } ],
@@ -5195,7 +5195,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Shelby Nilsen"
   } ],
@@ -5212,7 +5212,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Tracey Norman"
   } ],
@@ -5229,7 +5229,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "David Norsworthy"
   } ],
@@ -5246,7 +5246,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Atri Nundy"
   } ],
@@ -5263,7 +5263,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Jane Ogilvie"
   } ],
@@ -5280,7 +5280,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Jullianna Oke"
   } ],
@@ -5297,7 +5297,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Bee Pallomina"
   } ],
@@ -5314,7 +5314,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Soyoung Park"
   } ],
@@ -5331,7 +5331,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Nicole Pavia"
   } ],
@@ -5348,7 +5348,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Jillian Peever"
   } ],
@@ -5365,7 +5365,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Rina Pellerin"
   } ],
@@ -5382,7 +5382,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Juan Pereira Duarte"
   } ],
@@ -5399,7 +5399,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Deanna Peters"
   } ],
@@ -5416,7 +5416,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Taisa Petruk"
   } ],
@@ -5433,7 +5433,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Lisa Phinney Langley"
   } ],
@@ -5450,7 +5450,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Candice Pike"
   } ],
@@ -5467,7 +5467,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Flavie Pinchon"
   } ],
@@ -5484,7 +5484,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Thushara Premarajan"
   } ],
@@ -5501,7 +5501,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Racheal Prince"
   } ],
@@ -5518,7 +5518,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Amelia Prior"
   } ],
@@ -5535,7 +5535,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Amanda Pye"
   } ],
@@ -5552,7 +5552,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Liliona Quarmyne"
   } ],
@@ -5569,7 +5569,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kira Radosevic"
   } ],
@@ -5586,7 +5586,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Elvina Raharja"
   } ],
@@ -5603,7 +5603,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Jamie Ranney"
   } ],
@@ -5620,7 +5620,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kathleen Rea"
   } ],
@@ -5637,7 +5637,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Margarita Rebetskaia"
   } ],
@@ -5654,7 +5654,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Nailah Renuka"
   } ],
@@ -5671,7 +5671,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Rohana Rezel"
   } ],
@@ -5688,7 +5688,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Marisa Ricci"
   } ],
@@ -5705,7 +5705,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Katherine Robidoux"
   } ],
@@ -5722,7 +5722,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Jamie Robinson"
   } ],
@@ -5739,7 +5739,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Davi Rodrigues de Araujo"
   } ],
@@ -5756,7 +5756,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Danah Rosales"
   } ],
@@ -5773,7 +5773,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Harmanie Rose Taylor"
   } ],
@@ -5790,7 +5790,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Laura Ross"
   } ],
@@ -5807,7 +5807,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Isabelle Rousseau"
   } ],
@@ -5824,7 +5824,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Lucy Rupert"
   } ],
@@ -5841,7 +5841,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Hana Rutka"
   } ],
@@ -5858,7 +5858,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Mio Sakamoto"
   } ],
@@ -5875,7 +5875,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Julia Sasso"
   } ],
@@ -5892,7 +5892,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Anya Saugstad"
   } ],
@@ -5909,7 +5909,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Nicole Schlemm"
   } ],
@@ -5926,7 +5926,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Brandon Schwinn"
   } ],
@@ -5943,7 +5943,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Nathalie Scott-Hsiung"
   } ],
@@ -5960,7 +5960,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Olivia Shaffer"
   } ],
@@ -5977,7 +5977,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kiera Shaw"
   } ],
@@ -5994,7 +5994,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Elisha Shen"
   } ],
@@ -6011,7 +6011,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Magdalena Shew"
   } ],
@@ -6028,7 +6028,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Allie Shiff"
   } ],
@@ -6045,7 +6045,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "momoko shimada"
   } ],
@@ -6062,7 +6062,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Eilish Shin-Culhane"
   } ],
@@ -6079,7 +6079,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kaia Shukin"
   } ],
@@ -6096,7 +6096,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Cara Siu"
   } ],
@@ -6113,7 +6113,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Zuri Skeete"
   } ],
@@ -6130,7 +6130,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kenzie Skoglund"
   } ],
@@ -6147,7 +6147,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Jordyn Skrove"
   } ],
@@ -6164,7 +6164,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Mackenzie Smart"
   } ],
@@ -6181,7 +6181,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Andrea Spaziani"
   } ],
@@ -6198,7 +6198,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Cara Spooner"
   } ],
@@ -6215,7 +6215,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kate Stashko"
   } ],
@@ -6232,7 +6232,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Damarise Ste Marie"
   } ],
@@ -6249,7 +6249,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kelly Steadman"
   } ],
@@ -6266,7 +6266,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Michèle Steinwald"
   } ],
@@ -6283,7 +6283,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Iris (Jamie) Stewart-Bosch"
   } ],
@@ -6300,7 +6300,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Alex Tam"
   } ],
@@ -6317,7 +6317,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "erψn tempest"
   } ],
@@ -6334,7 +6334,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Yulia Terekh"
   } ],
@@ -6351,7 +6351,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Rosanna Terracciano"
   } ],
@@ -6368,7 +6368,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kylie Thompson"
   } ],
@@ -6385,7 +6385,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kaitlin Torrance"
   } ],
@@ -6402,7 +6402,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Jhoely Triana"
   } ],
@@ -6419,7 +6419,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Bayani Trinidad"
   } ],
@@ -6436,7 +6436,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kaya Tsurumi"
   } ],
@@ -6453,7 +6453,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Ezgi Turker"
   } ],
@@ -6470,7 +6470,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Claire Turner Reid"
   } ],
@@ -6487,7 +6487,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Sarah Hin Ching U"
   } ],
@@ -6504,7 +6504,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Koya Uehara"
   } ],
@@ -6521,7 +6521,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Ikue Ueno"
   } ],
@@ -6538,7 +6538,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Caitlin Unrau"
   } ],
@@ -6555,7 +6555,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Barbara Vargas"
   } ],
@@ -6572,7 +6572,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Celina Villarroel Whiting"
   } ],
@@ -6589,7 +6589,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Raena Waddell"
   } ],
@@ -6606,7 +6606,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Lillian Wallman"
   } ],
@@ -6623,7 +6623,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Anna Wang-Albini"
   } ],
@@ -6640,7 +6640,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Josephine Watson"
   } ],
@@ -6657,7 +6657,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Calder White"
   } ],
@@ -6674,7 +6674,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Nadia White"
   } ],
@@ -6691,7 +6691,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Phyllis Whyte"
   } ],
@@ -6708,7 +6708,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Amanda Wiebe"
   } ],
@@ -6725,7 +6725,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kara Wiebe"
   } ],
@@ -6742,7 +6742,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Amber Wiens"
   } ],
@@ -6759,7 +6759,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Nomi Wiersma"
   } ],
@@ -6776,7 +6776,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Oriah Wiersma"
   } ],
@@ -6793,7 +6793,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Sarah Williams"
   } ],
@@ -6810,7 +6810,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Leah Wilton"
   } ],
@@ -6827,7 +6827,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Jera Wolfe"
   } ],
@@ -6844,7 +6844,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Marissa Wong"
   } ],
@@ -6861,7 +6861,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kelsey Wright"
   } ],
@@ -6878,7 +6878,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "I-Ying Wu"
   } ],
@@ -6895,7 +6895,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Angela Xu"
   } ],
@@ -6912,7 +6912,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Cindy Cin-Ling Yip"
   } ],
@@ -6929,7 +6929,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Stephanie Yip"
   } ],
@@ -6946,7 +6946,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "William Yong"
   } ],
@@ -6963,7 +6963,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Vanessa Yuen"
   } ],
@@ -6980,7 +6980,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Groupe RUBBERBANDance"
   } ],
@@ -6999,7 +6999,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Ballets Jazz Montréal"
   } ],
@@ -7018,7 +7018,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "The Dance Centre"
   } ],
@@ -7035,7 +7035,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Ballet BC"
   } ],
@@ -7056,7 +7056,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Winnipeg's Contemporary Dancers"
   } ],
@@ -7073,7 +7073,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Ballet national du Canada"
   } ],
@@ -7092,7 +7092,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Centre national des Arts"
   } ],
@@ -7117,7 +7117,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Les Grands Ballets canadiens de Montréal"
   } ],
@@ -7138,7 +7138,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Sinha Danse"
   } ],
@@ -7157,7 +7157,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Brittany Gudmundson"
   } ],
@@ -7174,7 +7174,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Clarence Tang"
   } ],
@@ -7191,7 +7191,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Atlantic Ballet Atlantique Canada"
   } ],
@@ -7210,7 +7210,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Ballet Jorgen"
   } ],
@@ -7229,7 +7229,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Canada's National Ballet School"
   } ],
@@ -7248,7 +7248,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Canadian Actors' Equity Association"
   } ],
@@ -7267,7 +7267,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Dancer Transition Resource Centre / DTRC"
   } ],
@@ -7284,7 +7284,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kaitlin Standeven"
   } ],
@@ -7301,7 +7301,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Ziyian Kwan"
   } ],
@@ -7318,7 +7318,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Brodie Stevenson"
   } ],
@@ -7335,7 +7335,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Naishi Wang"
   } ],
@@ -7352,7 +7352,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Compagnie Flak"
   } ],
@@ -7369,7 +7369,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "The Candance Network"
   } ],
@@ -7390,7 +7390,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Festival des Arts de Saint-Sauveur"
   } ],
@@ -7409,7 +7409,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Denise Fujiwara"
   } ],
@@ -7426,7 +7426,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Ame Henderson"
   } ],
@@ -7443,7 +7443,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Dance Collection Danse"
   } ],
@@ -7460,7 +7460,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "L’Assemblée canadienne de la danse"
   } ],
@@ -7481,7 +7481,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Royal Winnipeg Ballet"
   } ],
@@ -7500,7 +7500,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Toronto Dance Theatre"
   } ],
@@ -7523,7 +7523,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Kittiwake Dance Theatre"
   } ],
@@ -7544,7 +7544,7 @@
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+  "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Alida Esmail"
   } ],
