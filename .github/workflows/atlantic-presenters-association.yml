@@ -1,0 +1,16 @@
+name: Atlantic Presenters Association
+
+on:
+  workflow_dispatch:
+
+jobs:
+  artsdata-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v1.1.0
+        with:
+          artifact: atlantic-presenters-association
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          downloadUrl: https://raw.githubusercontent.com/culturecreates/artsdata-planet-wikidata/refs/heads/main/dump/atlantic-presenters-association.jsonld
+

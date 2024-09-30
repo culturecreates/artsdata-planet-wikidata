@@ -1,0 +1,2755 @@
+[ {
+  "@id" : "http://www.wikidata.org/entity/Q104412772",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Fredericton, NB, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Fredericton, N.-B., Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Fredericton Playhouse"
+  }, {
+    "@language" : "fr",
+    "@value" : "Fredericton Playhouse"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q105528951",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à St. John's en Terre-Neuve-et-Labrador, Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in St. John's, Newfoundland and Labrador, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "The Tuckamore Festival"
+  }, {
+    "@language" : "fr",
+    "@value" : "The Tuckamore Festival"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7062022"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q32178211"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q105722852",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Annapolis Royal, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Annapolis Royal en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "King's Theatre"
+  }, {
+    "@language" : "fr",
+    "@value" : "King's Theatre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7062022"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q111724395",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Chester en Nouvelle-Écosse, Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Chester, Nova Scotia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Chester Playhouse"
+  }, {
+    "@language" : "fr",
+    "@value" : "Chester Playhouse"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q111724594",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Kensington, Prince Edward Island, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Kensingston en Île-du-Prince-Édouard, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Under the Spire Music Festival"
+  }, {
+    "@language" : "fr",
+    "@value" : "Under the Spire Music Festival"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q111748080",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Mont-Carmel, Prince Edward Island, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Mont-Carmel en Île-du-Prince-Édouard, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Coopérative de développement culturel et patrimonial de Mont-Carmel"
+  }, {
+    "@language" : "fr",
+    "@value" : "Coopérative de développement culturel et patrimonial de Mont-Carmel"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q4539"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q112510071",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Summerside, Prince Edward Island, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Summerside en Île-du-Prince-Édouard, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Harbourfront Theatre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Harbourfront Theatre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q112510074",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Halifax, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Prismatic Arts Festival"
+  }, {
+    "@language" : "fr",
+    "@value" : "Prismatic Arts Festival"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q112510135",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Halifax, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Cecilia Concerts"
+  }, {
+    "@language" : "fr",
+    "@value" : "Cecilia Concerts"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q112570967",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Riverview, N.-B., Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Riverview, NB, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Riverview Arts Centre Inc."
+  }, {
+    "@language" : "fr",
+    "@value" : "Riverview Arts Centre Inc."
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q115012692",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "Indigenous-led arts organization based in St. John's, Newfoundland, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme des arts dirigé par les autochtones à St. John's en Terre-Neuve-et-Labrador, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "First Light Centre for Performance and Creativity"
+  }, {
+    "@language" : "en",
+    "@value" : "First Light"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q3269648"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q116174062",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Saint John, NB, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Saint Jean, N.-B., Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Imperial Theatre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Imperial Theatre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q117090701",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Moncton, New Brunswick, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Moncton, Nouveau-Brunswick, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Capitol Theatre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Théâtre Capitol"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q120625885",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Happy Valley-Goose Bay, NL, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène en Terre-Neuve-et-Labrador, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Eastern Labrador Arts Alliance"
+  }, {
+    "@language" : "fr",
+    "@value" : "Eastern Labrador Arts Alliance"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q126952144",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Halifax, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Kinetic"
+  }, {
+    "@language" : "en",
+    "@value" : "Kinetic"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q107095432"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128259888",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Halifax, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Dalhousie Arts Centre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Dalhousie Arts Centre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q334453"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129104396",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Florenceville-Bristol, NB, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Florenceville-Bristol, N.-B., Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Carleton Victoria Arts Council"
+  }, {
+    "@language" : "fr",
+    "@value" : "Carleton Victoria Arts Council"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129104482",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in St. Andrews, NB, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à St. Andrews, N.-B., Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Paddlefest NB"
+  }, {
+    "@language" : "fr",
+    "@value" : "Paddlefest NB"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129104504",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting and producing organization in Saint John, NB, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion et production des arts de la scène à Saint Jean, N.-B., Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Saint John Theatre Company"
+  }, {
+    "@language" : "fr",
+    "@value" : "Saint John Theatre Company"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129104515",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Harvey, NB, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Harvey, N.-B., Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "The Harvey Hall"
+  }, {
+    "@language" : "fr",
+    "@value" : "The Harvey Hall"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129104517",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Sussex, NB, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Sussex, N.-B., Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Ax Arts & Culture Centre of Sussex"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ax Arts & Culture Centre of Sussex"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129106183",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Moncton, N.-B., Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Moncton, NB, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Atlantic Dance Festival Danse Atlantique"
+  }, {
+    "@language" : "fr",
+    "@value" : "Atlantic Dance Festival Danse Atlantique"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q334453"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129106184",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Fredericton, NB, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Fredericton, N.-B., Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Charlotte Street Arts Centre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Charlotte Street Arts Centre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129106186",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Fredericton, NB, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Fredericton, N.-B., Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Harvest Jazz and Blues Festival"
+  }, {
+    "@language" : "fr",
+    "@value" : "Harvest Jazz and Blues Festival"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129106188",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Kilburn, NB, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Kilburn, N.-B., Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Larlee Creek Hullabaloo"
+  }, {
+    "@language" : "fr",
+    "@value" : "Larlee Creek Hullabaloo"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129106190",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Bertrand, NB, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Bertrand, N.-B., Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Musique Saint-Joachim"
+  }, {
+    "@language" : "fr",
+    "@value" : "Musique Saint-Joachim"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129106193",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Fredericton, NB, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Fredericton, N.-B., Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Shivering Songs Festival"
+  }, {
+    "@language" : "fr",
+    "@value" : "Shivering Songs Festival"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129106195",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "arts organization in Riverview, NB, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme des arts à Riverview, N.-B., Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Town of Riverview, Parks and Recreation"
+  }, {
+    "@language" : "fr",
+    "@value" : "Town of Riverview, Parks and Recreation"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q5260434"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129106198",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Miramichi, NB, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Miramichi, N.-B., Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Vogue Group"
+  }, {
+    "@language" : "fr",
+    "@value" : "Vogue Group"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129106200",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "compagnie de ballet et organisme de festival à Moncton, N.-B., Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "ballet company and festival organization in Moncton, NB, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Atlantic Ballet Atlantique Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "Atlantic Ballet Atlantique Canada"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q805233"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129106974",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Woody Point, Newfoundland and Labrador, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Woody Point en Terre-Neuve-et-Labrador, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Writers at Woody Point"
+  }, {
+    "@language" : "en",
+    "@value" : "Writers at Woody Point"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q3269648"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129447941",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Bangor, Maine, USA"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Bangor, Maine, É.-U."
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Launchpad"
+  }, {
+    "@language" : "en",
+    "@value" : "Launchpad"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448006",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Newfoundland and Labrador, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène en Terre-Neuve-et-Labrador, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Arts & Culture Centres"
+  }, {
+    "@language" : "fr",
+    "@value" : "Arts & Culture Centres"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q334453"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448009",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Corner Brook, Newfoundland and Labrador, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Corner Brook en Terre-Neuve-et-Labrador, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Corner Brook Arts & Culture"
+  }, {
+    "@language" : "fr",
+    "@value" : "Corner Brook Arts & Culture"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q334453"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448011",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Clarenville en Terre-Neuve-et-Labrador, Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Clarenville, Newfoundland and Labrador, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Eastlink Events Centre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Eastlink Events Centre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448040",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Eastport, Newfoundland and Labrador, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Eastport en Terre-Neuve-et-Labrador, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Eastport Peninsula Heritage Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Eastport Peninsula Heritage Society"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448043",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Gander, Newfoundland and Labrador, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Gander en Terre-Neuve-et-Labrador, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Gander Arts & Culture Centre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Gander Arts & Culture Centre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q334453"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448044",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Bonavista, Newfoundland and Labrador, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Bonavista en Terre-Neuve-et-Labrador, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Garrick Theatre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Garrick Theatre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448045",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Grand Falls-Windsor in Newfoundland and Labrador, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Grand Falls-Windsor en Terre-Neuve-et-Labrador, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Gordon Pinsent Centre for the Arts"
+  }, {
+    "@language" : "en",
+    "@value" : "Gordon Pinsent Centre for the Arts"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q334453"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448047",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme communautaire à Torbay en Terre-Neuve-et-Labrador, Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "community organization in Torbay, Newfoundland and Labrador, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Jack Byrne Regional Sport & Entertainment Centre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Jack Byrne Regional Sport & Entertainment Centre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q3269648"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448065",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Labrador City en Terre-Neuve-et-Labrador, Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Labrador City, Newfoundland and Labrador, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Labrador West Arts & Culture Centre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Labrador West Arts & Culture Centre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q334453"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448067",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à St. John's en Terre-Neuve-et-Labrador, Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in St. John's, Newfoundland and Labrador, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Neighbourhood Dance Works"
+  }, {
+    "@language" : "fr",
+    "@value" : "Neighbourhood Dance Works"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448068",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à St. John's en Terre-Neuve-et-Labrador, Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in St. John's, Newfoundland and Labrador, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Newfoundland and Labrador Folk Festival"
+  }, {
+    "@language" : "fr",
+    "@value" : "Newfoundland and Labrador Folk Festival"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448069",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à St. John's en Terre-Neuve-et-Labrador, Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in St. John's, Newfoundland and Labrador, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Resource Centre for the Arts"
+  }, {
+    "@language" : "en",
+    "@value" : "Resource Centre for the Arts"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448072",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Corner Brook, Newfoundland and Labrador, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Corner Brook en Terre-Neuve-et-Labrador, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Rotary Arts Centre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Rotary Arts Centre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448074",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Stephenville en Terre-Neuve-et-Labrador, Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Stephenville, Newfoundland and Labrador, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Stephenville Arts & Culture Centre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Stephenville Arts & Culture Centre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q334453"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448076",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Stephenville en Terre-Neuve-et-Labrador, Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Stephenville, Newfoundland and Labrador, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Stephenville Theatre Festival"
+  }, {
+    "@language" : "fr",
+    "@value" : "Stephenville Theatre Festival"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448109",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Corner Brook, Newfoundland and Labrador, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Corner Brook en Terre-Neuve-et-Labrador, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "CB Nuit"
+  }, {
+    "@language" : "fr",
+    "@value" : "CB Nuit"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448110",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Corner Brook, Newfoundland and Labrador, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Corner Brook en Terre-Neuve-et-Labrador, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Camber Arts"
+  }, {
+    "@language" : "en",
+    "@value" : "Camber Arts"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448112",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "government department and performing arts presenting organization in Samiajij Miawpukek, Newfoundland and Labrador, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "département gouvernemental et organisme de diffusion des arts de la scène à Samiajij Miawpukek en Terre-Neuve-et-Labrador, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Miawpukek First Nation - TCR Department"
+  }, {
+    "@language" : "fr",
+    "@value" : "Miawpukek First Nation - TCR Department"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q334453"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448446",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Wolfville, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Wolfville en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Acadia University Performing Arts"
+  }, {
+    "@language" : "fr",
+    "@value" : "Acadia University Performing Arts"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q334453"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448448",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Antigonish, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Antigonish en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Antigonish Performing Arts Series"
+  }, {
+    "@language" : "fr",
+    "@value" : "Antigonish Performing Arts Series"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q334453"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448450",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Liverpool, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Liverpool en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Astor Theatre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Astor Theatre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448452",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Halifax, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "The Bella Rose Arts Centre"
+  }, {
+    "@language" : "fr",
+    "@value" : "The Bella Rose Arts Centre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448475",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Guysborough, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Guysborough en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Chedabucto Place Association"
+  }, {
+    "@language" : "fr",
+    "@value" : "Chedabucto Place Association"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448477",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "government body and performing arts presenting organization in Sydney, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organe gouvernemental et organisme de diffusion des arts de la scène à Sydney en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Cape Breton Regional Municipality"
+  }, {
+    "@language" : "en",
+    "@value" : "Cape Breton Regional Municipality"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q334453"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448479",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "community organization and performing arts presenting organization in Dartmouth, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme communautaire et organisme de diffusion des arts de la scène à Dartmouth en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Conseil communautaire du Grand-Havre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Conseil communautaire du Grand-Havre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q3269648"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448501",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Dartmouth, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Dartmouth en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Dartmouth Community Concerts"
+  }, {
+    "@language" : "fr",
+    "@value" : "Dartmouth Community Concerts"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448503",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Halifax, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Debut Atlantic"
+  }, {
+    "@language" : "fr",
+    "@value" : "Début Atlantique"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448506",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Pictou, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Pictou en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "deCoste Centre"
+  }, {
+    "@language" : "fr",
+    "@value" : "deCoste Centre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448509",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Wolfville, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Wolfville en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Deep Roots Music Festival"
+  }, {
+    "@language" : "fr",
+    "@value" : "Deep Roots Music Festival"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448547",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Newport Landing, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Newport Landing en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Full Circle Festival"
+  }, {
+    "@language" : "fr",
+    "@value" : "Full Circle Festival"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448550",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in New Glasgow, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à New Glasgow en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Glasgow Square Theatre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Glasgow Square Theatre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q334453"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448552",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Tatamagouche, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Tatamagouche en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "The Grace Arts Centre"
+  }, {
+    "@language" : "fr",
+    "@value" : "The Grace Arts Centre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448554",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Lockeport, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Lockeport en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Harmony Bazaar Festival of Women and Song Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Harmony Bazaar Festival of Women and Song Society"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448556",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Halifax, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "JazzEast & Halifax Jazz Festival"
+  }, {
+    "@language" : "fr",
+    "@value" : "JazzEast & Halifax Jazz Festival"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448580",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Lunenburg, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Lunenburg en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Lunenburg Folk Harbour Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Lunenburg Folk Harbour Society"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448582",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Halifax, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Live Art Dance Productions"
+  }, {
+    "@language" : "fr",
+    "@value" : "Live Art Dance Productions"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448585",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Saulnierville, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Saulnierville en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "L'association Le Moulin de la Baie"
+  }, {
+    "@language" : "fr",
+    "@value" : "L'association Le Moulin de la Baie"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448587",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Truro, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Truro en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Marigold Cultural Centre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Marigold Cultural Centre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448591",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Musquodoboit Harbour, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Musquodoboit Harbour en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Musquodoboit Valley Bicentennial"
+  }, {
+    "@language" : "fr",
+    "@value" : "Musquodoboit Valley Bicentennial"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q334453"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448593",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Lunenburg, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Lunenburg en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Musique Royale"
+  }, {
+    "@language" : "fr",
+    "@value" : "Musique Royale"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448595",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Guysborough, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Guysborough en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Mulgrave Road Theatre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Mulgrave Road Theatre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q742421"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448614",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Halifax, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Nocturne: Art at Night"
+  }, {
+    "@language" : "fr",
+    "@value" : "Nocturne: Art at Night"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448616",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Antigonish, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Antigonish en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Nova Scotia Summer Fest"
+  }, {
+    "@language" : "fr",
+    "@value" : "Nova Scotia Summer Fest"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448619",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Shelburne, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Shelburne en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Osprey Arts Centre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Osprey Arts Centre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448621",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Pictou, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Pictou en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Pictou Lobster Carnival"
+  }, {
+    "@language" : "fr",
+    "@value" : "Pictou Lobster Carnival"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448623",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Port Hawkesbury Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Port Hawkesbury en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Port Hawkesbury Civic Centre"
+  }, {
+    "@language" : "en",
+    "@value" : "Port Hawkesbury Civic Centre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q334453"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448643",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Halifax, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Re-Jigged Festival"
+  }, {
+    "@language" : "fr",
+    "@value" : "Re-Jigged Festival"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448645",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Glace Bay, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Glace Bay en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Savoy Theatre"
+  }, {
+    "@language" : "en",
+    "@value" : "Savoy Theatre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448668",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Mabou, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Mabou en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Strathspey Performing Arts Centre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Strathspey Performing Arts Centre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448683",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Yarmouth, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Yarmouth en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Th'YARC Playhouse and Art Centre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Th'YARC Playhouse and Art Centre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448700",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Sydney, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Sydney en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Celtic Colours International Festival"
+  }, {
+    "@language" : "fr",
+    "@value" : "Celtic Colours International Festival"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448701",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Halifax, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Culture Link / Light House Arts Centre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Culture Link / Light House Arts Centre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q5154974"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448725",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Antigonish, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Antigonish en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Festival Antigonish Summer Theatre"
+  }, {
+    "@language" : "en",
+    "@value" : "Festival Antigonish Summer Theatre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448727",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Sydney, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Sydney en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Highland Arts Theatre Association"
+  }, {
+    "@language" : "fr",
+    "@value" : "Highland Arts Theatre Association"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448746",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in New Glasgow, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à New Glasgow en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Riverfront Jubilee Festival"
+  }, {
+    "@language" : "fr",
+    "@value" : "Riverfront Jubilee Festival"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448748",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Halifax, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "The Stage at St Andrew's"
+  }, {
+    "@language" : "fr",
+    "@value" : "The Stage at St Andrew's"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448750",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Annapolis Royal, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Annapolis Royal en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Festival of Dance Annapolis Royal (FODAR)"
+  }, {
+    "@language" : "fr",
+    "@value" : "Festival of Dance Annapolis Royal (FODAR)"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448875",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Wellington, Prince Edward Island, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Wellington en Île-du-Prince-Édouard, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Centre Expo-Festival"
+  }, {
+    "@language" : "fr",
+    "@value" : "Centre Expo-Festival"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448877",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Charlottetown, Prince Edward Island, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Charlottetown en Île-du-Prince-Édouard, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Centre des arts de la Confédération"
+  }, {
+    "@language" : "en",
+    "@value" : "Confederation Centre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448879",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Prince Edward Island, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène en Île-du-Prince-Édouard, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Community of Kinkora"
+  }, {
+    "@language" : "fr",
+    "@value" : "Community of Kinkora"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q334453"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448898",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Montague en Île-du-Prince-Édouard, Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Montague, Prince Edward Island, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Cloggeroo - the Island Folk Festival"
+  }, {
+    "@language" : "fr",
+    "@value" : "Cloggeroo - the Island Folk Festival"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448900",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Charlottetown, Prince Edward Island, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Charlottetown en Île-du-Prince-Édouard, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Florence Simmons Performance Hall"
+  }, {
+    "@language" : "fr",
+    "@value" : "Florence Simmons Performance Hall"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q334453"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448933",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Georgetown, Prince Edward Island, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Georgetown en Île-du-Prince-Édouard, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "King's Playhouse"
+  }, {
+    "@language" : "fr",
+    "@value" : "King's Playhouse"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448935",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "community organization in Tignish, Prince Edward Island, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme communautaire à Tignish en Île-du-Prince-Édouard, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Le Conseil Rév. S.-É.-Perrey inc."
+  }, {
+    "@language" : "fr",
+    "@value" : "Le Conseil Rév. S.-É.-Perrey inc."
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q3269648"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q5341295"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448937",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Mont-Carmel, Prince Edward Island, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Mont-Carmel en Île-du-Prince-Édouard, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Série de spectacles à Mont-Carmel"
+  }, {
+    "@language" : "en",
+    "@value" : "Mont-Carmel Summer Concert Series"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q334453"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448939",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Charlottetown, Prince Edward Island, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Charlottetown en Île-du-Prince-Édouard, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Small Halls Inc."
+  }, {
+    "@language" : "fr",
+    "@value" : "Small Halls Inc."
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448941",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Souris, Prince Edward Island, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Souris en Île-du-Prince-Édouard, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Souris Show Hall"
+  }, {
+    "@language" : "fr",
+    "@value" : "Souris Show Hall"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448961",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Charlottetown, Prince Edward Island, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Charlottetown en Île-du-Prince-Édouard, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "The Guild"
+  }, {
+    "@language" : "fr",
+    "@value" : "The Guild"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129448963",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Irishtown-Summerside, Newfoundland & Labrador, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Irishtown-Summerside en Terre-Neuve-et-Labrador, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "So Long to Summer Festival"
+  }, {
+    "@language" : "fr",
+    "@value" : "So Long to Summer Festival"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q334453"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q130156651",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Margaretsville, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Margaretsville en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Evergreen Theatre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Evergreen Theatre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q24190268",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Wolfville, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Wolfville en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Devour! The Food Film Fest"
+  }, {
+    "@language" : "en",
+    "@value" : "Devour! The Food Film Fest"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q6819865",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Windsor, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Windsor en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Mermaid Theatre of Nova Scotia"
+  }, {
+    "@language" : "fr",
+    "@value" : "Mermaid Theatre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q11812394"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q742421"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q6995703",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Halifax, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Neptune Theatre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Neptune Theatre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q742421"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q72194414",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Dartmouth, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Dartmouth en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Eastern Front Theatre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Eastern Front Theatre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q11812394"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q7497904",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Parrsboro, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Parrsboro en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Ship's Company Theatre"
+  }, {
+    "@language" : "en",
+    "@value" : "Ship's Company Theatre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q742421"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q7661632",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "orchestra based in Halifax, Nova Scotia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "orchestre basé à Halifax en Nouvelle-Écosse, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Symphony Nova Scotia"
+  }, {
+    "@language" : "fr",
+    "@value" : "Symphony Nova Scotia"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q42998"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q7726774",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Summerside, Prince Edward Island, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Summerside en Île-du-Prince-Édouard, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "The College of Piping and Celtic Performing Arts of Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "The College of Piping and Celtic Performing Arts of Canada"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q1792623"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q85774656",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à St. John's en Terre-Neuve-et-Labrador, Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in St. John's, Newfoundland and Labrador, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q72193736"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Kittiwake Dance Theatre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Kittiwake Dance Theatre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q107095432"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+} ]
