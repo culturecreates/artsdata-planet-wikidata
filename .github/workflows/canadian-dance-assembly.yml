@@ -12,5 +12,5 @@ jobs:
         with:
           artifact: canadian-dance-assembly
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          downloadUrl: https://raw.githubusercontent.com/culturecreates/artsdata-planet-wikidata/dump/canadian-dance-assembly.jsonld
+          downloadUrl: https://raw.githubusercontent.com/culturecreates/artsdata-planet-wikidata/refs/heads/main/dump/canadian-dance-assembly.jsonld
 
