@@ -1,5 +1,4 @@
 # quebecdanse.org - membres du RQD
-
 PREFIX schema: <http://schema.org/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -10,12 +9,13 @@ CONSTRUCT {
           schema:disambiguatingDescription ?description ;
           schema:name ?itemLabel ;
           schema:memberOf wd:Q71859269 ;
+          schema:sameAs ?adURI ;
           schema:url ?site .
 }
 WHERE {
     {
         SERVICE <https://query.wikidata.org/sparql>  {
-            select distinct   ?item ?nature ?itemLabel ?description ?artsdata_type where {
+            select distinct   ?item ?nature ?itemLabel ?description ?artsdata_type ?site ?adURI where {
                 ?item wdt:P31 ?nature ;
                       rdfs:label ?itemLabel ;
                       schema:description ?description ;
@@ -32,6 +32,11 @@ WHERE {
                     ?item wdt:P31/wdt:P279* wd:Q5 .
                     bind( schema:Person as ?artsdata_type )
                 }
+                OPTIONAL {
+                   ?item wdt:P7627 ?adid .
+                    bind(URI(CONCAT("http://kg.artsdata.ca/resource/",?adid)) as ?adURI)
+                }
+                 
                 FILTER(LANG(?itemLabel) IN ("fr")).
                 FILTER(LANG(?description) IN ("fr")).
             }
