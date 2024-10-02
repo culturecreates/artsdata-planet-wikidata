@@ -7,7 +7,7 @@ PREFIX wd: <http://www.wikidata.org/entity/>
 CONSTRUCT {
     ?item wdt:P31 ?nature  ;
           a ?artsdata_type ;
-          schema:description ?description ;
+          schema:disambiguatingDescription ?description ;
           schema:name ?itemLabel ;
           schema:memberOf wd:Q71859269 .
 }
