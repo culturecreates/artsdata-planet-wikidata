@@ -16,6 +16,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-376"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "https://rbdg.ca/"
+  }, {
     "@id" : "https://www.quebecdanse.org/bellefeuille-fannie"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -37,6 +39,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-383"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://lachapelle.org"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -81,6 +86,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-445"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://casjb.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -102,6 +110,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-446"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "https://www.ginetteferland.com/"
+  }, {
     "@id" : "https://www.quebecdanse.org/ferland-ginette"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -169,6 +179,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/poliquin-marc-andre"
+  }, {
+    "@id" : "http://agencebobineetmusique.com/artist/marc-andre-poliquin/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -187,6 +199,9 @@
     "@language" : "fr",
     "@value" : "Code Universel"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.codeuniversel.com/fr/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q105815710"
   } ]
@@ -204,10 +219,13 @@
     "@language" : "fr",
     "@value" : "Bouge de là"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://bougedela.org"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q101112711",
@@ -228,6 +246,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/bernier-marie"
+  }, {
+    "@id" : "http://www.mandolinehybride.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -339,6 +359,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-878"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://odileapeters"
+  }, {
     "@id" : "https://www.quebecdanse.org/peters-odile-amelie"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -514,6 +536,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-929"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://www.productionsdpdm.com"
+  }, {
     "@id" : "https://www.quebecdanse.org/nagrani-menka"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -555,6 +579,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-939"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.myrthacat.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -622,6 +649,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-942"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.denadavida.ca"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -686,6 +716,10 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-946"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://maribe.ca/"
+  }, {
+    "@id" : "http://maribe.ca/en"
+  }, {
     "@id" : "https://www.quebecdanse.org/beland-marie"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -748,6 +782,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-949"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://dussodanse.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -767,6 +804,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/trosztmer-peter"
+  }, {
+    "@id" : "http://ptrosz.wordpress.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -833,6 +872,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/laurore-vladimir"
+  }, {
+    "@id" : "https://www.7starr.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -871,6 +912,11 @@
     "@language" : "fr",
     "@value" : "maribé - sors de ce corps"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://maribe.ca/en"
+  }, {
+    "@id" : "http://www.maribe.ca"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
   }, {
@@ -895,6 +941,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/gravel-frederick"
+  }, {
+    "@id" : "http://www.danielleveilledanse.org"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -918,6 +966,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/bergeron-audrey"
+  }, {
+    "@id" : "https://www.audreybergeron.org/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -936,6 +986,9 @@
     "@language" : "fr",
     "@value" : "Circuit-Est centre chorégraphique"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://circuit-est.qc.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
@@ -952,6 +1005,9 @@
   "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "École de danse contemporaine de Montréal"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.edcm.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q1561361"
@@ -994,6 +1050,12 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-969"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://rubberbandance.com/fr/a-propos/anne_plamondon/"
+  }, {
+    "@id" : "https://www.anneplamondon.com/"
+  }, {
+    "@id" : "https://www.anneplamondon.com/english/"
+  }, {
     "@id" : "https://www.quebecdanse.org/plamondon-anne"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -1061,6 +1123,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-1298"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.lannexe-a.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -1196,6 +1261,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/chong-tony"
+  }, {
+    "@id" : "https://www.tonythecompany.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -1219,6 +1286,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/galesso-irene"
+  }, {
+    "@id" : "http://www.academiedanse.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -1325,6 +1394,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/daoust-marilyn"
+  }, {
+    "@id" : "http://www.marilyndaoust.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -1394,6 +1465,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/desgagnes-charles-alexis"
+  }, {
+    "@id" : "http://charlesalexisdesgagnes.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -1414,6 +1487,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-2892"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.myriamfarger.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -1503,6 +1579,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-2997"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.audreygaussiran.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -1617,6 +1696,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-3256"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://sylvainlafortune.ca"
+  }, {
     "@id" : "https://www.quebecdanse.org/lafortune-sylvain"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -1709,6 +1790,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-3588"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "https://www.facebook.com/profile.php?id=100008399712268"
+  }, {
     "@id" : "https://www.quebecdanse.org/montminy-sonia"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -1776,6 +1859,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/silveira-marcio-vinicius-paulino"
+  }, {
+    "@id" : "https://janiemarcio.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -1845,6 +1930,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/rajotte-amelie"
+  }, {
+    "@id" : "http://www.lorganisme.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -1868,6 +1955,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/rancourt-david"
+  }, {
+    "@id" : "https://ppsdanse.com/la-compagnie/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -1932,12 +2021,15 @@
     "@language" : "fr",
     "@value" : "Lorganisme"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.lorganisme.com"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
     "@id" : "http://www.wikidata.org/entity/Q6881511"
   }, {
     "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
-    "@id" : "http://www.wikidata.org/entity/Q2393314"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q111591685",
@@ -1980,6 +2072,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4173"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://www.lorganisme.com"
+  }, {
     "@id" : "https://www.quebecdanse.org/beaucage-caroline-laurin"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -2004,6 +2098,10 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/provencher-sebastien"
+  }, {
+    "@id" : "https://provenchersebastien.com/"
+  }, {
+    "@id" : "https://www.lorganisme.com/fr/creations/sebastien-provencher/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -2049,6 +2147,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4179"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://diane.carriere.374"
+  }, {
     "@id" : "https://www.quebecdanse.org/carriere-diane"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -2071,6 +2171,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4180"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.karinecloutier.com"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -2090,6 +2193,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4181"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.dansejocelynebibeau.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -2156,6 +2262,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/kefirova-maria"
+  }, {
+    "@id" : "http://mariakefirova.wordpress.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -2178,6 +2286,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4185"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://www.nicolelaudouar.com"
+  }, {
     "@id" : "https://www.quebecdanse.org/laudouar-nicole"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -2222,6 +2332,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/morinville-violaine"
+  }, {
+    "@id" : "http://www.dansecouleur.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -2311,6 +2423,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/saad-myriam"
+  }, {
+    "@id" : "http://www.aucoeurdumouvement.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -2354,6 +2468,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4193"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://marikotanabe.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -2420,6 +2537,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/veillette-mario"
+  }, {
+    "@id" : "http://www.culture-quebec.qc.ca/marioveillette"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -2567,6 +2686,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4202"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.kkeenan.com"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -2589,6 +2711,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/legrand-elise"
+  }, {
+    "@id" : "http://eliselegrand.wordpress.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -2791,6 +2915,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4212"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.cojuliedanse.com"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -2813,6 +2940,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/gervais-milan"
+  }, {
+    "@id" : "http://human-playground.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -2876,6 +3005,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4216"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.valeriebuddle.weebly.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -3007,6 +3139,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4222"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://lilithetcie.com/index.php/fr/compagnie/"
+  }, {
     "@id" : "https://www.quebecdanse.org/pedron-aurelie"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -3053,6 +3187,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4224"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://emmanuellecalve.com"
+  }, {
     "@id" : "https://www.quebecdanse.org/calve-emmanuelle"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -3121,6 +3257,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4227"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.balletdivertimento.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -3143,6 +3282,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/amyot-jade-emmanuelle"
+  }, {
+    "@id" : "http://www.jadeamyot.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -3165,6 +3306,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4229"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://lucymmay.com"
+  }, {
     "@id" : "https://www.quebecdanse.org/may-lucy-m."
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -3189,6 +3332,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/farmer-marie-eve"
+  }, {
+    "@id" : "http://www.piedsdem.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -3232,6 +3377,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/gardette-anne-marie"
+  }, {
+    "@id" : "http://www.danse.qc.ca"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -3274,6 +3421,8 @@
     "@value" : "Isabelle Arcand"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "https://virginiebrunelle.com/"
+  }, {
     "@id" : "https://www.quebecdanse.org/arcand-isabelle"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -3297,6 +3446,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4234"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://www.axile.ca"
+  }, {
     "@id" : "https://www.quebecdanse.org/arnaud-liliane-st"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -3341,6 +3492,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4236"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.gerardxreyes.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -3426,6 +3580,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4240"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://www.alannamoves.com"
+  }, {
     "@id" : "https://www.quebecdanse.org/kraaijeveld-alanna"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -3473,6 +3629,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/michel-sonia-st"
+  }, {
+    "@id" : "http://www.soniastmichel.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -3496,6 +3654,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/bronsard-sarah"
+  }, {
+    "@id" : "http://www.sarahbronsard.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -3628,6 +3788,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/oder-dorian-nuskind"
+  }, {
+    "@id" : "http://www.delicatebeast.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -3651,6 +3813,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/germain-katia-marie"
+  }, {
+    "@id" : "http://www.katiamariegermain.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -3673,6 +3837,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4251"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://susannahood.ca"
+  }, {
     "@id" : "https://www.quebecdanse.org/hood-susanna"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -3739,6 +3905,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4254"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://www.danssonsalon.tumblr.com"
+  }, {
     "@id" : "https://www.quebecdanse.org/gravel-karenne"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -3763,6 +3931,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/ruest-emmalie"
+  }, {
+    "@id" : "http://www.danssonsalon.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -3783,6 +3953,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4256"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.tuqueetcapuche.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -3872,6 +4045,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/nino-andrea"
+  }, {
+    "@id" : "http://www.entrames.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -3917,6 +4092,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4262"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "https://www.dominiqueturcotteballet.com"
+  }, {
     "@id" : "https://www.quebecdanse.org/turcotte-dominique"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -3985,6 +4162,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4265"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.josianefortindanse.com"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -4006,6 +4186,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4266"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://leatremblayfong.com/"
+  }, {
     "@id" : "https://www.quebecdanse.org/fong-lea-tremblay"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -4051,6 +4233,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4268"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://sursaut.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -4070,6 +4255,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4269"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://dansekpark.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -4093,6 +4281,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/sabbagh-rafik-hubert"
+  }, {
+    "@id" : "https://quartiersdanses.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -4138,6 +4328,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4272"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://www.montrealdanse.com"
+  }, {
     "@id" : "https://www.quebecdanse.org/casey-kathy"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -4162,6 +4354,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/boissinot-lucie"
+  }, {
+    "@id" : "https://www.edcm.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -4185,6 +4379,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/grégoire-lucie"
+  }, {
+    "@id" : "https://www.luciegregoiredanse.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -4208,6 +4404,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/demers-melanie"
+  }, {
+    "@id" : "https://maydaydanse.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -4253,6 +4451,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4277"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://www.fila13.com"
+  }, {
     "@id" : "https://www.quebecdanse.org/cruz-lina"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -4277,6 +4477,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/lombardo-elodie"
+  }, {
+    "@id" : "http://www.soeurschmutt.com/fr/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -4300,6 +4502,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/boucher-mario"
+  }, {
+    "@id" : "http://www.zeugmadanse.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -4346,6 +4550,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/laurent-alix"
+  }, {
+    "@id" : "http://www.esbq.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -4391,6 +4597,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4283"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "https://www.edcm.ca/"
+  }, {
     "@id" : "https://www.quebecdanse.org/rocray-yves"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -4438,6 +4646,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/molinot-claire"
+  }, {
+    "@id" : "https://parbleux.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -4460,6 +4670,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4287"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://www.soeurschmutt.com/fr/"
+  }, {
     "@id" : "https://www.quebecdanse.org/lombardo-severine"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -4481,6 +4693,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4288"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.zeugmadanse.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -4527,6 +4742,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/gagnon-lise"
+  }, {
+    "@id" : "https://espaceperreault.ca/fr/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -4569,6 +4786,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4292"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "https://www.laurieannelangis.com/"
+  }, {
     "@id" : "https://www.quebecdanse.org/langis-laurie-anne"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -4639,6 +4858,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/archambault-catherine"
+  }, {
+    "@id" : "http://www.facebook.com/uncorps?fref=ts"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -4661,6 +4882,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4296"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://www.facebook.com/vgiasson?fref=ts"
+  }, {
     "@id" : "https://www.quebecdanse.org/giasson-veronique"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -4685,6 +4908,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/yaffe-nathan"
+  }, {
+    "@id" : "https://www.jesuisjulio.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -4773,6 +4998,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4301"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://annefloredanse.com"
+  }, {
     "@id" : "https://www.quebecdanse.org/rochambeau-anne-flore-de"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -4820,6 +5047,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/theriault-liane"
+  }, {
+    "@id" : "http://www.danssonsalon.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -4843,6 +5072,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/tiec-morgane-le"
+  }, {
+    "@id" : "https://pouletneige.wixsite.com/morgane"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -4903,6 +5134,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4307"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.stephaniedecourteille.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -4987,6 +5221,9 @@
     "@language" : "fr",
     "@value" : "David Campbell"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.facebook.com/david.campbell.54?fref=ts"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -5046,6 +5283,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/laflamme-laurence-sabourin"
+  }, {
+    "@id" : "http://danzadescalza.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -5069,6 +5308,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/brochard-stephanie"
+  }, {
+    "@id" : "http://lesjardinschoregraphiques.org"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -5111,6 +5352,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4315"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://www.yaelle.ca"
+  }, {
     "@id" : "https://www.quebecdanse.org/azoulay-yaelle"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -5132,6 +5375,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4316"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://karineparise.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -5178,6 +5424,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/morin-alexandre"
+  }, {
+    "@id" : "https://www.alexandremorin.dance/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -5222,6 +5470,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4320"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.petrikordanse.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -5265,6 +5516,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4322"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.instagram.com/gabsimard/?hl=fr"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -5287,6 +5541,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/lauzon-geneviève"
+  }, {
+    "@id" : "http://genevievelauzondanse.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -5351,6 +5607,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4326"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://journeypagesblog.wordpress.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -5394,6 +5653,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4328"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://cegepsherbrooke.qc.ca/danse"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -5415,6 +5677,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4329"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://www.sophielevasseur.ca"
+  }, {
     "@id" : "https://www.quebecdanse.org/levasseur-sophie"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -5637,6 +5901,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/bussy-adrien"
+  }, {
+    "@id" : "http://www.flak.org"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -5681,6 +5947,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4341"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.instagram.com/carolina77s/?hl=fr"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -5720,6 +5989,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4343"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.mariemougeolle.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -5849,6 +6121,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/calais-charlotte"
+  }, {
+    "@id" : "http://www.montrealdanse.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -5872,6 +6146,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/cyr-dr.-richard"
+  }, {
+    "@id" : "https://margiegillis.org/fr/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -5913,6 +6189,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4352"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.axellemunezero.com"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -5935,6 +6214,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/hill-erin"
+  }, {
+    "@id" : "http://cargocollective.com/erinhill"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -6049,6 +6330,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/fromentin-stephanie"
+  }, {
+    "@id" : "http://stephaniefromentin.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -6072,6 +6355,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/pitre-valerie"
+  }, {
+    "@id" : "https://www.instagram.com/volderousse/?hl=fr-ca"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -6095,6 +6380,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/fuentes-yesenia"
+  }, {
+    "@id" : "https://www.yeseniafuentes.art/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -6115,6 +6402,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4358"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.facebook.com/profile.php?id=100064897603369"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -6137,6 +6427,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4359"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "https://nasimlootij.com"
+  }, {
     "@id" : "https://www.quebecdanse.org/lootij-nasim"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -6226,6 +6518,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4363"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://www.marselledanse.com"
+  }, {
     "@id" : "https://www.quebecdanse.org/caron-soraida"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -6270,6 +6564,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/amyot-angelique"
+  }, {
+    "@id" : "http://www.angeliqueamyot.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -6293,6 +6589,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/brunelle-aurelie"
+  }, {
+    "@id" : "http://www.aureliebrunelle.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -6335,6 +6633,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4368"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://www.facebook.com/FlamencoRosanneDion?ref=hl"
+  }, {
     "@id" : "https://www.quebecdanse.org/dion-rosanne"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -6422,6 +6722,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/jeannot-claire"
+  }, {
+    "@id" : "https://cjeannotarts.wordpress.com/corps/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -6467,6 +6769,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4374"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://lucyfandel.com"
+  }, {
     "@id" : "https://www.quebecdanse.org/fandel-lucy"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -6490,6 +6794,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4375"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://www.genevieveduong.com"
+  }, {
     "@id" : "https://www.quebecdanse.org/duong-genevieve"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -6536,6 +6842,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4377"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "https://danse-cite.org/"
+  }, {
     "@id" : "https://www.quebecdanse.org/rothenbuhler-maud-mazo"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -6583,6 +6891,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/gauthier-jessica"
+  }, {
+    "@id" : "http://jessica.gauthier.7902@facebook.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -6646,6 +6956,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/phan-emmanuelle-le"
+  }, {
+    "@id" : "http://www.tentacletribe.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -6668,6 +6980,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4383"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://www.tentacletribe.com/"
+  }, {
     "@id" : "https://www.quebecdanse.org/hoglund-elon"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -6756,6 +7070,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4387"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.gestionfcdb.com"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -6800,6 +7117,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4389"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://maria-papathanasiou.com/index.php/dancer-choreographer"
+  }, {
     "@id" : "https://www.quebecdanse.org/papathanasiou-maria"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -6864,6 +7183,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4392"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://boisliveaumelanie.wix.com/histoirededanse"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -6952,6 +7274,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4396"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://hannasybillemuller.com"
+  }, {
     "@id" : "https://www.quebecdanse.org/muller-hanna-sybille"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -6998,6 +7322,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K13-166"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://www.laotraorilla.net"
+  }, {
     "@id" : "https://www.quebecdanse.org/allard-myriam"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -7042,6 +7368,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4399"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://maydaydanse.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -7108,6 +7437,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/voyer-catherine-pelletier"
+  }, {
+    "@id" : "http://tftfdanse.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -7128,6 +7459,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4403"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://machineriedesarts.ca"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -7171,6 +7505,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/lecuyer-jennifer"
+  }, {
+    "@id" : "http://www.jenniferlecuyer.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -7191,6 +7527,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4406"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://vimeo.com/user17464396"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -7278,6 +7617,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4410"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.fwdmovements.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -7297,6 +7639,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4411"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.fwdmovements.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -7340,6 +7685,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4413"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://vimeo.com/user52650758"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -7407,6 +7755,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4416"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://leila-mpro.wixsite.com/leilamailly"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -7449,6 +7800,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4418"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.sinhadanse.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -7540,6 +7894,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4422"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://lefilsdadrien.ca/"
+  }, {
     "@id" : "https://www.quebecdanse.org/simonis-caroline"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -7563,6 +7919,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4423"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://www.ebnfloh.com"
+  }, {
     "@id" : "https://www.quebecdanse.org/royer-guilaine"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -7608,6 +7966,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4425"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://parbleux.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -7630,6 +7991,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/rheault-nancy"
+  }, {
+    "@id" : "https://sursaut.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -7653,6 +8016,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/caskey-paul"
+  }, {
+    "@id" : "http://www.ccov.org/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -7763,6 +8128,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4432"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://paulineberndsendanse.com"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -7784,6 +8152,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4433"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "https://www.instagram.com/c.a.t.dumais/?family_bridges_funnel_id=oeMEPkpBPSijfxHM&family_bridges_source_surface=fb_profile"
+  }, {
     "@id" : "https://www.quebecdanse.org/dumais-catherine"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -7805,6 +8175,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4434"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://laurencelapierre.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -7874,6 +8247,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/desjardins-penelope"
+  }, {
+    "@id" : "http://penelopedesjardins.wordpress.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -7896,6 +8271,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4438"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "https://www.lecarredeslombes.com/"
+  }, {
     "@id" : "https://www.quebecdanse.org/boisjoly-martin"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -7988,6 +8365,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4442"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://givernywelsch.com"
+  }, {
     "@id" : "https://www.quebecdanse.org/welsch-giverny"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -8009,6 +8388,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4443"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.psukhe.ca"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -8075,6 +8457,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4446"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://@bboyvibz"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -8144,6 +8529,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/mazon-gabriela-jovian"
+  }, {
+    "@id" : "https://gabrielajm.wixsite.com/portfolio"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -8166,6 +8553,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4450"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "https://www.instagram.com/mathouhze/?hl=fr-ca"
+  }, {
     "@id" : "https://www.quebecdanse.org/heuze-mathilde"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -8233,6 +8622,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/muller-pauline"
+  }, {
+    "@id" : "http://maribe.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -8253,6 +8644,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4454"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.studio303.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -8563,6 +8957,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/henuset-camille"
+  }, {
+    "@id" : "https://www.facebook.com/CamilleHenuset96/?modal=admin_todo_tour"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -8585,6 +8981,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4469"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://www.oliviakhoury.com/"
+  }, {
     "@id" : "https://www.quebecdanse.org/khoury-olivia"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -8654,6 +9052,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4472"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "https://www.lorganisme.com/fr"
+  }, {
     "@id" : "https://www.quebecdanse.org/lavoie-sylvie"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -8678,6 +9078,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/pierre-emie-liza-caron-st"
+  }, {
+    "@id" : "https://fleuve-espacedanse.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -8701,6 +9103,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/cumberbirch-jessica"
+  }, {
+    "@id" : "http://www.studioballetvolution.ca"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -8741,6 +9145,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4477"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://machineriedesarts.ca"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -8787,6 +9194,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/clerc-nancy-le"
+  }, {
+    "@id" : "http://www.lespagesjaunes.ca"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -8810,6 +9219,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/leon-diana"
+  }, {
+    "@id" : "http://viasdanza.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -8855,6 +9266,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4482"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "https://www.zemmourballet.org"
+  }, {
     "@id" : "https://www.quebecdanse.org/zemmour-nicolas"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -8967,6 +9380,10 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4487"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "https://www.willowseeds.com"
+  }, {
+    "@id" : "https://lauraperron124.wixsite.com/willowseeds"
+  }, {
     "@id" : "https://www.quebecdanse.org/perron-laura"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -8988,6 +9405,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4488"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://lachapelle.org/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -9095,6 +9515,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4493"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.mandolinehybride.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -9134,6 +9557,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4495"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://@laurihenri"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -9177,6 +9603,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/figaro-sherane"
+  }, {
+    "@id" : "https://www.aureedanse.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -9243,6 +9671,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/rathle-karine"
+  }, {
+    "@id" : "https://karinerathle.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -9265,6 +9695,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4501"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "https://www.facebook.com/profile.php?id=100000323044518"
+  }, {
     "@id" : "https://www.quebecdanse.org/leveque-marie"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -9332,6 +9764,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/ryan-molly-siboulet"
+  }, {
+    "@id" : "https://mollysr.weebly.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -9355,6 +9789,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/velez-maria-juliana"
+  }, {
+    "@id" : "https://www.dansencore.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -9375,6 +9811,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4506"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.dansencore.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -9550,6 +9989,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/malas-hoor"
+  }, {
+    "@id" : "https://hoormalas.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -9594,6 +10035,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4516"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://dulcinee.org/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -9635,6 +10079,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4518"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "https://brunetmarylee.myportfolio.com"
+  }, {
     "@id" : "https://www.quebecdanse.org/brunet-mary-lee"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -9657,6 +10103,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4519"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.laotraorilla.net"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -9676,6 +10125,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4520"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.instagram.com/emile.benazera/?hl=fr-ca"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -9873,6 +10325,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4529"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "https://fr.wafdcreations.com/"
+  }, {
     "@id" : "https://www.quebecdanse.org/simard-helen"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -9896,6 +10350,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4530"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "https://fr.wafdcreations.com/"
+  }, {
     "@id" : "https://www.quebecdanse.org/white-roger"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -10048,6 +10504,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4538"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://maigwennetlesorteils.com"
+  }, {
     "@id" : "https://www.quebecdanse.org/desbois-maïgwenn"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -10155,6 +10613,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4543"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://five_six_seven_and_eight"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -10307,6 +10768,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/cardona-angela"
+  }, {
+    "@id" : "http://www.nyata-nyata.org/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -10434,6 +10897,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4556"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://quartiersdanses.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -10476,6 +10942,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/dennewald-martine"
+  }, {
+    "@id" : "http://fta.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -10818,6 +11286,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4574"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.crtd.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -10857,6 +11328,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4576"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://casjb.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -10903,6 +11377,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/delisle-frederique"
+  }, {
+    "@id" : "https://www.instagram.com/bleubazar/?hl=fr"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -11154,10 +11630,13 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K3-195"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.ccov.org/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114429971",
@@ -11173,10 +11652,13 @@
     "@language" : "fr",
     "@value" : "Ballet Divertimento"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.balletdivertimento.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114429972",
@@ -11191,6 +11673,9 @@
   "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Danse Laurentides"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://dussodanse.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
@@ -11211,10 +11696,13 @@
     "@language" : "fr",
     "@value" : "Compagnie Virginie Brunelle"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://virginiebrunelle.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114429974",
@@ -11229,6 +11717,9 @@
   "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Grand Poney"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.grandponey.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
@@ -11249,6 +11740,11 @@
     "@language" : "fr",
     "@value" : "Le Radeau"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.delicatebeast.com"
+  }, {
+    "@id" : "https://www.jesuisjulio.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
   }, {
@@ -11267,6 +11763,9 @@
   "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Dans son salon"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.danssonsalon.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
@@ -11287,10 +11786,13 @@
     "@language" : "fr",
     "@value" : "Studio D 325"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.entrames.com"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114429979",
@@ -11306,10 +11808,13 @@
     "@language" : "fr",
     "@value" : "Dulcinée Langfelder & Cie"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://dulcinee.org/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114429980",
@@ -11347,12 +11852,15 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K14-148"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.sursaut.ca"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
     "@id" : "http://www.wikidata.org/entity/Q105815710"
   }, {
     "@id" : "http://www.wikidata.org/entity/Q107095432"
-  }, {
-    "@id" : "http://www.wikidata.org/entity/Q2393314"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114429982",
@@ -11370,6 +11878,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K10-76"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://flak.org/jose-navas/en/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
@@ -11392,10 +11903,13 @@
     "@language" : "fr",
     "@value" : "L'École supérieure de ballet du Québec"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.esbq.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114429985",
@@ -11414,6 +11928,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K10-334"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://quartiersdanses.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q108669279"
   } ]
@@ -11431,10 +11948,13 @@
     "@language" : "fr",
     "@value" : "Fleuve - Espace Danse"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://fleuve-espacedanse.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114429990",
@@ -11450,10 +11970,13 @@
     "@language" : "fr",
     "@value" : "Fondation Jean-Pierre Perreault"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://espaceperreault.ca/fr/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114429992",
@@ -11469,10 +11992,13 @@
     "@language" : "fr",
     "@value" : "Montréal Danse"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.montrealdanse.com"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114429994",
@@ -11488,10 +12014,13 @@
     "@language" : "fr",
     "@value" : "La Fondation de danse Margie Gillis"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://margiegillis.org/fr/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114429996",
@@ -11507,10 +12036,13 @@
     "@language" : "fr",
     "@value" : "Le Carré des Lombes"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.lecarredeslombes.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114430000",
@@ -11525,6 +12057,9 @@
   "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Corporation Lucie Grégroire Danse"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.luciegregoiredanse.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q43229"
@@ -11545,10 +12080,13 @@
     "@language" : "fr",
     "@value" : "MAYDAY"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://maydaydanse.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114430003",
@@ -11563,6 +12101,11 @@
   "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Studio 303"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.studio303.ca/"
+  }, {
+    "@id" : "https://www.studio303.ca/en/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q107095432"
@@ -11602,10 +12145,13 @@
     "@language" : "fr",
     "@value" : "Productions Fila 13"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.fila13.com"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114430015",
@@ -11621,10 +12167,13 @@
     "@language" : "fr",
     "@value" : "Les Soeurs Schmutt"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.soeurschmutt.com/fr/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114430017",
@@ -11640,10 +12189,13 @@
     "@language" : "fr",
     "@value" : "ZEUGMA DANSE"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.zeugmadanse.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114430022",
@@ -11659,10 +12211,13 @@
     "@language" : "fr",
     "@value" : "Parbleux"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://parbleux.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114430024",
@@ -11678,10 +12233,13 @@
     "@language" : "fr",
     "@value" : "Danse-Cité"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://danse-cite.org/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q2393314"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q43229"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q2393314"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114430032",
@@ -11697,10 +12255,15 @@
     "@language" : "fr",
     "@value" : "Fou Glorieux"
   } ],
-  "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
+  "http://schema.org/url" : [ {
+    "@id" : "https://louiselecavalier.com/fr/fou-glorieux/"
   }, {
+    "@id" : "https://louiselecavalier.com/"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114430034",
@@ -11735,10 +12298,13 @@
     "@language" : "fr",
     "@value" : "DLD - Daniel Léveillé Danse"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.danielleveilledanse.org"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114430038",
@@ -11773,10 +12339,13 @@
     "@language" : "fr",
     "@value" : "Cégep de Sherbrooke - Programme Danse"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://cegepsherbrooke.qc.ca/danse"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114430041",
@@ -11792,10 +12361,13 @@
     "@language" : "fr",
     "@value" : "Académie de danse d'Outremont"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.academiedanse.com"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114430044",
@@ -11811,10 +12383,13 @@
     "@language" : "fr",
     "@value" : "L'Artère, art de la danse et du mouvement"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.instagram.com/volderousse/?hl=fr-ca"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114430046",
@@ -11829,6 +12404,9 @@
   "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Compagnie de danse Ebnfloh"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.ebnfloh.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q43229"
@@ -11869,9 +12447,9 @@
     "@value" : "Bourask - Compagnie de danse"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114430057",
@@ -11887,10 +12465,13 @@
     "@language" : "fr",
     "@value" : "Danse Tentacle Tribe"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.tentacletribe.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114430059",
@@ -11925,10 +12506,13 @@
     "@language" : "fr",
     "@value" : "La Otra Orilla"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.laotraorilla.net"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114430062",
@@ -11944,10 +12528,13 @@
     "@language" : "fr",
     "@value" : "Machinerie des arts"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://machineriedesarts.ca"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114430063",
@@ -11982,10 +12569,13 @@
     "@language" : "fr",
     "@value" : "Compagnie Forward Movements"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.fwdmovements.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114430071",
@@ -12022,10 +12612,13 @@
     "@language" : "fr",
     "@value" : "Théâtre La Chapelle"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://lachapelle.org/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114430073",
@@ -12041,10 +12634,15 @@
     "@language" : "fr",
     "@value" : "Festival International de Danse Encore"
   } ],
-  "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.dansencore.ca/"
   }, {
+    "@id" : "https://dansencore.ca/"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114430074",
@@ -12060,10 +12658,13 @@
     "@language" : "fr",
     "@value" : "Créations interdisciplinaires Nous Tombons Tous"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://fr.wafdcreations.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114430075",
@@ -12117,10 +12718,13 @@
     "@language" : "fr",
     "@value" : "Centre de ressources et transition pour danseurs"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.crtd.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q114430079",
@@ -12136,12 +12740,15 @@
     "@language" : "fr",
     "@value" : "Centre des arts de la scène Jean-Besré"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://casjb.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q3469910"
   }, {
-    "@id" : "http://www.wikidata.org/entity/Q43229"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q2393314"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q115210841",
@@ -12448,6 +13055,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/wendt-sarah"
+  }, {
+    "@id" : "https://www.wendt-dufaux.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -12572,6 +13181,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4952"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.sylvieroussel.com"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -12639,6 +13251,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-923"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://floorriderandtonik.com/"
+  }, {
     "@id" : "https://www.quebecdanse.org/genevieve-gagne"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -13337,6 +13951,9 @@
   "http://schema.org/name" : [ {
     "@language" : "fr",
     "@value" : "Charles Gao"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://charlesjgao.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -16972,6 +17589,8 @@
     "@value" : "James Phillips"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://jamesphillips1@live.com"
+  }, {
     "@id" : "https://www.quebecdanse.org/repertoire/james-phillips/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -16996,6 +17615,10 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/lecavalier-louise"
+  }, {
+    "@id" : "http://www.louiselecavalier.com/"
+  }, {
+    "@id" : "https://louiselecavalier.com/fr/fou-glorieux/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -17059,6 +17682,10 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/langfelder-dulcinee"
+  }, {
+    "@id" : "https://dulcinee.org/"
+  }, {
+    "@id" : "https://www.dulcinee.org"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -17079,6 +17706,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4733"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://rbdg.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -17120,6 +17750,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4745"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.studio303.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -17142,6 +17775,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/bissonnette-anik"
+  }, {
+    "@id" : "http://www.esbq.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -17165,6 +17800,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/leroux-mathieu"
+  }, {
+    "@id" : "http://www.mathieuleroux.art"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -17186,6 +17823,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4766"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.clarafurey.com"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -17205,6 +17845,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K10-316"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://fta.ca"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q708676"
@@ -17268,6 +17911,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4791"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.jeanpierreperreault.com"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -17307,6 +17953,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K12-220"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.flak.org"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -17369,6 +18018,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4798"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "https://margiegillis.org/fr/"
+  }, {
     "@id" : "https://www.quebecdanse.org/gillis-margie"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -17411,6 +18062,11 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4816"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.sinhadanse.com"
+  }, {
+    "@id" : "http://www.sinhadanse.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -17432,6 +18088,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4829"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "https://www.virginiebrunelle.com"
+  }, {
     "@id" : "https://www.quebecdanse.org/brunelle-virginie"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -17456,6 +18114,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/cardinal-beatrice"
+  }, {
+    "@id" : "https://www.instagram.com/beatricecardinal/?hl=fr"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -17475,6 +18135,8 @@
     "@value" : "Marie Chouinard"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "https://www.mariechouinard.com/"
+  }, {
     "@id" : "https://www.quebecdanse.org/chouinard-marie"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -17498,6 +18160,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4846"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://andrewturner.dance"
+  }, {
     "@id" : "https://www.quebecdanse.org/turner-andrew"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -17542,6 +18206,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/chau-kim-sanh"
+  }, {
+    "@id" : "http://cargocollective.com/KimsanhChau"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -17588,6 +18254,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/corriveau-sophie"
+  }, {
+    "@id" : "https://danse-cite.org/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -17610,6 +18278,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4851"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "https://www.lecarredeslombes.com/"
+  }, {
     "@id" : "https://www.quebecdanse.org/desnoyers-daniele"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -17721,6 +18391,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4855"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.mamadances.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -17807,6 +18480,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-5176"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.bricenoeser.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -17851,6 +18527,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4859"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "http://lefilsdadrien.ca/"
+  }, {
     "@id" : "https://www.quebecdanse.org/rheaume-harold"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -17896,6 +18574,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4865"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://michelerioux.ca"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -17918,6 +18599,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/chartrand-pierre"
+  }, {
+    "@id" : "http://www.danse.qc.ca"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -17941,6 +18624,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/rabin-linda"
+  }, {
+    "@id" : "http://lindarabin.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -17984,6 +18669,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/guy-priscilla"
+  }, {
+    "@id" : "http://www.mandolinehybride.com/mandoline-et-cie/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -18048,6 +18735,11 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4881"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://staff.qut.edu.au/staff/davidsd2/"
+  }, {
+    "@id" : "https://www.danielledavidson.net/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -18070,6 +18762,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/lande-alexandra"
+  }, {
+    "@id" : "http://www.ebnfloh.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -18093,6 +18787,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/maboungou-zab"
+  }, {
+    "@id" : "http://www.nyata-nyata.org/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -18115,6 +18811,8 @@
     "@id" : "http://kg.artsdata.ca/resource/K2-4900"
   } ],
   "http://schema.org/url" : [ {
+    "@id" : "https://fleuve-espacedanse.com/"
+  }, {
     "@id" : "https://www.quebecdanse.org/caron-chantal"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
@@ -18157,6 +18855,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4938"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.orousseau.com"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -18177,6 +18878,9 @@
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4940"
   } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://ianferrier.com/ian_bio.html"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
   } ]
@@ -18196,6 +18900,9 @@
   } ],
   "http://schema.org/sameAs" : [ {
     "@id" : "http://kg.artsdata.ca/resource/K2-4941"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://louiselecavalier.com/fr/fou-glorieux/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
@@ -18219,6 +18926,8 @@
   } ],
   "http://schema.org/url" : [ {
     "@id" : "https://www.quebecdanse.org/esmail-alida"
+  }, {
+    "@id" : "http://www.alidaesmail.ca"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q5"
