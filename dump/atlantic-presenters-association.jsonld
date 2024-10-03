@@ -9,6 +9,8 @@
     "@value" : "organisme de diffusion des arts de la scène à Fredericton, N.-B., Canada"
   } ],
   "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  }, {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
@@ -17,6 +19,12 @@
   }, {
     "@language" : "fr",
     "@value" : "Fredericton Playhouse"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-51"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.theplayhouse.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
@@ -27,11 +35,11 @@
   "@id" : "http://www.wikidata.org/entity/Q105528951",
   "@type" : [ "http://schema.org/Organization" ],
   "http://schema.org/disambiguatingDescription" : [ {
-    "@language" : "fr",
-    "@value" : "organisme de diffusion des arts de la scène à St. John's en Terre-Neuve-et-Labrador, Canada"
-  }, {
     "@language" : "en",
     "@value" : "performing arts presenting organization in St. John's, Newfoundland and Labrador, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à St. John's en Terre-Neuve-et-Labrador, Canada"
   } ],
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
@@ -43,14 +51,20 @@
     "@language" : "fr",
     "@value" : "The Tuckamore Festival"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K10-523"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.tuckamorefestival.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7062022"
-  }, {
-    "@id" : "http://www.wikidata.org/entity/Q32178211"
+    "@id" : "http://www.wikidata.org/entity/Q708676"
   }, {
     "@id" : "http://www.wikidata.org/entity/Q108669279"
   }, {
-    "@id" : "http://www.wikidata.org/entity/Q708676"
+    "@id" : "http://www.wikidata.org/entity/Q7062022"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q32178211"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q105722852",
@@ -63,21 +77,29 @@
     "@value" : "organisme de diffusion des arts de la scène à Annapolis Royal en Nouvelle-Écosse, Canada"
   } ],
   "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  }, {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
-    "@language" : "en",
-    "@value" : "King's Theatre"
-  }, {
     "@language" : "fr",
     "@value" : "King's Theatre"
+  }, {
+    "@language" : "en",
+    "@value" : "King's Theatre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K10-524"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.kingstheatre.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
   }, {
     "@id" : "http://www.wikidata.org/entity/Q7062022"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q111724395",
@@ -90,19 +112,27 @@
     "@value" : "performing arts presenting organization in Chester, Nova Scotia, Canada"
   } ],
   "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  }, {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
-    "@language" : "en",
-    "@value" : "Chester Playhouse"
-  }, {
     "@language" : "fr",
     "@value" : "Chester Playhouse"
+  }, {
+    "@language" : "en",
+    "@value" : "Chester Playhouse"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-47"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://chesterplayhouse.ca"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q111724594",
@@ -115,21 +145,29 @@
     "@value" : "organisme de diffusion des arts de la scène à Kensingston en Île-du-Prince-Édouard, Canada"
   } ],
   "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  }, {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
-    "@language" : "en",
-    "@value" : "Under the Spire Music Festival"
-  }, {
     "@language" : "fr",
     "@value" : "Under the Spire Music Festival"
+  }, {
+    "@language" : "en",
+    "@value" : "Under the Spire Music Festival"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-91"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://underthespire.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
   }, {
-    "@id" : "http://www.wikidata.org/entity/Q108669279"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q111748080",
@@ -151,6 +189,14 @@
     "@language" : "fr",
     "@value" : "Coopérative de développement culturel et patrimonial de Mont-Carmel"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5289"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.cooperativeculturelledemontcarmel.com"
+  }, {
+    "@id" : "https://www.cooperativeculturelledemontcarmel.com/english/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
   }, {
@@ -167,6 +213,8 @@
     "@value" : "organisme de diffusion des arts de la scène à Summerside en Île-du-Prince-Édouard, Canada"
   } ],
   "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  }, {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
@@ -176,10 +224,16 @@
     "@language" : "fr",
     "@value" : "Harbourfront Theatre"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-26"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.harbourfronttheatre.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q112510074",
@@ -193,6 +247,8 @@
   } ],
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
   } ],
   "http://schema.org/name" : [ {
     "@language" : "en",
@@ -200,6 +256,12 @@
   }, {
     "@language" : "fr",
     "@value" : "Prismatic Arts Festival"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-30"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.prismaticfestival.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
@@ -210,13 +272,17 @@
   "@id" : "http://www.wikidata.org/entity/Q112510135",
   "@type" : [ "http://schema.org/Organization" ],
   "http://schema.org/disambiguatingDescription" : [ {
-    "@language" : "en",
-    "@value" : "performing arts presenting organization in Halifax, Nova Scotia, Canada"
-  }, {
     "@language" : "fr",
     "@value" : "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Halifax, Nova Scotia, Canada"
   } ],
   "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q110938829"
+  }, {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
@@ -226,22 +292,30 @@
     "@language" : "fr",
     "@value" : "Cecilia Concerts"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-107"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.ceciliaconcerts.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q112570967",
   "@type" : [ "http://schema.org/Organization" ],
   "http://schema.org/disambiguatingDescription" : [ {
-    "@language" : "fr",
-    "@value" : "organisme de diffusion des arts de la scène à Riverview, N.-B., Canada"
-  }, {
     "@language" : "en",
     "@value" : "performing arts presenting organization in Riverview, NB, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Riverview, N.-B., Canada"
   } ],
   "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  }, {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
@@ -251,22 +325,30 @@
     "@language" : "fr",
     "@value" : "Riverview Arts Centre Inc."
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-12"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://riverviewartscentre.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q115012692",
   "@type" : [ "http://schema.org/Organization" ],
   "http://schema.org/disambiguatingDescription" : [ {
-    "@language" : "en",
-    "@value" : "Indigenous-led arts organization based in St. John's, Newfoundland, Canada"
-  }, {
     "@language" : "fr",
     "@value" : "organisme des arts dirigé par les autochtones à St. John's en Terre-Neuve-et-Labrador, Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "Indigenous-led arts organization based in St. John's, Newfoundland, Canada"
   } ],
   "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q110938829"
+  }, {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
@@ -276,10 +358,16 @@
     "@language" : "en",
     "@value" : "First Light"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-291"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://firstlightnl.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q3269648"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
   } ]
@@ -294,31 +382,41 @@
     "@value" : "organisme de diffusion des arts de la scène à Saint Jean, N.-B., Canada"
   } ],
   "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  }, {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
-    "@language" : "en",
-    "@value" : "Imperial Theatre"
-  }, {
     "@language" : "fr",
     "@value" : "Imperial Theatre"
+  }, {
+    "@language" : "en",
+    "@value" : "Imperial Theatre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-130"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://imperialtheatre.ca"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q117090701",
   "@type" : [ "http://schema.org/Organization" ],
   "http://schema.org/disambiguatingDescription" : [ {
-    "@language" : "en",
-    "@value" : "performing arts presenting organization in Moncton, New Brunswick, Canada"
-  }, {
     "@language" : "fr",
     "@value" : "organisme de diffusion des arts de la scène à Moncton, Nouveau-Brunswick, Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Moncton, New Brunswick, Canada"
   } ],
   "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  }, {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
@@ -328,10 +426,16 @@
     "@language" : "fr",
     "@value" : "Théâtre Capitol"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-197"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.capitol.nb.ca"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q120625885",
@@ -344,14 +448,22 @@
     "@value" : "organisme de diffusion des arts de la scène en Terre-Neuve-et-Labrador, Canada"
   } ],
   "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  }, {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
-    "@language" : "en",
-    "@value" : "Eastern Labrador Arts Alliance"
-  }, {
     "@language" : "fr",
     "@value" : "Eastern Labrador Arts Alliance"
+  }, {
+    "@language" : "en",
+    "@value" : "Eastern Labrador Arts Alliance"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-168"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.obrienartscentre.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
@@ -360,40 +472,50 @@
   "@id" : "http://www.wikidata.org/entity/Q126952144",
   "@type" : [ "http://schema.org/Organization" ],
   "http://schema.org/disambiguatingDescription" : [ {
-    "@language" : "en",
-    "@value" : "performing arts presenting organization in Halifax, Nova Scotia, Canada"
-  }, {
     "@language" : "fr",
     "@value" : "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Halifax, Nova Scotia, Canada"
   } ],
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q71859269"
   } ],
   "http://schema.org/name" : [ {
-    "@language" : "fr",
-    "@value" : "Kinetic"
-  }, {
     "@language" : "en",
     "@value" : "Kinetic"
+  }, {
+    "@language" : "fr",
+    "@value" : "Kinetic"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5277"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.kineticstudio.ca"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
   }, {
     "@id" : "http://www.wikidata.org/entity/Q107095432"
-  }, {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q128259888",
   "@type" : [ "http://schema.org/Organization" ],
   "http://schema.org/disambiguatingDescription" : [ {
-    "@language" : "en",
-    "@value" : "performing arts presenting organization in Halifax, Nova Scotia, Canada"
-  }, {
     "@language" : "fr",
     "@value" : "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Halifax, Nova Scotia, Canada"
   } ],
   "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  }, {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
@@ -403,10 +525,16 @@
     "@language" : "fr",
     "@value" : "Dalhousie Arts Centre"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-157"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.dal.ca/dept/arts-centre.html"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q334453"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129104396",
@@ -428,10 +556,16 @@
     "@language" : "fr",
     "@value" : "Carleton Victoria Arts Council"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5197"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.cvarts.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129104482",
@@ -453,6 +587,12 @@
     "@language" : "fr",
     "@value" : "Paddlefest NB"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5201"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.paddlefestnb.ca"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q108669279"
   } ]
@@ -470,18 +610,24 @@
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
-    "@language" : "en",
-    "@value" : "Saint John Theatre Company"
-  }, {
     "@language" : "fr",
     "@value" : "Saint John Theatre Company"
+  }, {
+    "@language" : "en",
+    "@value" : "Saint John Theatre Company"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5202"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.saintjohntheatrecompany.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
   }, {
     "@id" : "http://www.wikidata.org/entity/Q105815710"
-  }, {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129104515",
@@ -503,10 +649,13 @@
     "@language" : "fr",
     "@value" : "The Harvey Hall"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5205"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129104517",
@@ -528,20 +677,26 @@
     "@language" : "fr",
     "@value" : "Ax Arts & Culture Centre of Sussex"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5206"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://axartscentre.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129106183",
   "@type" : [ "http://schema.org/Organization" ],
   "http://schema.org/disambiguatingDescription" : [ {
-    "@language" : "fr",
-    "@value" : "organisme de diffusion des arts de la scène à Moncton, N.-B., Canada"
-  }, {
     "@language" : "en",
     "@value" : "performing arts presenting organization in Moncton, NB, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Moncton, N.-B., Canada"
   } ],
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
@@ -553,10 +708,16 @@
     "@language" : "fr",
     "@value" : "Atlantic Dance Festival Danse Atlantique"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5195"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.ciedansencorps.com/adfda"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q334453"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q108669279"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q334453"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129106184",
@@ -572,16 +733,22 @@
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
-    "@language" : "en",
-    "@value" : "Charlotte Street Arts Centre"
-  }, {
     "@language" : "fr",
     "@value" : "Charlotte Street Arts Centre"
+  }, {
+    "@language" : "en",
+    "@value" : "Charlotte Street Arts Centre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5196"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.charlottestreetarts.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129106186",
@@ -603,10 +770,16 @@
     "@language" : "fr",
     "@value" : "Harvest Jazz and Blues Festival"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5198"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.harvestjazzandblues.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q108669279"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129106188",
@@ -627,6 +800,12 @@
   }, {
     "@language" : "fr",
     "@value" : "Larlee Creek Hullabaloo"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5199"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.larleecreekmusic.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q108669279"
@@ -650,6 +829,12 @@
   }, {
     "@language" : "fr",
     "@value" : "Musique Saint-Joachim"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5200"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.musiquestjoachim.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
@@ -676,6 +861,12 @@
     "@language" : "fr",
     "@value" : "Shivering Songs Festival"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K10-155"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.shiveringsongs.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q108669279"
   } ]
@@ -699,10 +890,16 @@
     "@language" : "fr",
     "@value" : "Town of Riverview, Parks and Recreation"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5203"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.townofriverview.ca/parks-and-recreation"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q5260434"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q108669279"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q5260434"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129106198",
@@ -724,6 +921,9 @@
     "@language" : "fr",
     "@value" : "Vogue Group"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5204"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
@@ -731,11 +931,11 @@
   "@id" : "http://www.wikidata.org/entity/Q129106200",
   "@type" : [ "http://schema.org/Organization" ],
   "http://schema.org/disambiguatingDescription" : [ {
-    "@language" : "fr",
-    "@value" : "compagnie de ballet et organisme de festival à Moncton, N.-B., Canada"
-  }, {
     "@language" : "en",
     "@value" : "ballet company and festival organization in Moncton, NB, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "compagnie de ballet et organisme de festival à Moncton, N.-B., Canada"
   } ],
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
@@ -747,12 +947,18 @@
     "@language" : "en",
     "@value" : "Atlantic Ballet Atlantique Canada"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K10-16"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.atlanticballet.ca/en/home/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
     "@id" : "http://www.wikidata.org/entity/Q108669279"
   }, {
     "@id" : "http://www.wikidata.org/entity/Q805233"
-  }, {
-    "@id" : "http://www.wikidata.org/entity/Q708676"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129106974",
@@ -774,12 +980,18 @@
     "@language" : "en",
     "@value" : "Writers at Woody Point"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5193"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.writersatwoodypoint.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  }, {
     "@id" : "http://www.wikidata.org/entity/Q3269648"
   }, {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
-    "@id" : "http://www.wikidata.org/entity/Q108669279"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129447941",
@@ -795,11 +1007,17 @@
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
-    "@language" : "fr",
-    "@value" : "Launchpad"
-  }, {
     "@language" : "en",
     "@value" : "Launchpad"
+  }, {
+    "@language" : "fr",
+    "@value" : "Launchpad"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5220"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.wearelaunchpad.org/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
@@ -823,6 +1041,12 @@
   }, {
     "@language" : "fr",
     "@value" : "Arts & Culture Centres"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-160"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.artsandculturecentre.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q334453"
@@ -849,6 +1073,12 @@
     "@language" : "fr",
     "@value" : "Corner Brook Arts & Culture"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5221"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://artsandculturecentre.com/cornerbrook/Online/default.asp"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q334453"
   }, {
@@ -874,6 +1104,12 @@
     "@language" : "fr",
     "@value" : "Eastlink Events Centre"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5222"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://eastlinkeventscentre.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
@@ -897,10 +1133,16 @@
     "@language" : "fr",
     "@value" : "Eastport Peninsula Heritage Society"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5223"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.beachesheritagecentre.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q708676"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
   }, {
     "@id" : "http://www.wikidata.org/entity/Q108669279"
   } ]
@@ -924,6 +1166,12 @@
     "@language" : "fr",
     "@value" : "Gander Arts & Culture Centre"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5224"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://artsandculturecentre.com/gander/Online/default.asp"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q334453"
   }, {
@@ -943,11 +1191,17 @@
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
-    "@language" : "en",
-    "@value" : "Garrick Theatre"
-  }, {
     "@language" : "fr",
     "@value" : "Garrick Theatre"
+  }, {
+    "@language" : "en",
+    "@value" : "Garrick Theatre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5225"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.garricktheatre.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
@@ -966,11 +1220,17 @@
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
-    "@language" : "fr",
-    "@value" : "Gordon Pinsent Centre for the Arts"
-  }, {
     "@language" : "en",
     "@value" : "Gordon Pinsent Centre for the Arts"
+  }, {
+    "@language" : "fr",
+    "@value" : "Gordon Pinsent Centre for the Arts"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5226"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://artsandculturecentre.com/gfw/Online/default.asp"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q334453"
@@ -997,6 +1257,12 @@
     "@language" : "fr",
     "@value" : "Jack Byrne Regional Sport & Entertainment Centre"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5227"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.jackbyrnearena.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q3269648"
   } ]
@@ -1004,11 +1270,11 @@
   "@id" : "http://www.wikidata.org/entity/Q129448065",
   "@type" : [ "http://schema.org/Organization" ],
   "http://schema.org/disambiguatingDescription" : [ {
-    "@language" : "fr",
-    "@value" : "organisme de diffusion des arts de la scène à Labrador City en Terre-Neuve-et-Labrador, Canada"
-  }, {
     "@language" : "en",
     "@value" : "performing arts presenting organization in Labrador City, Newfoundland and Labrador, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Labrador City en Terre-Neuve-et-Labrador, Canada"
   } ],
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
@@ -1019,6 +1285,12 @@
   }, {
     "@language" : "fr",
     "@value" : "Labrador West Arts & Culture Centre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5229"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://artsandculturecentre.com/labwest/Online/default.asp"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q334453"
@@ -1029,11 +1301,11 @@
   "@id" : "http://www.wikidata.org/entity/Q129448067",
   "@type" : [ "http://schema.org/Organization" ],
   "http://schema.org/disambiguatingDescription" : [ {
-    "@language" : "fr",
-    "@value" : "organisme de diffusion des arts de la scène à St. John's en Terre-Neuve-et-Labrador, Canada"
-  }, {
     "@language" : "en",
     "@value" : "performing arts presenting organization in St. John's, Newfoundland and Labrador, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à St. John's en Terre-Neuve-et-Labrador, Canada"
   } ],
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
@@ -1045,22 +1317,28 @@
     "@language" : "fr",
     "@value" : "Neighbourhood Dance Works"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K10-328"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.neighbourhooddanceworks.com"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q708676"
   }, {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q108669279"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448068",
   "@type" : [ "http://schema.org/Organization" ],
   "http://schema.org/disambiguatingDescription" : [ {
-    "@language" : "fr",
-    "@value" : "organisme de diffusion des arts de la scène à St. John's en Terre-Neuve-et-Labrador, Canada"
-  }, {
     "@language" : "en",
     "@value" : "performing arts presenting organization in St. John's, Newfoundland and Labrador, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à St. John's en Terre-Neuve-et-Labrador, Canada"
   } ],
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
@@ -1071,6 +1349,12 @@
   }, {
     "@language" : "fr",
     "@value" : "Newfoundland and Labrador Folk Festival"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5230"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.nlfolk.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q708676"
@@ -1081,11 +1365,11 @@
   "@id" : "http://www.wikidata.org/entity/Q129448069",
   "@type" : [ "http://schema.org/Organization" ],
   "http://schema.org/disambiguatingDescription" : [ {
-    "@language" : "fr",
-    "@value" : "organisme de diffusion des arts de la scène à St. John's en Terre-Neuve-et-Labrador, Canada"
-  }, {
     "@language" : "en",
     "@value" : "performing arts presenting organization in St. John's, Newfoundland and Labrador, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à St. John's en Terre-Neuve-et-Labrador, Canada"
   } ],
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
@@ -1096,6 +1380,12 @@
   }, {
     "@language" : "en",
     "@value" : "Resource Centre for the Arts"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5231"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.rca.nf.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q708676"
@@ -1122,6 +1412,12 @@
     "@language" : "fr",
     "@value" : "Rotary Arts Centre"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5232"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://rotaryartscentre.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
@@ -1144,6 +1440,12 @@
   }, {
     "@language" : "fr",
     "@value" : "Stephenville Arts & Culture Centre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5233"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://artsandculturecentre.com/stephenville/Online/default.asp"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q334453"
@@ -1170,6 +1472,12 @@
     "@language" : "fr",
     "@value" : "Stephenville Theatre Festival"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5234"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.stephenvilletheatrefestival.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q708676"
   }, {
@@ -1195,6 +1503,12 @@
     "@language" : "fr",
     "@value" : "CB Nuit"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5235"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.cbnuit.com"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q108669279"
   } ]
@@ -1218,10 +1532,16 @@
     "@language" : "en",
     "@value" : "Camber Arts"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5236"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.camberarts.ca"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448112",
@@ -1242,6 +1562,12 @@
   }, {
     "@language" : "fr",
     "@value" : "Miawpukek First Nation - TCR Department"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5237"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.mfngov.ca"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q334453"
@@ -1268,10 +1594,16 @@
     "@language" : "fr",
     "@value" : "Acadia University Performing Arts"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5238"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://pas.acadiau.ca/home.html"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q334453"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448448",
@@ -1293,10 +1625,16 @@
     "@language" : "fr",
     "@value" : "Antigonish Performing Arts Series"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5239"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://people.stfx.ca/msteinit/about.htm"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q334453"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448450",
@@ -1312,36 +1650,48 @@
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
-    "@language" : "en",
-    "@value" : "Astor Theatre"
-  }, {
     "@language" : "fr",
     "@value" : "Astor Theatre"
+  }, {
+    "@language" : "en",
+    "@value" : "Astor Theatre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5240"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://astortheatre.ns.ca/wp/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q708676"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448452",
   "@type" : [ "http://schema.org/Organization" ],
   "http://schema.org/disambiguatingDescription" : [ {
-    "@language" : "en",
-    "@value" : "performing arts presenting organization in Halifax, Nova Scotia, Canada"
-  }, {
     "@language" : "fr",
     "@value" : "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Halifax, Nova Scotia, Canada"
   } ],
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
-    "@language" : "en",
-    "@value" : "The Bella Rose Arts Centre"
-  }, {
     "@language" : "fr",
     "@value" : "The Bella Rose Arts Centre"
+  }, {
+    "@language" : "en",
+    "@value" : "The Bella Rose Arts Centre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5241"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.bellaroseartscentre.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
@@ -1362,16 +1712,22 @@
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
-    "@language" : "en",
-    "@value" : "Chedabucto Place Association"
-  }, {
     "@language" : "fr",
     "@value" : "Chedabucto Place Association"
+  }, {
+    "@language" : "en",
+    "@value" : "Chedabucto Place Association"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5242"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://chedabuctoplacetheatre.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448477",
@@ -1393,10 +1749,13 @@
     "@language" : "en",
     "@value" : "Cape Breton Regional Municipality"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5243"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q108669279"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q334453"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448479",
@@ -1417,6 +1776,12 @@
   }, {
     "@language" : "fr",
     "@value" : "Conseil communautaire du Grand-Havre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5244"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://ccgh.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q3269648"
@@ -1443,10 +1808,16 @@
     "@language" : "fr",
     "@value" : "Dartmouth Community Concerts"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5245"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://dartmouthcommunityconcert.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448503",
@@ -1467,6 +1838,12 @@
   }, {
     "@language" : "fr",
     "@value" : "Début Atlantique"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-151"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.debutatlantic.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q708676"
@@ -1493,10 +1870,16 @@
     "@language" : "fr",
     "@value" : "deCoste Centre"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5246"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.decostecentre.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448509",
@@ -1518,12 +1901,18 @@
     "@language" : "fr",
     "@value" : "Deep Roots Music Festival"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5247"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://deeprootsmusic.ca"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
   }, {
-    "@id" : "http://www.wikidata.org/entity/Q108669279"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448547",
@@ -1545,10 +1934,16 @@
     "@language" : "fr",
     "@value" : "Full Circle Festival"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5249"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.fullcirclefestival.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q108669279"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448550",
@@ -1570,10 +1965,16 @@
     "@language" : "fr",
     "@value" : "Glasgow Square Theatre"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5250"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.glasgowsquare.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q334453"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448552",
@@ -1594,6 +1995,12 @@
   }, {
     "@language" : "fr",
     "@value" : "The Grace Arts Centre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5251"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.gracejollymore.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
@@ -1620,6 +2027,12 @@
     "@language" : "fr",
     "@value" : "Harmony Bazaar Festival of Women and Song Society"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5252"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.harmonybazaar.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q108669279"
   } ]
@@ -1642,6 +2055,12 @@
   }, {
     "@language" : "fr",
     "@value" : "JazzEast & Halifax Jazz Festival"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5253"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.halifaxjazzfestival.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q708676"
@@ -1668,10 +2087,16 @@
     "@language" : "fr",
     "@value" : "Lunenburg Folk Harbour Society"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5254"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.folkharbour.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q108669279"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448582",
@@ -1692,6 +2117,12 @@
   }, {
     "@language" : "fr",
     "@value" : "Live Art Dance Productions"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K10-323"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://liveartdance.ca"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q708676"
@@ -1718,6 +2149,12 @@
     "@language" : "fr",
     "@value" : "L'association Le Moulin de la Baie"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5255"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.lemoulin.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
@@ -1741,10 +2178,16 @@
     "@language" : "fr",
     "@value" : "Marigold Cultural Centre"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5256"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.marigoldcentre.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448591",
@@ -1766,10 +2209,16 @@
     "@language" : "fr",
     "@value" : "Musquodoboit Valley Bicentennial"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5258"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://bicentennialtheatre.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q334453"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448593",
@@ -1791,22 +2240,28 @@
     "@language" : "fr",
     "@value" : "Musique Royale"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5259"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.musiqueroyale.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
   }, {
-    "@id" : "http://www.wikidata.org/entity/Q108669279"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448595",
   "@type" : [ "http://schema.org/Organization" ],
   "http://schema.org/disambiguatingDescription" : [ {
-    "@language" : "en",
-    "@value" : "performing arts presenting organization in Guysborough, Nova Scotia, Canada"
-  }, {
     "@language" : "fr",
     "@value" : "organisme de diffusion des arts de la scène à Guysborough en Nouvelle-Écosse, Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts presenting organization in Guysborough, Nova Scotia, Canada"
   } ],
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
@@ -1818,12 +2273,18 @@
     "@language" : "fr",
     "@value" : "Mulgrave Road Theatre"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5260"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.mulgraveroad.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
   }, {
     "@id" : "http://www.wikidata.org/entity/Q742421"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448614",
@@ -1844,6 +2305,12 @@
   }, {
     "@language" : "fr",
     "@value" : "Nocturne: Art at Night"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5262"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.nocturnehalifax.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q108669279"
@@ -1868,10 +2335,16 @@
     "@language" : "fr",
     "@value" : "Nova Scotia Summer Fest"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5263"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://novascotiasummerfest.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q108669279"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448619",
@@ -1893,10 +2366,16 @@
     "@language" : "fr",
     "@value" : "Osprey Arts Centre"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5264"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://ospreyartscentre.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448621",
@@ -1918,10 +2397,16 @@
     "@language" : "fr",
     "@value" : "Pictou Lobster Carnival"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5265"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://pictoulobstercarnival.ca"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q108669279"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448623",
@@ -1937,16 +2422,22 @@
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
-    "@language" : "fr",
-    "@value" : "Port Hawkesbury Civic Centre"
-  }, {
     "@language" : "en",
     "@value" : "Port Hawkesbury Civic Centre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Port Hawkesbury Civic Centre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5266"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.phcivic.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q334453"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448643",
@@ -1967,6 +2458,12 @@
   }, {
     "@language" : "fr",
     "@value" : "Re-Jigged Festival"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5267"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.rejiggedfestival.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q108669279"
@@ -1991,10 +2488,16 @@
     "@language" : "en",
     "@value" : "Savoy Theatre"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5268"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.savoytheatre.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448668",
@@ -2015,6 +2518,12 @@
   }, {
     "@language" : "fr",
     "@value" : "Strathspey Performing Arts Centre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5269"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.strathspeyplace.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
@@ -2038,6 +2547,12 @@
   }, {
     "@language" : "fr",
     "@value" : "Th'YARC Playhouse and Art Centre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5272"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.yarcplayhouse.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
@@ -2064,10 +2579,16 @@
     "@language" : "fr",
     "@value" : "Celtic Colours International Festival"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5273"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://celtic-colours.com"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q108669279"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448701",
@@ -2088,6 +2609,12 @@
   }, {
     "@language" : "fr",
     "@value" : "Culture Link / Light House Arts Centre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5274"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.lighthouseartscentre.ca"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
@@ -2114,12 +2641,18 @@
     "@language" : "en",
     "@value" : "Festival Antigonish Summer Theatre"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5275"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.festivalantigonish.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
+    "@id" : "http://www.wikidata.org/entity/Q708676"
   }, {
     "@id" : "http://www.wikidata.org/entity/Q108669279"
   }, {
-    "@id" : "http://www.wikidata.org/entity/Q708676"
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448727",
@@ -2141,10 +2674,16 @@
     "@language" : "fr",
     "@value" : "Highland Arts Theatre Association"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5276"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.highlandartstheatre.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448746",
@@ -2166,10 +2705,16 @@
     "@language" : "fr",
     "@value" : "Riverfront Jubilee Festival"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5278"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.thejubilee.ca"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q108669279"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448748",
@@ -2185,11 +2730,17 @@
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
-    "@language" : "en",
-    "@value" : "The Stage at St Andrew's"
-  }, {
     "@language" : "fr",
     "@value" : "The Stage at St Andrew's"
+  }, {
+    "@language" : "en",
+    "@value" : "The Stage at St Andrew's"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5279"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://saintandrewshfx.ca/the-stage"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
@@ -2214,6 +2765,12 @@
     "@language" : "fr",
     "@value" : "Festival of Dance Annapolis Royal (FODAR)"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-161"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://fodar.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
   }, {
@@ -2233,11 +2790,19 @@
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
-    "@language" : "en",
-    "@value" : "Centre Expo-Festival"
-  }, {
     "@language" : "fr",
     "@value" : "Centre Expo-Festival"
+  }, {
+    "@language" : "en",
+    "@value" : "Centre Expo-Festival"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5280"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.villagemusical.ca"
+  }, {
+    "@id" : "https://www.villagemusical.ca/fr/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q108669279"
@@ -2256,16 +2821,24 @@
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
-    "@language" : "fr",
-    "@value" : "Centre des arts de la Confédération"
-  }, {
     "@language" : "en",
     "@value" : "Confederation Centre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Centre des arts de la Confédération"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-214"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.confederationcentre.com/"
+  }, {
+    "@id" : "https://confederationcentre.com/fr/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448879",
@@ -2287,20 +2860,26 @@
     "@language" : "fr",
     "@value" : "Community of Kinkora"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5281"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://kinkorapei.ca"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q334453"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448898",
   "@type" : [ "http://schema.org/Organization" ],
   "http://schema.org/disambiguatingDescription" : [ {
-    "@language" : "fr",
-    "@value" : "organisme de diffusion des arts de la scène à Montague en Île-du-Prince-Édouard, Canada"
-  }, {
     "@language" : "en",
     "@value" : "performing arts presenting organization in Montague, Prince Edward Island, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Montague en Île-du-Prince-Édouard, Canada"
   } ],
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
@@ -2311,6 +2890,14 @@
   }, {
     "@language" : "fr",
     "@value" : "Cloggeroo - the Island Folk Festival"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5282"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://cloggeroo.com"
+  }, {
+    "@id" : "https://cloggeroo.com/fr/accueil/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q108669279"
@@ -2335,10 +2922,16 @@
     "@language" : "fr",
     "@value" : "Florence Simmons Performance Hall"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5283"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.hollandcollege.com/about/fsph/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q334453"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448933",
@@ -2359,6 +2952,12 @@
   }, {
     "@language" : "fr",
     "@value" : "King's Playhouse"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5284"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.kingsplayhouse.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
@@ -2383,12 +2982,15 @@
     "@language" : "fr",
     "@value" : "Le Conseil Rév. S.-É.-Perrey inc."
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5285"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q3269648"
   }, {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q5341295"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448937",
@@ -2410,10 +3012,16 @@
     "@language" : "en",
     "@value" : "Mont-Carmel Summer Concert Series"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5286"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.cooperativeculturelledemontcarmel.com/english/summer-concert-series/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q108669279"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q334453"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448939",
@@ -2434,6 +3042,12 @@
   }, {
     "@language" : "fr",
     "@value" : "Small Halls Inc."
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5287"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.smallhalls.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q108669279"
@@ -2458,6 +3072,12 @@
     "@language" : "fr",
     "@value" : "Souris Show Hall"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5288"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://sourisshowhall.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q708676"
   }, {
@@ -2477,16 +3097,22 @@
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
-    "@language" : "en",
-    "@value" : "The Guild"
-  }, {
     "@language" : "fr",
     "@value" : "The Guild"
+  }, {
+    "@language" : "en",
+    "@value" : "The Guild"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5290"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.theguildpei.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q129448963",
@@ -2508,12 +3134,18 @@
     "@language" : "fr",
     "@value" : "So Long to Summer Festival"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5291"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.solongtosummer.ca"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q334453"
+  }, {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
   }, {
     "@id" : "http://www.wikidata.org/entity/Q108669279"
-  }, {
-    "@id" : "http://www.wikidata.org/entity/Q334453"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q130156651",
@@ -2529,16 +3161,22 @@
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
-    "@language" : "en",
-    "@value" : "Evergreen Theatre"
-  }, {
     "@language" : "fr",
     "@value" : "Evergreen Theatre"
+  }, {
+    "@language" : "en",
+    "@value" : "Evergreen Theatre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5311"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.evergreentheatre.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q24190268",
@@ -2554,16 +3192,22 @@
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
-    "@language" : "fr",
-    "@value" : "Devour! The Food Film Fest"
-  }, {
     "@language" : "en",
     "@value" : "Devour! The Food Film Fest"
+  }, {
+    "@language" : "fr",
+    "@value" : "Devour! The Food Film Fest"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5248"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://devourfest.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q108669279"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q6819865",
@@ -2576,21 +3220,29 @@
     "@value" : "organisme de diffusion des arts de la scène à Windsor en Nouvelle-Écosse, Canada"
   } ],
   "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q64402570"
+  }, {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
-    "@language" : "en",
-    "@value" : "Mermaid Theatre of Nova Scotia"
-  }, {
     "@language" : "fr",
     "@value" : "Mermaid Theatre"
+  }, {
+    "@language" : "en",
+    "@value" : "Mermaid Theatre of Nova Scotia"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5257"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.mermaidtheatre.ca/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
   }, {
-    "@id" : "http://www.wikidata.org/entity/Q708676"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q11812394"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
   }, {
     "@id" : "http://www.wikidata.org/entity/Q742421"
   } ]
@@ -2606,6 +3258,8 @@
   } ],
   "http://schema.org/memberOf" : [ {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q64402570"
   } ],
   "http://schema.org/name" : [ {
     "@language" : "en",
@@ -2614,12 +3268,18 @@
     "@language" : "fr",
     "@value" : "Neptune Theatre"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5261"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://neptunetheatre.com/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q708676"
   }, {
     "@id" : "http://www.wikidata.org/entity/Q742421"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q72194414",
@@ -2632,14 +3292,22 @@
     "@value" : "organisme de diffusion des arts de la scène à Dartmouth en Nouvelle-Écosse, Canada"
   } ],
   "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  }, {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
-    "@language" : "en",
-    "@value" : "Eastern Front Theatre"
-  }, {
     "@language" : "fr",
     "@value" : "Eastern Front Theatre"
+  }, {
+    "@language" : "en",
+    "@value" : "Eastern Front Theatre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-127"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.easternfronttheatre.com"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q11812394"
@@ -2663,6 +3331,12 @@
   }, {
     "@language" : "en",
     "@value" : "Ship's Company Theatre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5270"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://shipscompanytheatre.com/"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q708676"
@@ -2691,12 +3365,18 @@
     "@language" : "fr",
     "@value" : "Symphony Nova Scotia"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5271"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://symphonynovascotia.ca/"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q708676"
   }, {
-    "@id" : "http://www.wikidata.org/entity/Q42998"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q42998"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q7726774",
@@ -2709,6 +3389,8 @@
     "@value" : "organisme de diffusion des arts de la scène à Summerside en Île-du-Prince-Édouard, Canada"
   } ],
   "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  }, {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
@@ -2718,38 +3400,52 @@
     "@language" : "fr",
     "@value" : "The College of Piping and Celtic Performing Arts of Canada"
   } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-22"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.collegeofpiping.com"
+  } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
-    "@id" : "http://www.wikidata.org/entity/Q708676"
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
   }, {
     "@id" : "http://www.wikidata.org/entity/Q1792623"
   }, {
-    "@id" : "http://www.wikidata.org/entity/Q7168296"
+    "@id" : "http://www.wikidata.org/entity/Q708676"
   } ]
 }, {
   "@id" : "http://www.wikidata.org/entity/Q85774656",
   "@type" : [ "http://schema.org/Organization" ],
   "http://schema.org/disambiguatingDescription" : [ {
-    "@language" : "fr",
-    "@value" : "organisme de diffusion des arts de la scène à St. John's en Terre-Neuve-et-Labrador, Canada"
-  }, {
     "@language" : "en",
     "@value" : "performing arts presenting organization in St. John's, Newfoundland and Labrador, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à St. John's en Terre-Neuve-et-Labrador, Canada"
   } ],
   "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q71859269"
+  }, {
     "@id" : "http://www.wikidata.org/entity/Q72193736"
   } ],
   "http://schema.org/name" : [ {
-    "@language" : "en",
-    "@value" : "Kittiwake Dance Theatre"
-  }, {
     "@language" : "fr",
     "@value" : "Kittiwake Dance Theatre"
+  }, {
+    "@language" : "en",
+    "@value" : "Kittiwake Dance Theatre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5228"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.kittiwakedancetheatre.ca"
   } ],
   "http://www.wikidata.org/prop/direct/P31" : [ {
     "@id" : "http://www.wikidata.org/entity/Q107095432"
   }, {
-    "@id" : "http://www.wikidata.org/entity/Q708676"
-  }, {
     "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
   } ]
 } ]

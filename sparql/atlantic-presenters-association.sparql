@@ -22,7 +22,8 @@ WHERE {
                 ?item wdt:P31 ?nature ;
                       rdfs:label ?itemLabel ;
                       schema:description ?description ;
-                      wdt:P463 wd:Q72193736 .
+                      wdt:P463 wd:Q72193736 ;
+                      wdt:P463 ?member  .
                 OPTIONAL {
                     ?item wdt:P856 ?site .
                 }
