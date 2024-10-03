@@ -1,4 +1,4 @@
-name: bclive.ca members
+name: bclive.ca - members
 
 on:
   workflow_dispatch:
