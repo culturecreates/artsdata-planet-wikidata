@@ -1,0 +1,15 @@
+name: BC Live (bclive.ca) members
+
+on:
+  workflow_dispatch:
+
+jobs:
+  artsdata-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Action setup
+        uses: culturecreates/artsdata-pipeline-action@v1.1.0
+        with:
+          artifact: quebecdanse-rqd-membre
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          downloadUrl: https://raw.githubusercontent.com/culturecreates/artsdata-planet-wikidata/refs/heads/main/dump/bclive-ca-members.jsonld

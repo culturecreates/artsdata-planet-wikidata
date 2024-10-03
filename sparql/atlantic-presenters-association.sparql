@@ -1,4 +1,4 @@
-
+# Members of atlantic-presenters-association.ca
 
 PREFIX schema: <http://schema.org/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
@@ -10,16 +10,22 @@ CONSTRUCT {
           a ?artsdata_type ;
           schema:disambiguatingDescription ?description ;
           schema:name ?itemLabel ;
-          schema:memberOf wd:Q72193736 .
+          schema:memberOf ?member ;
+          schema:sameAs ?adURI ;
+          schema:url ?site .
+          
 }
 WHERE {
     {
         SERVICE <https://query.wikidata.org/sparql>  {
-            select distinct   ?item ?nature ?itemLabel ?description ?artsdata_type where {
+            select distinct   ?item ?nature ?itemLabel ?description ?artsdata_type  ?member ?adURI ?site where {
                 ?item wdt:P31 ?nature ;
                       rdfs:label ?itemLabel ;
                       schema:description ?description ;
                       wdt:P463 wd:Q72193736 .
+                OPTIONAL {
+                    ?item wdt:P856 ?site .
+                }
                 OPTIONAL {
                     ?item wdt:P31/wdt:P279* wd:Q43229 .
                     bind( schema:Organization as ?artsdata_type )
@@ -27,6 +33,10 @@ WHERE {
                 OPTIONAL {
                     ?item wdt:P31/wdt:P279* wd:Q5 .
                     bind( schema:Person as ?artsdata_type )
+                }
+                OPTIONAL {
+                   ?item wdt:P7627 ?adid .
+                    bind(URI(CONCAT("http://kg.artsdata.ca/resource/",?adid)) as ?adURI)
                 }
                 FILTER(LANG(?itemLabel) IN ("fr","en")).
                 FILTER(LANG(?description) IN ("fr","en")).

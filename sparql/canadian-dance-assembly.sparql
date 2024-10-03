@@ -1,5 +1,5 @@
+# membres de l'ACD - Canadian Dance Assembly
 
-#membres de l'ACD avec le label, la nature, la description.
 PREFIX schema: <http://schema.org/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -9,16 +9,22 @@ CONSTRUCT {
           a ?artsdata_type ;
           schema:disambiguatingDescription ?description ;
           schema:name ?itemLabel ;
-          schema:memberOf wd:Q71859269 .
+          schema:memberOf ?member ;
+          schema:sameAs ?adURI ;
+          schema:url ?site .
 }
 WHERE {
     {
         SERVICE <https://query.wikidata.org/sparql>  {
-            select distinct   ?item ?nature ?itemLabel ?description ?artsdata_type where {
+            select distinct   ?item ?nature ?itemLabel ?description ?artsdata_type ?member ?adURI ?site where {
                 ?item wdt:P31 ?nature ;
                       rdfs:label ?itemLabel ;
                       schema:description ?description ;
-                      wdt:P463 wd:Q71859269 .
+                      wdt:P463 wd:Q71859269  ;
+                      wdt:P463 ?member .
+                OPTIONAL {
+                    ?item wdt:P856 ?site .
+                }
                 OPTIONAL {
                     ?item wdt:P31/wdt:P279* wd:Q43229 .
                     bind( schema:Organization as ?artsdata_type )
@@ -27,8 +33,12 @@ WHERE {
                     ?item wdt:P31/wdt:P279* wd:Q5 .
                     bind( schema:Person as ?artsdata_type )
                 }
-                FILTER(LANG(?itemLabel) IN ("fr")).
-                FILTER(LANG(?description) IN ("fr")).
+                OPTIONAL {
+                   ?item wdt:P7627 ?adid .
+                    bind(URI(CONCAT("http://kg.artsdata.ca/resource/",?adid)) as ?adURI)
+                }
+                FILTER(LANG(?itemLabel) IN ("fr","en")).
+                FILTER(LANG(?description) IN ("fr","en")).
             }
         }
     }

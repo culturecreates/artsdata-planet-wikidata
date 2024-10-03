@@ -1,0 +1,3941 @@
+[ {
+  "@id" : "http://www.wikidata.org/entity/Q105751339",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts organization in Nelson, British Columbia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Capitol Theatre Restoration Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Capitol Theatre Restoration Society"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K10-529"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://capitoltheatre.ca/about/"
+  }, {
+    "@id" : "https://www.capitoltheatre.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7062022"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q107093494",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "booking agency in Montreal, Québec, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "agence de tournée au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Boulev’Art Inc."
+  }, {
+    "@language" : "en",
+    "@value" : "Boulev’Art Inc."
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-40"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.boulevart.ca"
+  }, {
+    "@id" : "https://www.boulevart.ca/"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q6881511"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q64581117"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q5354754"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q107436693",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Vancouver, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Vancouver Civic Theatres"
+  }, {
+    "@language" : "en",
+    "@value" : "Vancouver Civic Theatres"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-69"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://vancouvercivictheatres.com"
+  }, {
+    "@id" : "https://vancouvercivictheatres.com/"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q334453"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q9305769"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q112510065",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts organization in Cranbrook, British Columbia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Key City Theatre Society"
+  }, {
+    "@language" : "en",
+    "@value" : "Key City Theatre Society"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-15"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.keycitytheatre.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q112510080",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts organization in Saltspring Island, British Columbia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "ArtSpring"
+  }, {
+    "@language" : "fr",
+    "@value" : "ArtSpring"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-34"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.artspring.ca"
+  }, {
+    "@id" : "https://artspring.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q112510095",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts organization in Victoria, British Columbia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "The Royal and McPherson Theatres Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "The Royal and McPherson Theatres Society"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-37"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.rmts.bc.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q112510105",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts organization in Vernon, British Columbia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Vernon and District Performing Arts Centre Society"
+  }, {
+    "@language" : "en",
+    "@value" : "Vernon and District Performing Arts Centre Society"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-71"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.vdpac.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q112510114",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts group in Vancouver, British Columbia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q110938829"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Full Circle: First Nations Performance"
+  }, {
+    "@language" : "fr",
+    "@value" : "Full Circle: First Nations Performance"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-81"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://fullcircle.ca/"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q112511010",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts organization in North Vancouver, British Columbia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Centennial Theatre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Centennial Theatre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-93"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.nvrc.ca/centennial-theatre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q112570685",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "booking agency in Montreal, Québec, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "agence de tournée au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Latitude 45 Arts"
+  }, {
+    "@language" : "fr",
+    "@value" : "Latitude 45 Arts"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-55"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.latitude45arts.com"
+  }, {
+    "@id" : "https://www.latitude45arts.com/"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q5354754"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q64581117"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q112570688",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "booking agency in Montreal, Québec, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "agence de tournée au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Agence Station Bleue"
+  }, {
+    "@language" : "en",
+    "@value" : "Agence Station Bleue"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-85"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://stationbleue.com/en/"
+  }, {
+    "@id" : "https://stationbleue.com/"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q5354754"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q64581117"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q112570690",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "booking agency in Toronto, Ontario, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "agence de tournée au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q71859307"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "AIM Booking Agency"
+  }, {
+    "@language" : "en",
+    "@value" : "AIM Booking Agency"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-167"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.aimbookingagency.com"
+  }, {
+    "@id" : "https://www.aimbookingagency.com/"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q5354754"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q64581117"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q112570693",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "booking agency in Saint-Jérôme, Québec, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "agence de tournée au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q111857169"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q109646875"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q87727909"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Cusson Management inc"
+  }, {
+    "@language" : "en",
+    "@value" : "Cusson Management inc"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-100"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.cussonmanagement.com"
+  }, {
+    "@id" : "https://www.cussonmanagement.com/"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q5354754"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q64581117"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q112570694",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "agence de tournée au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "booking agency in Georgina, Ontario, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Bailiwick Booking Agency"
+  }, {
+    "@language" : "fr",
+    "@value" : "Bailiwick Booking Agency"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-101"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://bailiwick.biz/"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q5354754"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q64581117"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q112570695",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "booking agency in Nanaimo, British Columbia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "agence de tournée au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Maverick Cooperative - Caline Artists & Magnum Opus"
+  }, {
+    "@language" : "fr",
+    "@value" : "Maverick Cooperative - Caline Artists & Magnum Opus"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-103"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://maverickcooperative.com/"
+  }, {
+    "@id" : "http://maverickcooperative.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q5354754"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q64581117"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q112572868",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts group in Quebec, Quebec, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Productions Strada"
+  }, {
+    "@language" : "fr",
+    "@value" : "Productions Strada"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K10-545"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.strada.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q112572952",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts organization in Kelowna, British Columbia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Inner Fish Performance"
+  }, {
+    "@language" : "fr",
+    "@value" : "Inner Fish Performance"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-53"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://livingthingsfestival.com/"
+  }, {
+    "@id" : "https://innerfishperformance.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q112572953",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts organization in Mission, British Columbia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Mission Folk Music Festival Society"
+  }, {
+    "@language" : "en",
+    "@value" : "Mission Folk Music Festival Society"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-56"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.missionfolkmusicfestival.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q108669279"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q112774900",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts organization in Maple Ridge, British Columbia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme de diffusion des arts de la scène à Maple Ridge, C.-B, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Maple Ridge Pitt Meadows Arts Council"
+  }, {
+    "@language" : "fr",
+    "@value" : "The ACT Arts Centre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-67"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://theactmapleridge.org"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q113488561",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Nanaimo, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q71859269"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Port Theatre"
+  }, {
+    "@language" : "en",
+    "@value" : "Port Theatre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-116"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.porttheatre.com"
+  }, {
+    "@id" : "https://www.porttheatre.com/"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q107095432"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q114429981",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts group in Sherbrooke, Quebec, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q3423698"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q71859269"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Sursaut Dance Company"
+  }, {
+    "@language" : "en",
+    "@value" : "Sursaut Dance Company"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-148"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.sursaut.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q107095432"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q2393314"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q114429982",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts group in Montreal, Quebec, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q3423698"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "José Navas/Compagnie Flak"
+  }, {
+    "@language" : "en",
+    "@value" : "José Navas/Compagnie Flak"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K10-76"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://flak.org/jose-navas/en/"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q2393314"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q122170553",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Victoria, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "The Farquhar at UVic"
+  }, {
+    "@language" : "en",
+    "@value" : "The Farquhar at UVic"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-192"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.uvic.ca/farquhar"
+  }, {
+    "@id" : "https://www.uvic.ca/farquhar/index.php"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q334453"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q123938478",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts group in Victoria, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "SNAFU Society of Unexpected Spectacles"
+  }, {
+    "@language" : "fr",
+    "@value" : "SNAFU Society of Unexpected Spectacles"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.snafudance.com/"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q124248300",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts organization in Duncan, British Columbia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Cowichan Performing Arts Centre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Cowichan Performing Arts Centre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-186"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://cowichanpac.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q334453"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q124254132",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts organization in Fort Nelson, British Columbia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Phoenix Theatre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Phoenix Theatre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-187"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.fortnelsonshow.com"
+  }, {
+    "@id" : "https://www.fortnelsonshow.com/"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q125256982",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts group in Cochrane, Alberta, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q110938829"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Wild Mint Arts"
+  }, {
+    "@language" : "en",
+    "@value" : "Wild Mint Arts"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K3-190"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.wildmintarts.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q3152824"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q125427891",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts organization in Kelowna, British Columbia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène à Kelowna en Colombie-Britannique, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Rotary Centre for the Arts"
+  }, {
+    "@language" : "en",
+    "@value" : "Rotary Centre for the Arts"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5186"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.rotarycentreforthearts.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q125536860",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Oliver, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Oliver Community Theatre Society"
+  }, {
+    "@language" : "en",
+    "@value" : "Oliver Community Theatre Society"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5305"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.venablestheatre.ca/"
+  }, {
+    "@id" : "https://www.venablestheatre.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q126952113",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts group in Kelowna, British Columbia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q71859269"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Ballet Kelowna"
+  }, {
+    "@language" : "en",
+    "@value" : "Ballet Kelowna"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5377"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.balletkelowna.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q107095432"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q127381732",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts organization in Sidney, British Columbia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Mary Winspear Centre"
+  }, {
+    "@language" : "en",
+    "@value" : "Mary Winspear Centre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-209"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://marywinspear.ca"
+  }, {
+    "@id" : "https://www.marywinspear.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q127414296",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts group in Vancouver, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q22312861"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Inverso Productions"
+  }, {
+    "@language" : "en",
+    "@value" : "Inverso Productions"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5187"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://inverso.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q2393314"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q127724476",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Alberni Classical Concerts Society"
+  }, {
+    "@language" : "en",
+    "@value" : "Alberni Classical Concerts Society"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.alberniclassicalconcerts.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242581",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts organization in Grand Forks, British Columbia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Boundary Country Arts Council"
+  }, {
+    "@language" : "fr",
+    "@value" : "Boundary Country Arts Council"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.gemtheatre.net"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242793",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Agassiz, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Cheam Vista Classical Concerts Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Cheam Vista Classical Concerts Society"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.cheamvistaclassicalconcerts.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242796",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Tofino, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Clayoquot Sound Community Theatre Association"
+  }, {
+    "@language" : "fr",
+    "@value" : "Clayoquot Sound Community Theatre Association"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.tofinotheatre.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242798",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Denman Island, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Concerts Denman"
+  }, {
+    "@language" : "fr",
+    "@value" : "Concerts Denman"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.concertsdenman.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242800",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Creston, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Creston Concert Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Creston Concert Society"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.crestonconcertsociety.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242803",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Spences Bridge, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Spences Bridge Community Club"
+  }, {
+    "@language" : "fr",
+    "@value" : "Spences Bridge Community Club"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.desertdaze.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242805",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Fanny Bay, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Fanny Bay Community Association"
+  }, {
+    "@language" : "fr",
+    "@value" : "Fanny Bay Community Association"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.fannybaycommunity.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242807",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Gabriola, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Gabriola Songs Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Gabriola Songs Society"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.gabriolatheatrecentre.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242808",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Daajing Giids, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Haida Gwaii Arts Council"
+  }, {
+    "@language" : "fr",
+    "@value" : "Haida Gwaii Arts Council"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.hgartscouncil.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242810",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Summerland, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Summerland Arts Council"
+  }, {
+    "@language" : "fr",
+    "@value" : "Summerland Arts Council"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.summerland.ca/discover/arts-culture"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242814",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Kitimat, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Kitimat Concert Association"
+  }, {
+    "@language" : "fr",
+    "@value" : "Kitimat Concert Association"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.kitimatconcerts.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242816",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Prince George, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Knox Performance Centre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Knox Performance Centre"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.knoxcentre.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242819",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "organization in Parksville, British Columbia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme canadien basée à Parksville, Colombie Britannique"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Parksville Pastoral Charge"
+  }, {
+    "@language" : "fr",
+    "@value" : "Parksville Pastoral Charge"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.kucparksville.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242821",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Lillooet, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Lillooet Music Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Lillooet Music Society"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.lillooetmusic.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242823",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Vernon, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "North Okanagan Community Concert Association"
+  }, {
+    "@language" : "fr",
+    "@value" : "North Okanagan Community Concert Association"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://nocca.ca/"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242826",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Parksville, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Oceanside Classical Concerts"
+  }, {
+    "@language" : "fr",
+    "@value" : "Oceanside Classical Concerts"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.oceansideclassicalconcerts.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242828",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Osoyoos, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Osoyoos and District Arts Council"
+  }, {
+    "@language" : "fr",
+    "@value" : "Osoyoos and District Arts Council"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.osoyoosartscouncil.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242830",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Madeira Park, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Pender Harbour Music Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Pender Harbour Music Society"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.penderharbourmusic.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242832",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Pender Island, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Pender Island Concert Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Pender Island Concert Society"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://penderislandchamber.com/listing/pender-island-concert-society/"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242834",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Prince George, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Prince George Community and District Arts Council"
+  }, {
+    "@language" : "fr",
+    "@value" : "Prince George Community and District Arts Council"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.studio2880.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242836",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Heriot Bay, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Quadra Island Recreation Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Quadra Island Recreation Society"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://quadraconcerts.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242838",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Quesnel, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Quesnel and District Community Arts Council"
+  }, {
+    "@language" : "fr",
+    "@value" : "Quesnel and District Community Arts Council"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.quesnelarts.com/"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242840",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Quesnel, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Quesnel Live Arts"
+  }, {
+    "@language" : "fr",
+    "@value" : "Quesnel Live Arts"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.QLA.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242841",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Rossland, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Rossland Council for Arts and Culture"
+  }, {
+    "@language" : "fr",
+    "@value" : "Rossland Council for Arts and Culture"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://rosslandartscouncil.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242845",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Sooke, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Sooke Festival Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Sooke Festival Society"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.sookemusicfestival.ca/"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242847",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Terrace, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Terrace Concert Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Terrace Concert Society"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242849",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Vernon, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Vernon Jazz Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Vernon Jazz Society"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.vernonjazz.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242851",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Tofino, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "West Coast Winter Music Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "West Coast Winter Music Society"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://westcoastwintermusic.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242854",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Whistler, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Whistler Chamber Music Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Whistler Chamber Music Society"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.whistlerchambermusic.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242856",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Langford, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "17 Black Events"
+  }, {
+    "@language" : "fr",
+    "@value" : "17 Black Events"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.17blackevents.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242858",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Abbotsford, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Abbotsford Arts Centre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Abbotsford Arts Centre"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.abbyschools.ca/"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242861",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Sointula, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "BC Movement Arts Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "BC Movement Arts Society"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.bcmovementarts.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242864",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in North Vancouver, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "BlueShore Financial Centre for the Performing Arts"
+  }, {
+    "@language" : "fr",
+    "@value" : "BlueShore Financial Centre for the Performing Arts"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.capilanou.ca/centre"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242866",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Smithers, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Bulkley Valley Concert Association"
+  }, {
+    "@language" : "fr",
+    "@value" : "Bulkley Valley Concert Association"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.bvca.me"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242891",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Delta, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "City of Delta"
+  }, {
+    "@language" : "fr",
+    "@value" : "City of Delta"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.delta.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242901",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Lake Country, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Creekside Theatre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Creekside Theatre"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.creeksidetheatre.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242904",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Coquitlam, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Société francophone de Maillardville"
+  }, {
+    "@language" : "fr",
+    "@value" : "Société francophone de Maillardville"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://maillardville.com/"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242907",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Kelowna, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Festivals and Special Events Development Society of Kelowna"
+  }, {
+    "@language" : "fr",
+    "@value" : "Festivals and Special Events Development Society of Kelowna"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.festivalskelowna.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242911",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts organization in Penticton, British Columbia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Ha Ha Ha Kidzfest Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ha Ha Ha Kidzfest Society"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.hahahakidzfest.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242914",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Bowen Island, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Hearth Arts on Bowen"
+  }, {
+    "@language" : "fr",
+    "@value" : "Hearth Arts on Bowen"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.thehearth.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242946",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Wells, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Island Mountain Arts"
+  }, {
+    "@language" : "fr",
+    "@value" : "Island Mountain Arts"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-123"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.imarts.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242950",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Prince Rupert, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Lester Centre of the Arts"
+  }, {
+    "@language" : "fr",
+    "@value" : "Lester Centre of the Arts"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.lestercentre.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242953",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Powell River, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Max Cameron Theatre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Max Cameron Theatre"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.maxcamerontheatre.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242987",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Nanaimo, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Nanaimo Blues Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Nanaimo Blues Society"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://nanaimoblues.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128242990",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Parksville, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Parksville and District Historical Society and Museum"
+  }, {
+    "@language" : "fr",
+    "@value" : "Parksville and District Historical Society and Museum"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://parksvillemuseum.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128243022",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Prince George, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Prince George Folkfest Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Prince George Folkfest Society"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.coldsnapfestival.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128243025",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts organization in Burnaby, British Columbia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Shadbolt Centre for the Arts"
+  }, {
+    "@language" : "en",
+    "@value" : "Shadbolt Centre for the Arts"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-215"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://shadboltcentre.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128243027",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Wells, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Sunset Theatre Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Sunset Theatre Society"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K10-196"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.sunset-theatre.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128243064",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Gibsons, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "The Coast Recital Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "The Coast Recital Society"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.coastrecitalsociety.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128243097",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Vernon, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Okanagan Screen Arts Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Okanagan Screen Arts Society"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.thetowne.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128243100",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Revelstoke, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Arts Revelstoke"
+  }, {
+    "@language" : "fr",
+    "@value" : "Arts Revelstoke"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.artsrevelstoke.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128243107",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Whistler, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Arts Whistler"
+  }, {
+    "@language" : "fr",
+    "@value" : "Arts Whistler"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.artswhistler.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128243144",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Surrey, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Bell Performing Arts Centre"
+  }, {
+    "@language" : "fr",
+    "@value" : "Bell Performing Arts Centre"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.bellperformingartscentre.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q334453"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128243175",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Vancouver, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Chan Centre for the Performing Arts"
+  }, {
+    "@language" : "en",
+    "@value" : "Chan Centre for the Performing Arts"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.chancentre.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128243178",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Chilliwack, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Chilliwack Cultural Centre Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Chilliwack Cultural Centre Society"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.chilliwackculturalcentre.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128243207",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts organization in Coquitlam, British Columbia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Evergreen Cultural Centre Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Evergreen Cultural Centre Society"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-212"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.evergreenculturalcentre.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128243242",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Golden, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Kicking Horse Culture"
+  }, {
+    "@language" : "fr",
+    "@value" : "Kicking Horse Culture"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.kickinghorseculture.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128243270",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in New Westminster, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Massey Theatre Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Massey Theatre Society"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.masseytheatre.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128243383",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Salmon Arm, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Salmon Arm Folk Music Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Salmon Arm Folk Music Society"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.rootsandblues.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128243387",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Courtenay, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Sid Williams Theatre Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Sid Williams Theatre Society"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.sidwilliamstheatre.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128243389",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Surrey, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Surrey Civic Theatres"
+  }, {
+    "@language" : "fr",
+    "@value" : "Surrey Civic Theatres"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://surrey.ca/arts-culture/surrey-civic-theatres"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128243461",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Campbell River, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Tidemark Theatre Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Tidemark Theatre Society"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.tidemarktheatre.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128243465",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Trail, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Trail and District Arts Council"
+  }, {
+    "@language" : "fr",
+    "@value" : "Trail and District Arts Council"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.trail-arts.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128243495",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Vancouver, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Vancouver Fringe Theatre Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Vancouver Fringe Theatre Society"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.vancouverfringe.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128268856",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts group in Vancouver, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Axis Theatre Company"
+  }, {
+    "@language" : "fr",
+    "@value" : "Axis Theatre Company"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.axistheatre.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128268929",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts group in Victoria, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Ballet Victoria"
+  }, {
+    "@language" : "fr",
+    "@value" : "Ballet Victoria"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.balletvictoria.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128268982",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts group in London, Ontario, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "DuffleBag Theatre"
+  }, {
+    "@language" : "fr",
+    "@value" : "DuffleBag Theatre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K10-182"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://dufflebag.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128269661",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts group in Victoria, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "The Cheesecake Burlesque Revue"
+  }, {
+    "@language" : "fr",
+    "@value" : "The Cheesecake Burlesque Revue"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.cheesecakeburlesque.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128269667",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts group in Toronto, Ontario, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "A Yarn Or Two Arts Collective"
+  }, {
+    "@language" : "fr",
+    "@value" : "A Yarn Or Two Arts Collective"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.kirkdunn.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128269671",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts group in Gabriola Island, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Debbie Lee Dance Company"
+  }, {
+    "@language" : "fr",
+    "@value" : "Debbie Lee Dance Company"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128269674",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts group in Delta, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Delta Stageworks"
+  }, {
+    "@language" : "fr",
+    "@value" : "Delta Stageworks"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://deltastageworks.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128269677",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts group in Victoria, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Dock Side Drive"
+  }, {
+    "@language" : "fr",
+    "@value" : "Dock Side Drive"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.docksidedrive.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128269680",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts group in Kelowna, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Freeze the Fall"
+  }, {
+    "@language" : "fr",
+    "@value" : "Freeze the Fall"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://freezethefallband.com/"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128269785",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts group in White Rock, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Tiller's Folly"
+  }, {
+    "@language" : "fr",
+    "@value" : "Tiller's Folly"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.tillersfolly.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128269787",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène à Sumner, Washington, États-Unis"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts group in Sumner, Washington, United States of America"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Matt Baker Comedy and Stunt Show"
+  }, {
+    "@language" : "fr",
+    "@value" : "Matt Baker Comedy and Stunt Show"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.comedystuntshow.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128269791",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts group in Chilliwack, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Molly’s Comedy Cabaret"
+  }, {
+    "@language" : "fr",
+    "@value" : "Molly’s Comedy Cabaret"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.mollyscomedycabaret.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128269793",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts group in Vancouver, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Orchestra of Sound"
+  }, {
+    "@language" : "fr",
+    "@value" : "Orchestra of Sound"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.orchestraofsound.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128269796",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts group in Ucluelet, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Pacific Rim Arts Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Pacific Rim Arts Society"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.pacificrimarts.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128269799",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts group in Vancouver, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "RAGMOP Theatre"
+  }, {
+    "@language" : "fr",
+    "@value" : "RAGMOP Theatre"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://ragmoptheatre.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128269802",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts group in Radium Hot Springs, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Rhythm By Nature"
+  }, {
+    "@language" : "fr",
+    "@value" : "Rhythm By Nature"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.rhythmbynature.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128269806",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts group in Portland, Oregon, United States of America"
+  }, {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène à Portland, Oregon, États-Unis"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Seffarine"
+  }, {
+    "@language" : "fr",
+    "@value" : "Seffarine"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.seffarine.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128269807",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts group in Delta, British Columbia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "shameless hussy productions"
+  }, {
+    "@language" : "fr",
+    "@value" : "shameless hussy productions"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K10-457"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.shamelesshussy.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128269810",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts group in White Rock, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "The Wheat in the Barley"
+  }, {
+    "@language" : "fr",
+    "@value" : "The Wheat in the Barley"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.wheatinthebarley.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128269814",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts group in Guelph, Ontario, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Tragedy Ann"
+  }, {
+    "@language" : "fr",
+    "@value" : "Tragedy Ann"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://tragedyannmusic.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128269815",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts group in Victoria, British Columbia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Wonderheads Theatre Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Wonderheads Theatre Society"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K10-193"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.wonderheads.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q128270023",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts group in North Vancouver, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "First Impressions Theatre"
+  }, {
+    "@language" : "fr",
+    "@value" : "First Impressions Theatre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K2-5329"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.firstimpressionstheatre.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129293837",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "agence de tournée au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "booking agency in Vancouver, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Jonathon Paterson"
+  }, {
+    "@language" : "fr",
+    "@value" : "Jonathon Paterson"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q64581117"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129293980",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "agence de tournée au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "booking agency in Toronto, Ontario, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Andrew Kwan Artists Management"
+  }, {
+    "@language" : "fr",
+    "@value" : "Andrew Kwan Artists Management"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.andrewkwanartists.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q64581117"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129294034",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "agence de tournée au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "booking agency in Vancouver, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "KBAM! Kevin Bruce Arts Management"
+  }, {
+    "@language" : "fr",
+    "@value" : "KBAM! Kevin Bruce Arts Management"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.kbamonline.com/"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q64581117"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129294072",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "agence de tournée au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "booking agency in Smithers, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Near North Music"
+  }, {
+    "@language" : "fr",
+    "@value" : "Near North Music"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.nearnorthmusic.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q64581117"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129294075",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "agence de tournée au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "booking agency in Winnipeg, Manitoba, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Paquin Artists Agency"
+  }, {
+    "@language" : "fr",
+    "@value" : "Paquin Artists Agency"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.paquinartistsagency.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q64581117"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129294076",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "agence de tournée au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "booking agency in Smithers, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Plaid People Music Agency"
+  }, {
+    "@language" : "fr",
+    "@value" : "Plaid People Music Agency"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.plaidpeoplemusic.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q64581117"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129294094",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "agence de tournée au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "booking agency in Toronto, Ontario, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "The Feldman Agency"
+  }, {
+    "@language" : "fr",
+    "@value" : "The Feldman Agency"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.feldman-agency.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q64581117"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129294096",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "agence de tournée au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "booking agency in Vancouver, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Cubbyhole Artists"
+  }, {
+    "@language" : "fr",
+    "@value" : "Cubbyhole Artists"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.cubbyholeartists.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q64581117"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129294098",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "agence de tournée au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "booking agency in New Westminster, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "PKF Productions Inc."
+  }, {
+    "@language" : "fr",
+    "@value" : "PKF Productions Inc."
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q64581117"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129294549",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme canadien"
+  }, {
+    "@language" : "en",
+    "@value" : "organization in Burnaby, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Actsafe Safety Association"
+  }, {
+    "@language" : "fr",
+    "@value" : "Actsafe Safety Association"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://actsafe.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q129385033",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts group in Cochrane, Alberta, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Jessica McMann Arts"
+  }, {
+    "@language" : "fr",
+    "@value" : "Jessica McMann Arts"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.jessicamcmann.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q20712459",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts group in Vancouver, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Green Thumb Theatre"
+  }, {
+    "@language" : "en",
+    "@value" : "Green Thumb Theatre"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.greenthumb.bc.ca"
+  }, {
+    "@id" : "http://www.greenthumb.bc.ca/index.php/about-green-thumb/"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q22312861",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Vancouver, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q71859269"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "The Dance Centre"
+  }, {
+    "@language" : "en",
+    "@value" : "The Dance Centre"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K10-306"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.thedancecentre.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q336701",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Brentwood Bay, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "The Butchart Gardens"
+  }, {
+    "@language" : "en",
+    "@value" : "The Butchart Gardens"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://fr.butchartgardens.com/"
+  }, {
+    "@id" : "https://www.butchartgardens.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q1107656"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q3469910"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q4851638",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "performing arts group in Toronto, Ontario, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q71859269"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Ballet Jorgen"
+  }, {
+    "@language" : "en",
+    "@value" : "Ballet Jorgen"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K10-29"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.jorgendance.ca"
+  }, {
+    "@id" : "http://www.balletjorgen.ca"
+  }, {
+    "@id" : "https://canadasballetjorgen.ca/"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q107095432"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q5045569",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "groupe des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts group in Vancouver, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Carousel Theatre for Young People"
+  }, {
+    "@language" : "fr",
+    "@value" : "Carousel Theatre for Young People"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://www.carouseltheatre.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q105815710"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q742421"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q7432178",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "school district in British Columbia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "district scolaire canadien en Colombie-Britannique"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "School District 23 Central Okanagan"
+  }, {
+    "@language" : "en",
+    "@value" : "School District 23 Central Okanagan"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.sd23.bc.ca"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q15726214"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q7432227",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "en",
+    "@value" : "school district in British Columbia, Canada"
+  }, {
+    "@language" : "fr",
+    "@value" : "district scolaire canadien en Colombie-Britannique"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "School District 83 North Okanagan-Shuswap"
+  }, {
+    "@language" : "en",
+    "@value" : "School District 83 North Okanagan-Shuswap"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://sd83.bc.ca/"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q15726214"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q75642113",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "organisme des arts de la scène au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "performing arts organization in Vancouver, British Columbia, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "en",
+    "@value" : "Powell Street Festival Society"
+  }, {
+    "@language" : "fr",
+    "@value" : "Powell Street Festival Society"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "https://www.powellstreetfestival.com"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q43229"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7168296"
+  } ]
+}, {
+  "@id" : "http://www.wikidata.org/entity/Q98374244",
+  "@type" : [ "http://schema.org/Organization" ],
+  "http://schema.org/disambiguatingDescription" : [ {
+    "@language" : "fr",
+    "@value" : "agence de tournée au Canada"
+  }, {
+    "@language" : "en",
+    "@value" : "booking agency in Calgary, Alberta, Canada"
+  } ],
+  "http://schema.org/memberOf" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q75640653"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q85541788"
+  } ],
+  "http://schema.org/name" : [ {
+    "@language" : "fr",
+    "@value" : "Prairie Debut"
+  }, {
+    "@language" : "en",
+    "@value" : "Prairie Debut"
+  } ],
+  "http://schema.org/sameAs" : [ {
+    "@id" : "http://kg.artsdata.ca/resource/K14-10"
+  } ],
+  "http://schema.org/url" : [ {
+    "@id" : "http://prairiedebut.com/"
+  }, {
+    "@id" : "https://prairiedebut.com/"
+  } ],
+  "http://www.wikidata.org/prop/direct/P31" : [ {
+    "@id" : "http://www.wikidata.org/entity/Q708676"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q7062022"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q2178147"
+  }, {
+    "@id" : "http://www.wikidata.org/entity/Q64581117"
+  } ]
+} ]

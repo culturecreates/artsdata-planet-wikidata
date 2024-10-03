@@ -1,1 +1,46 @@
-#Members of BC Live (bclive.ca), with the member type and the description.
+# Members of BC Live (bclive.ca), with the member type and the description.
+
+PREFIX schema: <http://schema.org/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+CONSTRUCT {
+    ?item wdt:P31 ?nature  ;
+          a ?artsdata_type ;
+          schema:disambiguatingDescription ?description ;
+          schema:name ?itemLabel ;
+          schema:memberOf ?member ;
+          schema:sameAs ?adURI ;
+          schema:url ?site .
+}
+WHERE {
+    {
+        SERVICE <https://query.wikidata.org/sparql>  {
+            select distinct   ?item ?nature ?itemLabel ?description ?artsdata_type ?member ?adURI ?site  where {
+                ?item wdt:P31 ?nature ;
+                      rdfs:label ?itemLabel ;
+                      schema:description ?description ;
+                      wdt:P463 wd:Q75640653 ;
+                      wdt:P463 ?member .
+                OPTIONAL {
+                    ?item wdt:P856 ?site .
+                }
+                OPTIONAL {
+                    ?item wdt:P31/wdt:P279* wd:Q43229 .
+                    bind( schema:Organization as ?artsdata_type )
+                }
+                OPTIONAL {
+                    ?item wdt:P31/wdt:P279* wd:Q5 .
+                    bind( schema:Person as ?artsdata_type )
+                }
+                OPTIONAL {
+                   ?item wdt:P7627 ?adid .
+                    bind(URI(CONCAT("http://kg.artsdata.ca/resource/",?adid)) as ?adURI)
+                }
+                 
+                FILTER(LANG(?itemLabel) IN ("fr","en")).
+                FILTER(LANG(?description) IN ("fr","en")).
+            }
+        }
+    }
+}
