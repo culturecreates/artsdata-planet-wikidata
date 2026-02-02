@@ -1,7 +1,7 @@
 PREFIX wd: <http://www.wikidata.org/entity/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX schema: <http://schema.org>
+PREFIX schema: <http://schema.org/>
 
 #Members of TAPA, with the member type and the description.
 CONSTRUCT {
@@ -18,7 +18,6 @@ WHERE {
       SELECT * WHERE {
         ?item wdt:P31 ?type;
           rdfs:label ?itemLabel;
-          wdt:P213 ?isni;
           wdt:P463 wd:Q7826264, ?member.
         FILTER(LANG(?itemLabel) IN("en", "fr", "mul"))
         OPTIONAL {
