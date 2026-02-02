@@ -16,9 +16,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Crow’s Theatre"
@@ -28,7 +28,7 @@
                 "@value": "Crow’s Theatre"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             },
@@ -39,7 +39,7 @@
                 "@id": "http://www.wikidata.org/entity/Q64402570"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K10-42"
             },
@@ -62,9 +62,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Stratford Festival of Canada"
@@ -74,7 +74,7 @@
                 "@value": "Stratford Festival of Canada"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q64402570"
             },
@@ -82,7 +82,7 @@
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q367149"
             },
@@ -102,19 +102,19 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
-            {
-                "@language": "fr",
-                "@value": "The National Ballet of Canada"
-            },
+        "http://schema.org/name": [
             {
                 "@language": "en",
                 "@value": "The National Ballet of Canada"
+            },
+            {
+                "@language": "fr",
+                "@value": "The National Ballet of Canada"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q85541788"
             },
@@ -125,7 +125,7 @@
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K10-105"
             },
@@ -148,9 +148,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Canadian Opera Company"
@@ -160,7 +160,7 @@
                 "@value": "Canadian Opera Company"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q127268850"
             },
@@ -168,7 +168,7 @@
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K2-5143"
             },
@@ -191,9 +191,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "CORPUS"
@@ -203,7 +203,7 @@
                 "@value": "CORPUS"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q124301446"
             },
@@ -214,7 +214,7 @@
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K14-171"
             },
@@ -240,13 +240,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
-            {
-                "@language": "mul",
-                "@value": "Glenn Gould Foundation"
-            },
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "The Glenn Gould Foundation"
@@ -254,14 +250,18 @@
             {
                 "@language": "en",
                 "@value": "The Glenn Gould Foundation"
+            },
+            {
+                "@language": "mul",
+                "@value": "Glenn Gould Foundation"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K2-6409"
             },
@@ -290,9 +290,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Toronto Dance Theatre"
@@ -302,7 +302,7 @@
                 "@value": "Toronto Dance Theatre"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q71859269"
             },
@@ -310,7 +310,7 @@
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K10-146"
             },
@@ -342,9 +342,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Canadian Stage"
@@ -354,7 +354,7 @@
                 "@value": "Canadian Stage"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q85541788"
             },
@@ -365,7 +365,7 @@
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K10-30"
             },
@@ -388,9 +388,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Metcalf Foundation"
@@ -400,12 +400,12 @@
                 "@value": "Metcalf Foundation"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q30272039"
             },
@@ -425,9 +425,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "The Second City"
@@ -437,12 +437,12 @@
                 "@value": "The Second City"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K10-222"
             },
@@ -462,9 +462,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Théâtre français de Toronto"
@@ -474,7 +474,7 @@
                 "@value": "Théâtre français de Toronto"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q124301446"
             },
@@ -482,7 +482,7 @@
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K10-143"
             },
@@ -499,9 +499,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Alumnae Theatre Company"
@@ -511,12 +511,12 @@
                 "@value": "Alumnae Theatre Company"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q4737423"
             }
@@ -539,19 +539,19 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
-            {
-                "@language": "en",
-                "@value": "Young People’s Theatre"
-            },
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Young People’s Theatre"
+            },
+            {
+                "@language": "en",
+                "@value": "Young People’s Theatre"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q110938829"
             },
@@ -559,7 +559,7 @@
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K3-177"
             },
@@ -582,9 +582,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "mul",
                 "@value": "Nightwood Theatre"
@@ -598,12 +598,12 @@
                 "@value": "Nightwood Theatre"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K2-5933"
             },
@@ -620,9 +620,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Obsidian Theatre"
@@ -632,7 +632,7 @@
                 "@value": "Obsidian Theatre"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q64402570"
             },
@@ -640,7 +640,7 @@
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7075523"
             }
@@ -657,9 +657,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Roseneath Theatre"
@@ -669,12 +669,12 @@
                 "@value": "Roseneath Theatre"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7368570"
             }
@@ -694,9 +694,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Soulpepper Theatre Co"
@@ -706,12 +706,12 @@
                 "@value": "Soulpepper Theatre Co"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7564521"
             }
@@ -725,9 +725,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Tapestry Opera"
@@ -737,7 +737,7 @@
                 "@value": "Tapestry Opera"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q127268850"
             },
@@ -745,7 +745,7 @@
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K2-5145"
             },
@@ -765,9 +765,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Theatre Passe Muraille"
@@ -777,7 +777,7 @@
                 "@value": "Theatre Passe Muraille"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q64402570"
             },
@@ -785,7 +785,7 @@
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K2-5174"
             },
@@ -808,9 +808,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Toronto Fringe Festival"
@@ -820,12 +820,12 @@
                 "@value": "Toronto Fringe Festival"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826392"
             }
@@ -839,9 +839,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Toronto Symphony Orchestra"
@@ -851,12 +851,12 @@
                 "@value": "Toronto Symphony Orchestra"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826532"
             }
@@ -876,9 +876,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Hart House Theatre"
@@ -888,12 +888,12 @@
                 "@value": "Hart House Theatre"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q14875168"
             }
@@ -907,9 +907,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Shakespeare in the Ruff"
@@ -919,12 +919,12 @@
                 "@value": "Shakespeare in the Ruff"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q62473198"
             }
@@ -938,9 +938,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Eldritch Theatre"
@@ -950,12 +950,12 @@
                 "@value": "Eldritch Theatre"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q71858441"
             }
@@ -969,9 +969,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Marquis Entertainment"
@@ -981,12 +981,12 @@
                 "@value": "Marquis Entertainment"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q100965231"
             }
@@ -1000,19 +1000,19 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
-            {
-                "@language": "fr",
-                "@value": "Wind in the leaves collective"
-            },
+        "http://schema.org/name": [
             {
                 "@language": "en",
                 "@value": "Wind in the leaves collective"
+            },
+            {
+                "@language": "fr",
+                "@value": "Wind in the leaves collective"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q85541788"
             },
@@ -1020,7 +1020,7 @@
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K14-83"
             },
@@ -1043,9 +1043,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Dance Umbrella of Ontario"
@@ -1055,7 +1055,7 @@
                 "@value": "Dance Umbrella of Ontario"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q85541788"
             },
@@ -1066,7 +1066,7 @@
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K14-32"
             },
@@ -1092,9 +1092,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "The Theatre Centre"
@@ -1104,7 +1104,7 @@
                 "@value": "The Theatre Centre"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q85541788"
             },
@@ -1112,7 +1112,7 @@
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K14-152"
             },
@@ -1135,9 +1135,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Citadel + Compagnie"
@@ -1147,7 +1147,7 @@
                 "@value": "Citadel + Compagnie"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q85541788"
             },
@@ -1158,7 +1158,7 @@
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K14-201"
             },
@@ -1171,40 +1171,40 @@
         "@id": "http://www.wikidata.org/entity/Q126370134",
         "http://www.wikidata.org/prop/direct/P31": [
             {
-                "@id": "http://www.wikidata.org/entity/Q708676"
-            },
-            {
-                "@id": "http://www.wikidata.org/entity/Q132241"
-            },
-            {
                 "@id": "http://www.wikidata.org/entity/Q108669279"
             },
             {
                 "@id": "http://www.wikidata.org/entity/Q7168296"
+            },
+            {
+                "@id": "http://www.wikidata.org/entity/Q708676"
+            },
+            {
+                "@id": "http://www.wikidata.org/entity/Q132241"
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
-            {
-                "@language": "en",
-                "@value": "SummerWorks Performance Festival"
-            },
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "SummerWorks Performance Festival"
-            }
-        ],
-        "http://schema.orgmemberOf": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q7826264"
             },
             {
-                "@id": "http://www.wikidata.org/entity/Q85541788"
+                "@language": "en",
+                "@value": "SummerWorks Performance Festival"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/memberOf": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q85541788"
+            },
+            {
+                "@id": "http://www.wikidata.org/entity/Q7826264"
+            }
+        ],
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K14-204"
             },
@@ -1221,9 +1221,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Dancemakers Centre for Creation"
@@ -1233,7 +1233,7 @@
                 "@value": "Dancemakers Centre for Creation"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q71859269"
             },
@@ -1241,7 +1241,7 @@
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K4-160"
             },
@@ -1261,9 +1261,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Kaeja d’Dance"
@@ -1273,7 +1273,7 @@
                 "@value": "Kaeja d’Dance"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q125754426"
             },
@@ -1284,7 +1284,7 @@
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q126952140"
             }
@@ -1301,9 +1301,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Moonhorse Dance Theatre"
@@ -1313,7 +1313,7 @@
                 "@value": "Moonhorse Dance Theatre"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q71859269"
             },
@@ -1321,7 +1321,7 @@
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K4-179"
             },
@@ -1341,9 +1341,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "ProArteDanza"
@@ -1353,7 +1353,7 @@
                 "@value": "ProArteDanza"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q71859269"
             },
@@ -1361,7 +1361,7 @@
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K4-184"
             },
@@ -1381,9 +1381,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "pounds per square inch performance"
@@ -1393,7 +1393,7 @@
                 "@value": "pounds per square inch performance"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q125754426"
             },
@@ -1404,12 +1404,477 @@
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K4-183"
             },
             {
                 "@id": "http://www.wikidata.org/entity/Q126952157"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.wikidata.org/entity/Q137944124",
+        "http://www.wikidata.org/prop/direct/P31": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q64581117"
+            }
+        ],
+        "@type": [
+            "http://schema.org/Organization"
+        ],
+        "http://schema.org/name": [
+            {
+                "@language": "fr",
+                "@value": "Second Act Actor Productions"
+            },
+            {
+                "@language": "en",
+                "@value": "Second Act Actor Productions"
+            }
+        ],
+        "http://schema.org/memberOf": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q7826264"
+            }
+        ],
+        "http://schema.org/sameAs": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q137944124"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.wikidata.org/entity/Q137944125",
+        "http://www.wikidata.org/prop/direct/P31": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q4827314"
+            }
+        ],
+        "@type": [
+            "http://schema.org/Organization"
+        ],
+        "http://schema.org/name": [
+            {
+                "@language": "fr",
+                "@value": "Canada Ireland Foundation"
+            },
+            {
+                "@language": "en",
+                "@value": "Canada Ireland Foundation"
+            }
+        ],
+        "http://schema.org/memberOf": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q7826264"
+            }
+        ],
+        "http://schema.org/sameAs": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q137944125"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.wikidata.org/entity/Q137944130",
+        "http://www.wikidata.org/prop/direct/P31": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q5"
+            }
+        ],
+        "@type": [
+            "http://schema.org/Person"
+        ],
+        "http://schema.org/name": [
+            {
+                "@language": "fr",
+                "@value": "Inji Zayba Zaheer"
+            },
+            {
+                "@language": "en",
+                "@value": "Inji Zayba Zaheer"
+            }
+        ],
+        "http://schema.org/memberOf": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q7826264"
+            }
+        ],
+        "http://schema.org/sameAs": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q137944130"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.wikidata.org/entity/Q137944131",
+        "http://www.wikidata.org/prop/direct/P31": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q5"
+            }
+        ],
+        "@type": [
+            "http://schema.org/Person"
+        ],
+        "http://schema.org/name": [
+            {
+                "@language": "fr",
+                "@value": "Jamani Mateen"
+            },
+            {
+                "@language": "en",
+                "@value": "Jamani Mateen"
+            }
+        ],
+        "http://schema.org/memberOf": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q7826264"
+            }
+        ],
+        "http://schema.org/sameAs": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q137944131"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.wikidata.org/entity/Q137944128",
+        "http://www.wikidata.org/prop/direct/P31": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q5"
+            }
+        ],
+        "@type": [
+            "http://schema.org/Person"
+        ],
+        "http://schema.org/name": [
+            {
+                "@language": "fr",
+                "@value": "Devanshi Mishra"
+            },
+            {
+                "@language": "en",
+                "@value": "Devanshi Mishra"
+            }
+        ],
+        "http://schema.org/memberOf": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q7826264"
+            }
+        ],
+        "http://schema.org/sameAs": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q137944128"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.wikidata.org/entity/Q137944129",
+        "http://www.wikidata.org/prop/direct/P31": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q5"
+            }
+        ],
+        "@type": [
+            "http://schema.org/Person"
+        ],
+        "http://schema.org/name": [
+            {
+                "@language": "fr",
+                "@value": "Elliot Gosh"
+            },
+            {
+                "@language": "en",
+                "@value": "Elliot Gosh"
+            }
+        ],
+        "http://schema.org/memberOf": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q7826264"
+            }
+        ],
+        "http://schema.org/sameAs": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q137944129"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.wikidata.org/entity/Q137944134",
+        "http://www.wikidata.org/prop/direct/P31": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q5"
+            }
+        ],
+        "@type": [
+            "http://schema.org/Person"
+        ],
+        "http://schema.org/name": [
+            {
+                "@language": "fr",
+                "@value": "Kenzia Dalie"
+            },
+            {
+                "@language": "en",
+                "@value": "Kenzia Dalie"
+            }
+        ],
+        "http://schema.org/memberOf": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q7826264"
+            }
+        ],
+        "http://schema.org/sameAs": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q137944134"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.wikidata.org/entity/Q137944135",
+        "http://www.wikidata.org/prop/direct/P31": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q5"
+            }
+        ],
+        "@type": [
+            "http://schema.org/Person"
+        ],
+        "http://schema.org/name": [
+            {
+                "@language": "fr",
+                "@value": "MJ Kang"
+            },
+            {
+                "@language": "en",
+                "@value": "MJ Kang"
+            }
+        ],
+        "http://schema.org/memberOf": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q7826264"
+            }
+        ],
+        "http://schema.org/sameAs": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q137944135"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.wikidata.org/entity/Q137944132",
+        "http://www.wikidata.org/prop/direct/P31": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q5"
+            }
+        ],
+        "@type": [
+            "http://schema.org/Person"
+        ],
+        "http://schema.org/name": [
+            {
+                "@language": "fr",
+                "@value": "Jobina Sitoh"
+            },
+            {
+                "@language": "en",
+                "@value": "Jobina Sitoh"
+            }
+        ],
+        "http://schema.org/memberOf": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q7826264"
+            }
+        ],
+        "http://schema.org/sameAs": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q137944132"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.wikidata.org/entity/Q137944133",
+        "http://www.wikidata.org/prop/direct/P31": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q5"
+            }
+        ],
+        "@type": [
+            "http://schema.org/Person"
+        ],
+        "http://schema.org/name": [
+            {
+                "@language": "fr",
+                "@value": "Kay Wong"
+            },
+            {
+                "@language": "en",
+                "@value": "Kay Wong"
+            }
+        ],
+        "http://schema.org/memberOf": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q7826264"
+            }
+        ],
+        "http://schema.org/sameAs": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q137944133"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.wikidata.org/entity/Q137944138",
+        "http://www.wikidata.org/prop/direct/P31": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q5"
+            }
+        ],
+        "@type": [
+            "http://schema.org/Person"
+        ],
+        "http://schema.org/name": [
+            {
+                "@language": "fr",
+                "@value": "Stephanie Caldeira"
+            },
+            {
+                "@language": "en",
+                "@value": "Stephanie Caldeira"
+            }
+        ],
+        "http://schema.org/memberOf": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q7826264"
+            }
+        ],
+        "http://schema.org/sameAs": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q137944138"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.wikidata.org/entity/Q137944139",
+        "http://www.wikidata.org/prop/direct/P31": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q5"
+            }
+        ],
+        "@type": [
+            "http://schema.org/Person"
+        ],
+        "http://schema.org/name": [
+            {
+                "@language": "fr",
+                "@value": "Viv Moore"
+            },
+            {
+                "@language": "en",
+                "@value": "Viv Moore"
+            }
+        ],
+        "http://schema.org/memberOf": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q7826264"
+            }
+        ],
+        "http://schema.org/sameAs": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q137944139"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.wikidata.org/entity/Q137944136",
+        "http://www.wikidata.org/prop/direct/P31": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q5"
+            }
+        ],
+        "@type": [
+            "http://schema.org/Person"
+        ],
+        "http://schema.org/name": [
+            {
+                "@language": "fr",
+                "@value": "Rachana Joshi"
+            },
+            {
+                "@language": "en",
+                "@value": "Rachana Joshi"
+            }
+        ],
+        "http://schema.org/memberOf": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q7826264"
+            }
+        ],
+        "http://schema.org/sameAs": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q137944136"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.wikidata.org/entity/Q137944137",
+        "http://www.wikidata.org/prop/direct/P31": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q5"
+            }
+        ],
+        "@type": [
+            "http://schema.org/Person"
+        ],
+        "http://schema.org/name": [
+            {
+                "@language": "fr",
+                "@value": "Stavroula Karnouskou"
+            },
+            {
+                "@language": "en",
+                "@value": "Stavroula Karnouskou"
+            }
+        ],
+        "http://schema.org/memberOf": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q7826264"
+            }
+        ],
+        "http://schema.org/sameAs": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q137944137"
+            }
+        ]
+    },
+    {
+        "@id": "http://www.wikidata.org/entity/Q137944140",
+        "http://www.wikidata.org/prop/direct/P31": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q5"
+            }
+        ],
+        "@type": [
+            "http://schema.org/Person"
+        ],
+        "http://schema.org/name": [
+            {
+                "@language": "fr",
+                "@value": "Sarah Weatherwax"
+            },
+            {
+                "@language": "en",
+                "@value": "Sarah Weatherwax"
+            }
+        ],
+        "http://schema.org/memberOf": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q7826264"
+            }
+        ],
+        "http://schema.org/sameAs": [
+            {
+                "@id": "http://www.wikidata.org/entity/Q137944140"
             }
         ]
     },
@@ -1421,9 +1886,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Opera 5"
@@ -1433,7 +1898,7 @@
                 "@value": "Opera 5"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q127268850"
             },
@@ -1441,7 +1906,7 @@
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K2-5141"
             },
@@ -1461,9 +1926,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "mul",
                 "@value": "A Yarn Or Two Arts Collective"
@@ -1477,7 +1942,7 @@
                 "@value": "A Yarn Or Two Arts Collective"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q85541788"
             },
@@ -1488,7 +1953,7 @@
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K2-5380"
             },
@@ -1505,9 +1970,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Riot King"
@@ -1517,12 +1982,12 @@
                 "@value": "Riot King"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q130608927"
             }
@@ -1542,9 +2007,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "mul",
                 "@value": "TO Live"
@@ -1558,7 +2023,7 @@
                 "@value": "TO Live"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q85541788"
             },
@@ -1566,7 +2031,7 @@
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K14-146"
             },
@@ -1589,9 +2054,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Tarragon Theatre"
@@ -1605,12 +2070,12 @@
                 "@value": "Tarragon Theatre"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K2-6114"
             },
@@ -1627,9 +2092,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgPerson"
+            "http://schema.org/Person"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "mul",
                 "@value": "Derrick Chua"
@@ -1643,7 +2108,7 @@
                 "@value": "Derrick Chua"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q85541788"
             },
@@ -1651,7 +2116,7 @@
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K2-6126"
             },
@@ -1671,9 +2136,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "mul",
                 "@value": "Factory Theatre"
@@ -1687,12 +2152,12 @@
                 "@value": "Factory Theatre"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://kg.artsdata.ca/resource/K2-6354"
             },
@@ -1709,9 +2174,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Actors Repertory Company"
@@ -1721,12 +2186,12 @@
                 "@value": "Actors Repertory Company"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778566"
             }
@@ -1740,9 +2205,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgPerson"
+            "http://schema.org/Person"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Alicia DiStefano"
@@ -1752,12 +2217,12 @@
                 "@value": "Alicia DiStefano"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778567"
             }
@@ -1771,9 +2236,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "b current Performing Arts"
@@ -1783,12 +2248,12 @@
                 "@value": "b current Performing Arts"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778570"
             }
@@ -1802,9 +2267,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Bad Hats Theatre"
@@ -1814,12 +2279,12 @@
                 "@value": "Bad Hats Theatre"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778571"
             }
@@ -1833,9 +2298,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Aluna Theatre"
@@ -1845,12 +2310,12 @@
                 "@value": "Aluna Theatre"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778568"
             }
@@ -1864,9 +2329,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgPerson"
+            "http://schema.org/Person"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Azeem Nathoo"
@@ -1876,12 +2341,12 @@
                 "@value": "Azeem Nathoo"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778569"
             }
@@ -1895,9 +2360,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Bowtie Productions"
@@ -1907,12 +2372,12 @@
                 "@value": "Bowtie Productions"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778575"
             }
@@ -1926,9 +2391,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Cahoots Theatre"
@@ -1938,12 +2403,12 @@
                 "@value": "Cahoots Theatre"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778577"
             }
@@ -1957,9 +2422,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Crossroads Theatre"
@@ -1969,12 +2434,12 @@
                 "@value": "Crossroads Theatre"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778584"
             }
@@ -1988,9 +2453,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Dance Immersion"
@@ -2000,12 +2465,12 @@
                 "@value": "Dance Immersion"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778589"
             }
@@ -2019,9 +2484,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "DanceWorks"
@@ -2031,12 +2496,12 @@
                 "@value": "DanceWorks"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778594"
             }
@@ -2050,9 +2515,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Dandelion Theatre"
@@ -2062,12 +2527,12 @@
                 "@value": "Dandelion Theatre"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778595"
             }
@@ -2081,9 +2546,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Esmeralda Enrique Spanish Dance Company"
@@ -2093,12 +2558,12 @@
                 "@value": "Esmeralda Enrique Spanish Dance Company"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778601"
             }
@@ -2112,9 +2577,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Guild Festival Theatre"
@@ -2124,12 +2589,12 @@
                 "@value": "Guild Festival Theatre"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778605"
             }
@@ -2143,9 +2608,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgPerson"
+            "http://schema.org/Person"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Jack Cunningham"
@@ -2155,12 +2620,12 @@
                 "@value": "Jack Cunningham"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778610"
             }
@@ -2174,9 +2639,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Icarus Theatre"
@@ -2186,12 +2651,12 @@
                 "@value": "Icarus Theatre"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778608"
             }
@@ -2205,9 +2670,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgPerson"
+            "http://schema.org/Person"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Ivory Conover"
@@ -2217,12 +2682,12 @@
                 "@value": "Ivory Conover"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778609"
             }
@@ -2236,9 +2701,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgPerson"
+            "http://schema.org/Person"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Linda Joyce Nourse"
@@ -2248,479 +2713,14 @@
                 "@value": "Linda Joyce Nourse"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778615"
-            }
-        ]
-    },
-    {
-        "@id": "http://www.wikidata.org/entity/Q137944124",
-        "http://www.wikidata.org/prop/direct/P31": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q64581117"
-            }
-        ],
-        "@type": [
-            "http://schema.orgOrganization"
-        ],
-        "http://schema.orgname": [
-            {
-                "@language": "fr",
-                "@value": "Second Act Actor Productions"
-            },
-            {
-                "@language": "en",
-                "@value": "Second Act Actor Productions"
-            }
-        ],
-        "http://schema.orgmemberOf": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q7826264"
-            }
-        ],
-        "http://schema.orgsameAs": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q137944124"
-            }
-        ]
-    },
-    {
-        "@id": "http://www.wikidata.org/entity/Q137944125",
-        "http://www.wikidata.org/prop/direct/P31": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q4827314"
-            }
-        ],
-        "@type": [
-            "http://schema.orgOrganization"
-        ],
-        "http://schema.orgname": [
-            {
-                "@language": "fr",
-                "@value": "Canada Ireland Foundation"
-            },
-            {
-                "@language": "en",
-                "@value": "Canada Ireland Foundation"
-            }
-        ],
-        "http://schema.orgmemberOf": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q7826264"
-            }
-        ],
-        "http://schema.orgsameAs": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q137944125"
-            }
-        ]
-    },
-    {
-        "@id": "http://www.wikidata.org/entity/Q137944130",
-        "http://www.wikidata.org/prop/direct/P31": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q5"
-            }
-        ],
-        "@type": [
-            "http://schema.orgPerson"
-        ],
-        "http://schema.orgname": [
-            {
-                "@language": "fr",
-                "@value": "Inji Zayba Zaheer"
-            },
-            {
-                "@language": "en",
-                "@value": "Inji Zayba Zaheer"
-            }
-        ],
-        "http://schema.orgmemberOf": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q7826264"
-            }
-        ],
-        "http://schema.orgsameAs": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q137944130"
-            }
-        ]
-    },
-    {
-        "@id": "http://www.wikidata.org/entity/Q137944131",
-        "http://www.wikidata.org/prop/direct/P31": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q5"
-            }
-        ],
-        "@type": [
-            "http://schema.orgPerson"
-        ],
-        "http://schema.orgname": [
-            {
-                "@language": "fr",
-                "@value": "Jamani Mateen"
-            },
-            {
-                "@language": "en",
-                "@value": "Jamani Mateen"
-            }
-        ],
-        "http://schema.orgmemberOf": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q7826264"
-            }
-        ],
-        "http://schema.orgsameAs": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q137944131"
-            }
-        ]
-    },
-    {
-        "@id": "http://www.wikidata.org/entity/Q137944128",
-        "http://www.wikidata.org/prop/direct/P31": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q5"
-            }
-        ],
-        "@type": [
-            "http://schema.orgPerson"
-        ],
-        "http://schema.orgname": [
-            {
-                "@language": "fr",
-                "@value": "Devanshi Mishra"
-            },
-            {
-                "@language": "en",
-                "@value": "Devanshi Mishra"
-            }
-        ],
-        "http://schema.orgmemberOf": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q7826264"
-            }
-        ],
-        "http://schema.orgsameAs": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q137944128"
-            }
-        ]
-    },
-    {
-        "@id": "http://www.wikidata.org/entity/Q137944129",
-        "http://www.wikidata.org/prop/direct/P31": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q5"
-            }
-        ],
-        "@type": [
-            "http://schema.orgPerson"
-        ],
-        "http://schema.orgname": [
-            {
-                "@language": "fr",
-                "@value": "Elliot Gosh"
-            },
-            {
-                "@language": "en",
-                "@value": "Elliot Gosh"
-            }
-        ],
-        "http://schema.orgmemberOf": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q7826264"
-            }
-        ],
-        "http://schema.orgsameAs": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q137944129"
-            }
-        ]
-    },
-    {
-        "@id": "http://www.wikidata.org/entity/Q137944134",
-        "http://www.wikidata.org/prop/direct/P31": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q5"
-            }
-        ],
-        "@type": [
-            "http://schema.orgPerson"
-        ],
-        "http://schema.orgname": [
-            {
-                "@language": "fr",
-                "@value": "Kenzia Dalie"
-            },
-            {
-                "@language": "en",
-                "@value": "Kenzia Dalie"
-            }
-        ],
-        "http://schema.orgmemberOf": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q7826264"
-            }
-        ],
-        "http://schema.orgsameAs": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q137944134"
-            }
-        ]
-    },
-    {
-        "@id": "http://www.wikidata.org/entity/Q137944135",
-        "http://www.wikidata.org/prop/direct/P31": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q5"
-            }
-        ],
-        "@type": [
-            "http://schema.orgPerson"
-        ],
-        "http://schema.orgname": [
-            {
-                "@language": "fr",
-                "@value": "MJ Kang"
-            },
-            {
-                "@language": "en",
-                "@value": "MJ Kang"
-            }
-        ],
-        "http://schema.orgmemberOf": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q7826264"
-            }
-        ],
-        "http://schema.orgsameAs": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q137944135"
-            }
-        ]
-    },
-    {
-        "@id": "http://www.wikidata.org/entity/Q137944132",
-        "http://www.wikidata.org/prop/direct/P31": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q5"
-            }
-        ],
-        "@type": [
-            "http://schema.orgPerson"
-        ],
-        "http://schema.orgname": [
-            {
-                "@language": "fr",
-                "@value": "Jobina Sitoh"
-            },
-            {
-                "@language": "en",
-                "@value": "Jobina Sitoh"
-            }
-        ],
-        "http://schema.orgmemberOf": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q7826264"
-            }
-        ],
-        "http://schema.orgsameAs": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q137944132"
-            }
-        ]
-    },
-    {
-        "@id": "http://www.wikidata.org/entity/Q137944133",
-        "http://www.wikidata.org/prop/direct/P31": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q5"
-            }
-        ],
-        "@type": [
-            "http://schema.orgPerson"
-        ],
-        "http://schema.orgname": [
-            {
-                "@language": "fr",
-                "@value": "Kay Wong"
-            },
-            {
-                "@language": "en",
-                "@value": "Kay Wong"
-            }
-        ],
-        "http://schema.orgmemberOf": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q7826264"
-            }
-        ],
-        "http://schema.orgsameAs": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q137944133"
-            }
-        ]
-    },
-    {
-        "@id": "http://www.wikidata.org/entity/Q137944138",
-        "http://www.wikidata.org/prop/direct/P31": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q5"
-            }
-        ],
-        "@type": [
-            "http://schema.orgPerson"
-        ],
-        "http://schema.orgname": [
-            {
-                "@language": "fr",
-                "@value": "Stephanie Caldeira"
-            },
-            {
-                "@language": "en",
-                "@value": "Stephanie Caldeira"
-            }
-        ],
-        "http://schema.orgmemberOf": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q7826264"
-            }
-        ],
-        "http://schema.orgsameAs": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q137944138"
-            }
-        ]
-    },
-    {
-        "@id": "http://www.wikidata.org/entity/Q137944139",
-        "http://www.wikidata.org/prop/direct/P31": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q5"
-            }
-        ],
-        "@type": [
-            "http://schema.orgPerson"
-        ],
-        "http://schema.orgname": [
-            {
-                "@language": "fr",
-                "@value": "Viv Moore"
-            },
-            {
-                "@language": "en",
-                "@value": "Viv Moore"
-            }
-        ],
-        "http://schema.orgmemberOf": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q7826264"
-            }
-        ],
-        "http://schema.orgsameAs": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q137944139"
-            }
-        ]
-    },
-    {
-        "@id": "http://www.wikidata.org/entity/Q137944136",
-        "http://www.wikidata.org/prop/direct/P31": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q5"
-            }
-        ],
-        "@type": [
-            "http://schema.orgPerson"
-        ],
-        "http://schema.orgname": [
-            {
-                "@language": "fr",
-                "@value": "Rachana Joshi"
-            },
-            {
-                "@language": "en",
-                "@value": "Rachana Joshi"
-            }
-        ],
-        "http://schema.orgmemberOf": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q7826264"
-            }
-        ],
-        "http://schema.orgsameAs": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q137944136"
-            }
-        ]
-    },
-    {
-        "@id": "http://www.wikidata.org/entity/Q137944137",
-        "http://www.wikidata.org/prop/direct/P31": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q5"
-            }
-        ],
-        "@type": [
-            "http://schema.orgPerson"
-        ],
-        "http://schema.orgname": [
-            {
-                "@language": "fr",
-                "@value": "Stavroula Karnouskou"
-            },
-            {
-                "@language": "en",
-                "@value": "Stavroula Karnouskou"
-            }
-        ],
-        "http://schema.orgmemberOf": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q7826264"
-            }
-        ],
-        "http://schema.orgsameAs": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q137944137"
-            }
-        ]
-    },
-    {
-        "@id": "http://www.wikidata.org/entity/Q137944140",
-        "http://www.wikidata.org/prop/direct/P31": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q5"
-            }
-        ],
-        "@type": [
-            "http://schema.orgPerson"
-        ],
-        "http://schema.orgname": [
-            {
-                "@language": "fr",
-                "@value": "Sarah Weatherwax"
-            },
-            {
-                "@language": "en",
-                "@value": "Sarah Weatherwax"
-            }
-        ],
-        "http://schema.orgmemberOf": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q7826264"
-            }
-        ],
-        "http://schema.orgsameAs": [
-            {
-                "@id": "http://www.wikidata.org/entity/Q137944140"
             }
         ]
     },
@@ -2732,9 +2732,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgPerson"
+            "http://schema.org/Person"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Janet Kish"
@@ -2744,12 +2744,12 @@
                 "@value": "Janet Kish"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778612"
             }
@@ -2763,9 +2763,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgPerson"
+            "http://schema.org/Person"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Lynne Cormack"
@@ -2775,12 +2775,12 @@
                 "@value": "Lynne Cormack"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778622"
             }
@@ -2794,9 +2794,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgPerson"
+            "http://schema.org/Person"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Maxine Heppner"
@@ -2806,12 +2806,12 @@
                 "@value": "Maxine Heppner"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778626"
             }
@@ -2825,9 +2825,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Necessary Angel Theatre Company"
@@ -2837,12 +2837,12 @@
                 "@value": "Necessary Angel Theatre Company"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778631"
             }
@@ -2856,9 +2856,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Modern Times Stage Company"
@@ -2868,12 +2868,12 @@
                 "@value": "Modern Times Stage Company"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778628"
             }
@@ -2887,9 +2887,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Nightswimming"
@@ -2899,12 +2899,12 @@
                 "@value": "Nightswimming"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778635"
             }
@@ -2918,9 +2918,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Outside the March"
@@ -2930,12 +2930,12 @@
                 "@value": "Outside the March"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778655"
             }
@@ -2949,9 +2949,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Pleiades Theatre"
@@ -2961,12 +2961,12 @@
                 "@value": "Pleiades Theatre"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778659"
             }
@@ -2980,9 +2980,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "REAson d’etre dance"
@@ -2992,12 +2992,12 @@
                 "@value": "REAson d’etre dance"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778662"
             }
@@ -3011,9 +3011,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Princess Productions"
@@ -3023,12 +3023,12 @@
                 "@value": "Princess Productions"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778660"
             }
@@ -3042,9 +3042,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Programs for 50+TMU"
@@ -3054,12 +3054,12 @@
                 "@value": "Programs for 50+TMU"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778661"
             }
@@ -3073,9 +3073,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Small but Mighty Productions"
@@ -3085,12 +3085,12 @@
                 "@value": "Small but Mighty Productions"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778671"
             }
@@ -3104,9 +3104,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Shakespeare BASH’d"
@@ -3116,12 +3116,12 @@
                 "@value": "Shakespeare BASH’d"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778668"
             }
@@ -3135,9 +3135,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Stakes and Embers"
@@ -3147,12 +3147,12 @@
                 "@value": "Stakes and Embers"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778672"
             }
@@ -3166,9 +3166,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Talk Is Free Theatre"
@@ -3178,12 +3178,12 @@
                 "@value": "Talk Is Free Theatre"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778678"
             }
@@ -3197,9 +3197,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Thaumatrope Theatre"
@@ -3209,12 +3209,12 @@
                 "@value": "Thaumatrope Theatre"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778679"
             }
@@ -3228,9 +3228,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "The Musical Stage Company"
@@ -3240,12 +3240,12 @@
                 "@value": "The Musical Stage Company"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778682"
             }
@@ -3259,9 +3259,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "The King Black Box"
@@ -3271,12 +3271,12 @@
                 "@value": "The King Black Box"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778681"
             }
@@ -3290,9 +3290,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Theatre Direct"
@@ -3302,12 +3302,12 @@
                 "@value": "Theatre Direct"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778684"
             }
@@ -3321,9 +3321,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Theatre Gargantua"
@@ -3333,12 +3333,12 @@
                 "@value": "Theatre Gargantua"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778685"
             }
@@ -3352,9 +3352,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Toronto Metropolitan University School of Performance"
@@ -3364,12 +3364,12 @@
                 "@value": "Toronto Metropolitan University School of Performance"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778689"
             }
@@ -3383,9 +3383,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Unbridled Theatre Collective"
@@ -3395,12 +3395,12 @@
                 "@value": "Unbridled Theatre Collective"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778694"
             }
@@ -3414,9 +3414,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Video Cabaret International"
@@ -3426,12 +3426,12 @@
                 "@value": "Video Cabaret International"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778695"
             }
@@ -3445,9 +3445,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "York University (Department of Theatre, Dance and Performance)"
@@ -3457,12 +3457,12 @@
                 "@value": "York University (Department of Theatre, Dance and Performance)"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778698"
             }
@@ -3476,9 +3476,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Young Associates"
@@ -3488,12 +3488,12 @@
                 "@value": "Young Associates"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778699"
             }
@@ -3507,9 +3507,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "WeeFestival of Arts and Culture"
@@ -3519,12 +3519,12 @@
                 "@value": "WeeFestival of Arts and Culture"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778696"
             }
@@ -3538,9 +3538,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgPerson"
+            "http://schema.org/Person"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Byron Laviolette"
@@ -3550,12 +3550,12 @@
                 "@value": "Byron Laviolette"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137778703"
             }
@@ -3569,9 +3569,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgPerson"
+            "http://schema.org/Person"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Travis Ouellette"
@@ -3581,12 +3581,12 @@
                 "@value": "Travis Ouellette"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137944096"
             }
@@ -3600,9 +3600,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Garner Theatre Productions"
@@ -3612,12 +3612,12 @@
                 "@value": "Garner Theatre Productions"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137944102"
             }
@@ -3631,9 +3631,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Hard-Bitten Productions"
@@ -3643,12 +3643,12 @@
                 "@value": "Hard-Bitten Productions"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137944103"
             }
@@ -3662,9 +3662,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Downstage Theatre Company"
@@ -3674,12 +3674,12 @@
                 "@value": "Downstage Theatre Company"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137944101"
             }
@@ -3693,9 +3693,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Panoply Theatre Collective"
@@ -3705,12 +3705,12 @@
                 "@value": "Panoply Theatre Collective"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137944106"
             }
@@ -3724,9 +3724,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Parry Riposte Productions"
@@ -3736,12 +3736,12 @@
                 "@value": "Parry Riposte Productions"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137944107"
             }
@@ -3755,9 +3755,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "It Could Still Happen"
@@ -3767,12 +3767,12 @@
                 "@value": "It Could Still Happen"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137944104"
             }
@@ -3786,9 +3786,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "NAGs Players"
@@ -3798,12 +3798,12 @@
                 "@value": "NAGs Players"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137944105"
             }
@@ -3817,9 +3817,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Pucker’s Company"
@@ -3829,12 +3829,12 @@
                 "@value": "Pucker’s Company"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137944110"
             }
@@ -3848,9 +3848,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Pitchin’in Productions"
@@ -3860,12 +3860,12 @@
                 "@value": "Pitchin’in Productions"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137944108"
             }
@@ -3879,9 +3879,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Project: Humanity"
@@ -3891,12 +3891,12 @@
                 "@value": "Project: Humanity"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137944109"
             }
@@ -3910,9 +3910,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Stagepunk Theatre"
@@ -3922,12 +3922,12 @@
                 "@value": "Stagepunk Theatre"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137944114"
             }
@@ -3941,9 +3941,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Stories by Dan"
@@ -3953,12 +3953,12 @@
                 "@value": "Stories by Dan"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137944115"
             }
@@ -3972,9 +3972,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Puppetmongers Theatre"
@@ -3984,12 +3984,12 @@
                 "@value": "Puppetmongers Theatre"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137944112"
             }
@@ -4003,9 +4003,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Renaissance Canadian Theatre Company"
@@ -4015,12 +4015,12 @@
                 "@value": "Renaissance Canadian Theatre Company"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137944113"
             }
@@ -4034,9 +4034,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "TheatreTO"
@@ -4046,12 +4046,12 @@
                 "@value": "TheatreTO"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137944118"
             }
@@ -4065,9 +4065,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Three Ships Collective"
@@ -4077,12 +4077,12 @@
                 "@value": "Three Ships Collective"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137944119"
             }
@@ -4096,9 +4096,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "The Bloor West Village Players"
@@ -4108,12 +4108,12 @@
                 "@value": "The Bloor West Village Players"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137944116"
             }
@@ -4127,9 +4127,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Theatre Ya Knowww"
@@ -4139,12 +4139,12 @@
                 "@value": "Theatre Ya Knowww"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137944117"
             }
@@ -4158,9 +4158,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Two2Mango"
@@ -4170,12 +4170,12 @@
                 "@value": "Two2Mango"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137944120"
             }
@@ -4189,9 +4189,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgOrganization"
+            "http://schema.org/Organization"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Ismailova Theatre of Dance"
@@ -4201,12 +4201,12 @@
                 "@value": "Ismailova Theatre of Dance"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137944121"
             }
@@ -4220,9 +4220,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgPerson"
+            "http://schema.org/Person"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Abigail Sullivan"
@@ -4232,12 +4232,12 @@
                 "@value": "Abigail Sullivan"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137944126"
             }
@@ -4251,9 +4251,9 @@
             }
         ],
         "@type": [
-            "http://schema.orgPerson"
+            "http://schema.org/Person"
         ],
-        "http://schema.orgname": [
+        "http://schema.org/name": [
             {
                 "@language": "fr",
                 "@value": "Davinder Malhi"
@@ -4263,12 +4263,12 @@
                 "@value": "Davinder Malhi"
             }
         ],
-        "http://schema.orgmemberOf": [
+        "http://schema.org/memberOf": [
             {
                 "@id": "http://www.wikidata.org/entity/Q7826264"
             }
         ],
-        "http://schema.orgsameAs": [
+        "http://schema.org/sameAs": [
             {
                 "@id": "http://www.wikidata.org/entity/Q137944127"
             }
