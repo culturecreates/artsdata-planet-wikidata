@@ -2,37 +2,41 @@ PREFIX wd: <http://www.wikidata.org/entity/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <http://schema.org/>
-
 #Members of TAPA, with the member type and the description.
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 CONSTRUCT {
-  ?item wdt:P31 ?type.
-  ?item rdf:type ?artsdata_type.
-  ?item schema:name ?itemLabel.
-  ?item schema:memberOf ?member.
-  ?item schema:sameAs ?adURI.
-  ?item schema:sameAs ?item.
-  ?item schema:sameAs ?isniURI.
+    ?item wdt:P31 ?type.
+    ?item rdf:type ?artsdata_type.
+    ?item schema:name ?itemLabel.
+    ?item schema:memberOf ?member.
+    ?item schema:sameAs ?adURI.
+    ?item schema:sameAs ?item.
+    ?item schema:sameAs ?isniURI.
+    ?item schema:url ?url.
 }
 WHERE {
     SERVICE <https://query.wikidata.org/sparql>  {
-      SELECT * WHERE {
-        ?item wdt:P31 ?type;
-          rdfs:label ?itemLabel;
-          wdt:P463 wd:Q7826264, ?member.
-        FILTER(LANG(?itemLabel) IN("en", "fr", "mul"))
-        OPTIONAL {
-          ?item (wdt:P31/(wdt:P279*)) wd:Q5.
-          BIND(schema:Person AS ?artsdata_person_type)
+        SELECT * WHERE {
+            ?item wdt:P31 ?type;
+            rdfs:label ?itemLabel;
+            wdt:P463 wd:Q7826264, ?member.
+            FILTER(LANG(?itemLabel) IN("en", "fr", "mul"))
+            OPTIONAL {
+                ?item (wdt:P31/(wdt:P279*)) wd:Q5.
+                BIND(schema:Person AS ?artsdata_person_type)
+            }
+            BIND(COALESCE(?artsdata_person_type, schema:Organization) AS ?artsdata_type)
+            OPTIONAL {
+                ?item wdt:P7627 ?adid.
+                BIND(URI(CONCAT("http://kg.artsdata.ca/resource/", ?adid)) AS ?adURI)
+            }
+            OPTIONAL {
+                ?item wdt:P213 ?isni.
+                BIND(URI(CONCAT("https://isni.org/isni/", ?isni)) AS ?isniURI)
+            }
+            OPTIONAL {
+                ?item wdt:P856 ?url.
+            }
         }
-        BIND(COALESCE(?artsdata_person_type, schema:Organization) AS ?artsdata_type)
-        OPTIONAL {
-          ?item wdt:P7627 ?adid.
-          BIND(URI(CONCAT("http://kg.artsdata.ca/resource/", ?adid)) AS ?adURI)
-        }
-        OPTIONAL {
-          ?item wdt:P213 ?isni.
-          BIND(URI(CONCAT("https://isni.org/isni/", ?isni)) AS ?isniURI)
-        }
-      }
     }
 }
