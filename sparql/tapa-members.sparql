@@ -1,0 +1,46 @@
+#Members of TAPA, with the member type and the description.
+
+PREFIX schema: <http://schema.org/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+
+CONSTRUCT {
+    ?item wdt:P31 ?type  ;
+          a ?artsdata_type ;
+          schema:name ?itemLabel ;
+          schema:disambiguatingDescription ?description ;
+          schema:memberOf ?member ;
+          schema:sameAs ?adURI .
+}
+WHERE {
+  SERVICE <https://query.wikidata.org/sparql>  {
+    SELECT DISTINCT ?item ?itemLabel (GROUP_CONCAT(distinct ?types; SEPARATOR=", ") AS ?type) ?member ?description ?artsdata_type ?adURI WHERE {
+    ?item wdt:P31 ?type ;
+        rdfs:label ?itemLabel ;
+        schema:description ?description ;
+        wdt:P463 wd:Q7826264 ;
+        wdt:P463 ?member .
+    ?type rdfs:label ?types .
+
+    FILTER(LANG(?itemLabel) IN ("en", "fr", "mul")).
+    FILTER(LANG(?types) IN ("en", "fr", "mul")).
+    FILTER(LANG(?description) IN ("en", "fr", "mul")).
+
+    OPTIONAL {
+        ?item wdt:P31/wdt:P279* wd:Q43229 .
+        bind( schema:Organization as ?artsdata_type )
+    }
+    OPTIONAL {
+        ?item wdt:P31/wdt:P279* wd:Q5 .
+        bind( schema:Person as ?artsdata_type )
+    }
+    OPTIONAL {
+        ?item wdt:P7627 ?adid .
+        bind(URI(CONCAT("http://kg.artsdata.ca/resource/",?adid)) as ?adURI)
+    }
+
+    } group by ?item ?itemLabel ?artsdata_type ?adURI ?member ?description
+        ORDER BY STR(?itemLabel)
+    }
+}
