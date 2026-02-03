@@ -13,5 +13,4 @@ jobs:
           mode: push
           artifact: tapa-members-test
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          page-url: "https://api.artsdata.ca/query?format=jsonld&sparql=https://raw.githubusercontent.com/culturecreates/artsdata-planet-wikidata/refs/heads/main/sparql/tapa-members.sparql"
-          token: ${{ secrets.GITHUB_TOKEN }}
+          downloadUrl: "https://api.artsdata.ca/query?format=jsonld&sparql=https://raw.githubusercontent.com/culturecreates/artsdata-planet-wikidata/refs/heads/main/sparql/tapa-members.sparql"
