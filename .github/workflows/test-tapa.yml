@@ -10,8 +10,8 @@ jobs:
       - name: Action setup
         uses: culturecreates/artsdata-pipeline-action@v3
         with:
-          mode: fetch-push
-          artifact: tapa-members
+          mode: push
+          artifact: tapa-members-test
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
           page-url: "https://api.artsdata.ca/query?format=jsonld&sparql=https://raw.githubusercontent.com/culturecreates/artsdata-planet-wikidata/refs/heads/main/sparql/tapa-members.sparql"
           token: ${{ secrets.GITHUB_TOKEN }}
