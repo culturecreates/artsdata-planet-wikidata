@@ -10,7 +10,7 @@ jobs:
       - name: Call Artsdata pipeline action
         uses: culturecreates/artsdata-pipeline-action@v3
         with:
-          mode: "push"
+          mode: push
           artifact: tapa-members
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          downloadUrl: https://raw.githubusercontent.com/culturecreates/artsdata-planet-wikidata/refs/heads/main/dump/tapa-members.jsonld
+          downloadUrl: https://api.artsdata.ca/query?format=jsonld&sparql=https://raw.githubusercontent.com/culturecreates/artsdata-planet-wikidata/refs/heads/main/sparql/tapa-members.sparql
