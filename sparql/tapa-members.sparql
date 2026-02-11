@@ -2,8 +2,10 @@ PREFIX wd: <http://www.wikidata.org/entity/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <http://schema.org/>
-#Members of TAPA, with the member type and the description.
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+# Members of TAPA (Q7826264)
+
 CONSTRUCT {
     ?item wdt:P31 ?type.
     ?item rdf:type ?artsdata_type.
