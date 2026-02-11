@@ -2,15 +2,17 @@ name: Atlantic Presenters Association
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 1 3,9 *"
 
 jobs:
   artsdata-push:
     runs-on: ubuntu-latest
     steps:
-      - name: Action setup
-        uses: culturecreates/artsdata-pipeline-action@v1.1.0
+      - name: Call Artsdata pipeline action
+        uses: culturecreates/artsdata-pipeline-action@v3
         with:
+          mode: push
           artifact: atlantic-presenters-association
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          downloadUrl: https://raw.githubusercontent.com/culturecreates/artsdata-planet-wikidata/refs/heads/main/dump/atlantic-presenters-association.jsonld
-
+          downloadUrl: https://api.artsdata.ca/query?format=jsonld&sparql=https://raw.githubusercontent.com/culturecreates/artsdata-planet-wikidata/refs/heads/main/sparql/atlantic-presenters.sparql
