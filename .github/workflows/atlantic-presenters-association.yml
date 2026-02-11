@@ -15,4 +15,4 @@ jobs:
           mode: push
           artifact: atlantic-presenters-association
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          downloadUrl: https://api.artsdata.ca/query?format=jsonld&sparql=https://raw.githubusercontent.com/culturecreates/artsdata-planet-wikidata/refs/heads/main/sparql/atlantic-presenters.sparql
+          downloadUrl: https://api.artsdata.ca/query?format=jsonld&sparql=https://raw.githubusercontent.com/culturecreates/artsdata-planet-wikidata/refs/heads/main/sparql/atlantic-presenters-association.sparql
