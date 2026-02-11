@@ -1,8 +1,2 @@
 # Default ignored files
-/shelf/
-/.idea
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
+# See https://help.github.com/en/articles/ignoring-files for more about ignoring files.
