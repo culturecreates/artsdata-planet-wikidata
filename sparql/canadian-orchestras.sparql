@@ -2,17 +2,16 @@ PREFIX wd: <http://www.wikidata.org/entity/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <http://schema.org/>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 # Organizations that are orchestras (Q42998) in Canada (Q16).
 
 CONSTRUCT {
-    ?item rdf:type schema:Organization .
-    ?item schema:name ?itemLabel.
-    ?item schema:sameAs ?adURI.
-    ?item schema:sameAs ?item.
-    ?item schema:sameAs ?isniURI.
-    ?item schema:url ?url.
+    ?item a schema:Organization ;
+        schema:name ?itemLabel ;
+        schema:sameAs ?adURI ;
+        schema:sameAs ?item ;
+        schema:sameAs ?isniURI ;
+        schema:url ?url .
 }
 WHERE {
     SERVICE <https://query.wikidata.org/sparql>  {

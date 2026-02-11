@@ -1,43 +1,39 @@
-# Members of BC Live (bclive.ca), with the member type and the description.
-
 PREFIX schema: <http://schema.org/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX wd: <http://www.wikidata.org/entity/>
+
+# Members of BC Live (bclive.ca), with the member type and the description.
+
 CONSTRUCT {
     ?item wdt:P31 ?nature  ;
-          a ?artsdata_type ;
-          schema:disambiguatingDescription ?description ;
-          schema:name ?itemLabel ;
-          schema:memberOf ?member ;
-          schema:sameAs ?adURI ;
-          schema:url ?site .
+        a ?artsdata_type ;
+        schema:disambiguatingDescription ?description ;
+        schema:name ?itemLabel ;
+        schema:memberOf wd:Q75640653 ;
+        schema:sameAs ?adURI ;
+        schema:url ?site .
 }
 WHERE {
     {
         SERVICE <https://query.wikidata.org/sparql>  {
-            select distinct   ?item ?nature ?itemLabel ?description ?artsdata_type ?member ?adURI ?site  where {
+            select distinct   ?item ?nature ?itemLabel ?description ?artsdata_type ?adURI ?site  where {
                 ?item wdt:P31 ?nature ;
-                      rdfs:label ?itemLabel ;
-                      schema:description ?description ;
-                      wdt:P463 wd:Q75640653 ;
-                      wdt:P463 ?member .
+                    rdfs:label ?itemLabel ;
+                    schema:description ?description ;
+                    wdt:P463 wd:Q75640653  .
                 OPTIONAL {
                     ?item wdt:P856 ?site .
                 }
                 OPTIONAL {
-                    ?item wdt:P31/wdt:P279* wd:Q43229 .
-                    bind( schema:Organization as ?artsdata_type )
+                    ?item (wdt:P31/(wdt:P279*)) wd:Q5.
+                    BIND(schema:Person AS ?artsdata_person_type)
                 }
+                BIND(COALESCE(?artsdata_person_type, schema:Organization) AS ?artsdata_type)
                 OPTIONAL {
-                    ?item wdt:P31/wdt:P279* wd:Q5 .
-                    bind( schema:Person as ?artsdata_type )
-                }
-                OPTIONAL {
-                   ?item wdt:P7627 ?adid .
+                    ?item wdt:P7627 ?adid .
                     bind(URI(CONCAT("http://kg.artsdata.ca/resource/",?adid)) as ?adURI)
                 }
-                 
                 FILTER(LANG(?itemLabel) IN ("fr","en")).
                 FILTER(LANG(?description) IN ("fr","en")).
             }

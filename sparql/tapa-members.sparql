@@ -7,21 +7,21 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 # Members of TAPA (Q7826264)
 
 CONSTRUCT {
-    ?item wdt:P31 ?type.
-    ?item rdf:type ?artsdata_type.
-    ?item schema:name ?itemLabel.
-    ?item schema:memberOf ?member.
-    ?item schema:sameAs ?adURI.
-    ?item schema:sameAs ?item.
-    ?item schema:sameAs ?isniURI.
-    ?item schema:url ?url.
+    ?item wdt:P31 ?type;
+        a ?artsdata_type ;
+        schema:name ?itemLabel ;
+        schema:memberOf ?member ;
+        schema:sameAs ?adURI ;
+        schema:sameAs ?item ;
+        schema:sameAs ?isniURI ;
+        schema:url ?url .
 }
 WHERE {
     SERVICE <https://query.wikidata.org/sparql>  {
         SELECT * WHERE {
             ?item wdt:P31 ?type;
-            rdfs:label ?itemLabel;
-            wdt:P463 wd:Q7826264, ?member.
+                rdfs:label ?itemLabel;
+                wdt:P463 wd:Q7826264, ?member.
             FILTER(LANG(?itemLabel) IN("en", "fr", "mul"))
             OPTIONAL {
                 ?item (wdt:P31/(wdt:P279*)) wd:Q5.

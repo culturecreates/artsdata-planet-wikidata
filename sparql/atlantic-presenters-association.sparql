@@ -7,21 +7,21 @@ PREFIX wd: <http://www.wikidata.org/entity/>
 
 CONSTRUCT {
     ?item wdt:P31 ?nature  ;
-    a ?artsdata_type ;
-    schema:disambiguatingDescription ?description ;
-    schema:name ?itemLabel ;
-    schema:memberOf wd:Q72193736 ;
-    schema:sameAs ?adURI ;
-    schema:url ?site .
+        a ?artsdata_type ;
+        schema:disambiguatingDescription ?description ;
+        schema:name ?itemLabel ;
+        schema:memberOf wd:Q72193736 ;
+        schema:sameAs ?adURI ;
+        schema:url ?site .
 }
 WHERE {
     {
         SERVICE <https://query.wikidata.org/sparql>  {
             select distinct   ?item ?nature ?itemLabel ?description ?artsdata_type ?adURI ?site where {
                 ?item wdt:P31 ?nature ;
-                rdfs:label ?itemLabel ;
-                schema:description ?description ;
-                wdt:P463 wd:Q72193736 .
+                    rdfs:label ?itemLabel ;
+                    schema:description ?description ;
+                    wdt:P463 wd:Q72193736 .
                 OPTIONAL {
                     ?item wdt:P856 ?site .
                 }
