@@ -2,6 +2,8 @@ name: Canadian Orchestras
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 1 3,9 *"
 
 jobs:
   artsdata-push:
