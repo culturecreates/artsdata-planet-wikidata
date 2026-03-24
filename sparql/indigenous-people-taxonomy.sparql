@@ -1,13 +1,24 @@
-SELECT ?ethnic ?ethnicLabel ?broader ?broaderLabel WHERE {
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+PREFIX pq: <http://www.wikidata.org/prop/qualifier/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+
+CONSTRUCT {
+  ?ethnic skos:prefLabel ?ethnicLabel; skos:broader ?broader .
+  ?broader skos:prefLabel ?broaderLabel  .
+  }
+WHERE {
   ?ethnic (wdt:P279*) wd:Q103817;
     wdt:P279 ?broader.
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],mul,en". }
 }
 
-# https://query.wikidata.org/sparql?query=%0Aselect%20%3Fethnic%20%3FethnicLabel%20%20%3Fbroader%20%3FbroaderLabel%20%0Awhere%20%7B%0A%20%20%0A%3Fethnic%20wdt%3AP279*%20wd%3AQ103817%20%3B%20%23%20wd%3AQ36747%20%3B%20%0A%20%20%20%20%20%20%20%20wdt%3AP279%20%3Fbroader%20.%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%0A%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cmul%2Cen%22.%20%7D%0A%20%20%7D
-
-
-# Query editor: https://w.wiki/KHLc
+# Query editor: https://w.wiki/KHPe
 
 
 # curl -s "https://raw.githubusercontent.com/culturecreates/artsdata-planet-wikidata/refs/heads/main/sparql/indigenous-people-taxonomy.sparql" | \
