@@ -1,0 +1,16 @@
+name: indigenous-people-taxonomy
+
+on:
+  workflow_dispatch:
+
+jobs:
+  artsdata-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call Artsdata pipeline action
+        uses: culturecreates/artsdata-pipeline-action@v3
+        with:
+          mode: push
+          artifact: indigenous-people-taxonomy
+          publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
+          downloadUrl: https://raw.githubusercontent.com/culturecreates/artsdata-planet-wikidata/refs/heads/main/dumps/indigenous-people-taxonomy.ttl
