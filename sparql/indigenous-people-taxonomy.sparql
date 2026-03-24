@@ -1,0 +1,17 @@
+SELECT ?ethnic ?ethnicLabel ?broader ?broaderLabel WHERE {
+  ?ethnic (wdt:P279*) wd:Q103817;
+    wdt:P279 ?broader.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],mul,en". }
+}
+
+# https://query.wikidata.org/sparql?query=%0Aselect%20%3Fethnic%20%3FethnicLabel%20%20%3Fbroader%20%3FbroaderLabel%20%0Awhere%20%7B%0A%20%20%0A%3Fethnic%20wdt%3AP279*%20wd%3AQ103817%20%3B%20%23%20wd%3AQ36747%20%3B%20%0A%20%20%20%20%20%20%20%20wdt%3AP279%20%3Fbroader%20.%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%20%20%20%20%0A%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cmul%2Cen%22.%20%7D%0A%20%20%7D
+
+
+# Query editor: https://w.wiki/KHLc
+
+
+# curl -s "https://raw.githubusercontent.com/culturecreates/artsdata-planet-wikidata/refs/heads/main/sparql/indigenous-people-taxonomy.sparql" | \
+# curl -X POST \              
+#   -H "Accept: text/turtle" \  
+#   --data-urlencode "query@-" \       
+#   "https://query.wikidata.org/sparql"
