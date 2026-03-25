@@ -33,7 +33,8 @@ WHERE {
 
 # To Create a dump.ttl file, run the following command in the terminal:
 # curl -s "https://raw.githubusercontent.com/culturecreates/artsdata-planet-wikidata/refs/heads/main/sparql/indigenous-people-taxonomy.sparql" | \
-# curl -X POST \              
-#   -H "Accept: text/turtle" -H "User-Agent: artsdata-crawler (+artsdata.ca)" \  
-#   --data-urlencode "query@-" \       
+# curl -X POST \ 
+#   -H "Accept: text/turtle" -H "User-Agent: artsdata-crawler (+artsdata.ca)" \ 
+#   --data-urlencode "query@-" \ 
+#    -o indigenous-people-taxonomy.ttl \ 
 #   "https://query.wikidata.org/sparql"

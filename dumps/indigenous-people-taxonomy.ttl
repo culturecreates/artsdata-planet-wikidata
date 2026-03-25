@@ -1,2706 +1,3632 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wd: <http://www.wikidata.org/entity/> .
 @prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix bd: <http://www.bigdata.com/rdf#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix hint: <http://www.bigdata.com/queryHints#> .
+@prefix bds: <http://www.bigdata.com/rdf/search#> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix mwapi: <https://www.mediawiki.org/ontology#API/> .
+@prefix gas: <http://www.bigdata.com/rdf/gas#> .
+@prefix wdsubgraph: <https://query.wikidata.org/subgraph/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+@prefix wdata: <http://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix wds: <http://www.wikidata.org/entity/statement/> .
+@prefix wdv: <http://www.wikidata.org/value/> .
+@prefix wdref: <http://www.wikidata.org/reference/> .
 @prefix schema: <http://schema.org/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix geof: <http://www.opengis.net/def/geosparql/function/> .
+@prefix mediawiki: <https://www.mediawiki.org/ontology#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix wikibaseqs: <http://wikiba.se/queryService#> .
+
+wd:Q1004875 rdf:type skos:Concept ;
+	skos:broader wd:Q142702 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Bumiputera"@en .
+
+wd:Q1010028 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Bunurong people"@en .
+
+wd:Q101828 rdf:type skos:Concept ;
+	skos:broader wd:Q31835962 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ainu people"@en .
+
+wd:Q102090 rdf:type skos:Concept ;
+	skos:broader wd:Q1610191 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Apache"@en .
+
+wd:Q1028277 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Danezaa people"@en .
+
+wd:Q10346040 rdf:type skos:Concept ;
+	skos:broader wd:Q1363781 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Pataxó Hãhãhãe"@en .
+
+wd:Q10375164 rdf:type skos:Concept ;
+	skos:broader wd:Q1363781 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Suruí de Rondônia"@en .
+
+wd:Q103817 rdf:type skos:Concept ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous people"@en .
+
+wd:Q104415946 rdf:type skos:Concept ;
+	skos:broader wd:Q852431 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "San Felipe Puebloans"@en .
+
+wd:Q104416444 rdf:type skos:Concept ;
+	skos:broader wd:Q852431 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Taos people"@en .
+
+wd:Q104431241 rdf:type skos:Concept ;
+	skos:broader wd:Q852431 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Picuris people"@en .
+
+wd:Q104439864 rdf:type skos:Concept ;
+	skos:broader wd:Q852431 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kewa Puebloan"@en .
+
+wd:Q104440572 rdf:type skos:Concept ;
+	skos:broader wd:Q607785 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "White Mountain Apache"@en .
+
+wd:Q104440625 rdf:type skos:Concept ;
+	skos:broader wd:Q1974818, wd:Q852431 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Santa Clara Pueblo"@en .
+
+wd:Q104586516 rdf:type skos:Concept ;
+	skos:broader wd:Q852431 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Nambé people"@en .
+
+wd:Q1047264 rdf:type skos:Concept ;
+	skos:broader wd:Q1621197 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wampanoag people"@en .
+
+wd:Q104854936 rdf:type skos:Concept ;
+	skos:broader wd:Q114653257 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Native American tribe in Maryland"@en .
+
+wd:Q104904387 rdf:type skos:Concept ;
+	skos:broader wd:Q12885585, wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "state-recognized tribe in the United States"@en .
+
+wd:Q104906312 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Patagonian peoples"@en .
+
+wd:Q105395705 rdf:type skos:Concept ;
+	skos:broader wd:Q1755154 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tulalip people"@en .
+
+wd:Q105405 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Cherokee"@en .
+
+wd:Q105684656 rdf:type skos:Concept ;
+	skos:broader wd:Q379636 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Torres Strait Islander student"@en .
+
+wd:Q105684720 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Aboriginal students"@en .
+
+wd:Q1065583 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Potawatomi"@en .
+
+wd:Q1068851 rdf:type skos:Concept ;
+	skos:broader wd:Q103817 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Indigenous inhabitants of the New Territories"@en .
+
+wd:Q106993448 rdf:type skos:Concept ;
+	skos:broader wd:Q1479328 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous peoples in French Guiana"@en .
+
+wd:Q1070445 rdf:type skos:Concept ;
+	skos:broader wd:Q178484 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Cherufe"@en .
+
+wd:Q107182521 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Northern Cheyenne"@en .
+
+wd:Q107221168 rdf:type skos:Concept ;
+	skos:broader wd:Q3091608 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Waranka"@en .
+
+wd:Q107297054 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Taboso people"@en .
+
+wd:Q107331 rdf:type skos:Concept ;
+	skos:broader wd:Q1661387 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Great Lakes Twa"@en .
+
+wd:Q107410977 rdf:type skos:Concept ;
+	skos:broader wd:Q45315 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Amazigh tribe"@en .
+
+wd:Q107434 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Sioux"@en .
+
+wd:Q108266 rdf:type skos:Concept ;
+	skos:broader wd:Q102090, wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Navajo"@en .
+
+wd:Q1084067 rdf:type skos:Concept ;
+	skos:broader wd:Q36747, wd:Q82048 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Christian Munsee"@en .
+
+wd:Q108513623 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Baniwa-Curripaco-Wakuenai"@en .
+
+wd:Q108866835 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Amerindian gay men"@en .
+
+wd:Q108939621 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Amerindian boys"@en .
+
+wd:Q109090457 rdf:type skos:Concept ;
+	skos:broader wd:Q103817 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Bajo"@en .
+
+wd:Q109108763 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Amerindian women"@en .
+
+wd:Q1092352 rdf:type skos:Concept ;
+	skos:broader wd:Q1151288, wd:Q4770873 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "K'asho Got'ine"@en .
+
+wd:Q109328851 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Amerindian men"@en .
+
+wd:Q109328859 rdf:type skos:Concept ;
+	skos:broader wd:Q109108763 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Amerindian women authors"@en .
+
+wd:Q109359848 rdf:type skos:Concept ;
+	skos:broader wd:Q101828 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Honshu Ainu"@en .
+
+wd:Q109570560 rdf:type skos:Concept ;
+	skos:broader wd:Q212152 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Praying Indians of Natick"@en .
+
+wd:Q109591501 rdf:type skos:Concept ;
+	skos:broader wd:Q109328851 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "young Amerindian men"@en .
+
+wd:Q110100602 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Q110100602" .
+
+wd:Q110320801 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Indigenous Australian children"@en .
+
+wd:Q11038987 rdf:type skos:Concept ;
+	skos:broader wd:Q31835962 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous peoples of Siberia"@en .
+
+wd:Q1105374 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Q1105374" .
+
+wd:Q110654499 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255, wd:Q392316 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Iroquoian Peoples"@en .
+
+wd:Q110886693 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kokatha"@en .
+
+wd:Q110922133 rdf:type skos:Concept ;
+	skos:broader wd:Q103817 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Sea Gypsies"@en .
+
+wd:Q110923182 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Yankunytjatjara"@en .
+
+wd:Q111211041 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Q111211041" .
+
+wd:Q111367391 rdf:type skos:Concept ;
+	skos:broader wd:Q536129 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Inland Łingít"@en .
+
+wd:Q1113975 rdf:type skos:Concept ;
+	skos:broader wd:Q103817 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Comechingón"@en .
+
+wd:Q111585476 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Amah Mutsun"@en .
+
+wd:Q1123129 rdf:type skos:Concept ;
+	skos:broader wd:Q11038987, wd:Q55658245 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Teleuts"@en .
+
+wd:Q1123923 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Nez Perce"@en .
+
+wd:Q11267380 rdf:type skos:Concept ;
+	skos:broader wd:Q1996477 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Whadjuk"@en .
+
+wd:Q112865153 rdf:type skos:Concept ;
+	skos:broader wd:Q103817 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigiqueer person"@en .
+
+wd:Q11308028 rdf:type skos:Concept ;
+	skos:broader wd:Q65249531 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Sumunkur Ainu"@en .
+
+wd:Q113144697 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Muscogee people"@en .
+
+wd:Q113215967 rdf:type skos:Concept ;
+	skos:broader wd:Q6122670 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Māori woman"@en .
+
+wd:Q113217710 rdf:type skos:Concept ;
+	skos:broader wd:Q6122670 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Māori artist"@en .
+
+wd:Q11343929 rdf:type skos:Concept ;
+	skos:broader wd:Q65249531 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Menasunkur Ainu"@en .
+
+wd:Q113456792 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Indigenous peoples of Nevada"@en .
+
+wd:Q1137355 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kwakwaka'wakw"@en .
+
+wd:Q1138201 rdf:type skos:Concept ;
+	skos:broader wd:Q1755154 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Cowichan"@en .
+
+wd:Q114049667 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Uto-Aztecan Indians"@en .
+
+wd:Q1144501 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Gwich'in people"@en .
+
+wd:Q114470533 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Indigenous Hispanic and Latino Americans"@en .
+
+wd:Q114652563 rdf:type skos:Concept ;
+	skos:broader wd:Q114653257 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Native American tribe in New York"@en .
+
+wd:Q114653257 rdf:type skos:Concept ;
+	skos:broader wd:Q12885585 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Native American tribe in the United States"@en .
+
+wd:Q1148851 rdf:type skos:Concept ;
+	skos:broader wd:Q1945590 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Batin people"@en .
+
+wd:Q1151288 rdf:type skos:Concept ;
+	skos:broader wd:Q4770873 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Sahtu people"@en .
+
+wd:Q1151353 rdf:type skos:Concept ;
+	skos:broader wd:Q36747, wd:Q4770873 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Slavey people"@en .
+
+wd:Q11544942 rdf:type skos:Concept ;
+	skos:broader wd:Q31835962 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Bonin Islanders"@en .
+
+wd:Q11561896 rdf:type skos:Concept ;
+	skos:broader wd:Q65249531 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wataritō"@en .
+
+wd:Q115756481 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Q115756481" .
+
+wd:Q1157736 rdf:type skos:Concept ;
+	skos:broader wd:Q863284 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Dakelh people"@en .
+
+wd:Q115791109 rdf:type skos:Concept ;
+	skos:broader wd:Q863284 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "treaty society"@en .
+
+wd:Q115885364 rdf:type skos:Concept ;
+	skos:broader wd:Q12885585 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tribal town"@en .
+
+wd:Q1162132 rdf:type skos:Concept ;
+	skos:broader wd:Q114049667, wd:Q3314452 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wixarika"@en .
+
+wd:Q1166813 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Darug people"@en .
+
+wd:Q116971 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Mohawk"@en .
+
+wd:Q117086038 rdf:type skos:Concept ;
+	skos:broader wd:Q1945590 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Sumatrans"@en .
+
+wd:Q117100 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255, wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kiowa people"@en .
+
+wd:Q117191 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Cree"@en .
+
+wd:Q117244 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Arahuacos (Arawak)"@en .
+
+wd:Q117255 rdf:type skos:Concept ;
+	skos:broader wd:Q114049667, wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Hopi people"@en .
+
+wd:Q117817135 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Onondaga"@en .
+
+wd:Q11784304 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Mobile"@en .
+
+wd:Q1179410 rdf:type skos:Concept ;
+	skos:broader wd:Q1479328, wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Piaroa"@en .
+
+wd:Q1186518 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255, wd:Q863284 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Sekani people"@en .
+
+wd:Q1186527 rdf:type skos:Concept ;
+	skos:broader wd:Q4770873 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tłı̨chǫ"@en .
+
+wd:Q118688981 rdf:type skos:Concept ;
+	skos:broader wd:Q1479328 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Q118688981" .
+
+wd:Q118905194 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Indios Bárbaros"@en .
+
+wd:Q1191083 rdf:type skos:Concept ;
+	skos:broader wd:Q107410977 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Meshwesh"@en .
+
+wd:Q119464444 rdf:type skos:Concept ;
+	skos:broader wd:Q6122670 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Māori child"@en .
+
+wd:Q120264743 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Paugussett"@en .
+
+wd:Q120601 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Omaha Tribe of Nebraska"@en .
+
+wd:Q12060728 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Aboriginal Australians"@en .
+
+wd:Q12156663 rdf:type skos:Concept ;
+	skos:broader wd:Q852431 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Cochiti"@en .
+
+wd:Q122662237 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Indigenous peoples in Guatemala"@en .
+
+wd:Q123236852 rdf:type skos:Concept ;
+	skos:broader wd:Q65249531 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Hinomoto"@en .
+
+wd:Q123236879 rdf:type skos:Concept ;
+	skos:broader wd:Q65249531 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Karako"@en .
+
+wd:Q123371386 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Káínawa"@en .
+
+wd:Q1234581 rdf:type skos:Concept ;
+	skos:broader wd:Q4484042 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Igorot peoples"@mul .
+
+wd:Q123660105 rdf:type skos:Concept ;
+	skos:broader wd:Q216839 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Taiwanese indigenous athlete"@en .
+
+wd:Q123706378 rdf:type skos:Concept ;
+	skos:broader wd:Q12885585 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Native American tribe in Massachusetts"@en .
+
+wd:Q12517196 rdf:type skos:Concept ;
+	skos:broader wd:Q847603 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Bahau"@en .
+
+wd:Q1252992 rdf:type skos:Concept ;
+	skos:broader wd:Q1886550 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Dâw people"@en .
+
+wd:Q1253290 rdf:type skos:Concept ;
+	skos:broader wd:Q114049667, wd:Q319245 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ute"@en .
+
+wd:Q1255107 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Northern Tutchone people"@en .
+
+wd:Q1255761 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Southern Tutchone people"@en .
+
+wd:Q1257165 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Aranama"@en .
+
+wd:Q1258889 rdf:type skos:Concept ;
+	skos:broader wd:Q1661387 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Hadza people"@en .
+
+wd:Q1258905 rdf:type skos:Concept ;
+	skos:broader wd:Q1945590 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Madurese"@en .
+
+wd:Q12626615 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Aguas Calientes"@en .
+
+wd:Q12627351 rdf:type skos:Concept ;
+	skos:broader wd:Q1179410 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Q12627351" .
+
+wd:Q12628614 rdf:type skos:Concept ;
+	skos:broader wd:Q1363781 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Caimbé"@en .
+
+wd:Q12628929 rdf:type skos:Concept ;
+	skos:broader wd:Q821915 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Chawathil"@en .
+
+wd:Q12628936 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Chepenafa people"@en .
+
+wd:Q12628963 rdf:type skos:Concept ;
+	skos:broader wd:Q536129 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Chilkat"@en .
+
+wd:Q12631483 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Lake Superior Chippewa"@en .
+
+wd:Q12632217 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Henya"@en .
+
+wd:Q12633608 rdf:type skos:Concept ;
+	skos:broader wd:Q852431 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Jemez Puebloans"@en .
+
+wd:Q12633982 rdf:type skos:Concept ;
+	skos:broader wd:Q26774 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Southern Ute Indian Tribe"@en .
+
+wd:Q12635132 rdf:type skos:Concept ;
+	skos:broader wd:Q821915 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kwantlen"@en .
+
+wd:Q12635135 rdf:type skos:Concept ;
+	skos:broader wd:Q319245 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Southern Paiute"@en .
+
+wd:Q12637240 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Monimbó"@en .
+
+wd:Q12638328 rdf:type skos:Concept ;
+	skos:broader wd:Q1363781 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Nhambicuaran"@en .
+
+wd:Q12638572 rdf:type skos:Concept ;
+	skos:broader wd:Q1789087 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Norwottuck"@en .
+
+wd:Q12639251 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Panamint"@en .
+
+wd:Q12644711 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Vinta"@en .
+
+wd:Q12645114 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wecquaesgeek"@en .
+
+wd:Q12645304 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wunnashowatuckoog"@en .
+
+wd:Q12645581 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Zapara"@en .
+
+wd:Q12645717 rdf:type skos:Concept ;
+	skos:broader wd:Q6739693 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Zia people"@en .
+
+wd:Q12645785 rdf:type skos:Concept ;
+	skos:broader wd:Q3314452 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Q12645785" .
+
+wd:Q1265232 rdf:type skos:Concept ;
+	skos:broader wd:Q1479328 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous peoples in Paraguay"@en .
+
+wd:Q126592238 rdf:type skos:Concept ;
+	skos:broader wd:Q31835962 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous peoples of India"@en .
+
+wd:Q1267932 rdf:type skos:Concept ;
+	skos:broader wd:Q45315 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Schleuh people"@en .
+
+wd:Q1268882 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Quapaw"@mul .
+
+wd:Q126945995 rdf:type skos:Concept ;
+	skos:broader wd:Q216839 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Gāoshān people"@en .
+
+wd:Q1273591 rdf:type skos:Concept ;
+	skos:broader wd:Q1363781 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Munduruku people"@en .
+
+wd:Q127491 rdf:type skos:Concept ;
+	skos:broader wd:Q682079 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kasepuhan"@en .
+
+wd:Q127515 rdf:type skos:Concept ;
+	skos:broader wd:Q4770873 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Chipewyan people"@en .
+
+wd:Q12827512 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Mochicas"@en .
+
+wd:Q1283203 rdf:type skos:Concept ;
+	skos:broader wd:Q3558036 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Guaymí people"@en .
+
+wd:Q12885585 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Native American tribe"@en .
+
+wd:Q129060 rdf:type skos:Concept ;
+	skos:broader wd:Q110654499 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "St. Lawrence Iroquoians"@en .
+
+wd:Q1292246 rdf:type skos:Concept ;
+	skos:broader wd:Q1661387 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Sandawe people"@en .
+
+wd:Q130236688 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Piikani people"@en .
+
+wd:Q130236700 rdf:type skos:Concept ;
+	skos:broader wd:Q130236688 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Northern Piikani"@en .
+
+wd:Q130236722 rdf:type skos:Concept ;
+	skos:broader wd:Q130236688, wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Southern Piikani"@en .
+
+wd:Q130241476 rdf:type skos:Concept ;
+	skos:broader wd:Q117191 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Rocky Cree"@en .
+
+wd:Q130247306 rdf:type skos:Concept ;
+	skos:broader wd:Q1151288 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Sahtu Got'ine"@en .
+
+wd:Q130285434 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Siksiká"@en .
+
+wd:Q130307692 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tsúùtʼínà People"@en .
+
+wd:Q130374670 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wabanaki"@en .
+
+wd:Q130374722 rdf:type skos:Concept ;
+	skos:broader wd:Q130374670 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Penobscot people"@en .
+
+wd:Q13109203 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous peoples of Central America"@en .
+
+wd:Q131357604 rdf:type skos:Concept ;
+	skos:broader wd:Q318806 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Penobscot people"@en .
+
+wd:Q1313979 rdf:type skos:Concept ;
+	skos:broader wd:Q11038987, wd:Q55658245 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tubalar"@en .
+
+wd:Q131531662 rdf:type skos:Concept ;
+	skos:broader wd:Q495751 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Q131531662" .
+
+wd:Q131783251 rdf:type skos:Concept ;
+	skos:broader wd:Q1479328 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Q131783251" .
+
+wd:Q132560186 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tuscarora"@en .
+
+wd:Q132991711 rdf:type skos:Concept ;
+	skos:broader wd:Q863284 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Sc’ianew"@en .
+
+wd:Q132996785 rdf:type skos:Concept ;
+	skos:broader wd:Q1456870 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "C’eletkwmx"@en .
+
+wd:Q132997847 rdf:type skos:Concept ;
+	skos:broader wd:Q821915 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Xwchíyò:m"@en .
+
+wd:Q133163566 rdf:type skos:Concept ;
+	skos:broader wd:Q1137355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Dzawada’enuxw"@en .
+
+wd:Q133163654 rdf:type skos:Concept ;
+	skos:broader wd:Q537784 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ditidaht people"@en .
+
+wd:Q1335017 rdf:type skos:Concept ;
+	skos:broader wd:Q3058858 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Embera peoplee"@en .
+
+wd:Q134397457 rdf:type skos:Concept ;
+	skos:broader wd:Q16148367 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Santee Dakota"@en .
+
+wd:Q134879461 rdf:type skos:Concept ;
+	skos:broader wd:Q1363781 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Borum-Kren"@en .
+
+wd:Q135009745 rdf:type skos:Concept ;
+	skos:broader wd:Q142702 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Malaccan Malays"@en .
+
+wd:Q135507695 rdf:type skos:Concept ;
+	skos:broader wd:Q1661387 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "San"@en .
+
+wd:Q135863 rdf:type skos:Concept ;
+	skos:broader wd:Q1956640 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Algonquin people"@en .
+
+wd:Q136126372 rdf:type skos:Concept ;
+	skos:broader wd:Q1479328 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Guayacundos"@en .
+
+wd:Q13631965 rdf:type skos:Concept ;
+	skos:broader wd:Q1755154 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Sts'ailes First Nation"@en .
+
+wd:Q1363781 rdf:type skos:Concept ;
+	skos:broader wd:Q1479328 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous peoples in Brazil"@en .
+
+wd:Q136432030 rdf:type skos:Concept ;
+	skos:broader wd:Q3314452 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tepuztec people"@en .
+
+wd:Q13648403 rdf:type skos:Concept ;
+	skos:broader wd:Q379636 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Meriam people"@en .
+
+wd:Q137342805 rdf:type skos:Concept ;
+	skos:broader wd:Q1255761 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kluane people"@mul .
+
+wd:Q137358904 rdf:type skos:Concept ;
+	skos:broader wd:Q1406599 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Mainland Comox"@mul .
+
+wd:Q137362150 rdf:type skos:Concept ;
+	skos:broader wd:Q45315 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Iguzulen"@en .
+
+wd:Q1377233 rdf:type skos:Concept ;
+	skos:broader wd:Q863284 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Q1377233" .
+
+wd:Q1377301 rdf:type skos:Concept ;
+	skos:broader wd:Q11038987, wd:Q55658245 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Telengits"@en .
+
+wd:Q1385649 rdf:type skos:Concept ;
+	skos:broader wd:Q4310879 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Eyak people"@en .
+
+wd:Q1406599 rdf:type skos:Concept ;
+	skos:broader wd:Q1755154 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kʼómoks"@mul .
+
+wd:Q140993 rdf:type skos:Concept ;
+	skos:broader wd:Q103817 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Mudugar"@en .
+
+wd:Q1419240 rdf:type skos:Concept ;
+	skos:broader wd:Q694525 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Oorlam people"@en .
+
+wd:Q1421851 rdf:type skos:Concept ;
+	skos:broader wd:Q3058858 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wounaan"@en .
+
+wd:Q142425 rdf:type skos:Concept ;
+	skos:broader wd:Q103817 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous peoples of Oceania"@en .
+
+wd:Q142702 rdf:type skos:Concept ;
+	skos:broader wd:Q1945590 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Malays"@en .
+
+wd:Q1429504 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kickapoo"@mul .
+
+wd:Q1434725 rdf:type skos:Concept ;
+	skos:broader wd:Q12517196 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Punan Bah"@en .
+
+wd:Q1440932 rdf:type skos:Concept ;
+	skos:broader wd:Q13109203 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Rama people"@en .
+
+wd:Q1456870 rdf:type skos:Concept ;
+	skos:broader wd:Q384927 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Nlaka'pamux"@en .
+
+wd:Q1457025 rdf:type skos:ConceptScheme ;
+	skos:hasTopConcept wd:Q103817 ;
+	skos:prefLabel "list of Indigenous peoples"@en ;
+	wdt:P31 wd:Q13406463 .
+
+wd:Q1474169 rdf:type skos:Concept ;
+	skos:broader wd:Q1479328 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous peoples in Argentina"@en .
+
+wd:Q1479328 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Indigenous peoples of South America"@mul .
+
+wd:Q14827897 rdf:type skos:Concept ;
+	skos:broader wd:Q45315 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Sanhajas de Srayr"@en .
+
+wd:Q1493185 rdf:type skos:Concept ;
+	skos:broader wd:Q907924 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tonkawa"@en .
+
+wd:Q1493806 rdf:type skos:Concept ;
+	skos:broader wd:Q103817 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous peoples of Australia"@en .
+
+wd:Q14942868 rdf:type skos:Concept ;
+	skos:broader wd:Q6122670 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Māori monarch"@en .
+
+wd:Q1509140 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255, wd:Q384927, wd:Q863284 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Okanagan people"@en .
+
+wd:Q151227 rdf:type skos:Concept ;
+	skos:broader wd:Q1047264, wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Pokanoket"@en .
+
+wd:Q1515972 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Modoc people"@en .
+
+wd:Q1517496 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Iowa people"@en .
+
+wd:Q151804 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255, wd:Q863284 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Petun"@en .
+
+wd:Q1520094 rdf:type skos:Concept ;
+	skos:broader wd:Q333049 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Hunkpapa"@en .
+
+wd:Q15278068 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Skokomish Indian Tribe"@en .
+
+wd:Q1542754 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Westo"@en .
+
+wd:Q1550384 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kutenai people"@en .
+
+wd:Q1556876 rdf:type skos:Concept ;
+	skos:broader wd:Q11038987, wd:Q55658245 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kumandins"@en .
+
+wd:Q15571255 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous peoples of North America"@en .
+
+wd:Q1560742 rdf:type skos:Concept ;
+	skos:broader wd:Q1945590, wd:Q31835962 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Sasak people"@en .
+
+wd:Q1561494 rdf:type skos:Concept ;
+	skos:broader wd:Q1956640 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Amikwa"@en .
+
+wd:Q1563033 rdf:type skos:Concept ;
+	skos:broader wd:Q130374670, wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wolastoqiyik"@mul .
+
+wd:Q1563601 rdf:type skos:Concept ;
+	skos:broader wd:Q536129 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Auke people"@en .
+
+wd:Q1570674 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Halchidhoma"@en .
+
+wd:Q1572875 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Oneida"@en .
+
+wd:Q1585756 rdf:type skos:Concept ;
+	skos:broader wd:Q4484042 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Lumad peoples"@en .
+
+wd:Q15939915 rdf:type skos:Concept ;
+	skos:broader wd:Q216839 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kanakanavu"@en .
+
+wd:Q15975648 rdf:type skos:Concept ;
+	skos:broader wd:Q103817 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Q15975648" .
+
+wd:Q1610191 rdf:type skos:Concept ;
+	skos:broader wd:Q4310879 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Athabaskan people"@en .
+
+wd:Q16112957 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Bamoa"@en .
+
+wd:Q16114951 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kokopera"@en .
+
+wd:Q16115148 rdf:type skos:Concept ;
+	skos:broader wd:Q31835962 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Onge"@en .
+
+wd:Q16116054 rdf:type skos:Concept ;
+	skos:broader wd:Q1493185 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Cava"@en .
+
+wd:Q16116227 rdf:type skos:Concept ;
+	skos:broader wd:Q541788 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Monashackotoog"@en .
+
+wd:Q16147340 rdf:type skos:Concept ;
+	skos:broader wd:Q6122670 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Maori Muslims"@en .
+
+wd:Q16148367 rdf:type skos:Concept ;
+	skos:broader wd:Q107434 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Dakota people"@en .
+
+wd:Q16174384 rdf:type skos:Concept ;
+	skos:broader wd:Q25619749 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Banou Razin"@mul .
+
+wd:Q16211292 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Paarkantji"@en .
+
+wd:Q16211790 rdf:type skos:Concept ;
+	skos:broader wd:Q887850 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tunumiit"@en .
+
+wd:Q16211926 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wilyakali"@en .
+
+wd:Q1621197 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Algonquian peoples"@en .
+
+wd:Q163022 rdf:type skos:Concept ;
+	skos:broader wd:Q1661387 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Maasai"@en .
+
+wd:Q1631358 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Q1631358" .
+
+wd:Q1649265 rdf:type skos:Concept ;
+	skos:broader wd:Q130374670, wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Passamaquoddy Tribe"@en .
+
+wd:Q1652290 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Yirrganydji people"@en .
+
+wd:Q16526553 rdf:type skos:Concept ;
+	skos:broader wd:Q111211041 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Q16526553" .
+
+wd:Q1660486 rdf:type skos:Concept ;
+	skos:broader wd:Q45315 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Imraguen people"@en .
+
+wd:Q1661387 rdf:type skos:Concept ;
+	skos:broader wd:Q103817 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous peoples of Africa"@en .
+
+wd:Q16639243 rdf:type skos:Concept ;
+	skos:broader wd:Q852431 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tesuque"@en .
+
+wd:Q16908608 rdf:type skos:Concept ;
+	skos:broader wd:Q103817 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Q16908608" .
+
+wd:Q16931065 rdf:type skos:Concept ;
+	skos:broader wd:Q45315 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Amazighs Christians Donatians"@en .
+
+wd:Q170088 rdf:type skos:Concept ;
+	skos:broader wd:Q1661387 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Herero people"@en .
+
+wd:Q1701590 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ngunnawal people"@en .
+
+wd:Q17020537 rdf:type skos:Concept ;
+	skos:broader wd:Q1755154 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Snoqualmie people"@en .
+
+wd:Q170355 rdf:type skos:Concept ;
+	skos:broader wd:Q142425 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Indigenous Australians"@en .
+
+wd:Q1703953 rdf:type skos:Concept ;
+	skos:broader wd:Q117191 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Swampy Cree"@en .
+
+wd:Q1704409 rdf:type skos:Concept ;
+	skos:broader wd:Q117191 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Plains Cree"@en .
+
+wd:Q17050206 rdf:type skos:Concept ;
+	skos:broader wd:Q101828 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "kankō Ainu"@en .
+
+wd:Q17055655 rdf:type skos:Concept ;
+	skos:broader wd:Q1956640 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Teme-Augama Anishnabai"@en .
+
+wd:Q17056773 rdf:type skos:Concept ;
+	skos:broader wd:Q254387 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Temuan"@en .
+
+wd:Q172365 rdf:type skos:Concept ;
+	skos:broader wd:Q1661387 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "San people"@en .
+
+wd:Q1723904 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kaw people"@en .
+
+wd:Q17260229 rdf:type skos:Concept ;
+	skos:broader wd:Q107434 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Cheyenne River Sioux Tribe"@en .
+
+wd:Q17280097 rdf:type skos:Concept ;
+	skos:broader wd:Q333049 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Rosebud Sioux Tribe"@en .
+
+wd:Q17280792 rdf:type skos:Concept ;
+	skos:broader wd:Q107434, wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Standing Rock Sioux Tribe"@en .
+
+wd:Q17370580 rdf:type skos:Concept ;
+	skos:broader wd:Q216839 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Saaroa people"@en .
+
+wd:Q1737293 rdf:type skos:Concept ;
+	skos:broader wd:Q333049 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Miniconjou"@en .
+
+wd:Q1754503 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Fort Yuma Quechan Indian Tribe"@en .
+
+wd:Q1754891 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ponca"@en .
+
+wd:Q1755141 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255, wd:Q863284 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tsetsaut"@en .
+
+wd:Q1755154 rdf:type skos:Concept ;
+	skos:broader wd:Q1825812, wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Coast Salish peoples"@en .
+
+wd:Q1757881 rdf:type skos:Concept ;
+	skos:broader wd:Q1363781 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tupinambá"@en .
+
+wd:Q175823 rdf:type skos:Concept ;
+	skos:broader wd:Q12060728 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Gamilaraay"@en .
+
+wd:Q1758372 rdf:type skos:Concept ;
+	skos:broader wd:Q6122670 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Moriori people"@en .
+
+wd:Q17636351 rdf:type skos:Concept ;
+	skos:broader wd:Q178484 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "lafquenche"@en .
+
+wd:Q17636506 rdf:type skos:Concept ;
+	skos:broader wd:Q102090 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Mimbreños"@en .
+
+wd:Q1775933 rdf:type skos:Concept ;
+	skos:broader wd:Q45315 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Chenoua"@en .
+
+wd:Q1783660 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Saraguros"@en .
+
+wd:Q178484 rdf:type skos:Concept ;
+	skos:broader wd:Q118688981 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Mapuche"@en .
+
+wd:Q1789087 rdf:type skos:Concept ;
+	skos:broader wd:Q1621197 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Pocomtuc"@en .
+
+wd:Q1789962 rdf:type skos:Concept ;
+	skos:broader wd:Q1755154 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Lekwungen"@en .
+
+wd:Q180540 rdf:type skos:Concept ;
+	skos:broader wd:Q847603 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kenyah Dayak"@en .
+
+wd:Q1813883 rdf:type skos:Concept ;
+	skos:broader wd:Q110922133, wd:Q142702 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Urak Lawoi’"@en .
+
+wd:Q1816665 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255, wd:Q863284 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Neutral Confederacy"@en .
+
+wd:Q1820260 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Pintupi"@en .
+
+wd:Q1825474 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255, wd:Q863284 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Nuxalk"@en .
+
+wd:Q1825812 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255, wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Salish peoples"@en .
+
+wd:Q18578862 rdf:type skos:Concept ;
+	skos:broader wd:Q845985 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Mamanwâ"@en .
+
+wd:Q1886290 rdf:type skos:Concept ;
+	skos:broader wd:Q1945590 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Makassar people"@en .
+
+wd:Q1886550 rdf:type skos:Concept ;
+	skos:broader wd:Q1363781 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Maku people"@en .
+
+wd:Q1888127 rdf:type skos:Concept ;
+	skos:broader wd:Q1137355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Mamaliliḵa̱la"@en .
+
+wd:Q1891793 rdf:type skos:Concept ;
+	skos:broader wd:Q45315 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Moroccans"@en .
+
+wd:Q1894736 rdf:type skos:Concept ;
+	skos:broader wd:Q6024707 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Yavapai people"@en .
+
+wd:Q189975 rdf:type skos:Concept ;
+	skos:broader wd:Q11038987, wd:Q15571255, wd:Q3987120 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Inuit"@en .
+
+wd:Q191710 rdf:type skos:Concept ;
+	skos:broader wd:Q848624 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Aleuts"@en .
+
+wd:Q1922007 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Q1922007" .
+
+wd:Q1932580 rdf:type skos:Concept ;
+	skos:broader wd:Q45315 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Mozabite people"@en .
+
+wd:Q1945590 rdf:type skos:Concept ;
+	skos:broader wd:Q103817 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "native Indonesians"@en .
+
+wd:Q1955201 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255, wd:Q1621197 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Oji-Cree"@en .
+
+wd:Q1956640 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Anishinaabe"@en .
+
+wd:Q1964345 rdf:type skos:Concept ;
+	skos:broader wd:Q1661387 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Zemba"@en .
+
+wd:Q1974818 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tewa people"@en .
+
+wd:Q19748582 rdf:type skos:Concept ;
+	skos:broader wd:Q1945590 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Musi people"@en .
+
+wd:Q19748586 rdf:type skos:Concept ;
+	skos:broader wd:Q1945590 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Palembang"@en .
+
+wd:Q19875967 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Muthi Muthi"@en .
+
+wd:Q1993509 rdf:type skos:Concept ;
+	skos:broader wd:Q863284 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Nisga’a people"@en .
+
+wd:Q1996477 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Noongar people"@en .
+
+wd:Q201024 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Mohegan"@en .
+
+wd:Q2019170 rdf:type skos:Concept ;
+	skos:broader wd:Q1258905 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Baweanese"@en .
+
+wd:Q202575 rdf:type skos:Concept ;
+	skos:broader wd:Q1661387 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Fulbe people"@en .
+
+wd:Q20310140 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Hullooetell"@en .
+
+wd:Q20310314 rdf:type skos:Concept ;
+	skos:broader wd:Q1253290 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Pahvant"@en .
+
+wd:Q2031854 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wappo people"@en .
+
+wd:Q2034266 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Squamish"@en .
+
+wd:Q203747 rdf:type skos:Concept ;
+	skos:broader wd:Q1661387 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Baka people"@en .
+
+wd:Q205006 rdf:type skos:Concept ;
+	skos:broader wd:Q216839 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Amis"@en .
+
+wd:Q2056652 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Q2056652" .
+
+wd:Q2067521 rdf:type skos:Concept ;
+	skos:broader wd:Q118688981, wd:Q178484 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Pehuenche"@en .
+
+wd:Q2067963 rdf:type skos:Concept ;
+	skos:broader wd:Q1945590 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tenggerese people"@en .
+
+wd:Q209148 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Akimel O'odham"@en .
+
+wd:Q210332 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Haida people"@en .
+
+wd:Q210334 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Cayuga people"@en .
+
+wd:Q210561 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous peoples of the Pacific Northwest Coast"@en .
+
+wd:Q210623 rdf:type skos:Concept ;
+	skos:broader wd:Q3258734 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Taíno people"@en .
+
+wd:Q212152 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Praying Indian"@en .
+
+wd:Q213396 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wyandot people"@en .
+
+wd:Q213422 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Seneca"@en .
+
+wd:Q2144062 rdf:type skos:Concept ;
+	skos:broader wd:Q845985 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Semang"@en .
+
+wd:Q216839 rdf:type skos:Concept ;
+	skos:broader wd:Q31835962 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Taiwanese indigenous peoples"@en .
+
+wd:Q219252 rdf:type skos:Concept ;
+	skos:broader wd:Q1661387 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Khoikhoi"@en .
+
+wd:Q22083533 rdf:type skos:Concept ;
+	skos:broader wd:Q852431 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Isleta Puebloan"@en .
+
+wd:Q2217211 rdf:type skos:Concept ;
+	skos:broader wd:Q1755154 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Samish"@en .
+
+wd:Q2219658 rdf:type skos:Concept ;
+	skos:broader wd:Q852431 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "San Ildefonso Pueblo"@en .
+
+wd:Q225469 rdf:type skos:Concept ;
+	skos:broader wd:Q1755154 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Puyallup people"@en .
+
+wd:Q2258527 rdf:type skos:Concept ;
+	skos:broader wd:Q1479328 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous peoples in Colombia"@en .
+
+wd:Q2274648 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Q2274648" .
+
+wd:Q2276599 rdf:type skos:Concept ;
+	skos:broader wd:Q444397 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Shakopee Mdewakanton Sioux Community"@en .
+
+wd:Q22813287 rdf:type skos:Concept ;
+	skos:broader wd:Q357670 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Scheduled Tribes"@en .
+
+wd:Q231317 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Zuni people"@en .
+
+wd:Q2357073 rdf:type skos:Concept ;
+	skos:broader wd:Q1945590 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Baduy"@en .
+
+wd:Q2364324 rdf:type skos:Concept ;
+	skos:broader wd:Q45315 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ait Atta"@en .
+
+wd:Q2389700 rdf:type skos:Concept ;
+	skos:broader wd:Q536129 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Taku people"@en .
+
+wd:Q24251468 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Chumash people"@en .
+
+wd:Q2427023 rdf:type skos:Concept ;
+	skos:broader wd:Q1661387 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kutama"@en .
+
+wd:Q24287310 rdf:type skos:Concept ;
+	skos:broader wd:Q847603 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Barakai"@en .
+
+wd:Q24392750 rdf:type skos:Concept ;
+	skos:broader wd:Q1945590 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Koiwai people"@en .
+
+wd:Q24402659 rdf:type skos:Concept ;
+	skos:broader wd:Q1945590 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Akit"@en .
+
+wd:Q244735 rdf:type skos:Concept ;
+	skos:broader wd:Q11038987 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Altai people"@en .
+
+wd:Q2456520 rdf:type skos:Concept ;
+	skos:broader wd:Q45315 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Libu"@en .
+
+wd:Q2500209 rdf:type skos:Concept ;
+	skos:broader wd:Q4484042 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Mangyan peoples"@en .
+
+wd:Q2520180 rdf:type skos:Concept ;
+	skos:broader wd:Q1363781 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tucano people"@en .
+
+wd:Q2533493 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Maidu"@en .
+
+wd:Q25391592 rdf:type skos:Concept ;
+	skos:broader wd:Q45315, wd:Q6792792 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Autololes"@en .
+
+wd:Q2540423 rdf:type skos:Concept ;
+	skos:broader wd:Q16148367 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wahpeton"@en .
+
+wd:Q2540445 rdf:type skos:Concept ;
+	skos:broader wd:Q16148367 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wahpekute"@en .
+
+wd:Q254387 rdf:type skos:Concept ;
+	skos:broader wd:Q103817 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Orang Asli"@en .
+
+wd:Q255872 rdf:type skos:Concept ;
+	skos:broader wd:Q1956640 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ojibwe"@en .
+
+wd:Q25619749 rdf:type skos:Concept ;
+	skos:broader wd:Q45315 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Berbers in al-Andalus"@en .
+
+wd:Q258571 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Erie people"@en .
+
+wd:Q2586461 rdf:type skos:Concept ;
+	skos:broader wd:Q1419240 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "ǀKhowesin"@en .
+
+wd:Q2590690 rdf:type skos:Concept ;
+	skos:broader wd:Q16148367 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Sisseton Wahpeton Oyate"@en .
+
+wd:Q2592663 rdf:type skos:Concept ;
+	skos:broader wd:Q1363781 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Guajajara"@en .
+
+wd:Q26162284 rdf:type skos:Concept ;
+	skos:broader wd:Q4850828 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Baliaga"@en .
+
+wd:Q26205528 rdf:type skos:Concept ;
+	skos:broader wd:Q847603 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Selako"@en .
+
+wd:Q26205683 rdf:type skos:Concept ;
+	skos:broader wd:Q847603 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Barangas"@en .
+
+wd:Q26205689 rdf:type skos:Concept ;
+	skos:broader wd:Q847603 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Bakung Metulang"@en .
+
+wd:Q26205690 rdf:type skos:Concept ;
+	skos:broader wd:Q847603 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Banjau"@en .
+
+wd:Q26242387 rdf:type skos:Concept ;
+	skos:broader wd:Q973254 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kanowit"@en .
+
+wd:Q26242402 rdf:type skos:Concept ;
+	skos:broader wd:Q847603 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Balangan"@en .
+
+wd:Q26242417 rdf:type skos:Concept ;
+	skos:broader wd:Q1434725 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Basap"@en .
+
+wd:Q26242419 rdf:type skos:Concept ;
+	skos:broader wd:Q847603 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Berusu"@en .
+
+wd:Q26242440 rdf:type skos:Concept ;
+	skos:broader wd:Q847603 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Q26242440" .
+
+wd:Q26242441 rdf:type skos:Concept ;
+	skos:broader wd:Q847603 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Bantian"@en .
+
+wd:Q26242442 rdf:type skos:Concept ;
+	skos:broader wd:Q847603 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Q26242442" .
+
+wd:Q26242443 rdf:type skos:Concept ;
+	skos:broader wd:Q7021886 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Beraki"@en .
+
+wd:Q262457 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Métis"@en .
+
+wd:Q2632800 rdf:type skos:Concept ;
+	skos:broader wd:Q11038987, wd:Q55658245 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Chelkans"@en .
+
+wd:Q2641991 rdf:type skos:Concept ;
+	skos:broader wd:Q1945590 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kubu people"@en .
+
+wd:Q267410 rdf:type skos:Concept ;
+	skos:broader wd:Q114049667 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Pipil people"@en .
+
+wd:Q26774 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Shoshone"@en .
+
+wd:Q26862 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Hän people"@en .
+
+wd:Q27106 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kalinago"@en .
+
+wd:Q2745405 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Alutiiq people"@en .
+
+wd:Q2749764 rdf:type skos:Concept ;
+	skos:broader wd:Q82048 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Raritan tribe"@en .
+
+wd:Q2793139 rdf:type skos:Concept ;
+	skos:broader wd:Q216839 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Rukai"@en .
+
+wd:Q28219832 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ngarluma"@en .
+
+wd:Q28220115 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Nyamal"@en .
+
+wd:Q28222011 rdf:type skos:Concept ;
+	skos:broader wd:Q1891793 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Moroccan Belgians"@en .
+
+wd:Q28224451 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Yanyuwa"@en .
+
+wd:Q28225094 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Djiru"@en .
+
+wd:Q28227607 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Twana"@mul .
+
+wd:Q283510 rdf:type skos:Concept ;
+	skos:broader wd:Q49297, wd:Q510023 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Chemehuevi people"@en .
+
+wd:Q2846185 rdf:type skos:Concept ;
+	skos:broader wd:Q1661387 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Dorobo peoples"@en .
+
+wd:Q2872543 rdf:type skos:Concept ;
+	skos:broader wd:Q103817, wd:Q15571255, wd:Q863284 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Indigenous peoples in Quebec"@en .
+
+wd:Q2874989 rdf:type skos:Concept ;
+	skos:broader wd:Q1363781 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Aimorés"@en .
+
+wd:Q2876480 rdf:type skos:Concept ;
+	skos:broader wd:Q45315 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ait Hadiddou"@en .
+
+wd:Q2876512 rdf:type skos:Concept ;
+	skos:broader wd:Q45315 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Q2876512" .
+
+wd:Q2876522 rdf:type skos:Concept ;
+	skos:broader wd:Q45315 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ait Yahia"@mul .
+
+wd:Q2876530 rdf:type skos:Concept ;
+	skos:broader wd:Q45315 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ait Yafelman"@en .
+
+wd:Q289226 rdf:type skos:Concept ;
+	skos:broader wd:Q1755154 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Muckleshoot people"@en .
+
+wd:Q28943059 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Djangadi"@en .
+
+wd:Q2894610 rdf:type skos:Concept ;
+	skos:broader wd:Q58843 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kal Bella"@en .
+
+wd:Q2899812 rdf:type skos:Concept ;
+	skos:broader wd:Q45315 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Banu Birzal"@en .
+
+wd:Q2986880 rdf:type skos:Concept ;
+	skos:broader wd:Q1945590, wd:Q31835962 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous people of Indonesia"@en .
+
+wd:Q3034452 rdf:type skos:Concept ;
+	skos:broader wd:Q117086038 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kerinci people"@en .
+
+wd:Q3036334 rdf:type skos:Concept ;
+	skos:broader wd:Q1755154 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Skagit"@en .
+
+wd:Q30587641 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Yuchi people"@en .
+
+wd:Q3058858 rdf:type skos:Concept ;
+	skos:broader wd:Q1479328 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Embera-Wounaan"@en .
+
+wd:Q3062634 rdf:type skos:Concept ;
+	skos:broader wd:Q45315 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tekna"@en .
+
+wd:Q30681453 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ngaiawang"@en .
+
+wd:Q30682036 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Jukambal"@en .
+
+wd:Q3091608 rdf:type skos:Concept ;
+	skos:broader wd:Q1479328 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous peoples in Ecuador"@en .
+
+wd:Q31173746 rdf:type skos:Concept ;
+	skos:broader wd:Q847603 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Balau"@en .
+
+wd:Q3118725 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Guanajatabey"@en .
+
+wd:Q3120839 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Gandangara people"@en .
+
+wd:Q31835962 rdf:type skos:Concept ;
+	skos:broader wd:Q103817 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous peoples of Asia"@en .
+
+wd:Q318806 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Abenaki people"@en .
+
+wd:Q319245 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Indigenous peoples of the Great Basin"@en .
+
+wd:Q322951 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Cheyennes"@en .
+
+wd:Q322974 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Aboriginal tracker"@en .
+
+wd:Q324516 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Choctaw"@en .
+
+wd:Q3258734 rdf:type skos:Concept ;
+	skos:broader wd:Q117244 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Lokono"@en .
+
+wd:Q3287203 rdf:type skos:Concept ;
+	skos:broader wd:Q6122670 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Cook Islands Maori people"@en .
+
+wd:Q3307681 rdf:type skos:Concept ;
+	skos:broader wd:Q114049667 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Mexica"@en .
+
+wd:Q3314452 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous peoples of Mexico"@en .
+
+wd:Q331789 rdf:type skos:Concept ;
+	skos:broader wd:Q103817 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Crow Nation"@en .
+
+wd:Q333049 rdf:type skos:Concept ;
+	skos:broader wd:Q107434 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Lakota people"@en .
+
+wd:Q333484 rdf:type skos:Concept ;
+	skos:broader wd:Q216839 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Saisiyat"@en .
+
+wd:Q3360017 rdf:type skos:Concept ;
+	skos:broader wd:Q6091085 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Pacahuara"@en .
+
+wd:Q336047 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Aburreans"@en .
+
+wd:Q3375052 rdf:type skos:Concept ;
+	skos:broader wd:Q318806, wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Pequawket"@en .
+
+wd:Q337550 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255, wd:Q384927 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Secwépemc"@en .
+
+wd:Q339282 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Accomac"@en .
+
+wd:Q341185 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Achomawi"@en .
+
+wd:Q34188 rdf:type skos:Concept ;
+	skos:broader wd:Q1363781 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Yanomamis"@en .
+
+wd:Q3444063 rdf:type skos:Concept ;
+	skos:broader wd:Q1886550 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Nadëb people"@en .
+
+wd:Q3512367 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wanapum"@en .
+
+wd:Q3512896 rdf:type skos:Concept ;
+	skos:broader wd:Q1363781 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Yudjá"@mul .
+
+wd:Q3513756 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255, wd:Q210561 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Haisla people"@en .
+
+wd:Q35170 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Caddo"@en .
+
+wd:Q3525435 rdf:type skos:Concept ;
+	skos:broader wd:Q1479328 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous peoples in Venezuela"@en .
+
+wd:Q3525550 rdf:type skos:Concept ;
+	skos:broader wd:Q1479328 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous peoples in Chile"@en .
+
+wd:Q3538942 rdf:type skos:Concept ;
+	skos:broader wd:Q107410977 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kabylian tribes"@en .
+
+wd:Q3551174 rdf:type skos:Concept ;
+	skos:broader wd:Q1234581 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ibaloi"@en .
+
+wd:Q35533 rdf:type skos:Concept ;
+	skos:broader wd:Q1363781 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kaingang"@en .
+
+wd:Q3557982 rdf:type skos:Concept ;
+	skos:broader wd:Q1479328 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous people in Peru"@en .
+
+wd:Q3558036 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Indigenous peoples of Panama"@en .
+
+wd:Q3569807 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wonnarua"@en .
+
+wd:Q3575176 rdf:type skos:Concept ;
+	skos:broader wd:Q45315 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Aït Zemmour"@en .
+
+wd:Q357670 rdf:type skos:Concept ;
+	skos:broader wd:Q126592238 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Adivasi"@en .
+
+wd:Q359882 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Adnyamathanha"@en .
+
+wd:Q3621312 rdf:type skos:Concept ;
+	skos:broader wd:Q1363781 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Araweté people"@en .
+
+wd:Q3628096 rdf:type skos:Concept ;
+	skos:broader wd:Q1363781 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Atikum people"@en .
+
+wd:Q36550 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255, wd:Q863284 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tahltan people"@en .
+
+wd:Q36747 rdf:type skos:Concept ;
+	skos:broader wd:Q103817 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Indigenous peoples of the Americas"@en .
+
+wd:Q370543 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ngarrindjeri"@en .
+
+wd:Q379636 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Torres Strait Islanders"@en .
+
+wd:Q3812866 rdf:type skos:Concept ;
+	skos:broader wd:Q1363781 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kantaruré"@en .
+
+wd:Q3816974 rdf:type skos:Concept ;
+	skos:broader wd:Q1363781 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Crenaques"@en .
+
+wd:Q3817631 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kwaza people"@en .
+
+wd:Q384927 rdf:type skos:Concept ;
+	skos:broader wd:Q1825812 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Interior Salish"@en .
+
+wd:Q388264 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255, wd:Q49297, wd:Q863284 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Blackfoot Confederacy"@en .
+
+wd:Q3895812 rdf:type skos:Concept ;
+	skos:broader wd:Q1479328 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Paressí"@en .
+
+wd:Q39059954 rdf:type skos:Concept ;
+	skos:broader wd:Q55290 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Catawba in the American Civil War"@en .
+
+wd:Q39087884 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Jaitmatang"@en .
+
+wd:Q39088263 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wotjobaluk people"@en .
+
+wd:Q39088282 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Yuwaalaraay"@en .
+
+wd:Q39090749 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Birrbay"@en .
+
+wd:Q39090787 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Umiida"@en .
+
+wd:Q39090882 rdf:type skos:Concept ;
+	skos:broader wd:Q1996477 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wardandi"@en .
+
+wd:Q39090887 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ngadjunmaia"@en .
+
+wd:Q39090910 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wiilman"@en .
+
+wd:Q39090920 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Bibulman"@en .
+
+wd:Q39091058 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tharrkari"@en .
+
+wd:Q39091066 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tedei"@mul .
+
+wd:Q39091068 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Yingkarta"@en .
+
+wd:Q39091289 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Rembarrnga"@en .
+
+wd:Q392316 rdf:type skos:Concept ;
+	skos:broader wd:Q863284 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "First Nations"@en .
+
+wd:Q3987120 rdf:type skos:Concept ;
+	skos:broader wd:Q103817 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "circumpolar peoples"@en .
+
+wd:Q40331233 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Dalabon"@en .
+
+wd:Q4058929 rdf:type skos:Concept ;
+	skos:broader wd:Q101828 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ainu in Russia"@en .
+
+wd:Q4100828 rdf:type skos:Concept ;
+	skos:broader wd:Q103817, wd:Q22813287 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Bhumij tribe"@en .
+
+wd:Q410266 rdf:type skos:Concept ;
+	skos:broader wd:Q45315 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ait Ouriaghel"@en .
+
+wd:Q4310879 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Na-Dene people"@en .
+
+wd:Q432324 rdf:type skos:Concept ;
+	skos:broader wd:Q1363781 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Pataxó"@en .
+
+wd:Q4386941 rdf:type skos:Concept ;
+	skos:broader wd:Q255872 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Plains Ojibwa"@en .
+
+wd:Q444397 rdf:type skos:Concept ;
+	skos:broader wd:Q16148367 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Mdewakanton"@en .
+
+wd:Q4484042 rdf:type skos:Concept ;
+	skos:broader wd:Q103817 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous peoples of the Philippines"@en .
+
+wd:Q45315 rdf:type skos:Concept ;
+	skos:broader wd:Q1661387 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Berbers"@en .
+
+wd:Q459387 rdf:type skos:Concept ;
+	skos:broader wd:Q1661387 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Khoisan"@en .
+
+wd:Q46429 rdf:type skos:Concept ;
+	skos:broader wd:Q1363781 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Guaraní people"@en .
+
+wd:Q4668382 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Aboriginal sites of New South Wales"@en .
+
+wd:Q47632042 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Marulta"@en .
+
+wd:Q47633254 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Maiawali"@en .
+
+wd:Q4763645 rdf:type skos:Concept ;
+	skos:broader wd:Q262457 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Anglo-Métis"@en .
+
+wd:Q4770873 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Dene"@en .
+
+wd:Q4811101 rdf:type skos:Concept ;
+	skos:broader wd:Q189975 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Inuvialuit"@en .
+
+wd:Q4850828 rdf:type skos:Concept ;
+	skos:broader wd:Q1945590 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Bali Aga"@en .
+
+wd:Q48753534 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Q48753534" .
+
+wd:Q48763692 rdf:type skos:Concept ;
+	skos:broader wd:Q4058929 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kuril Ainu"@en .
+
+wd:Q48769238 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Gunwinggu"@en .
+
+wd:Q487749 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255, wd:Q384927 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "St'at'imc people"@en .
+
+wd:Q48775327 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Marimanindji"@en .
+
+wd:Q48775468 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Maridan"@en .
+
+wd:Q48778979 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Yawijibaya"@en .
+
+wd:Q48779136 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Gooniyandi"@en .
+
+wd:Q4878029 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Beaver Creek Indian Tribe"@en .
+
+wd:Q48781017 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Dhuwal"@en .
+
+wd:Q48781032 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ritharngu"@en .
+
+wd:Q48782575 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wadjiginy"@en .
+
+wd:Q48782990 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ngalakgan"@en .
+
+wd:Q48783531 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Mangarayi"@en .
+
+wd:Q48785128 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Atjinuri"@en .
+
+wd:Q48790436 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Muruwari"@en .
+
+wd:Q48790537 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Barranbinya"@en .
+
+wd:Q48791734 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Jarowair"@en .
+
+wd:Q48796437 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Badimaya"@en .
+
+wd:Q48796868 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Yangman"@en .
+
+wd:Q48796947 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Bilingara"@en .
+
+wd:Q48797661 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Bailgu"@en .
+
+wd:Q48797851 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Unggarranggu"@en .
+
+wd:Q48797979 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wirdinya"@en .
+
+wd:Q48798003 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wunambal"@en .
+
+wd:Q48799200 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Unggumi"@en .
+
+wd:Q48799525 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ngarla"@en .
+
+wd:Q48801961 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Pindiini"@en .
+
+wd:Q48802378 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Binigura"@en .
+
+wd:Q48802909 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Djaru"@en .
+
+wd:Q48803991 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Malgana people"@en .
+
+wd:Q48805897 rdf:type skos:Concept ;
+	skos:broader wd:Q103817 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Antakirinja people"@en .
+
+wd:Q48806156 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kuyani"@en .
+
+wd:Q48808624 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Punthamara"@en .
+
+wd:Q48815026 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Yirandhali"@en .
+
+wd:Q488406 rdf:type skos:Concept ;
+	skos:broader wd:Q189975 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Sadlermiut"@en .
+
+wd:Q4895596 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tanana Athabaskans"@en .
+
+wd:Q489924 rdf:type skos:Concept ;
+	skos:broader wd:Q4770873 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kaska people"@en .
+
+wd:Q491706 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Atikamekw people"@en .
+
+wd:Q492150 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Nakoda"@en .
+
+wd:Q492901 rdf:type skos:Concept ;
+	skos:broader wd:Q1825812 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kalispel"@en .
+
+wd:Q49297 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Native Americans in the United States"@en .
+
+wd:Q49302 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Acolapissa"@en .
+
+wd:Q49312 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Avoyel"@en .
+
+wd:Q495751 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Mi’kmaw"@en .
+
+wd:Q495753 rdf:type skos:Concept ;
+	skos:broader wd:Q497568 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Naskapi"@en .
+
+wd:Q495760 rdf:type skos:Concept ;
+	skos:broader wd:Q863284 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Chilcotin people"@en .
+
+wd:Q495767 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tagish people"@en .
+
+wd:Q497568 rdf:type skos:Concept ;
+	skos:broader wd:Q863284 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Innu people"@en .
+
+wd:Q4991716 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous peoples of the Caribbean"@en .
+
+wd:Q499687 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Alabama people"@en .
+
+wd:Q504912 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tuscarora Nation"@en .
+
+wd:Q5096494 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Chicora tribe"@en .
+
+wd:Q510023 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Paiute people"@en .
+
+wd:Q512665 rdf:type skos:Concept ;
+	skos:broader wd:Q1886550, wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Nukak"@en .
+
+wd:Q51716 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Houma people"@en .
+
+wd:Q517860 rdf:type skos:Concept ;
+	skos:broader wd:Q1661387 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Okiek people"@en .
+
+wd:Q5198846 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indian auxiliaries"@en .
+
+wd:Q5223662 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Darkinjung people"@en .
+
+wd:Q5225799 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Darumbal"@en .
+
+wd:Q5252216 rdf:type skos:Concept ;
+	skos:broader wd:Q392316 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Dehcho First Nations"@en .
+
+wd:Q5285188 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Djabugay people"@en .
+
+wd:Q53075644 rdf:type skos:Concept ;
+	skos:broader wd:Q4058929 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Sakhalin Ainu"@en .
+
+wd:Q536116 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255, wd:Q1956640 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Odawa"@en .
+
+wd:Q536129 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255, wd:Q4310879 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tlingit"@en .
+
+wd:Q5363631 rdf:type skos:Concept ;
+	skos:broader wd:Q1363781 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ticuna peoples"@en .
+
+wd:Q537784 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Nuu-chah-nulth people"@en .
+
+wd:Q541421 rdf:type skos:Concept ;
+	skos:broader wd:Q255872 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Saulteaux"@en .
+
+wd:Q541788 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Nipmuc"@en .
+
+wd:Q543386 rdf:type skos:Concept ;
+	skos:broader wd:Q333049 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Oglala Lakota"@en .
+
+wd:Q5453438 rdf:type skos:Concept ;
+	skos:broader wd:Q392316 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "First Nations in Alberta"@en .
+
+wd:Q55290 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Catawba people"@en .
+
+wd:Q55603094 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Aboriginal peoples of South Australia"@en .
+
+wd:Q55625134 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ngarnka"@en .
+
+wd:Q55637422 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Warlmanpa"@en .
+
+wd:Q5565079 rdf:type skos:Concept ;
+	skos:broader wd:Q56490 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Gitga'ata people"@en .
+
+wd:Q55658245 rdf:type skos:Concept ;
+	skos:broader wd:Q103817 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous small-numbered peoples of Russia"@en .
+
+wd:Q56316033 rdf:type skos:Concept ;
+	skos:broader wd:Q3307681 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Mācuīltōchtli"@en .
+
+wd:Q56349834 rdf:type skos:Concept ;
+	skos:broader wd:Q1363781 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Q56349834" .
+
+wd:Q56490 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tsimshian people"@en .
+
+wd:Q5655029 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Mokaná"@en .
+
+wd:Q56732820 rdf:type skos:Concept ;
+	skos:broader wd:Q1891793 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Moroccan settlers"@en .
+
+wd:Q568060 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Indigenous peoples of the Subarctic"@en .
+
+wd:Q568625 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Bitterroot Salish"@en .
+
+wd:Q56962 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Atakapa people"@en .
+
+wd:Q578475 rdf:type skos:Concept ;
+	skos:broader wd:Q1661387 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wodaabe"@en .
+
+wd:Q587300 rdf:type skos:Concept ;
+	skos:broader wd:Q1886550 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Hup people"@en .
+
+wd:Q58843 rdf:type skos:Concept ;
+	skos:broader wd:Q1661387, wd:Q45315 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tuareg Amazighs"@en .
+
+wd:Q5946834 rdf:type skos:Concept ;
+	skos:broader wd:Q863284 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Nation Wendat"@mul .
+
+wd:Q6024707 rdf:type skos:Concept ;
+	skos:broader wd:Q103817, wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Indigenous peoples of Arizona"@en .
+
+wd:Q6034885 rdf:type skos:Concept ;
+	skos:broader wd:Q1479328 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous peoples in Suriname"@en .
+
+wd:Q6037844 rdf:type skos:Concept ;
+	skos:broader wd:Q1479328 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous peoples in Guyana"@en .
+
+wd:Q6071606 rdf:type skos:Concept ;
+	skos:broader wd:Q1479328 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous peoples in Uruguay"@en .
+
+wd:Q60741209 rdf:type skos:Concept ;
+	skos:broader wd:Q6122670 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Indo-Māori"@en .
+
+wd:Q607785 rdf:type skos:Concept ;
+	skos:broader wd:Q102090 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Western Apache"@en .
+
+wd:Q6091026 rdf:type skos:Concept ;
+	skos:broader wd:Q3314452 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous peoples of Mexico City"@en .
+
+wd:Q6091085 rdf:type skos:Concept ;
+	skos:broader wd:Q1479328 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous peoples in Bolivia"@en .
+
+wd:Q610246 rdf:type skos:Concept ;
+	skos:broader wd:Q1474169, wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Pampa people"@en .
+
+wd:Q6105234 rdf:type skos:Concept ;
+	skos:broader wd:Q114653257 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Native American tribes in Texas"@en .
+
+wd:Q61055296 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kaneang"@en .
+
+wd:Q6105755 rdf:type skos:Concept ;
+	skos:broader wd:Q1610191, wd:Q848624 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Alaskan Athabaskans"@en .
+
+wd:Q6122670 rdf:type skos:Concept ;
+	skos:broader wd:Q103817 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Māori"@mul .
+
+wd:Q612697 rdf:type skos:Concept ;
+	skos:broader wd:Q1661387 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Himba people"@en .
+
+wd:Q614455 rdf:type skos:Concept ;
+	skos:broader wd:Q1363781 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Baniwa"@mul .
+
+wd:Q6177350 rdf:type skos:Concept ;
+	skos:broader wd:Q324516 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Jena Band of Choctaw Indians"@en .
+
+wd:Q6180024 rdf:type skos:Concept ;
+	skos:broader wd:Q357670 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Jenu Kuruba"@en .
+
+wd:Q619481 rdf:type skos:Concept ;
+	skos:broader wd:Q216839 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tsou people"@en .
+
+wd:Q62098205 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wergaia people"@en .
+
+wd:Q62107406 rdf:type skos:Concept ;
+	skos:broader wd:Q170355, wd:Q1996477 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wudjari people"@en .
+
+wd:Q622728 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Chickasaw"@en .
+
+wd:Q637454 rdf:type skos:Concept ;
+	skos:broader wd:Q45315 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Nefzaoua"@en .
+
+wd:Q638816 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Metoac"@en .
+
+wd:Q63985103 rdf:type skos:Concept ;
+	skos:broader wd:Q1945590 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Sawang people"@en .
+
+wd:Q6418242 rdf:type skos:Concept ;
+	skos:broader wd:Q56490 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Gitxaała"@mul .
+
+wd:Q642019 rdf:type skos:Concept ;
+	skos:broader wd:Q189975 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Caribou Inuit"@en .
+
+wd:Q6441362 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kucadikadi"@en .
+
+wd:Q646152 rdf:type skos:Concept ;
+	skos:broader wd:Q189975 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Netsilik Inuit"@en .
+
+wd:Q6472732 rdf:type skos:Concept ;
+	skos:broader wd:Q45315 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Laguatan"@en .
+
+wd:Q648255 rdf:type skos:Concept ;
+	skos:broader wd:Q45315 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kabyle people"@en .
+
+wd:Q6489790 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Larrakia people"@en .
+
+wd:Q651164 rdf:type skos:Concept ;
+	skos:broader wd:Q31835962 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Jarawa people"@en .
+
+wd:Q65211351 rdf:type skos:Concept ;
+	skos:broader wd:Q1560742, wd:Q1945590 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Bayan people"@en .
+
+wd:Q65211359 rdf:type skos:Concept ;
+	skos:broader wd:Q1945590 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wai Apu people"@en .
+
+wd:Q65211360 rdf:type skos:Concept ;
+	skos:broader wd:Q1945590 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wawonii people"@en .
+
+wd:Q65249194 rdf:type skos:Concept ;
+	skos:broader wd:Q65249531 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Uchiura Ainu"@en .
+
+wd:Q65249531 rdf:type skos:Concept ;
+	skos:broader wd:Q101828 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Hokkaido Ainu"@en .
+
+wd:Q65276005 rdf:type skos:Concept ;
+	skos:broader wd:Q65249531 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ishikari Ainu"@en .
+
+wd:Q6539392 rdf:type skos:Concept ;
+	skos:broader wd:Q1493806 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Lia Pootah"@en .
+
+wd:Q661423 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255, wd:Q863284 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Beothuk people"@en .
+
+wd:Q6671938 rdf:type skos:Concept ;
+	skos:broader wd:Q216839, wd:Q31835962 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Gaoshan Ethnics"@en .
+
+wd:Q6721658 rdf:type skos:Concept ;
+	skos:broader wd:Q379636 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Mabuiag"@en .
+
+wd:Q672979 rdf:type skos:Concept ;
+	skos:broader wd:Q103817 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "uncontacted people"@en .
+
+wd:Q6739693 rdf:type skos:Concept ;
+	skos:broader wd:Q852431 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Keres"@en .
+
+wd:Q6751783 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Manso people"@en .
+
+wd:Q6792792 rdf:type skos:Concept ;
+	skos:broader wd:Q45315 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Mauri people"@en .
+
+wd:Q682079 rdf:type skos:Concept ;
+	skos:broader wd:Q1945590 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Sundanese people"@en .
+
+wd:Q6913086 rdf:type skos:Concept ;
+	skos:broader wd:Q1891793 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Moroccan Dutch"@en .
+
+wd:Q694525 rdf:type skos:Concept ;
+	skos:broader wd:Q219252 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Nama people"@en .
+
+wd:Q6950152 rdf:type skos:Concept ;
+	skos:broader wd:Q262457 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Métis in the United States"@en .
+
+wd:Q6959182 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255, wd:Q863284 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Nahani"@en .
+
+wd:Q697914 rdf:type skos:Concept ;
+	skos:broader wd:Q216839 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Taiwanese Plains Aborigines"@en .
+
+wd:Q6979973 rdf:type skos:Concept ;
+	skos:broader wd:Q114653257 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Native American tribe in Nebraska"@en .
+
+wd:Q701676 rdf:type skos:Concept ;
+	skos:broader wd:Q216839 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Atayal"@en .
+
+wd:Q701704 rdf:type skos:Concept ;
+	skos:broader wd:Q216839 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Bunun"@en .
+
+wd:Q7021886 rdf:type skos:Concept ;
+	skos:broader wd:Q847603 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ngaju people"@en .
+
+wd:Q7049046 rdf:type skos:Concept ;
+	skos:broader wd:Q863284 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "non-status Indian"@en .
+
+wd:Q706500 rdf:type skos:Concept ;
+	skos:broader wd:Q216839 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Puyuma people"@en .
+
+wd:Q706528 rdf:type skos:Concept ;
+	skos:broader wd:Q216839 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Yami"@en .
+
+wd:Q707464 rdf:type skos:Concept ;
+	skos:broader wd:Q216839 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Seediq people"@en .
+
+wd:Q709963 rdf:type skos:Concept ;
+	skos:broader wd:Q216839 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Truku people"@en .
+
+wd:Q7106572 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Oshara Tradition"@en .
+
+wd:Q710817 rdf:type skos:Concept ;
+	skos:broader wd:Q216839 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Sakizaya"@en .
+
+wd:Q714393 rdf:type skos:Concept ;
+	skos:broader wd:Q216839 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Thao people"@en .
+
+wd:Q718347 rdf:type skos:Concept ;
+	skos:broader wd:Q216839 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kavalan people"@en .
+
+wd:Q719136 rdf:type skos:Concept ;
+	skos:broader wd:Q189975 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Central Inuit"@en .
+
+wd:Q719361 rdf:type skos:Concept ;
+	skos:broader wd:Q189975 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Copper Inuit"@en .
+
+wd:Q7194112 rdf:type skos:Concept ;
+	skos:broader wd:Q255872 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Pillager Band of Chippewa Indians"@en .
+
+wd:Q726665 rdf:type skos:Concept ;
+	skos:broader wd:Q1363781 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Asháninka people"@en .
+
+wd:Q726722 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ciboney people"@en .
+
+wd:Q7285010 rdf:type skos:Concept ;
+	skos:broader wd:Q541421 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Rainy Lake and River Bands of Saulteaux"@en .
+
+wd:Q7400821 rdf:type skos:Concept ;
+	skos:broader wd:Q254387 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Semelai"@en .
+
+wd:Q7404641 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Salinan"@en .
+
+wd:Q7431059 rdf:type skos:Concept ;
+	skos:broader wd:Q22813287 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Scheduled Tribes in West Bengal"@en .
+
+wd:Q744299 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Indigenous peoples of California"@en .
+
+wd:Q7448359 rdf:type skos:Concept ;
+	skos:broader wd:Q254387 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Temiar people"@en .
+
+wd:Q7533222 rdf:type skos:Concept ;
+	skos:broader wd:Q863284 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Sixties Scoop"@en .
+
+wd:Q7555723 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Solano people"@en .
+
+wd:Q7685391 rdf:type skos:Concept ;
+	skos:broader wd:Q6122670 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Taranaki"@en .
+
+wd:Q7710757 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tharawal"@en .
+
+wd:Q7711416 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Thaua people"@en .
+
+wd:Q774436 rdf:type skos:Concept ;
+	skos:broader wd:Q1363781 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Xokleng people"@en .
+
+wd:Q7810618 rdf:type skos:Concept ;
+	skos:broader wd:Q1661387 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tjimba people"@en .
+
+wd:Q7836939 rdf:type skos:Concept ;
+	skos:broader wd:Q392316 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "treaty Indian"@en .
+
+wd:Q7840353 rdf:type skos:Concept ;
+	skos:broader wd:Q12885585 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "federally recognized Native American tribe in the United States"@en .
+
+wd:Q7989949 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wet'suwet'en"@en .
+
+wd:Q8032824 rdf:type skos:Concept ;
+	skos:broader wd:Q117191 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Woodland Cree"@en .
+
+wd:Q8039112 rdf:type skos:Concept ;
+	skos:broader wd:Q863284 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Wuikinuxv people"@en .
+
+wd:Q8045169 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Xualae"@en .
+
+wd:Q8047958 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Yamatji"@en .
+
+wd:Q8048832 rdf:type skos:Concept ;
+	skos:broader wd:Q16148367 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Yankton Sioux Tribe"@en .
+
+wd:Q808014 rdf:type skos:Concept ;
+	skos:broader wd:Q170355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Bardi people"@en .
+
+wd:Q810707 rdf:type skos:Concept ;
+	skos:broader wd:Q845985 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Bataq people"@en .
+
+wd:Q815763 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255, wd:Q863284 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Heiltsuk people"@en .
+
+wd:Q82048 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Lenape"@en .
+
+wd:Q821915 rdf:type skos:Concept ;
+	skos:broader wd:Q1755154 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Sto:lo"@en .
+
+wd:Q825895 rdf:type skos:Concept ;
+	skos:broader wd:Q1137355 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Laich-kwil-tach"@en .
+
+wd:Q826591 rdf:type skos:Concept ;
+	skos:broader wd:Q114049667 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Nahua"@en .
+
+wd:Q826869 rdf:type skos:Concept ;
+	skos:broader wd:Q3036334 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Swinomish"@en .
+
+wd:Q83041373 rdf:type skos:Concept ;
+	skos:broader wd:Q45315 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ideiboussat"@en .
+
+wd:Q8344747 rdf:type skos:Concept ;
+	skos:broader wd:Q1479328 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Chaná people"@en .
+
+wd:Q841334 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Indigenous peoples of the Northeastern Woodlands"@en .
+
+wd:Q84569704 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Pahrump Paiute Tribe"@en .
+
+wd:Q845985 rdf:type skos:Concept ;
+	skos:broader wd:Q103817 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Negrito"@en .
+
+wd:Q847603 rdf:type skos:Concept ;
+	skos:broader wd:Q1945590 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Dayak"@en .
+
+wd:Q848624 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Alaska Natives"@en .
+
+wd:Q851575 rdf:type skos:Concept ;
+	skos:broader wd:Q863284 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Gitxsan"@en .
+
+wd:Q852431 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Puebloan peoples"@en .
+
+wd:Q863284 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous peoples in Canada"@en .
+
+wd:Q863927 rdf:type skos:Concept ;
+	skos:broader wd:Q103817 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Garifuna"@en .
+
+wd:Q887850 rdf:type skos:Concept ;
+	skos:broader wd:Q189975 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Greenlandic Inuit people"@en .
+
+wd:Q888078 rdf:type skos:Concept ;
+	skos:broader wd:Q887850 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Inughuit"@en .
+
+wd:Q888553 rdf:type skos:Concept ;
+	skos:broader wd:Q887850 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kalaallit"@en .
+
+wd:Q894069 rdf:type skos:Concept ;
+	skos:broader wd:Q1363781 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Bororo people (Brazil)"@en .
+
+wd:Q907924 rdf:type skos:Concept ;
+	skos:broader wd:Q15571255 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Plains Indians"@en .
+
+wd:Q917695 rdf:type skos:Concept ;
+	skos:broader wd:Q31835962 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Sentinelese people"@en .
+
+wd:Q918556 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Pamunkey"@en .
+
+wd:Q921253 rdf:type skos:Concept ;
+	skos:broader wd:Q49297 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Mojave people"@en .
+
+wd:Q925772 rdf:type skos:Concept ;
+	skos:broader wd:Q852431 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Ohkay Owingeh"@en .
+
+wd:Q926384 rdf:type skos:Concept ;
+	skos:broader wd:Q1945590 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kayan"@en .
+
+wd:Q935851 rdf:type skos:Concept ;
+	skos:broader wd:Q1661387 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Shinasha people"@en .
+
+wd:Q93919776 rdf:type skos:Concept ;
+	skos:broader wd:Q103817 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "indigenous student"@en .
+
+wd:Q941391 rdf:type skos:Concept ;
+	skos:broader wd:Q1755154 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Snohomish tribe"@en .
+
+wd:Q950097 rdf:type skos:Concept ;
+	skos:broader wd:Q255872 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Mississaugas"@en .
+
+wd:Q96081994 rdf:type skos:Concept ;
+	skos:broader wd:Q36747 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Finndians"@en .
+
+wd:Q96740991 rdf:type skos:Concept ;
+	skos:broader wd:Q1886550 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Kãkwã people"@en .
+
+wd:Q967412 rdf:type skos:Concept ;
+	skos:broader wd:Q847603 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Tidung"@en .
+
+wd:Q973254 rdf:type skos:Concept ;
+	skos:broader wd:Q847603 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Iban"@en .
+
+wd:Q98081329 rdf:type skos:Concept ;
+	skos:broader wd:Q1661387 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Q98081329" .
+
+wd:Q992401 rdf:type skos:Concept ;
+	skos:broader wd:Q333049 ;
+	skos:inScheme wd:Q1457025 ;
+	skos:prefLabel "Sicangu"@en .
 
-
-wd:Q845985 skos:prefLabel "Negrito"@en ;
-	skos:broader wd:Q103817 .
-
-wd:Q103817 skos:prefLabel "indigenous people"@en .
-
-wd:Q5198846 skos:prefLabel "indian auxiliaries"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q36747 skos:prefLabel "Indigenous peoples of the Americas"@en .
-
-wd:Q1517496 skos:prefLabel "Iowa people"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q1754503 skos:prefLabel "Fort Yuma Quechan Indian Tribe"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q2274648 skos:prefLabel "Q2274648" ;
-	skos:broader wd:Q36747 .
-
-wd:Q3375052 skos:prefLabel "Pequawket"@en ;
-	skos:broader wd:Q318806 .
-
-wd:Q318806 skos:prefLabel "Abenaki people"@en .
-
-wd:Q610246 skos:prefLabel "Pampa people"@en ;
-	skos:broader wd:Q128393 .
-
-wd:Q128393 skos:prefLabel "nomads"@en .
-
-wd:Q35170 skos:prefLabel "Caddo"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q103817 skos:broader wd:Q41710 .
-
-wd:Q41710 skos:prefLabel "ethnic group"@en .
-
-wd:Q1123923 skos:prefLabel "Nez Perce"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q103817 skos:broader wd:Q30103 .
-
-wd:Q30103 skos:prefLabel "minority group"@en .
-
-wd:Q1755154 skos:prefLabel "Coast Salish peoples"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q1151353 skos:prefLabel "Slavey people"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q672979 skos:prefLabel "uncontacted people"@en ;
-	skos:broader wd:Q103817 .
-
-wd:Q1479328 skos:prefLabel "Indigenous peoples of South America"@mul ;
-	skos:broader wd:Q10374742 .
-
-wd:Q10374742 skos:prefLabel "South Americans"@en .
-
-wd:Q117100 skos:prefLabel "Kiowa people"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q15571255 skos:prefLabel "indigenous peoples of North America"@en .
-
-wd:Q6441362 skos:prefLabel "Kucadikadi"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q512665 skos:prefLabel "Nukak"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q336047 skos:prefLabel "Aburreans"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q1084067 skos:prefLabel "Christian Munsee"@en ;
-	skos:broader wd:Q82048 .
-
-wd:Q82048 skos:prefLabel "Lenape"@en .
-
-wd:Q4100828 skos:prefLabel "Bhumij tribe"@en ;
-	skos:broader wd:Q103817 .
-
-wd:Q1257165 skos:prefLabel "Aranama"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q1179410 skos:prefLabel "Piaroa"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q852431 skos:prefLabel "Puebloan peoples"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q672979 skos:broader wd:Q3117863 .
-
-wd:Q3117863 skos:prefLabel "isolated human group"@en .
-
-wd:Q610246 skos:broader wd:Q1474169 .
-
-wd:Q1474169 skos:prefLabel "indigenous peoples in Argentina"@en .
-
-wd:Q12626615 skos:prefLabel "Aguas Calientes"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q6751783 skos:prefLabel "Manso people"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q1825812 skos:prefLabel "Salish peoples"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q1068851 skos:prefLabel "Indigenous inhabitants of the New Territories"@en ;
-	skos:broader wd:Q103817 .
-
-wd:Q3118725 skos:prefLabel "Guanajatabey"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q4484042 skos:prefLabel "indigenous peoples of the Philippines"@en ;
-	skos:broader wd:Q103817 .
-
-wd:Q2031854 skos:prefLabel "Wappo people"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q863927 skos:prefLabel "Garifuna"@en ;
-	skos:broader wd:Q103817 , wd:Q172008 .
-
-wd:Q172008 skos:prefLabel "full stop"@en .
-
-wd:Q4991716 skos:prefLabel "indigenous peoples of the Caribbean"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q1945590 skos:prefLabel "native Indonesians"@en ;
-	skos:broader wd:Q103817 .
-
-wd:Q142425 skos:prefLabel "indigenous peoples of Oceania"@en ;
-	skos:broader wd:Q116868353 .
-
-wd:Q116868353 skos:prefLabel "Oceanians"@en .
-
-wd:Q36747 skos:broader wd:Q103817 , wd:Q2384959 .
-
-wd:Q2384959 skos:prefLabel "Americans"@en .
-
-wd:Q1945590 skos:broader wd:Q4200853 .
-
-wd:Q4200853 skos:prefLabel "Indonesians"@en .
-
-wd:Q142425 skos:broader wd:Q103817 .
-
-wd:Q638816 skos:prefLabel "Metoac"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q1661387 skos:prefLabel "indigenous peoples of Africa"@en ;
-	skos:broader wd:Q103817 .
-
-wd:Q7555723 skos:prefLabel "Solano people"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q2872543 skos:prefLabel "Indigenous peoples in Quebec"@en ;
-	skos:broader wd:Q103817 .
-
-wd:Q1661387 skos:broader wd:Q1075929 .
-
-wd:Q1075929 skos:prefLabel "African people"@en .
-
-wd:Q845985 skos:broader wd:Q171927 .
-
-wd:Q171927 skos:prefLabel "pygmy peoples"@en .
-
-wd:Q3512367 skos:prefLabel "Wanapum"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q4100828 skos:broader wd:Q22813287 .
-
-wd:Q22813287 skos:prefLabel "Scheduled Tribes"@en .
-
-wd:Q1755154 skos:broader wd:Q1825812 .
-
-wd:Q2056652 skos:prefLabel "Q2056652" ;
-	skos:broader wd:Q36747 .
-
-wd:Q27106 skos:prefLabel "Kalinago"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q1179410 skos:broader wd:Q16334295 .
-
-wd:Q16334295 skos:prefLabel "group of humans"@en .
-
-wd:Q512665 skos:broader wd:Q1886550 .
-
-wd:Q1886550 skos:prefLabel "Maku people"@en .
-
-wd:Q331789 skos:prefLabel "Crow Nation"@en ;
-	skos:broader wd:Q103817 .
-
-wd:Q3375052 skos:broader wd:Q36747 .
-
-wd:Q1493806 skos:prefLabel "indigenous peoples of Australia"@en ;
-	skos:broader wd:Q103817 .
-
-wd:Q1113975 skos:prefLabel "Comechingón"@en ;
-	skos:broader wd:Q103817 .
-
-wd:Q1179410 skos:broader wd:Q1479328 .
-
-wd:Q7106572 skos:prefLabel "Oshara Tradition"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q1151353 skos:broader wd:Q4770873 .
-
-wd:Q4770873 skos:prefLabel "Dene"@en .
-
-wd:Q1723904 skos:prefLabel "Kaw people"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q1631358 skos:prefLabel "Q1631358" ;
-	skos:broader wd:Q36747 .
-
-wd:Q117100 skos:broader wd:Q36747 .
-
-wd:Q863927 skos:broader wd:Q385967 .
-
-wd:Q385967 skos:prefLabel "African diaspora"@en .
-
-wd:Q1570674 skos:prefLabel "Halchidhoma"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q1922007 skos:prefLabel "Q1922007" ;
-	skos:broader wd:Q36747 .
-
-wd:Q103817 skos:broader wd:Q2472587 .
-
-wd:Q2472587 skos:prefLabel "people"@en .
-
-wd:Q8045169 skos:prefLabel "Xualae"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q6024707 skos:prefLabel "Indigenous peoples of Arizona"@en ;
-	skos:broader wd:Q103817 .
-
-wd:Q140993 skos:prefLabel "Mudugar"@en ;
-	skos:broader wd:Q103817 .
-
-wd:Q254387 skos:prefLabel "Orang Asli"@en ;
-	skos:broader wd:Q103817 .
-
-wd:Q1825812 skos:broader wd:Q36747 .
-
-wd:Q55290 skos:prefLabel "Catawba people"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q726722 skos:prefLabel "Ciboney people"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q2872543 skos:broader wd:Q15571255 .
-
-wd:Q1515972 skos:prefLabel "Modoc people"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q3817631 skos:prefLabel "Kwaza people"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q3558036 skos:prefLabel "Indigenous peoples of Panama"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q2533493 skos:prefLabel "Maidu"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q1783660 skos:prefLabel "Saraguros"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q1084067 skos:broader wd:Q36747 .
-
-wd:Q1479328 skos:broader wd:Q36747 .
-
-wd:Q103817 skos:broader wd:Q851990 .
-
-wd:Q851990 skos:prefLabel "population group"@en .
-
-wd:Q6122670 skos:prefLabel "Māori"@mul ;
-	skos:broader wd:Q103817 .
-
-wd:Q610246 skos:broader wd:Q36747 .
-
-wd:Q6122670 skos:broader wd:Q1042001 .
-
-wd:Q1042001 skos:prefLabel "Polynesians"@en .
-
-wd:Q254387 skos:broader wd:Q19840401 .
-
-wd:Q19840401 skos:prefLabel "Malaysians"@en .
-
-wd:Q2872543 skos:broader wd:Q863284 .
-
-wd:Q863284 skos:prefLabel "indigenous peoples in Canada"@en .
-
-wd:Q26774 skos:prefLabel "Shoshone"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q5096494 skos:prefLabel "Chicora tribe"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q7404641 skos:prefLabel "Salinan"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q6024707 skos:broader wd:Q15571255 .
-
-wd:Q541788 skos:prefLabel "Nipmuc"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q1105374 skos:prefLabel "Q1105374" ;
-	skos:broader wd:Q36747 .
-
-wd:Q3987120 skos:prefLabel "circumpolar peoples"@en ;
-	skos:broader wd:Q103817 .
-
-wd:Q5655029 skos:prefLabel "Mokaná"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q117244 skos:prefLabel "Arahuacos (Arawak)"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q1783660 skos:broader wd:Q133311 .
-
-wd:Q133311 skos:prefLabel "tribe"@en .
-
-wd:Q1660486 skos:prefLabel "Imraguen people"@en ;
-	skos:broader wd:Q45315 .
-
-wd:Q45315 skos:prefLabel "Berbers"@en .
-
-wd:Q1313979 skos:prefLabel "Tubalar"@en ;
-	skos:broader wd:Q33829 .
-
-wd:Q33829 skos:prefLabel "human population"@en .
-
-wd:Q810707 skos:prefLabel "Bataq people"@en ;
-	skos:broader wd:Q845985 .
-
-wd:Q1560742 skos:prefLabel "Sasak people"@en ;
-	skos:broader wd:Q1945590 .
-
-wd:Q1886290 skos:prefLabel "Makassar people"@en ;
-	skos:broader wd:Q1945590 .
-
-wd:Q1148851 skos:prefLabel "Batin people"@en ;
-	skos:broader wd:Q1945590 .
-
-wd:Q935851 skos:prefLabel "Shinasha people"@en ;
-	skos:broader wd:Q1661387 .
-
-wd:Q612697 skos:prefLabel "Himba people"@en ;
-	skos:broader wd:Q27443 .
-
-wd:Q27443 skos:prefLabel "hunter-gatherer"@en .
-
-wd:Q1123129 skos:prefLabel "Teleuts"@en ;
-	skos:broader wd:Q11038987 .
-
-wd:Q11038987 skos:prefLabel "indigenous peoples of Siberia"@en .
-
-wd:Q1267932 skos:prefLabel "Schleuh people"@en ;
-	skos:broader wd:Q45315 .
-
-wd:Q170355 skos:prefLabel "Indigenous Australians"@en ;
-	skos:broader wd:Q22947 .
-
-wd:Q22947 skos:prefLabel "inhabitant"@en .
-
-wd:Q2144062 skos:prefLabel "Semang"@en ;
-	skos:broader wd:Q48732030 .
-
-wd:Q48732030 skos:prefLabel "Austroasiatic peoples"@en .
-
-wd:Q926384 skos:prefLabel "Kayan"@en ;
-	skos:broader wd:Q1945590 .
-
-wd:Q45315 skos:broader wd:Q63361041 .
-
-wd:Q63361041 skos:prefLabel "Afroasiatic peoples"@en .
-
-wd:Q203747 skos:prefLabel "Baka people"@en ;
-	skos:broader wd:Q1661387 .
-
-wd:Q58843 skos:prefLabel "Tuareg Amazighs"@en ;
-	skos:broader wd:Q133311 .
-
-wd:Q648255 skos:prefLabel "Kabyle people"@en ;
-	skos:broader wd:Q45315 .
-
-wd:Q172365 skos:prefLabel "San people"@en ;
-	skos:broader wd:Q1661387 .
-
-wd:Q1775933 skos:prefLabel "Chenoua"@en ;
-	skos:broader wd:Q45315 .
-
-wd:Q1313979 skos:broader wd:Q55658245 .
-
-wd:Q55658245 skos:prefLabel "indigenous small-numbered peoples of Russia"@en .
-
-wd:Q2632800 skos:prefLabel "Chelkans"@en ;
-	skos:broader wd:Q11038987 .
-
-wd:Q1813883 skos:prefLabel "Urak Lawoi’"@en ;
-	skos:broader wd:Q110922133 .
-
-wd:Q110922133 skos:prefLabel "Sea Gypsies"@en .
-
-wd:Q410266 skos:prefLabel "Ait Ouriaghel"@en ;
-	skos:broader wd:Q45315 .
-
-wd:Q1123129 skos:broader wd:Q4058325 .
-
-wd:Q4058325 skos:prefLabel "Asian people"@en .
-
-wd:Q1377301 skos:prefLabel "Telengits"@en ;
-	skos:broader wd:Q11038987 .
-
-wd:Q1585756 skos:prefLabel "Lumad peoples"@en ;
-	skos:broader wd:Q125240448 .
-
-wd:Q125240448 skos:prefLabel "Mindanaoans"@en .
-
-wd:Q3287203 skos:prefLabel "Cook Islands Maori people"@en ;
-	skos:broader wd:Q6122670 .
-
-wd:Q917695 skos:prefLabel "Sentinelese people"@en ;
-	skos:broader wd:Q31835962 .
-
-wd:Q31835962 skos:prefLabel "indigenous peoples of Asia"@en .
-
-wd:Q1560742 skos:broader wd:Q31835962 .
-
-wd:Q219252 skos:prefLabel "Khoikhoi"@en ;
-	skos:broader wd:Q1661387 .
-
-wd:Q58843 skos:broader wd:Q1661387 .
-
-wd:Q7400821 skos:prefLabel "Semelai"@en ;
-	skos:broader wd:Q254387 .
-
-wd:Q651164 skos:prefLabel "Jarawa people"@en ;
-	skos:broader wd:Q31835962 .
-
-wd:Q2986880 skos:prefLabel "indigenous people of Indonesia"@en ;
-	skos:broader wd:Q1945590 .
-
-wd:Q2427023 skos:prefLabel "Kutama"@en ;
-	skos:broader wd:Q1661387 .
-
-wd:Q1556876 skos:prefLabel "Kumandins"@en ;
-	skos:broader wd:Q11038987 .
-
-wd:Q2632800 skos:broader wd:Q4058325 .
-
-wd:Q1292246 skos:prefLabel "Sandawe people"@en ;
-	skos:broader wd:Q1661387 .
-
-wd:Q1377301 skos:broader wd:Q4058325 .
-
-wd:Q216839 skos:prefLabel "Taiwanese indigenous peoples"@en ;
-	skos:broader wd:Q707133 .
-
-wd:Q707133 skos:prefLabel "Taiwanese people"@en .
-
-wd:Q6671938 skos:prefLabel "Gaoshan Ethnics"@en ;
-	skos:broader wd:Q216839 .
-
-wd:Q7685391 skos:prefLabel "Taranaki"@en ;
-	skos:broader wd:Q6122670 .
-
-wd:Q2144062 skos:broader wd:Q845985 .
-
-wd:Q2846185 skos:prefLabel "Dorobo peoples"@en ;
-	skos:broader wd:Q1661387 .
-
-wd:Q1964345 skos:prefLabel "Zemba"@en ;
-	skos:broader wd:Q1661387 .
-
-wd:Q216839 skos:broader wd:Q861225 .
-
-wd:Q861225 skos:prefLabel "Austronesian peoples"@en .
-
-wd:Q1123129 skos:broader wd:Q33829 .
-
-wd:Q1813883 skos:broader wd:Q142702 .
-
-wd:Q142702 skos:prefLabel "Malays"@en .
-
-wd:Q1556876 skos:broader wd:Q4058325 .
-
-wd:Q163022 skos:prefLabel "Maasai"@en ;
-	skos:broader wd:Q1661387 .
-
-wd:Q45315 skos:broader wd:Q1661387 .
-
-wd:Q1891793 skos:prefLabel "Moroccans"@en ;
-	skos:broader wd:Q35323 .
-
-wd:Q35323 skos:prefLabel "Arabs"@en .
-
-wd:Q216839 skos:broader wd:Q31835962 .
-
-wd:Q1585756 skos:broader wd:Q4484042 .
-
-wd:Q578475 skos:prefLabel "Wodaabe"@en ;
-	skos:broader wd:Q1661387 .
-
-wd:Q2067963 skos:prefLabel "Tenggerese people"@en ;
-	skos:broader wd:Q1945590 .
-
-wd:Q2632800 skos:broader wd:Q33829 .
-
-wd:Q1377301 skos:broader wd:Q33829 .
-
-wd:Q517860 skos:prefLabel "Okiek people"@en ;
-	skos:broader wd:Q1661387 .
-
-wd:Q2986880 skos:broader wd:Q31835962 .
-
-wd:Q170355 skos:broader wd:Q1318423 .
-
-wd:Q1318423 skos:prefLabel "Australians"@en .
-
-wd:Q7448359 skos:prefLabel "Temiar people"@en ;
-	skos:broader wd:Q254387 .
-
-wd:Q101828 skos:prefLabel "Ainu people"@en ;
-	skos:broader wd:Q5404260 .
-
-wd:Q5404260 skos:prefLabel "ethnic groups of Japan"@en .
-
-wd:Q2641991 skos:prefLabel "Kubu people"@en ;
-	skos:broader wd:Q1945590 .
-
-wd:Q170088 skos:prefLabel "Herero people"@en ;
-	skos:broader wd:Q1661387 .
-
-wd:Q1123129 skos:broader wd:Q55658245 .
-
-wd:Q1313979 skos:broader wd:Q11038987 .
-
-wd:Q1758372 skos:prefLabel "Moriori people"@en ;
-	skos:broader wd:Q6122670 .
-
-wd:Q202575 skos:prefLabel "Fulbe people"@en ;
-	skos:broader wd:Q1661387 .
-
-wd:Q6539392 skos:prefLabel "Lia Pootah"@en ;
-	skos:broader wd:Q1493806 .
-
-wd:Q1891793 skos:broader wd:Q45315 .
-
-wd:Q163022 skos:broader wd:Q664262 .
-
-wd:Q664262 skos:prefLabel "Nilotic peoples"@en .
-
-wd:Q2357073 skos:prefLabel "Baduy"@en ;
-	skos:broader wd:Q1945590 .
-
-wd:Q6671938 skos:broader wd:Q31835962 .
-
-wd:Q142702 skos:broader wd:Q1945590 .
-
-wd:Q1234581 skos:prefLabel "Igorot peoples"@mul ;
-	skos:broader wd:Q4484042 .
-
-wd:Q1556876 skos:broader wd:Q33829 .
-
-wd:Q847603 skos:prefLabel "Dayak"@en ;
-	skos:broader wd:Q1945590 .
-
-wd:Q1894736 skos:prefLabel "Yavapai people"@en ;
-	skos:broader wd:Q6024707 .
-
-wd:Q170355 skos:broader wd:Q142425 .
-
-wd:Q612697 skos:broader wd:Q1661387 .
-
-wd:Q7810618 skos:prefLabel "Tjimba people"@en ;
-	skos:broader wd:Q1661387 .
-
-wd:Q2632800 skos:broader wd:Q55658245 .
-
-wd:Q4850828 skos:prefLabel "Bali Aga"@en ;
-	skos:broader wd:Q1945590 .
-
-wd:Q101828 skos:broader wd:Q31835962 .
-
-wd:Q189975 skos:prefLabel "Inuit"@en ;
-	skos:broader wd:Q11038987 .
-
-wd:Q1377301 skos:broader wd:Q55658245 .
-
-wd:Q1313979 skos:broader wd:Q4058325 .
-
-wd:Q2500209 skos:prefLabel "Mangyan peoples"@en ;
-	skos:broader wd:Q4484042 .
-
-wd:Q58843 skos:broader wd:Q45315 .
-
-wd:Q459387 skos:prefLabel "Khoisan"@en ;
-	skos:broader wd:Q1661387 .
-
-wd:Q682079 skos:prefLabel "Sundanese people"@en ;
-	skos:broader wd:Q1945590 .
-
-wd:Q189975 skos:broader wd:Q15571255 .
-
-wd:Q1556876 skos:broader wd:Q55658245 .
-
-wd:Q3287203 skos:broader wd:Q102611190 .
-
-wd:Q102611190 skos:prefLabel "Cook Islanders"@en .
-
-wd:Q1258889 skos:prefLabel "Hadza people"@en ;
-	skos:broader wd:Q1661387 .
-
-wd:Q189975 skos:broader wd:Q3987120 .
-
-wd:Q637454 skos:prefLabel "Nefzaoua"@en ;
-	skos:broader wd:Q45315 .
-
-wd:Q1258905 skos:prefLabel "Madurese"@en ;
-	skos:broader wd:Q1945590 .
-
-wd:Q107331 skos:prefLabel "Great Lakes Twa"@en ;
-	skos:broader wd:Q1661387 .
-
-wd:Q48781032 skos:prefLabel "Ritharngu"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q1652290 skos:prefLabel "Yirrganydji people"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q48785128 skos:prefLabel "Atjinuri"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q3575176 skos:prefLabel "Aït Zemmour"@en ;
-	skos:broader wd:Q45315 .
-
-wd:Q2364324 skos:prefLabel "Ait Atta"@en ;
-	skos:broader wd:Q45315 .
-
-wd:Q5223662 skos:prefLabel "Darkinjung people"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q48775468 skos:prefLabel "Maridan"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q48775327 skos:prefLabel "Marimanindji"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q48790537 skos:prefLabel "Barranbinya"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q48791734 skos:prefLabel "Jarowair"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q48796947 skos:prefLabel "Bilingara"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q808014 skos:prefLabel "Bardi people"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q48797661 skos:prefLabel "Bailgu"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q48797851 skos:prefLabel "Unggarranggu"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q48797979 skos:prefLabel "Wirdinya"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q2876512 skos:prefLabel "Q2876512" ;
-	skos:broader wd:Q45315 .
-
-wd:Q48799200 skos:prefLabel "Unggumi"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q2456520 skos:prefLabel "Libu"@en ;
-	skos:broader wd:Q2669678 .
-
-wd:Q2669678 skos:prefLabel "Libyans"@en .
-
-wd:Q48779136 skos:prefLabel "Gooniyandi"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q8047958 skos:prefLabel "Yamatji"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q39091066 skos:prefLabel "Tedei"@mul ;
-	skos:broader wd:Q170355 .
-
-wd:Q28224451 skos:prefLabel "Yanyuwa"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q25391592 skos:prefLabel "Autololes"@en ;
-	skos:broader wd:Q6792792 .
-
-wd:Q6792792 skos:prefLabel "Mauri people"@en .
-
-wd:Q3062634 skos:prefLabel "Tekna"@en ;
-	skos:broader wd:Q45315 .
-
-wd:Q7710757 skos:prefLabel "Tharawal"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q1932580 skos:prefLabel "Mozabite people"@en ;
-	skos:broader wd:Q45315 .
-
-wd:Q16211292 skos:prefLabel "Paarkantji"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q16211926 skos:prefLabel "Wilyakali"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q3258734 skos:prefLabel "Lokono"@en ;
-	skos:broader wd:Q117244 .
-
-wd:Q28219832 skos:prefLabel "Ngarluma"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q16931065 skos:prefLabel "Amazighs Christians Donatians"@en ;
-	skos:broader wd:Q106039 .
-
-wd:Q106039 skos:prefLabel "Christian"@en .
-
-wd:Q1701590 skos:prefLabel "Ngunnawal people"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q2876480 skos:prefLabel "Ait Hadiddou"@en ;
-	skos:broader wd:Q45315 .
-
-wd:Q48782575 skos:prefLabel "Wadjiginy"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q48783531 skos:prefLabel "Mangarayi"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q48796868 skos:prefLabel "Yangman"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q1996477 skos:prefLabel "Noongar people"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q3569807 skos:prefLabel "Wonnarua"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q4058929 skos:prefLabel "Ainu in Russia"@en ;
-	skos:broader wd:Q101828 .
-
-wd:Q2876530 skos:prefLabel "Ait Yafelman"@en ;
-	skos:broader wd:Q45315 .
-
-wd:Q2876522 skos:prefLabel "Ait Yahia"@mul ;
-	skos:broader wd:Q45315 .
-
-wd:Q48769238 skos:prefLabel "Gunwinggu"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q5225799 skos:prefLabel "Darumbal"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q370543 skos:prefLabel "Ngarrindjeri"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q47632042 skos:prefLabel "Marulta"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q47633254 skos:prefLabel "Maiawali"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q4668382 skos:prefLabel "Aboriginal sites of New South Wales"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q39087884 skos:prefLabel "Jaitmatang"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q39088263 skos:prefLabel "Wotjobaluk people"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q39088282 skos:prefLabel "Yuwaalaraay"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q6792792 skos:broader wd:Q45315 .
-
-wd:Q39090749 skos:prefLabel "Birrbay"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q39090920 skos:prefLabel "Bibulman"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q39090787 skos:prefLabel "Umiida"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q39090887 skos:prefLabel "Ngadjunmaia"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q39090910 skos:prefLabel "Wiilman"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q39091058 skos:prefLabel "Tharrkari"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q39091068 skos:prefLabel "Yingkarta"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q6489790 skos:prefLabel "Larrakia people"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q39091289 skos:prefLabel "Rembarrnga"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q25391592 skos:broader wd:Q45315 .
-
-wd:Q48781017 skos:prefLabel "Dhuwal"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q5285188 skos:prefLabel "Djabugay people"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q14827897 skos:prefLabel "Sanhajas de Srayr"@en ;
-	skos:broader wd:Q45315 .
-
-wd:Q30681453 skos:prefLabel "Ngaiawang"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q30682036 skos:prefLabel "Jukambal"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q322974 skos:prefLabel "Aboriginal tracker"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q40331233 skos:prefLabel "Dalabon"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q322974 skos:broader wd:Q23831192 .
-
-wd:Q23831192 skos:prefLabel "tracker"@en .
-
-wd:Q28225094 skos:prefLabel "Djiru"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q379636 skos:prefLabel "Torres Strait Islanders"@en ;
-	skos:broader wd:Q122974170 .
-
-wd:Q122974170 skos:prefLabel "islanders"@en .
-
-wd:Q48796437 skos:prefLabel "Badimaya"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q28943059 skos:prefLabel "Djangadi"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q1004875 skos:prefLabel "Bumiputera"@en ;
-	skos:broader wd:Q142702 .
-
-wd:Q1820260 skos:prefLabel "Pintupi"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q2899812 skos:prefLabel "Banu Birzal"@en ;
-	skos:broader wd:Q45315 .
-
-wd:Q2894610 skos:prefLabel "Kal Bella"@en ;
-	skos:broader wd:Q58843 .
-
-wd:Q7711416 skos:prefLabel "Thaua people"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q48782990 skos:prefLabel "Ngalakgan"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q39059954 skos:prefLabel "Catawba in the American Civil War"@en ;
-	skos:broader wd:Q55290 .
-
-wd:Q2456520 skos:broader wd:Q45315 .
-
-wd:Q25619749 skos:prefLabel "Berbers in al-Andalus"@en ;
-	skos:broader wd:Q45315 .
-
-wd:Q3120839 skos:prefLabel "Gandangara people"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q1010028 skos:prefLabel "Bunurong people"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q1932580 skos:broader wd:Q243551 .
-
-wd:Q243551 skos:prefLabel "Ibadi Islam"@en .
-
-wd:Q48778979 skos:prefLabel "Yawijibaya"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q19875967 skos:prefLabel "Muthi Muthi"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q12060728 skos:prefLabel "Aboriginal Australians"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q48798003 skos:prefLabel "Wunambal"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q48753534 skos:prefLabel "Q48753534" ;
-	skos:broader wd:Q170355 .
-
-wd:Q1166813 skos:prefLabel "Darug people"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q359882 skos:prefLabel "Adnyamathanha"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q17050206 skos:prefLabel "kankō Ainu"@en ;
-	skos:broader wd:Q101828 .
-
-wd:Q379636 skos:broader wd:Q170355 , wd:Q1762752 .
-
-wd:Q1762752 skos:prefLabel "Melanesians"@en .
-
-wd:Q6472732 skos:prefLabel "Laguatan"@en ;
-	skos:broader wd:Q45315 .
-
-wd:Q28220115 skos:prefLabel "Nyamal"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q48790436 skos:prefLabel "Muruwari"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q16931065 skos:broader wd:Q45315 .
-
-wd:Q16114951 skos:prefLabel "Kokopera"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q12156663 skos:prefLabel "Cochiti"@en ;
-	skos:broader wd:Q852431 .
-
-wd:Q180540 skos:prefLabel "Kenyah Dayak"@en ;
-	skos:broader wd:Q847603 .
-
-wd:Q3557982 skos:prefLabel "indigenous people in Peru"@en ;
-	skos:broader wd:Q4359289 .
-
-wd:Q4359289 skos:prefLabel "Peruvians"@en .
-
-wd:Q3895812 skos:prefLabel "Paressí"@en ;
-	skos:broader wd:Q1479328 .
-
-wd:Q3525550 skos:prefLabel "indigenous peoples in Chile"@en ;
-	skos:broader wd:Q1276073 .
-
-wd:Q1276073 skos:prefLabel "Chileans"@en .
-
-wd:Q3525435 skos:prefLabel "indigenous peoples in Venezuela"@en ;
-	skos:broader wd:Q2996826 .
-
-wd:Q2996826 skos:prefLabel "Venezuelans"@en .
-
-wd:Q6037844 skos:prefLabel "indigenous peoples in Guyana"@en ;
-	skos:broader wd:Q1281236 .
-
-wd:Q1281236 skos:prefLabel "Guyanese"@en .
-
-wd:Q706528 skos:prefLabel "Yami"@en ;
-	skos:broader wd:Q216839 .
-
-wd:Q22083533 skos:prefLabel "Isleta Puebloan"@en ;
-	skos:broader wd:Q852431 .
-
-wd:Q6034885 skos:prefLabel "indigenous peoples in Suriname"@en ;
-	skos:broader wd:Q1479328 .
-
-wd:Q1265232 skos:prefLabel "indigenous peoples in Paraguay"@en ;
-	skos:broader wd:Q10344552 .
-
-wd:Q10344552 skos:prefLabel "Paraguayans"@en .
-
-wd:Q6071606 skos:prefLabel "indigenous peoples in Uruguay"@en ;
-	skos:broader wd:Q7901501 .
-
-wd:Q7901501 skos:prefLabel "Uruguayans"@en .
-
-wd:Q26242402 skos:prefLabel "Balangan"@en ;
-	skos:broader wd:Q847603 .
-
-wd:Q706500 skos:prefLabel "Puyuma people"@en ;
-	skos:broader wd:Q216839 .
-
-wd:Q3091608 skos:prefLabel "indigenous peoples in Ecuador"@en ;
-	skos:broader wd:Q41710 .
-
-wd:Q16116227 skos:prefLabel "Monashackotoog"@en ;
-	skos:broader wd:Q541788 .
-
-wd:Q333484 skos:prefLabel "Saisiyat"@en ;
-	skos:broader wd:Q216839 .
-
-wd:Q3557982 skos:broader wd:Q1479328 .
-
-wd:Q6034885 skos:broader wd:Q2522648 .
-
-wd:Q2522648 skos:prefLabel "Surinamese people"@en .
-
-wd:Q697914 skos:prefLabel "Taiwanese Plains Aborigines"@en ;
-	skos:broader wd:Q707133 .
-
-wd:Q31173746 skos:prefLabel "Balau"@en ;
-	skos:broader wd:Q847603 .
-
-wd:Q1265232 skos:broader wd:Q1479328 .
-
-wd:Q3525435 skos:broader wd:Q1479328 .
-
-wd:Q3525550 skos:broader wd:Q1479328 .
-
-wd:Q6037844 skos:broader wd:Q1479328 .
-
-wd:Q6071606 skos:broader wd:Q1479328 .
-
-wd:Q48806156 skos:prefLabel "Kuyani"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q925772 skos:prefLabel "Ohkay Owingeh"@en ;
-	skos:broader wd:Q852431 .
-
-wd:Q887850 skos:prefLabel "Greenlandic Inuit people"@en ;
-	skos:broader wd:Q189975 .
-
-wd:Q12627351 skos:prefLabel "Q12627351" ;
-	skos:broader wd:Q1179410 .
-
-wd:Q48802378 skos:prefLabel "Binigura"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q7021886 skos:prefLabel "Ngaju people"@en ;
-	skos:broader wd:Q847603 .
-
-wd:Q55625134 skos:prefLabel "Ngarnka"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q48803991 skos:prefLabel "Malgana people"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q55603094 skos:prefLabel "Aboriginal peoples of South Australia"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q707464 skos:prefLabel "Seediq people"@en ;
-	skos:broader wd:Q216839 .
-
-wd:Q1363781 skos:prefLabel "indigenous peoples in Brazil"@en ;
-	skos:broader wd:Q873625 .
-
-wd:Q873625 skos:prefLabel "Brazilians"@en .
-
-wd:Q619481 skos:prefLabel "Tsou people"@en ;
-	skos:broader wd:Q216839 .
-
-wd:Q967412 skos:prefLabel "Tidung"@en ;
-	skos:broader wd:Q847603 .
-
-wd:Q62098205 skos:prefLabel "Wergaia people"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q2793139 skos:prefLabel "Rukai"@en ;
-	skos:broader wd:Q216839 .
-
-wd:Q8344747 skos:prefLabel "Chaná people"@en ;
-	skos:broader wd:Q1479328 .
-
-wd:Q62107406 skos:prefLabel "Wudjari people"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q941391 skos:prefLabel "Snohomish tribe"@en ;
-	skos:broader wd:Q1755154 .
-
-wd:Q1363781 skos:broader wd:Q1479328 .
-
-wd:Q62107406 skos:broader wd:Q1996477 .
-
-wd:Q26242419 skos:prefLabel "Berusu"@en ;
-	skos:broader wd:Q847603 .
-
-wd:Q26242441 skos:prefLabel "Bantian"@en ;
-	skos:broader wd:Q847603 .
-
-wd:Q694525 skos:prefLabel "Nama people"@en ;
-	skos:broader wd:Q219252 .
-
-wd:Q48815026 skos:prefLabel "Yirandhali"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q48808624 skos:prefLabel "Punthamara"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q710817 skos:prefLabel "Sakizaya"@en ;
-	skos:broader wd:Q216839 .
-
-wd:Q973254 skos:prefLabel "Iban"@en ;
-	skos:broader wd:Q847603 .
-
-wd:Q55637422 skos:prefLabel "Warlmanpa"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q709963 skos:prefLabel "Truku people"@en ;
-	skos:broader wd:Q216839 .
-
-wd:Q15939915 skos:prefLabel "Kanakanavu"@en ;
-	skos:broader wd:Q216839 .
-
-wd:Q26242442 skos:prefLabel "Q26242442" ;
-	skos:broader wd:Q847603 .
-
-wd:Q26242440 skos:prefLabel "Q26242440" ;
-	skos:broader wd:Q847603 .
-
-wd:Q701676 skos:prefLabel "Atayal"@en ;
-	skos:broader wd:Q216839 .
-
-wd:Q701704 skos:prefLabel "Bunun"@en ;
-	skos:broader wd:Q216839 .
-
-wd:Q12517196 skos:prefLabel "Bahau"@en ;
-	skos:broader wd:Q847603 .
-
-wd:Q642019 skos:prefLabel "Caribou Inuit"@en ;
-	skos:broader wd:Q189975 .
-
-wd:Q205006 skos:prefLabel "Amis"@en ;
-	skos:broader wd:Q216839 .
-
-wd:Q3058858 skos:prefLabel "Embera-Wounaan"@en ;
-	skos:broader wd:Q1479328 .
-
-wd:Q2258527 skos:prefLabel "indigenous peoples in Colombia"@en ;
-	skos:broader wd:Q2997267 .
-
-wd:Q2997267 skos:prefLabel "Colombians"@en .
-
-wd:Q225469 skos:prefLabel "Puyallup people"@en ;
-	skos:broader wd:Q1755154 .
-
-wd:Q48801961 skos:prefLabel "Pindiini"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q17370580 skos:prefLabel "Saaroa people"@en ;
-	skos:broader wd:Q216839 .
-
-wd:Q1474169 skos:broader wd:Q2365041 .
-
-wd:Q2365041 skos:prefLabel "Argentines"@en .
-
-wd:Q61055296 skos:prefLabel "Kaneang"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q821915 skos:prefLabel "Sto:lo"@en ;
-	skos:broader wd:Q1755154 .
-
-wd:Q2258527 skos:broader wd:Q1479328 .
-
-wd:Q714393 skos:prefLabel "Thao people"@en ;
-	skos:broader wd:Q216839 .
-
-wd:Q289226 skos:prefLabel "Muckleshoot people"@en ;
-	skos:broader wd:Q1755154 .
-
-wd:Q3091608 skos:broader wd:Q1479328 .
-
-wd:Q646152 skos:prefLabel "Netsilik Inuit"@en ;
-	skos:broader wd:Q189975 .
-
-wd:Q24287310 skos:prefLabel "Barakai"@en ;
-	skos:broader wd:Q847603 .
-
-wd:Q16639243 skos:prefLabel "Tesuque"@en ;
-	skos:broader wd:Q852431 .
-
-wd:Q6091085 skos:prefLabel "indigenous peoples in Bolivia"@en ;
-	skos:broader wd:Q4357542 .
-
-wd:Q4357542 skos:prefLabel "Bolivians"@en .
-
-wd:Q2219658 skos:prefLabel "San Ildefonso Pueblo"@en ;
-	skos:broader wd:Q852431 .
-
-wd:Q719136 skos:prefLabel "Central Inuit"@en ;
-	skos:broader wd:Q189975 .
-
-wd:Q719361 skos:prefLabel "Copper Inuit"@en ;
-	skos:broader wd:Q189975 .
-
-wd:Q1474169 skos:broader wd:Q1479328 .
-
-wd:Q26205683 skos:prefLabel "Barangas"@en ;
-	skos:broader wd:Q847603 .
-
-wd:Q26205690 skos:prefLabel "Banjau"@en ;
-	skos:broader wd:Q847603 .
-
-wd:Q26205689 skos:prefLabel "Bakung Metulang"@en ;
-	skos:broader wd:Q847603 .
-
-wd:Q26205528 skos:prefLabel "Selako"@en ;
-	skos:broader wd:Q847603 .
-
-wd:Q2019170 skos:prefLabel "Baweanese"@en ;
-	skos:broader wd:Q1258905 .
-
-wd:Q4811101 skos:prefLabel "Inuvialuit"@en ;
-	skos:broader wd:Q189975 .
-
-wd:Q26205689 skos:broader wd:Q4200853 .
-
-wd:Q3551174 skos:prefLabel "Ibaloi"@en ;
-	skos:broader wd:Q1234581 .
-
-wd:Q127491 skos:prefLabel "Kasepuhan"@en ;
-	skos:broader wd:Q682079 .
-
-wd:Q718347 skos:prefLabel "Kavalan people"@en ;
-	skos:broader wd:Q216839 .
-
-wd:Q48802909 skos:prefLabel "Djaru"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q3091608 skos:broader wd:Q43296435 .
-
-wd:Q43296435 skos:prefLabel "Ecuadorians"@en .
-
-wd:Q12633608 skos:prefLabel "Jemez Puebloans"@en ;
-	skos:broader wd:Q852431 .
-
-wd:Q6091085 skos:broader wd:Q1479328 .
-
-wd:Q697914 skos:broader wd:Q216839 .
-
-wd:Q488406 skos:prefLabel "Sadlermiut"@en ;
-	skos:broader wd:Q189975 .
-
-wd:Q6739693 skos:prefLabel "Keres"@en ;
-	skos:broader wd:Q852431 .
-
-wd:Q536116 skos:prefLabel "Odawa"@en ;
-	skos:broader wd:Q1956640 .
-
-wd:Q1956640 skos:prefLabel "Anishinaabe"@en .
-
-wd:Q487749 skos:prefLabel "St'at'imc people"@en ;
-	skos:broader wd:Q384927 .
-
-wd:Q384927 skos:prefLabel "Interior Salish"@en .
-
-wd:Q244735 skos:prefLabel "Altai people"@en ;
-	skos:broader wd:Q11038987 .
-
-wd:Q1162132 skos:prefLabel "Wixarika"@en ;
-	skos:broader wd:Q114049667 .
-
-wd:Q114049667 skos:prefLabel "Uto-Aztecan Indians"@en .
-
-wd:Q1955201 skos:prefLabel "Oji-Cree"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q536129 skos:prefLabel "Tlingit"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q1186518 skos:prefLabel "Sekani people"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q863284 skos:broader wd:Q15571255 .
-
-wd:Q1253290 skos:prefLabel "Ute"@en ;
-	skos:broader wd:Q319245 .
-
-wd:Q319245 skos:prefLabel "Indigenous peoples of the Great Basin"@en .
-
-wd:Q492150 skos:prefLabel "Nakoda"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q117255 skos:prefLabel "Hopi people"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q49297 skos:prefLabel "Native Americans in the United States"@en .
-
-wd:Q815763 skos:prefLabel "Heiltsuk people"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q536116 skos:broader wd:Q15571255 .
-
-wd:Q536129 skos:broader wd:Q4310879 .
-
-wd:Q4310879 skos:prefLabel "Na-Dene people"@en .
-
-wd:Q210561 skos:prefLabel "indigenous peoples of the Pacific Northwest Coast"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q262457 skos:prefLabel "Métis"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q151804 skos:prefLabel "Petun"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q1144501 skos:prefLabel "Gwich'in people"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q1974818 skos:prefLabel "Tewa people"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q661423 skos:prefLabel "Beothuk people"@en ;
-	skos:broader wd:Q863284 .
-
-wd:Q1956640 skos:broader wd:Q15571255 .
-
-wd:Q487749 skos:broader wd:Q15571255 .
-
-wd:Q231317 skos:prefLabel "Zuni people"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q491706 skos:prefLabel "Atikamekw people"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q1621197 skos:prefLabel "Algonquian peoples"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q1825474 skos:prefLabel "Nuxalk"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q244735 skos:broader wd:Q4058325 .
-
-wd:Q1065583 skos:prefLabel "Potawatomi"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q388264 skos:prefLabel "Blackfoot Confederacy"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q1186518 skos:broader wd:Q863284 .
-
-wd:Q117255 skos:broader wd:Q114049667 .
-
-wd:Q815763 skos:broader wd:Q863284 .
-
-wd:Q117191 skos:prefLabel "Cree"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q82048 skos:broader wd:Q15571255 .
-
-wd:Q1255107 skos:prefLabel "Northern Tutchone people"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q151804 skos:broader wd:Q863284 .
-
-wd:Q492901 skos:prefLabel "Kalispel"@en ;
-	skos:broader wd:Q1825812 .
-
-wd:Q209148 skos:prefLabel "Akimel O'odham"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q1406599 skos:prefLabel "Kʼómoks"@mul ;
-	skos:broader wd:Q1755154 .
-
-wd:Q1825474 skos:broader wd:Q863284 .
-
-wd:Q3036334 skos:prefLabel "Skagit"@en ;
-	skos:broader wd:Q1755154 .
-
-wd:Q36550 skos:prefLabel "Tahltan people"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q1649265 skos:prefLabel "Passamaquoddy Tribe"@en ;
-	skos:broader wd:Q130374670 .
-
-wd:Q130374670 skos:prefLabel "Wabanaki"@en .
-
-wd:Q1255761 skos:prefLabel "Southern Tutchone people"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q1137355 skos:prefLabel "Kwakwaka'wakw"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q2217211 skos:prefLabel "Samish"@en ;
-	skos:broader wd:Q1755154 .
-
-wd:Q244735 skos:broader wd:Q33829 .
-
-wd:Q1572875 skos:prefLabel "Oneida"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q1162132 skos:broader wd:Q3314452 .
-
-wd:Q3314452 skos:prefLabel "indigenous peoples of Mexico"@en .
-
-wd:Q49297 skos:broader wd:Q846570 .
-
-wd:Q846570 skos:prefLabel "Americans"@en .
-
-wd:Q1550384 skos:prefLabel "Kutenai people"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q2034266 skos:prefLabel "Squamish"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q1789962 skos:prefLabel "Lekwungen"@en ;
-	skos:broader wd:Q1755154 .
-
-wd:Q213396 skos:prefLabel "Wyandot people"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q2745405 skos:prefLabel "Alutiiq people"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q36550 skos:broader wd:Q863284 .
-
-wd:Q907924 skos:prefLabel "Plains Indians"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q1649265 skos:broader wd:Q15571255 .
-
-wd:Q1816665 skos:prefLabel "Neutral Confederacy"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q1028277 skos:prefLabel "Danezaa people"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q107434 skos:prefLabel "Sioux"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q1138201 skos:prefLabel "Cowichan"@en ;
-	skos:broader wd:Q1755154 .
-
-wd:Q357670 skos:prefLabel "Adivasi"@en ;
-	skos:broader wd:Q133311 .
-
-wd:Q495751 skos:prefLabel "Mi’kmaw"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q495767 skos:prefLabel "Tagish people"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q357670 skos:broader wd:Q126592238 .
-
-wd:Q126592238 skos:prefLabel "indigenous peoples of India"@en .
-
-wd:Q116971 skos:prefLabel "Mohawk"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q267410 skos:prefLabel "Pipil people"@en ;
-	skos:broader wd:Q114049667 .
-
-wd:Q384927 skos:broader wd:Q1825812 .
-
-wd:Q1755141 skos:prefLabel "Tsetsaut"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q3034452 skos:prefLabel "Kerinci people"@en ;
-	skos:broader wd:Q117086038 .
-
-wd:Q117086038 skos:prefLabel "Sumatrans"@en .
-
-wd:Q388264 skos:broader wd:Q15571255 .
-
-wd:Q318806 skos:broader wd:Q15571255 .
-
-wd:Q49297 skos:broader wd:Q15571255 .
-
-wd:Q1816665 skos:broader wd:Q863284 .
-
-wd:Q1563033 skos:prefLabel "Wolastoqiyik"@mul ;
-	skos:broader wd:Q130374670 .
-
-wd:Q56490 skos:prefLabel "Tsimshian people"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q510023 skos:prefLabel "Paiute people"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q337550 skos:prefLabel "Secwépemc"@en ;
-	skos:broader wd:Q384927 .
-
-wd:Q1253290 skos:broader wd:Q114049667 .
-
-wd:Q1509140 skos:prefLabel "Okanagan people"@en ;
-	skos:broader wd:Q384927 .
-
-wd:Q1755141 skos:broader wd:Q863284 .
-
-wd:Q388264 skos:broader wd:Q863284 .
-
-wd:Q213422 skos:prefLabel "Seneca"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q3307681 skos:prefLabel "Mexica"@en ;
-	skos:broader wd:Q114049667 .
-
-wd:Q1283203 skos:prefLabel "Guaymí people"@en ;
-	skos:broader wd:Q3558036 .
-
-wd:Q337550 skos:broader wd:Q15571255 .
-
-wd:Q841334 skos:prefLabel "Indigenous peoples of the Northeastern Woodlands"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q1509140 skos:broader wd:Q15571255 .
-
-wd:Q537784 skos:prefLabel "Nuu-chah-nulth people"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q1563033 skos:broader wd:Q15571255 .
-
-wd:Q826591 skos:prefLabel "Nahua"@en ;
-	skos:broader wd:Q114049667 .
-
-wd:Q1429504 skos:prefLabel "Kickapoo"@mul ;
-	skos:broader wd:Q15571255 .
-
-wd:Q568060 skos:prefLabel "Indigenous peoples of the Subarctic"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q1955201 skos:broader wd:Q1621197 .
-
-wd:Q1509140 skos:broader wd:Q863284 .
-
-wd:Q661423 skos:broader wd:Q15571255 .
-
-wd:Q210334 skos:prefLabel "Cayuga people"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q210332 skos:prefLabel "Haida people"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q26862 skos:prefLabel "Hän people"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q16908608 skos:prefLabel "Q16908608" ;
-	skos:broader wd:Q103817 .
-
-wd:Q126592238 skos:broader wd:Q31835962 .
-
-wd:Q137362150 skos:prefLabel "Iguzulen"@en ;
-	skos:broader wd:Q45315 .
-
-wd:Q31835962 skos:broader wd:Q103817 .
-
-wd:Q108939621 skos:prefLabel "Amerindian boys"@en ;
-	skos:broader wd:Q3010 .
-
-wd:Q3010 skos:prefLabel "boy"@en .
-
-wd:Q107297054 skos:prefLabel "Taboso people"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q11544942 skos:prefLabel "Bonin Islanders"@en ;
-	skos:broader wd:Q122974170 .
-
-wd:Q96081994 skos:prefLabel "Finndians"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q105684720 skos:prefLabel "Aboriginal students"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q118688981 skos:prefLabel "Q118688981" ;
-	skos:broader wd:Q1479328 .
-
-wd:Q114049667 skos:broader wd:Q36747 .
-
-wd:Q110922133 skos:broader wd:Q103817 .
-
-wd:Q110100602 skos:prefLabel "Q110100602" ;
-	skos:broader wd:Q36747 .
-
-wd:Q12632217 skos:prefLabel "Henya"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q14942868 skos:prefLabel "Māori monarch"@en ;
-	skos:broader wd:Q6122670 .
-
-wd:Q17280792 skos:prefLabel "Standing Rock Sioux Tribe"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q112865153 skos:prefLabel "indigiqueer person"@en ;
-	skos:broader wd:Q103817 .
-
-wd:Q83041373 skos:prefLabel "Ideiboussat"@en ;
-	skos:broader wd:Q45315 .
-
-wd:Q117086038 skos:broader wd:Q122974170 .
-
-wd:Q98081329 skos:prefLabel "Q98081329" ;
-	skos:broader wd:Q1661387 .
-
-wd:Q104906312 skos:prefLabel "Patagonian peoples"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q109328851 skos:prefLabel "Amerindian men"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q48799525 skos:prefLabel "Ngarla"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q20310140 skos:prefLabel "Hullooetell"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q109090457 skos:prefLabel "Bajo"@en ;
-	skos:broader wd:Q103817 , wd:Q133311 .
-
-wd:Q24251468 skos:prefLabel "Chumash people"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q12827512 skos:prefLabel "Mochicas"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q48805897 skos:prefLabel "Antakirinja people"@en ;
-	skos:broader wd:Q103817 .
-
-wd:Q110922133 skos:broader wd:Q11129406 .
-
-wd:Q11129406 skos:prefLabel "water people"@en .
-
-wd:Q65211351 skos:prefLabel "Bayan people"@en ;
-	skos:broader wd:Q1560742 .
-
-wd:Q106993448 skos:prefLabel "indigenous peoples in French Guiana"@en ;
-	skos:broader wd:Q101013228 .
-
-wd:Q101013228 skos:prefLabel "French Guianese"@en .
-
-wd:Q110923182 skos:prefLabel "Yankunytjatjara"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q107410977 skos:prefLabel "Amazigh tribe"@en ;
-	skos:broader wd:Q45315 .
-
-wd:Q104586516 skos:prefLabel "Nambé people"@en ;
-	skos:broader wd:Q852431 .
-
-wd:Q108939621 skos:broader wd:Q36747 .
-
-wd:Q24392750 skos:prefLabel "Koiwai people"@en ;
-	skos:broader wd:Q1945590 .
-
-wd:Q65211351 skos:broader wd:Q1945590 .
-
-wd:Q65211359 skos:prefLabel "Wai Apu people"@en ;
-	skos:broader wd:Q1945590 .
-
-wd:Q65211360 skos:prefLabel "Wawonii people"@en ;
-	skos:broader wd:Q1945590 .
-
-wd:Q119464444 skos:prefLabel "Māori child"@en ;
-	skos:broader wd:Q6122670 .
-
-wd:Q31835962 skos:broader wd:Q4058325 .
-
-wd:Q93919776 skos:prefLabel "indigenous student"@en ;
-	skos:broader wd:Q48282 .
-
-wd:Q48282 skos:prefLabel "student"@en .
-
-wd:Q12633982 skos:prefLabel "Southern Ute Indian Tribe"@en ;
-	skos:broader wd:Q26774 .
-
-wd:Q107297054 skos:broader wd:Q2472587 .
-
-wd:Q12644711 skos:prefLabel "Vinta"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q135009745 skos:prefLabel "Malaccan Malays"@en ;
-	skos:broader wd:Q142702 .
-
-wd:Q30587641 skos:prefLabel "Yuchi people"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q111585476 skos:prefLabel "Amah Mutsun"@en ;
-	skos:broader wd:Q598406 .
-
-wd:Q598406 skos:prefLabel "Ohlone people"@en .
-
-wd:Q115756481 skos:prefLabel "Q115756481" ;
-	skos:broader wd:Q36747 .
-
-wd:Q113217710 skos:prefLabel "Māori artist"@en ;
-	skos:broader wd:Q483501 .
-
-wd:Q483501 skos:prefLabel "artist"@en .
-
-wd:Q109090457 skos:broader wd:Q16334295 .
-
-wd:Q15571255 skos:broader wd:Q36747 .
-
-wd:Q120264743 skos:prefLabel "Paugussett"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q18578862 skos:prefLabel "Mamanwâ"@en ;
-	skos:broader wd:Q845985 .
-
-wd:Q105684720 skos:broader wd:Q48282 .
-
-wd:Q109090457 skos:broader wd:Q83828 .
-
-wd:Q83828 skos:prefLabel "ethnic groups in Indonesia"@en .
-
-wd:Q17280792 skos:broader wd:Q107434 .
-
-wd:Q11038987 skos:broader wd:Q31835962 .
-
-wd:Q24402659 skos:prefLabel "Akit"@en ;
-	skos:broader wd:Q1945590 .
-
-wd:Q12631483 skos:prefLabel "Lake Superior Chippewa"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q117086038 skos:broader wd:Q1945590 .
-
-wd:Q113215967 skos:prefLabel "Māori woman"@en ;
-	skos:broader wd:Q6122670 .
-
-wd:Q16147340 skos:prefLabel "Maori Muslims"@en ;
-	skos:broader wd:Q6122670 .
-
-wd:Q16115148 skos:prefLabel "Onge"@en ;
-	skos:broader wd:Q31835962 .
-
-wd:Q113217710 skos:broader wd:Q6122670 .
-
-wd:Q113144697 skos:prefLabel "Muscogee people"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q19748582 skos:prefLabel "Musi people"@en ;
-	skos:broader wd:Q1945590 .
-
-wd:Q15975648 skos:prefLabel "Q15975648" ;
-	skos:broader wd:Q103817 .
-
-wd:Q17056773 skos:prefLabel "Temuan"@en ;
-	skos:broader wd:Q254387 .
-
-wd:Q14942868 skos:broader wd:Q116 .
-
-wd:Q116 skos:prefLabel "monarch"@en .
-
-wd:Q108866835 skos:prefLabel "Amerindian gay men"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q104415946 skos:prefLabel "San Felipe Puebloans"@en ;
-	skos:broader wd:Q852431 .
-
-wd:Q104416444 skos:prefLabel "Taos people"@en ;
-	skos:broader wd:Q852431 .
-
-wd:Q109108763 skos:prefLabel "Amerindian women"@en ;
-	skos:broader wd:Q467 .
-
-wd:Q467 skos:prefLabel "woman"@en .
-
-wd:Q65249531 skos:prefLabel "Hokkaido Ainu"@en ;
-	skos:broader wd:Q101828 .
-
-wd:Q108866835 skos:broader wd:Q104969456 .
-
-wd:Q104969456 skos:prefLabel "gay men"@en .
-
-wd:Q110320801 skos:prefLabel "Indigenous Australian children"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q96081994 skos:broader wd:Q3072663 .
-
-wd:Q3072663 skos:prefLabel "Finnish Americans"@en .
-
-wd:Q60741209 skos:prefLabel "Indo-Māori"@en ;
-	skos:broader wd:Q6122670 .
-
-wd:Q108513623 skos:prefLabel "Baniwa-Curripaco-Wakuenai"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q104440625 skos:prefLabel "Santa Clara Pueblo"@en ;
-	skos:broader wd:Q1974818 .
-
-wd:Q107410977 skos:broader wd:Q133311 .
-
-wd:Q136126372 skos:prefLabel "Guayacundos"@en ;
-	skos:broader wd:Q1479328 .
-
-wd:Q11544942 skos:broader wd:Q31835962 .
-
-wd:Q96081994 skos:broader wd:Q5450761 .
-
-wd:Q5450761 skos:prefLabel "Finnish Canadians"@en .
-
-wd:Q16112957 skos:prefLabel "Bamoa"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q119464444 skos:broader wd:Q7569 .
-
-wd:Q7569 skos:prefLabel "child"@en .
-
-wd:Q123660105 skos:prefLabel "Taiwanese indigenous athlete"@en ;
-	skos:broader wd:Q216839 .
-
-wd:Q106993448 skos:broader wd:Q1479328 .
-
-wd:Q12645114 skos:prefLabel "Wecquaesgeek"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q104431241 skos:prefLabel "Picuris people"@en ;
-	skos:broader wd:Q852431 .
-
-wd:Q12645304 skos:prefLabel "Wunnashowatuckoog"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q63985103 skos:prefLabel "Sawang people"@en ;
-	skos:broader wd:Q1945590 .
-
-wd:Q109090457 skos:broader wd:Q41710 .
-
-wd:Q12645581 skos:prefLabel "Zapara"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q19748586 skos:prefLabel "Palembang"@en ;
-	skos:broader wd:Q1945590 .
-
-wd:Q135507695 skos:prefLabel "San"@en ;
-	skos:broader wd:Q1661387 .
-
-wd:Q111585476 skos:broader wd:Q36747 .
-
-wd:Q109359848 skos:prefLabel "Honshu Ainu"@en ;
-	skos:broader wd:Q101828 .
-
-wd:Q12637240 skos:prefLabel "Monimbó"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q109108763 skos:broader wd:Q36747 .
-
-wd:Q93919776 skos:broader wd:Q103817 .
-
-wd:Q104439864 skos:prefLabel "Kewa Puebloan"@en ;
-	skos:broader wd:Q852431 .
-
-wd:Q60741209 skos:broader wd:Q6021113 .
-
-wd:Q6021113 skos:prefLabel "Indian New Zealander"@en .
-
-wd:Q104440625 skos:broader wd:Q852431 .
-
-wd:Q110886693 skos:prefLabel "Kokatha"@en ;
-	skos:broader wd:Q170355 .
-
-wd:Q111211041 skos:prefLabel "Q111211041" ;
-	skos:broader wd:Q36747 .
-
-wd:Q112865153 skos:broader wd:Q17884 .
-
-wd:Q17884 skos:prefLabel "LGBT"@mul .
-
-wd:Q16147340 skos:broader wd:Q432 .
-
-wd:Q432 skos:prefLabel "Islam"@en .
-
-wd:Q113215967 skos:broader wd:Q467 .
-
-wd:Q118905194 skos:prefLabel "Indios Bárbaros"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q55658245 skos:broader wd:Q103817 .
-
-wd:Q114470533 skos:prefLabel "Indigenous Hispanic and Latino Americans"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q11544942 skos:broader wd:Q58893412 .
-
-wd:Q58893412 skos:prefLabel "Japanese citizen"@en .
-
-wd:Q126945995 skos:prefLabel "Gāoshān people"@en ;
-	skos:broader wd:Q216839 .
-
-wd:Q110320801 skos:broader wd:Q7569 .
-
-wd:Q12628936 skos:prefLabel "Chepenafa people"@en ;
-	skos:broader wd:Q36747 .
-
-wd:Q131783251 skos:prefLabel "Q131783251" ;
-	skos:broader wd:Q1479328 .
-
-wd:Q109328851 skos:broader wd:Q8441 .
-
-wd:Q8441 skos:prefLabel "man"@en .
-
-wd:Q5565079 skos:prefLabel "Gitga'ata people"@en ;
-	skos:broader wd:Q56490 .
-
-wd:Q6721658 skos:prefLabel "Mabuiag"@en ;
-	skos:broader wd:Q379636 .
-
-wd:Q108266 skos:prefLabel "Navajo"@en ;
-	skos:broader wd:Q102090 .
-
-wd:Q102090 skos:prefLabel "Apache"@en .
-
-wd:Q105684656 skos:prefLabel "Torres Strait Islander student"@en ;
-	skos:broader wd:Q379636 .
-
-wd:Q104904387 skos:prefLabel "state-recognized tribe in the United States"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q1456870 skos:prefLabel "Nlaka'pamux"@en ;
-	skos:broader wd:Q384927 .
-
-wd:Q6418242 skos:prefLabel "Gitxaała"@mul ;
-	skos:broader wd:Q56490 .
-
-wd:Q22813287 skos:broader wd:Q357670 .
-
-wd:Q322951 skos:prefLabel "Cheyennes"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q105405 skos:prefLabel "Cherokee"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q7533222 skos:prefLabel "Sixties Scoop"@en ;
-	skos:broader wd:Q863284 .
-
-wd:Q1157736 skos:prefLabel "Dakelh people"@en ;
-	skos:broader wd:Q863284 .
-
-wd:Q4878029 skos:prefLabel "Beaver Creek Indian Tribe"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q726665 skos:prefLabel "Asháninka people"@en ;
-	skos:broader wd:Q1363781 .
-
-wd:Q1886550 skos:broader wd:Q1363781 .
-
-wd:Q26242387 skos:prefLabel "Kanowit"@en ;
-	skos:broader wd:Q973254 .
-
-wd:Q1888127 skos:prefLabel "Mamaliliḵa̱la"@en ;
-	skos:broader wd:Q1137355 .
-
-wd:Q341185 skos:prefLabel "Achomawi"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q151227 skos:prefLabel "Pokanoket"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q12885585 skos:prefLabel "Native American tribe"@en ;
-	skos:broader wd:Q133311 .
-
-wd:Q7049046 skos:prefLabel "non-status Indian"@en ;
-	skos:broader wd:Q863284 .
-
-wd:Q2389700 skos:prefLabel "Taku people"@en ;
-	skos:broader wd:Q536129 .
-
-wd:Q6180024 skos:prefLabel "Jenu Kuruba"@en ;
-	skos:broader wd:Q357670 .
-
-wd:Q12885585 skos:broader wd:Q874405 .
-
-wd:Q874405 skos:prefLabel "social group"@en .
-
-wd:Q51716 skos:prefLabel "Houma people"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q432324 skos:prefLabel "Pataxó"@en ;
-	skos:broader wd:Q1363781 .
-
-wd:Q49302 skos:prefLabel "Acolapissa"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q49312 skos:prefLabel "Avoyel"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q105684656 skos:broader wd:Q48282 .
-
-wd:Q324516 skos:prefLabel "Choctaw"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q16148367 skos:prefLabel "Dakota people"@en ;
-	skos:broader wd:Q107434 .
-
-wd:Q825895 skos:prefLabel "Laich-kwil-tach"@en ;
-	skos:broader wd:Q1137355 .
-
-wd:Q46429 skos:prefLabel "Guaraní people"@en ;
-	skos:broader wd:Q4465585 .
-
-wd:Q4465585 skos:prefLabel "Tupi–Guarani peoples"@en .
-
-wd:Q319245 skos:broader wd:Q49297 .
-
-wd:Q5946834 skos:prefLabel "Nation Wendat"@mul ;
-	skos:broader wd:Q863284 .
-
-wd:Q1563601 skos:prefLabel "Auke people"@en ;
-	skos:broader wd:Q536129 .
-
-wd:Q20310314 skos:prefLabel "Pahvant"@en ;
-	skos:broader wd:Q1253290 .
-
-wd:Q35533 skos:prefLabel "Kaingang"@en ;
-	skos:broader wd:Q1363781 .
-
-wd:Q1419240 skos:prefLabel "Oorlam people"@en ;
-	skos:broader wd:Q694525 .
-
-wd:Q104904387 skos:broader wd:Q12885585 .
-
-wd:Q497568 skos:prefLabel "Innu people"@en ;
-	skos:broader wd:Q863284 .
-
-wd:Q1993509 skos:prefLabel "Nisga’a people"@en ;
-	skos:broader wd:Q863284 .
-
-wd:Q15278068 skos:prefLabel "Skokomish Indian Tribe"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q12885585 skos:broader wd:Q2531956 .
-
-wd:Q2531956 skos:prefLabel "ethnic minority group"@en .
-
-wd:Q151227 skos:broader wd:Q1047264 .
-
-wd:Q1047264 skos:prefLabel "Wampanoag people"@en .
-
-wd:Q1703953 skos:prefLabel "Swampy Cree"@en ;
-	skos:broader wd:Q117191 .
-
-wd:Q499687 skos:prefLabel "Alabama people"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q283510 skos:prefLabel "Chemehuevi people"@en ;
-	skos:broader wd:Q510023 .
-
-wd:Q921253 skos:prefLabel "Mojave people"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q34188 skos:prefLabel "Yanomamis"@en ;
-	skos:broader wd:Q1363781 .
-
-wd:Q622728 skos:prefLabel "Chickasaw"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q1754891 skos:prefLabel "Ponca"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q1377233 skos:prefLabel "Q1377233" ;
-	skos:broader wd:Q863284 .
-
-wd:Q107182521 skos:prefLabel "Northern Cheyenne"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q1273591 skos:prefLabel "Munduruku people"@en ;
-	skos:broader wd:Q1363781 .
-
-wd:Q12639251 skos:prefLabel "Panamint"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q8032824 skos:prefLabel "Woodland Cree"@en ;
-	skos:broader wd:Q117191 .
-
-wd:Q16211790 skos:prefLabel "Tunumiit"@en ;
-	skos:broader wd:Q887850 .
-
-wd:Q56962 skos:prefLabel "Atakapa people"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q2749764 skos:prefLabel "Raritan tribe"@en ;
-	skos:broader wd:Q82048 .
-
-wd:Q258571 skos:prefLabel "Erie people"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q568625 skos:prefLabel "Bitterroot Salish"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q120601 skos:prefLabel "Omaha Tribe of Nebraska"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q339282 skos:prefLabel "Accomac"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q1542754 skos:prefLabel "Westo"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q1704409 skos:prefLabel "Plains Cree"@en ;
-	skos:broader wd:Q117191 .
-
-wd:Q848624 skos:prefLabel "Alaska Natives"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q212152 skos:prefLabel "Praying Indian"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q84569704 skos:prefLabel "Pahrump Paiute Tribe"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q614455 skos:prefLabel "Baniwa"@mul ;
-	skos:broader wd:Q1363781 .
-
-wd:Q744299 skos:prefLabel "Indigenous peoples of California"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q12628963 skos:prefLabel "Chilkat"@en ;
-	skos:broader wd:Q536129 .
-
-wd:Q774436 skos:prefLabel "Xokleng people"@en ;
-	skos:broader wd:Q1363781 .
-
-wd:Q888078 skos:prefLabel "Inughuit"@en ;
-	skos:broader wd:Q887850 .
-
-wd:Q6950152 skos:prefLabel "Métis in the United States"@en ;
-	skos:broader wd:Q262457 .
-
-wd:Q495760 skos:prefLabel "Chilcotin people"@en ;
-	skos:broader wd:Q863284 .
-
-wd:Q201024 skos:prefLabel "Mohegan"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q504912 skos:prefLabel "Tuscarora Nation"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q108266 skos:broader wd:Q49297 .
-
-wd:Q1757881 skos:prefLabel "Tupinambá"@en ;
-	skos:broader wd:Q120684 .
-
-wd:Q120684 skos:prefLabel "Tupí people"@en .
-
-wd:Q13648403 skos:prefLabel "Meriam people"@en ;
-	skos:broader wd:Q379636 .
-
-wd:Q333049 skos:prefLabel "Lakota people"@en ;
-	skos:broader wd:Q107434 .
-
-wd:Q392316 skos:prefLabel "First Nations"@en ;
-	skos:broader wd:Q863284 .
-
-wd:Q1757881 skos:broader wd:Q1363781 .
-
-wd:Q283510 skos:broader wd:Q49297 .
-
-wd:Q12628929 skos:prefLabel "Chawathil"@en ;
-	skos:broader wd:Q821915 .
-
-wd:Q212152 skos:broader wd:Q106039 .
-
-wd:Q888553 skos:prefLabel "Kalaallit"@en ;
-	skos:broader wd:Q887850 .
-
-wd:Q17260229 skos:prefLabel "Cheyenne River Sioux Tribe"@en ;
-	skos:broader wd:Q107434 .
-
-wd:Q111367391 skos:prefLabel "Inland Łingít"@en ;
-	skos:broader wd:Q536129 .
-
-wd:Q1493185 skos:prefLabel "Tonkawa"@en ;
-	skos:broader wd:Q907924 .
-
-wd:Q12885585 skos:broader wd:Q49297 .
-
-wd:Q918556 skos:prefLabel "Pamunkey"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q12635132 skos:prefLabel "Kwantlen"@en ;
-	skos:broader wd:Q821915 .
-
-wd:Q851575 skos:prefLabel "Gitxsan"@en ;
-	skos:broader wd:Q863284 .
-
-wd:Q46429 skos:broader wd:Q1363781 .
-
-wd:Q4763645 skos:prefLabel "Anglo-Métis"@en ;
-	skos:broader wd:Q262457 .
-
-wd:Q894069 skos:prefLabel "Bororo people (Brazil)"@en ;
-	skos:broader wd:Q1363781 .
-
-wd:Q8039112 skos:prefLabel "Wuikinuxv people"@en ;
-	skos:broader wd:Q863284 .
-
-wd:Q1268882 skos:prefLabel "Quapaw"@mul ;
-	skos:broader wd:Q49297 .
-
-wd:Q210623 skos:prefLabel "Taíno people"@en ;
-	skos:broader wd:Q3258734 .
-
-wd:Q2874989 skos:prefLabel "Aimorés"@en ;
-	skos:broader wd:Q1363781 .
-
-wd:Q65249194 skos:prefLabel "Uchiura Ainu"@en ;
-	skos:broader wd:Q65249531 .
-
-wd:Q1186527 skos:prefLabel "Tłı̨chǫ"@en ;
-	skos:broader wd:Q4770873 .
-
-wd:Q10375164 skos:prefLabel "Suruí de Rondônia"@en ;
-	skos:broader wd:Q1363781 .
-
-wd:Q1385649 skos:prefLabel "Eyak people"@en ;
-	skos:broader wd:Q4310879 .
-
-wd:Q1070445 skos:prefLabel "Cherufe"@en ;
-	skos:broader wd:Q178484 .
-
-wd:Q178484 skos:prefLabel "Mapuche"@en .
-
-wd:Q992401 skos:prefLabel "Sicangu"@en ;
-	skos:broader wd:Q333049 .
-
-wd:Q56316033 skos:prefLabel "Mācuīltōchtli"@en ;
-	skos:broader wd:Q3307681 .
-
-wd:Q1434725 skos:prefLabel "Punan Bah"@en ;
-	skos:broader wd:Q12517196 .
-
-wd:Q5363631 skos:prefLabel "Ticuna peoples"@en ;
-	skos:broader wd:Q1363781 .
-
-wd:Q6091026 skos:prefLabel "indigenous peoples of Mexico City"@en ;
-	skos:broader wd:Q3314452 .
-
-wd:Q1092352 skos:prefLabel "K'asho Got'ine"@en ;
-	skos:broader wd:Q1151288 .
-
-wd:Q1151288 skos:prefLabel "Sahtu people"@en .
-
-wd:Q26242417 skos:prefLabel "Basap"@en ;
-	skos:broader wd:Q1434725 .
-
-wd:Q11267380 skos:prefLabel "Whadjuk"@en ;
-	skos:broader wd:Q1996477 .
-
-wd:Q115885364 skos:prefLabel "Tribal town"@en ;
-	skos:broader wd:Q15127012 .
-
-wd:Q15127012 skos:prefLabel "town in the United States"@en .
-
-wd:Q17055655 skos:prefLabel "Teme-Augama Anishnabai"@en ;
-	skos:broader wd:Q1956640 .
-
-wd:Q2586461 skos:prefLabel "ǀKhowesin"@en ;
-	skos:broader wd:Q1419240 .
-
-wd:Q3816974 skos:prefLabel "Crenaques"@en ;
-	skos:broader wd:Q1363781 .
-
-wd:Q6177350 skos:prefLabel "Jena Band of Choctaw Indians"@en ;
-	skos:broader wd:Q324516 .
-
-wd:Q56732820 skos:prefLabel "Moroccan settlers"@en ;
-	skos:broader wd:Q1891793 .
-
-wd:Q11561896 skos:prefLabel "Wataritō"@en ;
-	skos:broader wd:Q65249531 .
-
-wd:Q17636351 skos:prefLabel "lafquenche"@en ;
-	skos:broader wd:Q178484 .
-
-wd:Q1561494 skos:prefLabel "Amikwa"@en ;
-	skos:broader wd:Q1956640 .
-
-wd:Q541421 skos:prefLabel "Saulteaux"@en ;
-	skos:broader wd:Q255872 .
-
-wd:Q255872 skos:prefLabel "Ojibwe"@en .
-
-wd:Q495753 skos:prefLabel "Naskapi"@en ;
-	skos:broader wd:Q497568 .
-
-wd:Q3444063 skos:prefLabel "Nadëb people"@en ;
-	skos:broader wd:Q1886550 .
-
-wd:Q1092352 skos:broader wd:Q4770873 .
-
-wd:Q175823 skos:prefLabel "Gamilaraay"@en ;
-	skos:broader wd:Q12060728 .
-
-wd:Q2067521 skos:prefLabel "Pehuenche"@en ;
-	skos:broader wd:Q118688981 .
-
-wd:Q109570560 skos:prefLabel "Praying Indians of Natick"@en ;
-	skos:broader wd:Q212152 .
-
-wd:Q65276005 skos:prefLabel "Ishikari Ainu"@en ;
-	skos:broader wd:Q65249531 .
-
-wd:Q6913086 skos:prefLabel "Moroccan Dutch"@en ;
-	skos:broader wd:Q115244170 .
-
-wd:Q115244170 skos:prefLabel "North African Dutch"@en .
-
-wd:Q3512896 skos:prefLabel "Yudjá"@mul ;
-	skos:broader wd:Q1363781 .
-
-wd:Q96740991 skos:prefLabel "Kãkwã people"@en ;
-	skos:broader wd:Q1886550 .
-
-wd:Q255872 skos:broader wd:Q1956640 .
-
-wd:Q48763692 skos:prefLabel "Kuril Ainu"@en ;
-	skos:broader wd:Q4058929 .
-
-wd:Q7840353 skos:prefLabel "federally recognized Native American tribe in the United States"@en ;
-	skos:broader wd:Q12885585 .
-
-wd:Q2592663 skos:prefLabel "Guajajara"@en ;
-	skos:broader wd:Q1363781 .
-
-wd:Q1737293 skos:prefLabel "Miniconjou"@en ;
-	skos:broader wd:Q333049 .
-
-wd:Q1789087 skos:prefLabel "Pocomtuc"@en ;
-	skos:broader wd:Q1621197 .
-
-wd:Q1047264 skos:broader wd:Q1621197 .
-
-wd:Q6913086 skos:broader wd:Q1891793 .
-
-wd:Q1610191 skos:prefLabel "Athabaskan people"@en ;
-	skos:broader wd:Q4310879 .
-
-wd:Q6105755 skos:prefLabel "Alaskan Athabaskans"@en ;
-	skos:broader wd:Q1610191 .
-
-wd:Q1070445 skos:broader wd:Q4271324 .
-
-wd:Q4271324 skos:prefLabel "mythical character"@mul .
-
-wd:Q135863 skos:prefLabel "Algonquin people"@en ;
-	skos:broader wd:Q1956640 .
-
-wd:Q102090 skos:broader wd:Q1610191 .
-
-wd:Q1421851 skos:prefLabel "Wounaan"@en ;
-	skos:broader wd:Q3058858 .
-
-wd:Q3621312 skos:prefLabel "Araweté people"@en ;
-	skos:broader wd:Q1363781 .
-
-wd:Q17280097 skos:prefLabel "Rosebud Sioux Tribe"@en ;
-	skos:broader wd:Q333049 .
-
-wd:Q12645785 skos:prefLabel "Q12645785" ;
-	skos:broader wd:Q3314452 .
-
-wd:Q39090882 skos:prefLabel "Wardandi"@en ;
-	skos:broader wd:Q1996477 .
-
-wd:Q56349834 skos:prefLabel "Q56349834" ;
-	skos:broader wd:Q1363781 .
-
-wd:Q2067521 skos:broader wd:Q178484 .
-
-wd:Q28222011 skos:prefLabel "Moroccan Belgians"@en ;
-	skos:broader wd:Q1377716 .
-
-wd:Q1377716 skos:prefLabel "Belgians"@en .
-
-wd:Q3628096 skos:prefLabel "Atikum people"@en ;
-	skos:broader wd:Q1363781 .
-
-wd:Q28222011 skos:broader wd:Q1891793 .
-
-wd:Q1151288 skos:broader wd:Q4770873 .
-
-wd:Q1440932 skos:prefLabel "Rama people"@en ;
-	skos:broader wd:Q13109203 .
-
-wd:Q13109203 skos:prefLabel "indigenous peoples of Central America"@en .
-
-wd:Q5252216 skos:prefLabel "Dehcho First Nations"@en ;
-	skos:broader wd:Q392316 .
-
-wd:Q2520180 skos:prefLabel "Tucano people"@en ;
-	skos:broader wd:Q1363781 .
-
-wd:Q543386 skos:prefLabel "Oglala Lakota"@en ;
-	skos:broader wd:Q333049 .
-
-wd:Q10346040 skos:prefLabel "Pataxó Hãhãhãe"@en ;
-	skos:broader wd:Q1363781 .
-
-wd:Q489924 skos:prefLabel "Kaska people"@en ;
-	skos:broader wd:Q4770873 .
-
-wd:Q12628614 skos:prefLabel "Caimbé"@en ;
-	skos:broader wd:Q1363781 .
-
-wd:Q6105755 skos:broader wd:Q848624 .
-
-wd:Q11343929 skos:prefLabel "Menasunkur Ainu"@en ;
-	skos:broader wd:Q65249531 .
-
-wd:Q950097 skos:prefLabel "Mississaugas"@en ;
-	skos:broader wd:Q255872 .
-
-wd:Q1252992 skos:prefLabel "Dâw people"@en ;
-	skos:broader wd:Q1886550 .
-
-wd:Q16116054 skos:prefLabel "Cava"@en ;
-	skos:broader wd:Q1493185 .
-
-wd:Q3538942 skos:prefLabel "Kabylian tribes"@en ;
-	skos:broader wd:Q107410977 .
-
-wd:Q7840353 skos:broader wd:Q6266 .
-
-wd:Q6266 skos:prefLabel "nation"@en .
-
-wd:Q11308028 skos:prefLabel "Sumunkur Ainu"@en ;
-	skos:broader wd:Q65249531 .
-
-wd:Q826869 skos:prefLabel "Swinomish"@en ;
-	skos:broader wd:Q3036334 .
-
-wd:Q5453438 skos:prefLabel "First Nations in Alberta"@en ;
-	skos:broader wd:Q392316 .
-
-wd:Q26242443 skos:prefLabel "Beraki"@en ;
-	skos:broader wd:Q7021886 .
-
-wd:Q107221168 skos:prefLabel "Waranka"@en ;
-	skos:broader wd:Q3091608 .
-
-wd:Q1335017 skos:prefLabel "Embera peoplee"@en ;
-	skos:broader wd:Q3058858 .
-
-wd:Q12635135 skos:prefLabel "Southern Paiute"@en ;
-	skos:broader wd:Q319245 .
-
-wd:Q178484 skos:broader wd:Q118688981 .
-
-wd:Q1520094 skos:prefLabel "Hunkpapa"@en ;
-	skos:broader wd:Q333049 .
-
-wd:Q3360017 skos:prefLabel "Pacahuara"@en ;
-	skos:broader wd:Q6091085 .
-
-wd:Q587300 skos:prefLabel "Hup people"@en ;
-	skos:broader wd:Q1886550 .
-
-wd:Q12638328 skos:prefLabel "Nhambicuaran"@en ;
-	skos:broader wd:Q1363781 .
-
-wd:Q114653257 skos:prefLabel "Native American tribe in the United States"@en ;
-	skos:broader wd:Q12885585 .
-
-wd:Q127515 skos:prefLabel "Chipewyan people"@en ;
-	skos:broader wd:Q4770873 .
-
-wd:Q12638572 skos:prefLabel "Norwottuck"@en ;
-	skos:broader wd:Q1789087 .
-
-wd:Q7836939 skos:prefLabel "treaty Indian"@en ;
-	skos:broader wd:Q392316 .
-
-wd:Q5453438 skos:broader wd:Q2882257 .
-
-wd:Q2882257 skos:prefLabel "First Nation band"@en .
-
-wd:Q16174384 skos:prefLabel "Banou Razin"@mul ;
-	skos:broader wd:Q25619749 .
-
-wd:Q129060 skos:prefLabel "St. Lawrence Iroquoians"@en ;
-	skos:broader wd:Q110654499 .
-
-wd:Q110654499 skos:prefLabel "Iroquoian Peoples"@en .
-
-wd:Q115885364 skos:broader wd:Q12885585 .
-
-wd:Q191710 skos:prefLabel "Aleuts"@en ;
-	skos:broader wd:Q848624 .
-
-wd:Q53075644 skos:prefLabel "Sakhalin Ainu"@en ;
-	skos:broader wd:Q4058929 .
-
-wd:Q7194112 skos:prefLabel "Pillager Band of Chippewa Indians"@en ;
-	skos:broader wd:Q255872 .
-
-wd:Q3812866 skos:prefLabel "Kantaruré"@en ;
-	skos:broader wd:Q1363781 .
-
-wd:Q4386941 skos:prefLabel "Plains Ojibwa"@en ;
-	skos:broader wd:Q255872 .
-
-wd:Q1191083 skos:prefLabel "Meshwesh"@en ;
-	skos:broader wd:Q107410977 .
-
-wd:Q12645717 skos:prefLabel "Zia people"@en ;
-	skos:broader wd:Q6739693 .
-
-wd:Q132997847 skos:prefLabel "Xwchíyò:m"@en ;
-	skos:broader wd:Q821915 .
-
-wd:Q444397 skos:prefLabel "Mdewakanton"@en ;
-	skos:broader wd:Q16148367 .
-
-wd:Q3513756 skos:prefLabel "Haisla people"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q130236722 skos:prefLabel "Southern Piikani"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q17636506 skos:prefLabel "Mimbreños"@en ;
-	skos:broader wd:Q102090 .
-
-wd:Q4310879 skos:broader wd:Q15571255 .
-
-wd:Q137342805 skos:prefLabel "Kluane people"@mul ;
-	skos:broader wd:Q1255761 .
-
-wd:Q6959182 skos:prefLabel "Nahani"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q4895596 skos:prefLabel "Tanana Athabaskans"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q113456792 skos:prefLabel "Indigenous peoples of Nevada"@en ;
-	skos:broader wd:Q49297 .
-
-wd:Q109328859 skos:prefLabel "Amerindian women authors"@en ;
-	skos:broader wd:Q109108763 .
-
-wd:Q131531662 skos:prefLabel "Q131531662" ;
-	skos:broader wd:Q495751 .
-
-wd:Q110654499 skos:broader wd:Q15571255 .
-
-wd:Q130307692 skos:prefLabel "Tsúùtʼínà People"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q115791109 skos:prefLabel "treaty society"@en ;
-	skos:broader wd:Q835173 .
-
-wd:Q835173 skos:prefLabel "legal agent"@en .
-
-wd:Q6959182 skos:broader wd:Q863284 .
-
-wd:Q109591501 skos:prefLabel "young Amerindian men"@en ;
-	skos:broader wd:Q109328851 .
-
-wd:Q109328859 skos:broader wd:Q119503382 .
-
-wd:Q119503382 skos:prefLabel "woman author"@en .
-
-wd:Q133163566 skos:prefLabel "Dzawada’enuxw"@en ;
-	skos:broader wd:Q1137355 .
-
-wd:Q115791109 skos:broader wd:Q863284 .
-
-wd:Q8048832 skos:prefLabel "Yankton Sioux Tribe"@en ;
-	skos:broader wd:Q16148367 .
-
-wd:Q130241476 skos:prefLabel "Rocky Cree"@en ;
-	skos:broader wd:Q117191 .
-
-wd:Q6979973 skos:prefLabel "Native American tribe in Nebraska"@en ;
-	skos:broader wd:Q114653257 .
-
-wd:Q130236700 skos:prefLabel "Northern Piikani"@en ;
-	skos:broader wd:Q130236688 .
-
-wd:Q130236688 skos:prefLabel "Piikani people"@en .
-
-wd:Q130236722 skos:broader wd:Q130236688 .
-
-wd:Q607785 skos:prefLabel "Western Apache"@en ;
-	skos:broader wd:Q102090 .
-
-wd:Q2590690 skos:prefLabel "Sisseton Wahpeton Oyate"@en ;
-	skos:broader wd:Q16148367 .
-
-wd:Q6105234 skos:prefLabel "Native American tribes in Texas"@en ;
-	skos:broader wd:Q114653257 .
-
-wd:Q13631965 skos:prefLabel "Sts'ailes First Nation"@en ;
-	skos:broader wd:Q1755154 .
-
-wd:Q3314452 skos:broader wd:Q15571255 .
-
-wd:Q133163654 skos:prefLabel "Ditidaht people"@en ;
-	skos:broader wd:Q537784 .
-
-wd:Q130247306 skos:prefLabel "Sahtu Got'ine"@en ;
-	skos:broader wd:Q1151288 .
-
-wd:Q7431059 skos:prefLabel "Scheduled Tribes in West Bengal"@en ;
-	skos:broader wd:Q22813287 .
-
-wd:Q104440572 skos:prefLabel "White Mountain Apache"@en ;
-	skos:broader wd:Q607785 .
-
-wd:Q130236688 skos:broader wd:Q15571255 .
-
-wd:Q136432030 skos:prefLabel "Tepuztec people"@en ;
-	skos:broader wd:Q3314452 .
-
-wd:Q123371386 skos:prefLabel "Káínawa"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q109591501 skos:broader wd:Q1716875 .
-
-wd:Q1716875 skos:prefLabel "young adult man"@en .
-
-wd:Q137358904 skos:prefLabel "Mainland Comox"@mul ;
-	skos:broader wd:Q1406599 .
-
-wd:Q28227607 skos:prefLabel "Twana"@mul ;
-	skos:broader wd:Q15571255 .
-
-wd:Q104854936 skos:prefLabel "Native American tribe in Maryland"@en ;
-	skos:broader wd:Q114653257 .
-
-wd:Q114652563 skos:prefLabel "Native American tribe in New York"@en ;
-	skos:broader wd:Q114653257 .
-
-wd:Q131357604 skos:prefLabel "Penobscot people"@en ;
-	skos:broader wd:Q318806 .
-
-wd:Q130374722 skos:prefLabel "Penobscot people"@en ;
-	skos:broader wd:Q130374670 .
-
-wd:Q17020537 skos:prefLabel "Snoqualmie people"@en ;
-	skos:broader wd:Q1755154 .
-
-wd:Q2540445 skos:prefLabel "Wahpekute"@en ;
-	skos:broader wd:Q16148367 .
-
-wd:Q123236852 skos:prefLabel "Hinomoto"@en ;
-	skos:broader wd:Q65249531 .
-
-wd:Q7285010 skos:prefLabel "Rainy Lake and River Bands of Saulteaux"@en ;
-	skos:broader wd:Q541421 .
-
-wd:Q122662237 skos:prefLabel "Indigenous peoples in Guatemala"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q7989949 skos:prefLabel "Wet'suwet'en"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q123236879 skos:prefLabel "Karako"@en ;
-	skos:broader wd:Q65249531 .
-
-wd:Q4770873 skos:broader wd:Q15571255 .
-
-wd:Q132996785 skos:prefLabel "C’eletkwmx"@en ;
-	skos:broader wd:Q1456870 .
-
-wd:Q134879461 skos:prefLabel "Borum-Kren"@en ;
-	skos:broader wd:Q1363781 .
-
-wd:Q13109203 skos:broader wd:Q12617696 .
-
-wd:Q12617696 skos:prefLabel "Central Americans"@en .
-
-wd:Q130374670 skos:broader wd:Q15571255 .
-
-wd:Q132560186 skos:prefLabel "Tuscarora"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q11784304 skos:prefLabel "Mobile"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q13109203 skos:broader wd:Q15571255 .
-
-wd:Q117817135 skos:prefLabel "Onondaga"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q105395705 skos:prefLabel "Tulalip people"@en ;
-	skos:broader wd:Q1755154 .
-
-wd:Q115791109 skos:broader wd:Q1048835 .
-
-wd:Q1048835 skos:prefLabel "political territorial entity"@en .
-
-wd:Q2540423 skos:prefLabel "Wahpeton"@en ;
-	skos:broader wd:Q16148367 .
-
-wd:Q123706378 skos:prefLabel "Native American tribe in Massachusetts"@en ;
-	skos:broader wd:Q12885585 .
-
-wd:Q26162284 skos:prefLabel "Baliaga"@en ;
-	skos:broader wd:Q4850828 .
-
-wd:Q16526553 skos:prefLabel "Q16526553" ;
-	skos:broader wd:Q111211041 .
-
-wd:Q2276599 skos:prefLabel "Shakopee Mdewakanton Sioux Community"@en ;
-	skos:broader wd:Q444397 .
-
-wd:Q3513756 skos:broader wd:Q210561 .
-
-wd:Q130285434 skos:prefLabel "Siksiká"@en ;
-	skos:broader wd:Q15571255 .
-
-wd:Q115791109 skos:broader wd:Q13473501 .
-
-wd:Q13473501 skos:prefLabel "collective"@en .
-
-wd:Q110654499 skos:broader wd:Q392316 .
-
-wd:Q134397457 skos:prefLabel "Santee Dakota"@en ;
-	skos:broader wd:Q16148367 .
-
-wd:Q132991711 skos:prefLabel "Sc’ianew"@en ;
-	skos:broader wd:Q863284 .
