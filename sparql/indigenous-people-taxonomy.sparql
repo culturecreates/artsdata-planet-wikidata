@@ -13,6 +13,10 @@ CONSTRUCT {
         skos:broader ?broader ;
         a skos:Concept ;
         skos:inScheme wd:Q1457025 .
+    
+    ?broader skos:prefLabel ?broaderLabel; 
+        a skos:Concept ;
+        skos:inScheme wd:Q1457025 .
 
     wd:Q1457025 a skos:ConceptScheme;
         wdt:P31 wd:Q13406463 ;
