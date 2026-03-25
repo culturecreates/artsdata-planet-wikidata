@@ -9,18 +9,25 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX bd: <http://www.bigdata.com/rdf#>
 
 CONSTRUCT {
-  ?ethnic skos:prefLabel ?ethnicLabel; skos:broader ?broader .
-  ?broader skos:prefLabel ?broaderLabel  .
+    ?ethnic skos:prefLabel ?ethnicLabel; 
+        skos:broader ?broader ;
+        a skos:Concept ;
+        skos:inScheme wd:Q1457025 .
+
+    wd:Q1457025 a skos:ConceptScheme;
+        wdt:P31 wd:Q13406463 ;
+        skos:prefLabel "list of Indigenous peoples"@en;
+        skos:hasTopConcept wd:Q103817  .
   }
+
 WHERE {
-  ?ethnic (wdt:P279*) wd:Q103817;
-    wdt:P279 ?broader.
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],mul,en". }
+    ?ethnic (wdt:P279*) wd:Q103817;
+        wdt:P279 ?broader.
+    FILTER EXISTS { ?broader wdt:P279* wd:Q103817 }
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],mul,en". }
 }
 
-# Query editor: https://w.wiki/KHPe
-
-
+# To Create a dump.ttl file, run the following command in the terminal:
 # curl -s "https://raw.githubusercontent.com/culturecreates/artsdata-planet-wikidata/refs/heads/main/sparql/indigenous-people-taxonomy.sparql" | \
 # curl -X POST \              
 #   -H "Accept: text/turtle" \  
