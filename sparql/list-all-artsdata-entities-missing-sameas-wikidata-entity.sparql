@@ -1,0 +1,17 @@
+PREFIX schema: <http://schema.org/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX bd: <http://www.bigdata.com/rdf#>
+
+CONSTRUCT {
+  ?wikidataItem schema:sameAs ?artsdataEntity .
+  ?wikidataItem wdt:P7627 ?artsdataId .
+} WHERE {
+  ?wikidataItem wdt:P7627 ?artsdataId .
+  FILTER NOT EXISTS {
+    SERVICE <https://artsdata-trifid-production.herokuapp.com/query> {
+      BIND(IRI(CONCAT("http://kg.artsdata.ca/resource/", ?artsdataId)) AS ?artsdataEntity)
+      ?artsdataEntity schema:sameAs ?wikidataItem .
+    }
+  }
+}
