@@ -30,7 +30,16 @@ jobs:
           sudo apt-get install -y jq
           jq empty dumps/list-all-artsdata-entities-missing-sameas-wikidata-entity.jsonld
 
+      - name: Commit updated dump
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
+          git add dumps/list-all-artsdata-entities-missing-sameas-wikidata-entity.jsonld
+          git diff --staged --quiet || git commit -m "Update Wikidata interlinking report [skip ci]"
+          git push
+
   artsdata-push:
+    needs: wikidata-interlinking
     runs-on: ubuntu-latest
     steps:
       - name: Call Artsdata pipeline action
