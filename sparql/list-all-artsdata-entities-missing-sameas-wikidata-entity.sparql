@@ -4,13 +4,15 @@ PREFIX wikibase: <http://wikiba.se/ontology#>
 PREFIX bd: <http://www.bigdata.com/rdf#>
 
 CONSTRUCT {
-  ?wikidataItem schema:sameAs ?artsdataEntity .
-  ?wikidataItem wdt:P7627 ?artsdataId .
+  ?wikidataItem a ?type ;
+     schema:name ?name_en, ?name_fr, ?name_mul ;
+     schema:sameAs ?artsdataEntity, ?insi  ;
+     schema:url ?officialUrl .
 } WHERE {
   ?wikidataItem wdt:P7627 ?artsdataId .
+  BIND(IRI(CONCAT("http://kg.artsdata.ca/resource/", ?artsdataId)) AS ?artsdataEntity)
   FILTER NOT EXISTS {
     SERVICE <https://artsdata-trifid-production.herokuapp.com/query> {
-      BIND(IRI(CONCAT("http://kg.artsdata.ca/resource/", ?artsdataId)) AS ?artsdataEntity)
       ?artsdataEntity schema:sameAs ?wikidataItem .
     }
   }
