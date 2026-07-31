@@ -34,7 +34,7 @@ WHERE {
                     ?item wdt:P7627 ?adid .
                     bind(URI(CONCAT("http://kg.artsdata.ca/resource/",?adid)) as ?adURI)
                 }
-                FILTER(LANG(?itemLabel) IN ("fr","en")).
+                FILTER(LANG(?itemLabel) IN ("fr","en","mul")).
                 FILTER(LANG(?description) IN ("fr","en")).
             }
         }
