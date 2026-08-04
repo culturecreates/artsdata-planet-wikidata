@@ -5,8 +5,37 @@ on:
   schedule:
     - cron: "0 0 1 3,9 *"
 
+permissions:
+  contents: write
+
 jobs:
+  query-wikidata:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Query Wikidata and store dump
+        run: |
+          curl -sS -f \
+            -H "Accept: text/turtle" \
+            -H "User-Agent: artsdata-planet-wikidata/1.0 (https://github.com/culturecreates/artsdata-planet-wikidata)" \
+            --data-urlencode "query=$(cat sparql/canadian-dance-assembly.sparql)" \
+            --max-time 120 \
+            https://query.wikidata.org/sparql \
+            -o dumps/canadian-dance-assembly.ttl
+          test -s dumps/canadian-dance-assembly.ttl
+
+      - name: Commit updated dump
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
+          git add dumps/canadian-dance-assembly.ttl
+          git diff --staged --quiet || git commit -m "Update canadian-dance-assembly dump [skip ci]"
+          git push
+
   artsdata-push:
+    needs: query-wikidata
     runs-on: ubuntu-latest
     steps:
       - name: Call Artsdata pipeline action
@@ -15,4 +44,4 @@ jobs:
           mode: push
           artifact: canadian-dance-assembly
           publisher: "${{ secrets.PUBLISHER_URI_GREGORY }}"
-          downloadUrl: https://api.artsdata.ca/query?format=jsonld&sparql=https://raw.githubusercontent.com/culturecreates/artsdata-planet-wikidata/refs/heads/main/sparql/canadian-dance-assembly.sparql
+          downloadUrl: https://raw.githubusercontent.com/culturecreates/artsdata-planet-wikidata/refs/heads/main/dumps/canadian-dance-assembly.ttl
