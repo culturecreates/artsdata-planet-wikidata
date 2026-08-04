@@ -1,521 +1,4000 @@
-[ {
-  "@id" : "http://www.wikidata.org/entity/Q100328326",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K10-184"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q100523742",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K14-191"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q100523813",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K10-425"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q100523911",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K10-116"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q100965267",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K10-133"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q101114749",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K16-265"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q101115577",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-4286"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q103819149",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-4149"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q105872096",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-2294"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q106274222",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K23-6665"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q107015473",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-227"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q109018886",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K10-84"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q111668873",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K11-17"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q111767669",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K4-236"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q112602585",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K13-91"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q112755107",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K11-181"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q113110628",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K14-163"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q114429982",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K10-76"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q115118487",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K5-1426"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q116240406",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K11-28"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q117093397",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K11-159"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q118093676",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K11-274"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q120637515",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K14-170"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q123371287",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K13-41"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q123417293",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K13-209"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q124312585",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K14-194"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q124767584",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K4-138"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q125564604",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K14-134"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q125764027",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-750"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q125764110",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K12-521"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q125764136",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K4-543"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q125764181",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-1339"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q125765017",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K5-540"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q125766439",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-4825"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q125930337",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K14-198"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q1261877",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K13-94"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q126393370",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K14-206"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q126406963",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K11-184"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q126407679",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K11-185"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q126485614",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K10-319"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q127606057",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K4-139"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q127606091",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K14-208"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q128268982",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K10-182"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q128269807",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K10-457"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q128269815",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K10-193"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q131391843",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K11-21"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q132323644",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K11-27"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q135193235",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K11-255"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q135338813",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K11-112"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q135446874",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K11-96"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q135500176",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K11-77"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q136558407",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-6165"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q136672287",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K11-232"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q136959611",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K14-156"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q137177490",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K4-41"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q137177912",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K14-147"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q137772056",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K10-482"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q138010373",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-5559"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q138309881",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-6350"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q138763245",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K5-198"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q139300232",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-6308"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q139300385",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K13-202"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q139300433",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K12-279"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q139300547",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K12-377"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q139300558",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K13-42"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q140069821",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-311"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q140253935",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-4461"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q140563757",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-7327"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q255836",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-4750"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q26505083",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-404"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q2833978",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K13-9"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q2993809",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K14-158"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q3014122",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K5-1164"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q3053458",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K16-156"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q3067694",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-3150"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q30739272",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K5-261"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q3130821",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-633"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q3150982",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K13-87"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q3207467",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K4-243"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q3276151",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K5-660"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q3287952",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-1683"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q3330133",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-6731"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q3502195",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-3325"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q3527604",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K10-423"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q38508181",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K4-38"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q4345230",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-7263"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q442711",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K13-29"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q4713708",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K11-108"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q4801440",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K10-15"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q4809965",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K14-216"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q52897552",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K12-220"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q5323846",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K5-1249"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q55218639",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-170"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q55722052",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-1704"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q55724276",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-439"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q5929743",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-5364"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q63198804",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K14-172"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q63284553",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-4648"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q65116509",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-2894"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q72183375",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K11-157"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q72980539",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-6075"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q80864432",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K11-82"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q88220933",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K16-252"
-  } ]
-}, {
-  "@id" : "http://www.wikidata.org/entity/Q94257361",
-  "http://www.wikidata.org/prop/direct/P7627" : [ {
-    "@value" : "K2-3584"
-  } ]
-} ]
+[
+  {
+    "@id": "http://www.wikidata.org/entity/Q100328326",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "L'Aubergine"
+      },
+      {
+        "@language": "fr",
+        "@value": "L'Aubergine"
+      },
+      {
+        "@language": "mul",
+        "@value": "L'Aubergine"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K10-184"
+      },
+      {
+        "@id": "https://isni.org/isni/0000000480547777"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.laubergine.qc.ca/"
+      },
+      {
+        "@id": "https://www.laubergine.qc.ca/en/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q43229"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q105815710"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q708676"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K10-184"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q100523742",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Conférence internationale des Arts de la Scène"
+      },
+      {
+        "@language": "fr",
+        "@value": "Conférence internationale des Arts de la Scène"
+      },
+      {
+        "@language": "mul",
+        "@value": "Conférence internationale des Arts de la Scène"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-191"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://CINARS.org"
+      },
+      {
+        "@id": "https://cinars.org/en/cinars"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q15911314"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K14-191"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q100523813",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Le Petit Théâtre de Sherbrooke"
+      },
+      {
+        "@language": "fr",
+        "@value": "Le Petit Théâtre de Sherbrooke"
+      },
+      {
+        "@language": "mul",
+        "@value": "Le Petit Théâtre de Sherbrooke"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K10-425"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.petittheatre.qc.ca"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q11812394"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q163740"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q708676"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K10-425"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q100523911",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Porte Parole"
+      },
+      {
+        "@language": "fr",
+        "@value": "Porte Parole"
+      },
+      {
+        "@language": "mul",
+        "@value": "Porte Parole"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K10-116"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://porteparole.org/fr/"
+      },
+      {
+        "@id": "https://porteparole.org/en/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q105815710"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K10-116"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q100965267",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Tableau D’Hôte Theatre"
+      },
+      {
+        "@language": "fr",
+        "@value": "Théâtre Tableau D'Hôte"
+      },
+      {
+        "@language": "mul",
+        "@value": "Théâtre Tableau D'Hôte"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K10-133"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://tableaudhote.ca/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q11812394"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K10-133"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q101114749",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Salle Jean-Marc-Dion de Sept-Îles"
+      },
+      {
+        "@language": "fr",
+        "@value": "Salle Jean-Marc-Dion de Sept-Îles"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K16-265"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "http://www.spectacle-sept-iles.com"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q18674739"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q112688641"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K16-265"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q18674739",
+      "http://www.wikidata.org/entity/Q112688641"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q101115577",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Hélène Langevin"
+      },
+      {
+        "@language": "fr",
+        "@value": "Hélène Langevin"
+      },
+      {
+        "@language": "mul",
+        "@value": "Hélène Langevin"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-4286"
+      },
+      {
+        "@id": "https://isni.org/isni/0000000483135807"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.quebecdanse.org/langevin-helene"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-4286"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q103819149",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Jay Du Temple"
+      },
+      {
+        "@language": "fr",
+        "@value": "Jay Du Temple"
+      },
+      {
+        "@language": "mul",
+        "@value": "Jay Du Temple"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-4149"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-4149"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q105872096",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Fred Bastien"
+      },
+      {
+        "@language": "fr",
+        "@value": "Fred Bastien"
+      },
+      {
+        "@language": "mul",
+        "@value": "Fred Bastien"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-2294"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-2294"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q106274222",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Andréanne A. Malette"
+      },
+      {
+        "@language": "fr",
+        "@value": "Andréanne A. Malette"
+      },
+      {
+        "@language": "mul",
+        "@value": "Andréanne A. Malette"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K23-6665"
+      },
+      {
+        "@id": "https://isni.org/isni/0000000451137234"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://andreanneamalette.com"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K23-6665"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q107015473",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Salle Desjardins du Centre des arts Juliette-Lassonde"
+      },
+      {
+        "@language": "fr",
+        "@value": "Salle Desjardins du Centre des arts Juliette-Lassonde"
+      },
+      {
+        "@language": "mul",
+        "@value": "Salle Desjardins du Centre des arts Juliette-Lassonde"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-227"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.centredesarts.ca/salle-desjardins"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q18225059"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-227"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q18225059"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q109018886",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "La Otra Orilla"
+      },
+      {
+        "@language": "fr",
+        "@value": "Compagnie La Otra Orilla"
+      },
+      {
+        "@language": "mul",
+        "@value": "Compagnie La Otra Orilla"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K10-84"
+      },
+      {
+        "@id": "https://isni.org/isni/0000000480686531"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://laotraorilla.net"
+      },
+      {
+        "@id": "https://laotraorilla.net/en/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q708676"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q2393314"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q43229"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K10-84"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q111668873",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Fourth Stage"
+      },
+      {
+        "@language": "fr",
+        "@value": "Quatrième Salle"
+      },
+      {
+        "@language": "mul",
+        "@value": "Fourth Stage"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-17"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://nac-cna.ca/en/venue/fourth-stage"
+      },
+      {
+        "@id": "https://nac-cna.ca/fr/venue/fourth-stage"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q112688641"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K11-17"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q112688641"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q111767669",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Salle Pierre-Mercure"
+      },
+      {
+        "@language": "fr",
+        "@value": "salle Pierre-Mercure"
+      },
+      {
+        "@language": "mul",
+        "@value": "Salle Pierre-Mercure"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K4-236"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q112688641"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K4-236"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q112688641"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q112602585",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Isabelle Arcand"
+      },
+      {
+        "@language": "fr",
+        "@value": "Isabelle Arcand"
+      },
+      {
+        "@language": "mul",
+        "@value": "Isabelle Arcand"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K13-91"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://virginiebrunelle.com/"
+      },
+      {
+        "@id": "https://www.quebecdanse.org/arcand-isabelle"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K13-91"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q112755107",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "The Cultch Gallery"
+      },
+      {
+        "@language": "fr",
+        "@value": "The Cultch Galerie"
+      },
+      {
+        "@language": "mul",
+        "@value": "The Cultch Gallery"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-181"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q1007870"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K11-181"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q113110628",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Living Temagami"
+      },
+      {
+        "@language": "fr",
+        "@value": "Living Temagami"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-163"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://livingtemagami.ca/page-daccueil/"
+      },
+      {
+        "@id": "https://livingtemagami.ca"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q163740"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q3269648"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K14-163"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q114429982",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "José Navas/Compagnie Flak"
+      },
+      {
+        "@language": "fr",
+        "@value": "José Navas/Compagnie Flak"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K10-76"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://flak.org/jose-navas/en/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q43229"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q2393314"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q105815710"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K10-76"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q115118487",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Elliot Maginot"
+      },
+      {
+        "@language": "fr",
+        "@value": "Elliot Maginot"
+      },
+      {
+        "@language": "mul",
+        "@value": "Elliot Maginot"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K5-1426"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://elliotmaginot.com/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K5-1426"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q116240406",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Esplanade de la Place des Arts"
+      },
+      {
+        "@language": "fr",
+        "@value": "Esplanade de la Place des Arts"
+      },
+      {
+        "@language": "mul",
+        "@value": "Esplanade de la Place des Arts"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-28"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://placedesarts.com/fr/produire-evenement/location-salle/esplanade-place-des-arts"
+      },
+      {
+        "@id": "https://placedesarts.com/en/produce-event/rent-venue/esplanade-place-des-arts"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q117187730"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K11-28"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q117187730"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q117093397",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Gilles Laplante Theatre"
+      },
+      {
+        "@language": "fr",
+        "@value": "Théâtre Gilles-Laplante"
+      },
+      {
+        "@language": "mul",
+        "@value": "Théâtre Gilles-Laplante"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-159"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q112688641"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K11-159"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q112688641"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q118093676",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Église Saint-Antoine de Lavaltrie"
+      },
+      {
+        "@language": "fr",
+        "@value": "église de Saint-Antoine-de-Lavaltrie"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-274"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q16970"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q57660343"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K11-274"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q57660343",
+      "http://www.wikidata.org/entity/Q16970"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q120637515",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Terra Bruce Productions"
+      },
+      {
+        "@language": "fr",
+        "@value": "Terra Bruce Productions"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-170"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://terrabruce.com"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q105815710"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K14-170"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q123371287",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Chi Long"
+      },
+      {
+        "@language": "fr",
+        "@value": "Chi Long"
+      },
+      {
+        "@language": "mul",
+        "@value": "Chi Long"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K13-41"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.quebecdanse.org/long-chi"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K13-41"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q123417293",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Sophie Breton"
+      },
+      {
+        "@language": "fr",
+        "@value": "Sophie Breton"
+      },
+      {
+        "@language": "mul",
+        "@value": "Sophie Breton"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K13-209"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.quebecdanse.org/breton-sophie"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K13-209"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q124312585",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "SQx Dance Company"
+      },
+      {
+        "@language": "fr",
+        "@value": "SQx Dance Company"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-194"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://sqxdance.org/"
+      },
+      {
+        "@id": "https://sqxdance.org/performance/cecilia-sur-la-scene/?lang=fr"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q2393314"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q708676"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K14-194"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q124767584",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Kay Meek Arts Centre"
+      },
+      {
+        "@language": "fr",
+        "@value": "Kay Meek Arts Centre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K4-138"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q57660343"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K4-138"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q57660343"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q125564604",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Regroupement artistique francophone de l'Alberta"
+      },
+      {
+        "@language": "fr",
+        "@value": "Regroupement artistique francophone de l'Alberta"
+      },
+      {
+        "@language": "mul",
+        "@value": "Regroupement artistique francophone de l'Alberta"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-134"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.rafa-alberta.ca/lerafa.ca/coup-doeil/index.php"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q6815100"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q163740"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K14-134"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q125764027",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Emmanuelle Martin"
+      },
+      {
+        "@language": "fr",
+        "@value": "Emmanuelle Martin"
+      },
+      {
+        "@language": "mul",
+        "@value": "Emmanuelle Martin"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-750"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-750"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q125764110",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Ismaël Mouaraki"
+      },
+      {
+        "@language": "fr",
+        "@value": "Ismaël Mouaraki"
+      },
+      {
+        "@language": "mul",
+        "@value": "Ismaël Mouaraki"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K12-521"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.quebecdanse.org/mouaraki-ismaël"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K12-521"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q125764136",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Marjolayne Auger"
+      },
+      {
+        "@language": "fr",
+        "@value": "Marjolayne Auger"
+      },
+      {
+        "@language": "mul",
+        "@value": "Marjolayne Auger"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K4-543"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.quebecdanse.org/auger-marjolayne"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K4-543"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q125764181",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Rachel Harris"
+      },
+      {
+        "@language": "fr",
+        "@value": "Rachel Harris"
+      },
+      {
+        "@language": "mul",
+        "@value": "Rachel Harris"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-1339"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.quebecdanse.org/harris-rachel"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-1339"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q125765017",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Louis-Philippe Laurendeau"
+      },
+      {
+        "@language": "fr",
+        "@value": "Louis-Philippe Laurendeau"
+      },
+      {
+        "@language": "mul",
+        "@value": "Louis-Philippe Laurendeau"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K5-540"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.quebecdanse.org/laurendeau-louis-philippe"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K5-540"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q125766439",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Sylvie Desrosiers"
+      },
+      {
+        "@language": "fr",
+        "@value": "Sylvie Desrosiers"
+      },
+      {
+        "@language": "mul",
+        "@value": "Sylvie Desrosiers"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-4825"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.quebecdanse.org/sylvie-desrosiers"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-4825"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q125930337",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Boca del Lupo"
+      },
+      {
+        "@language": "fr",
+        "@value": "Boca del Lupo"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-198"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://bocadellupo.com/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q708676"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q105815710"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K14-198"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q1261877",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "James Ehnes"
+      },
+      {
+        "@language": "fr",
+        "@value": "James Ehnes"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K13-94"
+      },
+      {
+        "@id": "https://isni.org/isni/0000000120199799"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "http://www.jamesehnes.com/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K13-94"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q126393370",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "the frank theatre"
+      },
+      {
+        "@language": "fr",
+        "@value": "the frank theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-206"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.thefranktheatre.com/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q708676"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q105815710"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K14-206"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q126406963",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Harold Shenkman Hall"
+      },
+      {
+        "@language": "fr",
+        "@value": "Salle Harold-Shenkman"
+      },
+      {
+        "@language": "mul",
+        "@value": "Harold Shenkman Hall"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-184"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q112688641"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K11-184"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q112688641"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q126407679",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Richcraft Theatre"
+      },
+      {
+        "@language": "fr",
+        "@value": "Théâtre Richcraft"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-185"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q201946"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K11-185"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q201946"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q126485614",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Harbourfront Centre"
+      },
+      {
+        "@language": "fr",
+        "@value": "Harbourfront Centre"
+      },
+      {
+        "@language": "mul",
+        "@value": "Harbourfront Centre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K10-319"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q1497364"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q3469910"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K10-319"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q1497364",
+      "http://www.wikidata.org/entity/Q3469910"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q127606057",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Club Saw"
+      },
+      {
+        "@language": "fr",
+        "@value": "Club Saw"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K4-139"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q112688641"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K4-139"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q112688641"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q127606091",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Digital Arts Resource Centre"
+      },
+      {
+        "@language": "fr",
+        "@value": "Digital Arts Resource Centre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-208"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://digitalartsresourcecentre.ca/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q1400264"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q708676"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K14-208"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q128268982",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "DuffleBag Theatre"
+      },
+      {
+        "@language": "fr",
+        "@value": "DuffleBag Theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K10-182"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://dufflebag.com"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q105815710"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K10-182"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q128269807",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "shameless hussy productions"
+      },
+      {
+        "@language": "fr",
+        "@value": "shameless hussy productions"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K10-457"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.shamelesshussy.com"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q105815710"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K10-457"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q128269815",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Wonderheads Theatre Society"
+      },
+      {
+        "@language": "fr",
+        "@value": "Wonderheads Theatre Society"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K10-193"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.wonderheads.com"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q105815710"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K10-193"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q131391843",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Isabel Bader Centre for the Performing Arts"
+      },
+      {
+        "@language": "mul",
+        "@value": "Isabel Bader Centre for the Performing Arts"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-21"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q57660343"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K11-21"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q57660343"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q132323644",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Espace culturel Georges-Émile-Lapalme"
+      },
+      {
+        "@language": "fr",
+        "@value": "Espace culturel Georges-Émile-Lapalme"
+      },
+      {
+        "@language": "mul",
+        "@value": "Espace culturel Georges-Émile-Lapalme"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-27"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.placedesarts.com/salle/espace-culturel-georges-emile-lapalme"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q18674739"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K11-27"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q18674739"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q135193235",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Carré 150"
+      },
+      {
+        "@language": "fr",
+        "@value": "Carré 150"
+      },
+      {
+        "@language": "mul",
+        "@value": "Carré 150"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-255"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q1329623"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K11-255"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q135338813",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "BMO Studio Theatre"
+      },
+      {
+        "@language": "fr",
+        "@value": "Salle BMO"
+      },
+      {
+        "@language": "mul",
+        "@value": "BMO Studio Theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-112"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q112688641"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K11-112"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q112688641"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q135446874",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Baby Grand Theatre"
+      },
+      {
+        "@language": "fr",
+        "@value": "Baby Grand Theatre"
+      },
+      {
+        "@language": "mul",
+        "@value": "Baby Grand Theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-96"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q201946"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K11-96"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q201946"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q135500176",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Regina Rosen Auditorium"
+      },
+      {
+        "@language": "fr",
+        "@value": "Regina Rosen Auditorium"
+      },
+      {
+        "@language": "mul",
+        "@value": "Regina Rosen Auditorium"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-77"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q112688641"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K11-77"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q112688641"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q136558407",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Théâtre Hector-Charland"
+      },
+      {
+        "@language": "fr",
+        "@value": "Théâtre Hector-Charland"
+      },
+      {
+        "@language": "mul",
+        "@value": "Théâtre Hector-Charland"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-6165"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q57660343"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-6165"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q57660343"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q136672287",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Wilder Studio-Theatre"
+      },
+      {
+        "@language": "fr",
+        "@value": "Studio-Théâtre Wilder"
+      },
+      {
+        "@language": "mul",
+        "@value": "Studio-Théâtre Wilder"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-232"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q201946"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K11-232"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q201946"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q136959611",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "BC Alliance for Arts + Culture"
+      },
+      {
+        "@language": "fr",
+        "@value": "BC Alliance for Arts + Culture"
+      },
+      {
+        "@language": "mul",
+        "@value": "BC Alliance for Arts + Culture"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-156"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.allianceforarts.com/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q2178147"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q6815100"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K14-156"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q137177490",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Conseil des Arts de Hearst  –Performance Hall"
+      },
+      {
+        "@language": "fr",
+        "@value": "Conseil des Arts de Hearst – Salle de spectacle"
+      },
+      {
+        "@language": "mul",
+        "@value": "Conseil des Arts de Hearst – Salle de spectacle"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K4-41"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q112688641"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K4-41"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q112688641"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q137177912",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Marilyn Gilbert Artists Management Inc."
+      },
+      {
+        "@language": "fr",
+        "@value": "Marilyn Gilbert Artists Management Inc."
+      },
+      {
+        "@language": "mul",
+        "@value": "Marilyn Gilbert Artists Management Inc."
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-147"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://mgam.com/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5354754"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q64581117"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K14-147"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q137772056",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "The Musical Stage Company"
+      },
+      {
+        "@language": "fr",
+        "@value": "The Musical Stage Company"
+      },
+      {
+        "@language": "mul",
+        "@value": "The Musical Stage Company"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K10-482"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://musicalstagecompany.comr"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q708676"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q105815710"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K10-482"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q138010373",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Théâtre Saint-Denis"
+      },
+      {
+        "@language": "fr",
+        "@value": "Théâtre Saint-Denis"
+      },
+      {
+        "@language": "mul",
+        "@value": "Théâtre Saint-Denis"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-5559"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://espacestdenis.com/theatre-st-denis/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q112688641"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-5559"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q112688641"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q138309881",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Black Box Theatre at Kelowna Community Theatre"
+      },
+      {
+        "@language": "fr",
+        "@value": "Black Box Theatre at Kelowna Community Theatre"
+      },
+      {
+        "@language": "mul",
+        "@value": "Black Box Theatre at Kelowna Community Theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-6350"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q18674739"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q115868934"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-6350"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q18674739",
+      "http://www.wikidata.org/entity/Q115868934"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q138763245",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Alex Roy"
+      },
+      {
+        "@language": "fr",
+        "@value": "Alex Roy"
+      },
+      {
+        "@language": "mul",
+        "@value": "Alex Roy"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K5-198"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K5-198"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q139300232",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Denise Verville"
+      },
+      {
+        "@language": "fr",
+        "@value": "Denise Verville"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-6308"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-6308"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q139300385",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Sébastien Dionne"
+      },
+      {
+        "@language": "fr",
+        "@value": "Sébastien Dionne"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K13-202"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K13-202"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q139300433",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Michel Côté"
+      },
+      {
+        "@language": "fr",
+        "@value": "Michel Côté"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K12-279"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K12-279"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q139300547",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Jon Lachlan Stewart"
+      },
+      {
+        "@language": "fr",
+        "@value": "Jon Lachlan Stewart"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K12-377"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K12-377"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q139300558",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Christian Garon"
+      },
+      {
+        "@language": "fr",
+        "@value": "Christian Garon"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K13-42"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K13-42"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q140069821",
+    "http://schema.org/name": [
+      {
+        "@language": "mul",
+        "@value": "Jacques Nantel"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-311"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-311"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q140253935",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Arturo Oliva cano"
+      },
+      {
+        "@language": "fr",
+        "@value": "Arturo Oliva cano"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-4461"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-4461"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q140407534",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Marilyne Léonard"
+      },
+      {
+        "@language": "fr",
+        "@value": "Marilyne Léonard"
+      },
+      {
+        "@language": "mul",
+        "@value": "Marilyne Léonard"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K5-387"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://marilyneleonard.com/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K5-387"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q140563757",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Les Shirley"
+      },
+      {
+        "@language": "fr",
+        "@value": "Les Shirley"
+      },
+      {
+        "@language": "mul",
+        "@value": "Les Shirley"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-7327"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.lesshirley.com/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q215380"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-7327"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q255836",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Jamie Wright"
+      },
+      {
+        "@language": "fr",
+        "@value": "Jamie Wright"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-4750"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-4750"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q26505083",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Marie Louise Mumbu"
+      },
+      {
+        "@language": "fr",
+        "@value": "Marie Louise Mumbu"
+      },
+      {
+        "@language": "mul",
+        "@value": "Marie Louise Mumbu"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-404"
+      },
+      {
+        "@id": "https://isni.org/isni/0000000115112249"
+      },
+      {
+        "@id": "https://isni.org/isni/0000000449279815"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-404"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q2833978",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Alexandre Poulin"
+      },
+      {
+        "@language": "fr",
+        "@value": "Alexandre Poulin"
+      },
+      {
+        "@language": "mul",
+        "@value": "Alexandre Poulin"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K13-9"
+      },
+      {
+        "@id": "https://isni.org/isni/0000000076423895"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.alexandrepoulin.com/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K13-9"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q2993809",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Canada Council for the Arts"
+      },
+      {
+        "@language": "fr",
+        "@value": "Conseil des arts du Canada"
+      },
+      {
+        "@language": "mul",
+        "@value": "Canada Council for the Arts"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-158"
+      },
+      {
+        "@id": "https://isni.org/isni/0000000122896811"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://conseildesarts.ca/"
+      },
+      {
+        "@id": "https://canadacouncil.ca"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q708676"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q4801520"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K14-158"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q3014122",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Daniel Grenier"
+      },
+      {
+        "@language": "fr",
+        "@value": "Daniel Grenier"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K5-1164"
+      },
+      {
+        "@id": "https://isni.org/isni/0000000074320016"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://danielgrenier.ca/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K5-1164"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q3053458",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "En Piste"
+      },
+      {
+        "@language": "fr",
+        "@value": "En Piste"
+      },
+      {
+        "@language": "mul",
+        "@value": "En piste"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K16-156"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://enpiste.qc.ca/fr"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q48204"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K16-156"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q3067694",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Fayolle Jean"
+      },
+      {
+        "@language": "fr",
+        "@value": "Fayolle Jean"
+      },
+      {
+        "@language": "mul",
+        "@value": "Fayolle S. Jean"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-3150"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-3150"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q30739272",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Church of St. Maurice"
+      },
+      {
+        "@language": "fr",
+        "@value": "église Saint-Maurice-de-Duvernay"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K5-261"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q16970"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K5-261"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q16970"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q3130821",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Henri Chassé"
+      },
+      {
+        "@language": "fr",
+        "@value": "Henri Chassé"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-633"
+      },
+      {
+        "@id": "https://isni.org/isni/0000000084832779"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-633"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q3150982",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Ingrid St-Pierre"
+      },
+      {
+        "@language": "fr",
+        "@value": "Ingrid St-Pierre"
+      },
+      {
+        "@language": "mul",
+        "@value": "Ingrid St-Pierre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K13-87"
+      },
+      {
+        "@id": "https://isni.org/isni/0000000436743279"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.ingridstpierre.com/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K13-87"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q3207467",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "La Cité des Rocheuses"
+      },
+      {
+        "@language": "fr",
+        "@value": "La Cité des Rocheuses"
+      },
+      {
+        "@language": "mul",
+        "@value": "La Cité des Rocheuses"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K4-243"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "http://www.citedesrocheuses.com"
+      },
+      {
+        "@id": "https://portailconnexions.ca/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q163740"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K4-243"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q3276151",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Mado Lamotte"
+      },
+      {
+        "@language": "fr",
+        "@value": "Mado Lamotte"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K5-660"
+      },
+      {
+        "@id": "https://isni.org/isni/000000007590577X"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K5-660"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q3287952",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Marc Drouin"
+      },
+      {
+        "@language": "fr",
+        "@value": "Marc Drouin"
+      },
+      {
+        "@language": "mul",
+        "@value": "Marc Drouin"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-1683"
+      },
+      {
+        "@id": "https://isni.org/isni/0000000073665880"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-1683"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q3330133",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Musée Des Hospitalières De L'Hôtel-Dieu De Montréal"
+      },
+      {
+        "@language": "fr",
+        "@value": "musée des Hospitalières de l'Hôtel-Dieu de Montréal"
+      },
+      {
+        "@language": "mul",
+        "@value": "Musée Des Hospitalières De L'Hôtel-Dieu De Montréal"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-6731"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://museedeshospitalieres.qc.ca/accueil/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q33506"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-6731"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q3502195",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Stéphanie Lapointe"
+      },
+      {
+        "@language": "fr",
+        "@value": "Stéphanie Lapointe"
+      },
+      {
+        "@language": "mul",
+        "@value": "Stéphanie C. Lapointe"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-3325"
+      },
+      {
+        "@id": "https://isni.org/isni/0000000073687836"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "http://www.stephanielapointe.ca"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-3325"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q3527604",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Centre du Théâtre d'Aujourd'hui"
+      },
+      {
+        "@language": "fr",
+        "@value": "Centre du Théâtre d'Aujourd'hui"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K10-423"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://theatredaujourdhui.qc.ca/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q24354"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q11812394"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q163740"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K10-423"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q38508181",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Capitol Centre"
+      },
+      {
+        "@language": "fr",
+        "@value": "Capitol Centre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K4-38"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "http://www.capitolcentre.org/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q3469910"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K4-38"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q3469910"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q4345230",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Confederation Park"
+      },
+      {
+        "@language": "fr",
+        "@value": "Parc de la Confédération"
+      },
+      {
+        "@language": "mul",
+        "@value": "Confederation Park"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-7263"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q22746"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q117187730"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-7263"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q22746",
+      "http://www.wikidata.org/entity/Q117187730"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q442711",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Bruno Pelletier"
+      },
+      {
+        "@language": "fr",
+        "@value": "Bruno Pelletier"
+      },
+      {
+        "@language": "mul",
+        "@value": "Bruno Pelletier"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K13-29"
+      },
+      {
+        "@id": "https://isni.org/isni/0000000119493050"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.brunopelletier.com/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K13-29"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q4713708",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Alderney Landing"
+      },
+      {
+        "@language": "fr",
+        "@value": "Alderney Landing"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-108"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "http://alderneylanding.com/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q3469910"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K11-108"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q3469910"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q4801440",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Arts Club Theatre Company"
+      },
+      {
+        "@language": "fr",
+        "@value": "Arts Club Theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K10-15"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://artsclub.com/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q11812394"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K10-15"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q4809965",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Association of Performing Arts Professionals"
+      },
+      {
+        "@language": "fr",
+        "@value": "Association of Performing Arts Professionals"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-216"
+      },
+      {
+        "@id": "https://isni.org/isni/0000000093161778"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "http://www.apap365.org"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q163740"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q6815100"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K14-216"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q52897552",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "José Navas"
+      },
+      {
+        "@language": "fr",
+        "@value": "José Navas"
+      },
+      {
+        "@language": "mul",
+        "@value": "José Navas"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K12-220"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K12-220"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q5323846",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Werklund Centre"
+      },
+      {
+        "@language": "fr",
+        "@value": "Werklund Centre"
+      },
+      {
+        "@language": "mul",
+        "@value": "Werklund Centre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K5-1249"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q3469910"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q1329623"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K5-1249"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q55218639",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Kakulu Sagiatuk"
+      },
+      {
+        "@language": "fr",
+        "@value": "Kakulu Saggiaktok"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-170"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-170"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q55722052",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Gisèle Gallichan"
+      },
+      {
+        "@language": "fr",
+        "@value": "Gisèle Gallichan"
+      },
+      {
+        "@language": "mul",
+        "@value": "Gisèle Gallichan"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-1704"
+      },
+      {
+        "@id": "https://isni.org/isni/0000000023061149"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-1704"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q55724276",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Amélie Dumoulin"
+      },
+      {
+        "@language": "fr",
+        "@value": "Amélie Dumoulin"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-439"
+      },
+      {
+        "@id": "https://isni.org/isni/0000000447991913"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-439"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q5929743",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Hugh's Room Live"
+      },
+      {
+        "@language": "fr",
+        "@value": "Hugh's Room"
+      },
+      {
+        "@language": "mul",
+        "@value": "Hugh's Room"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-5364"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://hughsroomlive.com/"
+      },
+      {
+        "@id": "http://www.hughsroom.com/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q8719053"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q11707"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-5364"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q63198804",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "The Only Animal"
+      },
+      {
+        "@language": "fr",
+        "@value": "The Only Animal"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K14-172"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.theonlyanimal.com/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q708676"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q11812394"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K14-172"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q63284553",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "John Gzowski"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-4648"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-4648"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q65116509",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Pierre Fauteux"
+      },
+      {
+        "@language": "fr",
+        "@value": "Pierre Fauteux"
+      },
+      {
+        "@language": "mul",
+        "@value": "Pierre F. Fauteux"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-2894"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-2894"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q72183375",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Evergreen Theatre"
+      },
+      {
+        "@language": "fr",
+        "@value": "théâtre Evergreen"
+      },
+      {
+        "@language": "mul",
+        "@value": "Evergreen Theatre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-157"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://evergreentheatre.ca/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q24354"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q96371632"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K11-157"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q96371632",
+      "http://www.wikidata.org/entity/Q24354"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q72980539",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "St. Francis Centre"
+      },
+      {
+        "@language": "fr",
+        "@value": "église Saint-François-de-Sales"
+      },
+      {
+        "@language": "mul",
+        "@value": "St. Francis Centre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-6075"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q1329623"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q16970"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-6075"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q80864432",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Market Hall Performing Arts Centre"
+      },
+      {
+        "@language": "fr",
+        "@value": "Market Hall Performing Arts Centre"
+      },
+      {
+        "@language": "mul",
+        "@value": "Market Hall Performing Arts Centre"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-82"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q2080521"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q3469910"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K11-82"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Place"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q88220933",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Centre d'art des récollets – St. James"
+      },
+      {
+        "@language": "fr",
+        "@value": "centre d'art des Récollets – St. James"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K16-252"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q18674739"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q16970"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K16-252"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q18674739",
+      "http://www.wikidata.org/entity/Q16970"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q94257361",
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Johnny Montbarbut"
+      },
+      {
+        "@language": "fr",
+        "@value": "Johnny Montbarbut"
+      },
+      {
+        "@language": "mul",
+        "@value": "Jean-Marie Montbarbut Du Plessis"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-3584"
+      },
+      {
+        "@id": "https://isni.org/isni/0000000073714777"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-3584"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  }
+]

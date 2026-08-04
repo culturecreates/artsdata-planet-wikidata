@@ -3,10 +3,10 @@ name: Wikidata Interlinking
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 6 1 * *'  # 06:00 UTC on the 1st of every month
+    - cron: '0 6 1 * *'
 
 permissions:
-  contents: write  # needed to commit the dump back to the repo
+  contents: write
 
 jobs:
   wikidata-interlinking:
@@ -14,6 +14,12 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true # runs `bundle install` and caches gems automatically
 
       - name: Query Wikidata for Artsdata entities missing a sameAs link
         run: |
@@ -23,12 +29,28 @@ jobs:
             --data-urlencode "query=$(cat sparql/list-all-artsdata-entities-missing-sameas-wikidata-entity.sparql)" \
             --max-time 120 \
             https://query.wikidata.org/sparql \
-            -o dumps/list-all-artsdata-entities-missing-sameas-wikidata-entity.jsonld
+            -o /tmp/query1.jsonld
+          jq empty /tmp/query1.jsonld
 
-      - name: Validate JSON-LD output
+      - name: Build type-detection query scoped to found entities
+        run: bundle exec ruby scripts/build_type_detection_query.rb /tmp/query1.jsonld sparql/wikidata-type-detection.sparql /tmp/wikidata-type-detection.sparql
+
+      - name: Query Wikidata for entity types
         run: |
-          sudo apt-get install -y jq
-          jq empty dumps/list-all-artsdata-entities-missing-sameas-wikidata-entity.jsonld
+          curl -sS -f \
+            -H "Accept: application/ld+json" \
+            -H "User-Agent: artsdata-planet-wikidata/1.0 (https://github.com/culturecreates/artsdata-planet-wikidata)" \
+            --data-urlencode "query=$(cat /tmp/wikidata-type-detection.sparql)" \
+            --max-time 120 \
+            https://query.wikidata.org/sparql \
+            -o /tmp/query2-types.jsonld
+          jq empty /tmp/query2-types.jsonld
+
+      - name: Merge into a single JSON-LD dump
+        run: bundle exec ruby scripts/merge_jsonld.rb /tmp/query1.jsonld /tmp/query2-types.jsonld dumps/list-all-artsdata-entities-missing-sameas-wikidata-entity.jsonld
+
+      - name: Validate merged JSON-LD
+        run: jq empty dumps/list-all-artsdata-entities-missing-sameas-wikidata-entity.jsonld
 
       - name: Commit updated dump
         run: |

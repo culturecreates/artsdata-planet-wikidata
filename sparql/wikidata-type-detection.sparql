@@ -1,0 +1,15 @@
+PREFIX schema: <http://schema.org/>
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wd: <http://www.wikidata.org/entity/>
+
+CONSTRUCT {
+  ?wikidataItem a ?artsdataType .
+} WHERE {
+  VALUES ?wikidataItem { __VALUES__ }
+
+  ?wikidataItem wdt:P31 ?nature .
+  OPTIONAL { ?wikidataItem wdt:P31/wdt:P279* wd:Q5      . BIND(schema:Person       AS ?personType) }
+  OPTIONAL { ?wikidataItem wdt:P31/wdt:P279* wd:Q43229   . BIND(schema:Organization AS ?orgType)    }
+  OPTIONAL { ?wikidataItem wdt:P31/wdt:P279* wd:Q2221906 . BIND(schema:Place        AS ?placeType)  }
+  BIND(COALESCE(?personType, ?orgType, ?placeType, ?nature) AS ?artsdataType)
+}
