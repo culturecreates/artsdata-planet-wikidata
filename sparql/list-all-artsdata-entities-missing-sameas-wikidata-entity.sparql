@@ -1,19 +1,35 @@
 PREFIX schema: <http://schema.org/>
 PREFIX wdt: <http://www.wikidata.org/prop/direct/>
-PREFIX wikibase: <http://wikiba.se/ontology#>
-PREFIX bd: <http://www.bigdata.com/rdf#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
 CONSTRUCT {
-  ?wikidataItem a ?type ;
-     schema:name ?name_en, ?name_fr, ?name_mul ;
-     schema:sameAs ?artsdataEntity, ?insi  ;
-     schema:url ?officialUrl .
+  ?wikidataItem schema:sameAs ?artsdataEntity .
+  ?wikidataItem schema:sameAs ?isniURI .
+  ?wikidataItem wdt:P7627 ?artsdataId .
+  ?wikidataItem wdt:P31 ?nature .
+  ?wikidataItem schema:name ?nameEn, ?nameFr, ?nameMul .
+  ?wikidataItem schema:url ?officialUrl .
 } WHERE {
   ?wikidataItem wdt:P7627 ?artsdataId .
   BIND(IRI(CONCAT("http://kg.artsdata.ca/resource/", ?artsdataId)) AS ?artsdataEntity)
-  FILTER NOT EXISTS {
+  OPTIONAL {
     SERVICE <https://artsdata-trifid-production.herokuapp.com/query> {
-      ?artsdataEntity schema:sameAs ?wikidataItem .
+      BIND(IRI(CONCAT("http://kg.artsdata.ca/resource/", ?artsdataId)) AS ?existingEntity)
+      ?existingEntity schema:sameAs ?wikidataItem .
     }
+  }
+  FILTER(!BOUND(?existingEntity))
+
+  ?wikidataItem wdt:P31 ?nature .
+
+  OPTIONAL { ?wikidataItem rdfs:label ?nameEn  . FILTER(LANG(?nameEn)  = "en")  }
+  OPTIONAL { ?wikidataItem rdfs:label ?nameFr  . FILTER(LANG(?nameFr)  = "fr")  }
+  OPTIONAL { ?wikidataItem rdfs:label ?nameMul . FILTER(LANG(?nameMul) = "mul") }
+
+  OPTIONAL { ?wikidataItem wdt:P856 ?officialUrl . }
+
+  OPTIONAL {
+    ?wikidataItem wdt:P213 ?isni .
+    BIND(IRI(CONCAT("https://isni.org/isni/", REPLACE(?isni, " ", ""))) AS ?isniURI)
   }
 }
