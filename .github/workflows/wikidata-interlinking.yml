@@ -42,6 +42,10 @@ jobs:
       - name: Query Wikidata for entity types
         run: |
           curl -sS -f \
+            --retry 6 \
+            --retry-all-errors \
+            --retry-delay 5 \
+            --retry-max-time 180 \
             -H "Accept: application/ld+json" \
             -H "User-Agent: artsdata-planet-wikidata/1.0 (https://github.com/culturecreates/artsdata-planet-wikidata)" \
             --data-urlencode "query=$(cat /tmp/wikidata-type-detection.sparql)" \
