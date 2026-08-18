@@ -1,6 +1,16 @@
 [
   {
     "@id": "http://www.wikidata.org/entity/Q100328326",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "performing arts company based in Quebec City, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "compagnie en arts de la scène basée à Québec, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -33,13 +43,13 @@
     ],
     "http://www.wikidata.org/prop/direct/P31": [
       {
-        "@id": "http://www.wikidata.org/entity/Q43229"
+        "@id": "http://www.wikidata.org/entity/Q708676"
       },
       {
         "@id": "http://www.wikidata.org/entity/Q105815710"
       },
       {
-        "@id": "http://www.wikidata.org/entity/Q708676"
+        "@id": "http://www.wikidata.org/entity/Q43229"
       }
     ],
     "http://www.wikidata.org/prop/direct/P7627": [
@@ -53,6 +63,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q100523742",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "performing arts supporting organization based in Montreal, Quebec, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "organisme de soutien des arts de la scène basé à Montréal au Québec Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -96,6 +116,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q100523813",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "theatre company in Sherbrooke, Quebec, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "compagnie en théâtre à Sherbrooke au Québec, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -122,10 +152,10 @@
     ],
     "http://www.wikidata.org/prop/direct/P31": [
       {
-        "@id": "http://www.wikidata.org/entity/Q11812394"
+        "@id": "http://www.wikidata.org/entity/Q163740"
       },
       {
-        "@id": "http://www.wikidata.org/entity/Q163740"
+        "@id": "http://www.wikidata.org/entity/Q11812394"
       },
       {
         "@id": "http://www.wikidata.org/entity/Q708676"
@@ -142,6 +172,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q100523911",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "performing arts company in Montreal, Quebec, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "compagnie en arts de la scène à Montréal, Québec, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -163,10 +203,10 @@
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://porteparole.org/fr/"
+        "@id": "https://porteparole.org/en/"
       },
       {
-        "@id": "https://porteparole.org/en/"
+        "@id": "https://porteparole.org/fr/"
       }
     ],
     "http://www.wikidata.org/prop/direct/P31": [
@@ -185,6 +225,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q100965267",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "theatre company in Montreal, Quebec"
+      },
+      {
+        "@language": "fr",
+        "@value": "compagnie de théâtre à Montréal, Québec"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -225,6 +275,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q101114749",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "performance hall in Sept-Îles, Quebec"
+      },
+      {
+        "@language": "fr",
+        "@value": "salle de spectacle à Sept-Îles, Québec"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -247,10 +307,10 @@
     ],
     "http://www.wikidata.org/prop/direct/P31": [
       {
-        "@id": "http://www.wikidata.org/entity/Q18674739"
+        "@id": "http://www.wikidata.org/entity/Q112688641"
       },
       {
-        "@id": "http://www.wikidata.org/entity/Q112688641"
+        "@id": "http://www.wikidata.org/entity/Q18674739"
       }
     ],
     "http://www.wikidata.org/prop/direct/P7627": [
@@ -265,6 +325,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q101115577",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "writer in the theatrical field in Quebec"
+      },
+      {
+        "@language": "fr",
+        "@value": "artiste québécoise"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -308,6 +378,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q103819149",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "Canadian TV animator"
+      },
+      {
+        "@language": "fr",
+        "@value": "animateur canadien"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -342,42 +422,17 @@
     ]
   },
   {
-    "@id": "http://www.wikidata.org/entity/Q105872096",
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Fred Bastien"
-      },
-      {
-        "@language": "fr",
-        "@value": "Fred Bastien"
-      },
-      {
-        "@language": "mul",
-        "@value": "Fred Bastien"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K2-2294"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P31": [
-      {
-        "@id": "http://www.wikidata.org/entity/Q5"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P7627": [
-      {
-        "@value": "K2-2294"
-      }
-    ],
-    "@type": [
-      "http://schema.org/Person"
-    ]
-  },
-  {
     "@id": "http://www.wikidata.org/entity/Q106274222",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "Canadian musician"
+      },
+      {
+        "@language": "fr",
+        "@value": "chanteuse canadienne"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -394,7 +449,7 @@
     ],
     "http://schema.org/sameAs": [
       {
-        "@id": "http://kg.artsdata.ca/resource/K23-6665"
+        "@id": "http://kg.artsdata.ca/resource/K13-16"
       },
       {
         "@id": "https://isni.org/isni/0000000451137234"
@@ -412,7 +467,7 @@
     ],
     "http://www.wikidata.org/prop/direct/P7627": [
       {
-        "@value": "K23-6665"
+        "@value": "K13-16"
       }
     ],
     "@type": [
@@ -420,47 +475,17 @@
     ]
   },
   {
-    "@id": "http://www.wikidata.org/entity/Q107015473",
-    "http://schema.org/name": [
+    "@id": "http://www.wikidata.org/entity/Q109018886",
+    "http://schema.org/disambiguatingDescription": [
       {
         "@language": "en",
-        "@value": "Salle Desjardins du Centre des arts Juliette-Lassonde"
+        "@value": "dance company based in Montreal, Quebec, Canada"
       },
       {
         "@language": "fr",
-        "@value": "Salle Desjardins du Centre des arts Juliette-Lassonde"
-      },
-      {
-        "@language": "mul",
-        "@value": "Salle Desjardins du Centre des arts Juliette-Lassonde"
+        "@value": "compagnie en danse basée à Montréal au Québec, Canada"
       }
     ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K2-227"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.centredesarts.ca/salle-desjardins"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P31": [
-      {
-        "@id": "http://www.wikidata.org/entity/Q18225059"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P7627": [
-      {
-        "@value": "K2-227"
-      }
-    ],
-    "@type": [
-      "http://www.wikidata.org/entity/Q18225059"
-    ]
-  },
-  {
-    "@id": "http://www.wikidata.org/entity/Q109018886",
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -493,13 +518,13 @@
     ],
     "http://www.wikidata.org/prop/direct/P31": [
       {
+        "@id": "http://www.wikidata.org/entity/Q43229"
+      },
+      {
         "@id": "http://www.wikidata.org/entity/Q708676"
       },
       {
         "@id": "http://www.wikidata.org/entity/Q2393314"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q43229"
       }
     ],
     "http://www.wikidata.org/prop/direct/P7627": [
@@ -513,6 +538,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q111668873",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "cabaret-style performance space located inside the National Arts Centre in Ottawa, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "salle de spectacle de style cabaret, situé à l'intérieur du Centre national des Arts à Ottawa"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -555,7 +590,62 @@
     ]
   },
   {
+    "@id": "http://www.wikidata.org/entity/Q111748373",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "multi-purpose space within Grand Théatre de Québec"
+      },
+      {
+        "@language": "fr",
+        "@value": "espace multifonctionnel situé à l'intérieur du Grand Théâtre de Québec"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "STUDIOTELUS"
+      },
+      {
+        "@language": "fr",
+        "@value": "STUDIOTELUS"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K5-181"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q1763828"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q18674739"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K5-181"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q1763828",
+      "http://www.wikidata.org/entity/Q18674739"
+    ]
+  },
+  {
     "@id": "http://www.wikidata.org/entity/Q111767669",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "performance hall within Centre Pierre-Péladeau in Montréal, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "salle de spectacle à l'intérieur du Centre Pierre-Péladeau à Montréal, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -591,6 +681,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q112602585",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "performing artist in Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "artiste interprète au Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -634,6 +734,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q112755107",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "art gallery within the Cultch"
+      },
+      {
+        "@language": "fr",
+        "@value": "galerie d'art au sein du Cultch"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -669,6 +779,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q113110628",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "community organization dedicated to the arts in Temagami, Ontario, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "organisme communautaire dédié aux arts à Temagami, Ontario, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -686,10 +806,10 @@
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://livingtemagami.ca/page-daccueil/"
+        "@id": "https://livingtemagami.ca"
       },
       {
-        "@id": "https://livingtemagami.ca"
+        "@id": "https://livingtemagami.ca/page-daccueil/"
       }
     ],
     "http://www.wikidata.org/prop/direct/P31": [
@@ -711,6 +831,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q114429982",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "performing arts group in Montreal, Quebec, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "groupe des arts de la scène au Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -733,13 +863,13 @@
     ],
     "http://www.wikidata.org/prop/direct/P31": [
       {
-        "@id": "http://www.wikidata.org/entity/Q43229"
+        "@id": "http://www.wikidata.org/entity/Q105815710"
       },
       {
         "@id": "http://www.wikidata.org/entity/Q2393314"
       },
       {
-        "@id": "http://www.wikidata.org/entity/Q105815710"
+        "@id": "http://www.wikidata.org/entity/Q43229"
       }
     ],
     "http://www.wikidata.org/prop/direct/P7627": [
@@ -753,6 +883,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q115118487",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "Quebec singer-songwriter"
+      },
+      {
+        "@language": "fr",
+        "@value": "auteur-compositeur-interprète québécois"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -793,6 +933,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q116240406",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "outdoor event venue in Montreal, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "lieu d'événement extérieur à Montréal, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -836,6 +986,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q117093397",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "theatre inside Carrefour Beausoleil in Miramichi, NB, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "théâtre à l'intérieur de Carrefour Beausoleil à Miramichi, NB, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -871,6 +1031,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q118093676",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "church and performing arts building in Lavaltrie, Quebec, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "église au Québec, dans Lavaltrie"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -906,6 +1076,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q120637515",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "musical theatre company based in St. John's and Toronto, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "compagnie de comédies musicales située à St. John's et Toronto, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -942,6 +1122,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q123371287",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "professional in the dance sector in Quebec"
+      },
+      {
+        "@language": "fr",
+        "@value": "artiste interprète au Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -982,6 +1172,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q123417293",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "professional in the dance sector in Quebec"
+      },
+      {
+        "@language": "fr",
+        "@value": "artiste interprète canadienne"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -1021,7 +1221,63 @@
     ]
   },
   {
+    "@id": "http://www.wikidata.org/entity/Q124295548",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "performance hall inside Cégep de Trois-Rivières in Quebec, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "salle de spectacle à l'intérieur du Cégep de Trois-Rivières au Québec, Canada"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Théâtre du Cégep de Trois-Rivières"
+      },
+      {
+        "@language": "fr",
+        "@value": "Théâtre du Cégep de Trois-Rivières"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K16-246"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.culture3r.com/lieux/theatre-cegep-de-trois-rivieres/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q112688641"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K16-246"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q112688641"
+    ]
+  },
+  {
     "@id": "http://www.wikidata.org/entity/Q124312585",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "dance company based in Castlegar, British Columbia, Canada and Santa Maria, Azores, Portugal"
+      },
+      {
+        "@language": "fr",
+        "@value": "compagnie en danse basée à Castlegar, C.-B., Canada et Santa Maria, Açores, Portugal"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -1064,6 +1320,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q124767584",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "performing arts building in West Vancouver, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "bâtiment des arts de la scène à West Vancouver, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -1095,6 +1361,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q125564604",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "arts service organization for the Francophone artistic and cultural community in Alberta"
+      },
+      {
+        "@language": "fr",
+        "@value": "organisme de services aux arts et le porte-parole de la communauté francophone artistique et culturelle de l'Alberta"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -1121,10 +1397,10 @@
     ],
     "http://www.wikidata.org/prop/direct/P31": [
       {
-        "@id": "http://www.wikidata.org/entity/Q6815100"
+        "@id": "http://www.wikidata.org/entity/Q163740"
       },
       {
-        "@id": "http://www.wikidata.org/entity/Q163740"
+        "@id": "http://www.wikidata.org/entity/Q6815100"
       }
     ],
     "http://www.wikidata.org/prop/direct/P7627": [
@@ -1138,6 +1414,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q125764027",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "professional in the dance sector in Quebec"
+      },
+      {
+        "@language": "fr",
+        "@value": "professionnel.le du secteur de la danse au Québec"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -1173,6 +1459,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q125764110",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "professional in the dance sector in Quebec"
+      },
+      {
+        "@language": "fr",
+        "@value": "professionnel.le du secteur de la danse au Québec"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -1213,6 +1509,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q125764136",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "professional in the dance sector in Quebec"
+      },
+      {
+        "@language": "fr",
+        "@value": "professionnel.le du secteur de la danse au Québec"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -1253,6 +1559,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q125764181",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "professional in the dance sector in Quebec"
+      },
+      {
+        "@language": "fr",
+        "@value": "professionnel.le du secteur de la danse au Québec"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -1293,6 +1609,12 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q125765017",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "fr",
+        "@value": "artiste interprète canadien"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -1332,47 +1654,17 @@
     ]
   },
   {
-    "@id": "http://www.wikidata.org/entity/Q125766439",
-    "http://schema.org/name": [
+    "@id": "http://www.wikidata.org/entity/Q125930337",
+    "http://schema.org/disambiguatingDescription": [
       {
         "@language": "en",
-        "@value": "Sylvie Desrosiers"
+        "@value": "performing arts company in Vancouver, BC, Canada"
       },
       {
         "@language": "fr",
-        "@value": "Sylvie Desrosiers"
-      },
-      {
-        "@language": "mul",
-        "@value": "Sylvie Desrosiers"
+        "@value": "compagnie en arts de la scène à Vancouver, C.-B., Canada"
       }
     ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K2-4825"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.quebecdanse.org/sylvie-desrosiers"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P31": [
-      {
-        "@id": "http://www.wikidata.org/entity/Q5"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P7627": [
-      {
-        "@value": "K2-4825"
-      }
-    ],
-    "@type": [
-      "http://schema.org/Person"
-    ]
-  },
-  {
-    "@id": "http://www.wikidata.org/entity/Q125930337",
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -1395,10 +1687,10 @@
     ],
     "http://www.wikidata.org/prop/direct/P31": [
       {
-        "@id": "http://www.wikidata.org/entity/Q708676"
+        "@id": "http://www.wikidata.org/entity/Q105815710"
       },
       {
-        "@id": "http://www.wikidata.org/entity/Q105815710"
+        "@id": "http://www.wikidata.org/entity/Q708676"
       }
     ],
     "http://www.wikidata.org/prop/direct/P7627": [
@@ -1412,6 +1704,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q1261877",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "Canadian concert violinist"
+      },
+      {
+        "@language": "fr",
+        "@value": "violoniste canadien"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -1451,6 +1753,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q126393370",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "performing arts company in Vancouver, British Columbia, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "compagnie des arts de la scène à Vancouver, en Colombie-Britannique., Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -1490,6 +1802,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q126406963",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "performance hall inside Shenkman Arts Centre in Ottawa, Ontario, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "salle de spectacle à l'intérieur du Shenkman Arts Centre à Ottawa en Ontario, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -1525,6 +1847,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q126407679",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "blackbox theatre inside the Shenkman Arts Centre in Ottawa, Ontario, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "théâtre experimental à l'intérieur du Centre des Arts Shenkman à Ottawa en Ontario, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -1556,6 +1888,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q126485614",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "recreational building complex in Toronto, Ontario, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "complexe de bâtiments récréatifs à Toronto en Ontario, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -1577,10 +1919,10 @@
     ],
     "http://www.wikidata.org/prop/direct/P31": [
       {
-        "@id": "http://www.wikidata.org/entity/Q1497364"
+        "@id": "http://www.wikidata.org/entity/Q3469910"
       },
       {
-        "@id": "http://www.wikidata.org/entity/Q3469910"
+        "@id": "http://www.wikidata.org/entity/Q1497364"
       }
     ],
     "http://www.wikidata.org/prop/direct/P7627": [
@@ -1594,38 +1936,17 @@
     ]
   },
   {
-    "@id": "http://www.wikidata.org/entity/Q127606057",
-    "http://schema.org/name": [
+    "@id": "http://www.wikidata.org/entity/Q127606091",
+    "http://schema.org/disambiguatingDescription": [
       {
         "@language": "en",
-        "@value": "Club Saw"
+        "@value": "media art collective in Ottawa, Canada"
       },
       {
         "@language": "fr",
-        "@value": "Club Saw"
+        "@value": "collectif d'art médiatique à Ottawa, Canada"
       }
     ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K4-139"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P31": [
-      {
-        "@id": "http://www.wikidata.org/entity/Q112688641"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P7627": [
-      {
-        "@value": "K4-139"
-      }
-    ],
-    "@type": [
-      "http://www.wikidata.org/entity/Q112688641"
-    ]
-  },
-  {
-    "@id": "http://www.wikidata.org/entity/Q127606091",
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -1665,6 +1986,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q128268982",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "performing arts group in London, Ontario, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "groupe des arts de la scène au Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -1701,6 +2032,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q128269807",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "performing arts group in Delta, British Columbia, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "groupe des arts de la scène au Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -1737,6 +2078,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q128269815",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "performing arts group in Victoria, British Columbia, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "groupe des arts de la scène au Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -1773,6 +2124,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q131391843",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "performing arts building in Kingston, Ontario, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "bâtiment des arts de la scène à Kingston en Ontario, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -1804,6 +2165,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q132323644",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "multipurpose space inside Place des Arts in Montreal, Quebec, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "espace polyvalent à l'intérieur de la Place des Arts à Montréal au Québec, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -1844,6 +2215,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q135193235",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "cultural centre in Victoriaville, Quebec, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "centre culturel à Victoriaville, Québec, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -1879,6 +2260,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q135338813",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "performance hall and event venue in Saint John, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "salle de spectacle et lieu d'événements à Saint John, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -1914,6 +2305,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q135446874",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "black box theatre inside the Grand Theatre in Kingston, Ontario, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "salle expérimentale à l'intérieur du Grand Theatre à Kingston en Ontario, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -1949,6 +2350,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q135500176",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "performance hall inside Kingston Grand Theatre in Kingston, Ontario, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "salle de spectacle à l'intérieur du Kingston Grand Theatre à Kingston, Ontario, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -1984,6 +2395,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q136558407",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "performing arts building in L'Assomption, Quebec, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "bâtiment des arts de la scène à L'Assomption au Québec, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -2019,6 +2440,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q136672287",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "black box theatre inside Édifice Wilder in Montreal, Quebec, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "théâtre expérimental à l'intérieur de l'Édifice Wilder à Montréal au Québec, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -2054,6 +2485,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q136959611",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "arts service organization based in British Columbia, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "organisme de service aux arts basé en Colombie-Britannique, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -2080,10 +2521,10 @@
     ],
     "http://www.wikidata.org/prop/direct/P31": [
       {
-        "@id": "http://www.wikidata.org/entity/Q2178147"
+        "@id": "http://www.wikidata.org/entity/Q6815100"
       },
       {
-        "@id": "http://www.wikidata.org/entity/Q6815100"
+        "@id": "http://www.wikidata.org/entity/Q2178147"
       }
     ],
     "http://www.wikidata.org/prop/direct/P7627": [
@@ -2097,6 +2538,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q137177490",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "performance hall in Hearst, Ontario, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "salle de spectacle à Heart en Ontario, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -2132,6 +2583,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q137177912",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "booking agency based in Toronto, Ontario, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "agence de tournée basée à Toronto en Ontario, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -2175,6 +2636,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q137772056",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "musical theatre company in Toronto, Ontario, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "compagnie en comédie musicale à Toronto en Ontario, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -2218,6 +2689,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q138010373",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "performance hall within Espace St-Denis, Montreal, Quebec, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "salle de spectacle à l'intérieur de l'Espace St-Denis, à Montréal, Québec, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -2258,6 +2739,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q138309881",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "multipurpose room in Kelowna, BC, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "théâtre polyvalent et espace évènementiel à Kelowna, C.-B., Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -2296,42 +2787,13 @@
     ]
   },
   {
-    "@id": "http://www.wikidata.org/entity/Q138763245",
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Alex Roy"
-      },
+    "@id": "http://www.wikidata.org/entity/Q139300232",
+    "http://schema.org/disambiguatingDescription": [
       {
         "@language": "fr",
-        "@value": "Alex Roy"
-      },
-      {
-        "@language": "mul",
-        "@value": "Alex Roy"
+        "@value": "personne oeuvrant dans le milieu du théâtre"
       }
     ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K5-198"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P31": [
-      {
-        "@id": "http://www.wikidata.org/entity/Q5"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P7627": [
-      {
-        "@value": "K5-198"
-      }
-    ],
-    "@type": [
-      "http://schema.org/Person"
-    ]
-  },
-  {
-    "@id": "http://www.wikidata.org/entity/Q139300232",
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -2363,6 +2825,12 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q139300385",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "fr",
+        "@value": "personne oeuvrant dans le milieu du théâtre"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -2394,6 +2862,12 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q139300433",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "fr",
+        "@value": "personne oeuvrant dans le milieu du théâtre"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -2425,6 +2899,12 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q139300547",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "fr",
+        "@value": "personne oeuvrant dans le milieu du théâtre"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -2456,6 +2936,12 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q139300558",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "fr",
+        "@value": "personne oeuvrant dans le milieu du théâtre"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -2487,6 +2973,12 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q140069821",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "fr",
+        "@value": "acteur canadien"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "mul",
@@ -2514,6 +3006,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q140253935",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "professional in the dance sector in Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "professionnel.le du secteur de la danse au Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -2545,6 +3047,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q140407534",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "Canadian singer-songwriter from Quebec"
+      },
+      {
+        "@language": "fr",
+        "@value": "auteure-compositrice-interprète canadienne originaire du Québec"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -2562,6 +3074,9 @@
     "http://schema.org/sameAs": [
       {
         "@id": "http://kg.artsdata.ca/resource/K5-387"
+      },
+      {
+        "@id": "https://isni.org/isni/0000000507961485"
       }
     ],
     "http://schema.org/url": [
@@ -2585,6 +3100,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q140563757",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "Montreal rock band"
+      },
+      {
+        "@language": "fr",
+        "@value": "groupe de rock montréalais"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -2624,7 +3149,63 @@
     ]
   },
   {
+    "@id": "http://www.wikidata.org/entity/Q16675360",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "Performing arts theater in Laval, Québec"
+      },
+      {
+        "@language": "fr",
+        "@value": "salle inaugurée en 1979 et baptisée en hommage au grand compositeur québécois"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Salle André-Mathieu"
+      },
+      {
+        "@language": "fr",
+        "@value": "salle André-Mathieu"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K11-211"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://www.co-motion.ca/nos-salles-de-spectacles/salle-andre-mathieu/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q112688641"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K11-211"
+      }
+    ],
+    "@type": [
+      "http://www.wikidata.org/entity/Q112688641"
+    ]
+  },
+  {
     "@id": "http://www.wikidata.org/entity/Q255836",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "Canadian ice hockey player"
+      },
+      {
+        "@language": "fr",
+        "@value": "joueur de hockey sur glace canadien"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -2656,6 +3237,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q26505083",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "Congolese journalist and woman of letters"
+      },
+      {
+        "@language": "fr",
+        "@value": "journaliste congolaise"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -2697,6 +3288,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q2833978",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "Canadian singer-songwriter"
+      },
+      {
+        "@language": "fr",
+        "@value": "auteur-compositeur-interprète québécois"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -2740,6 +3341,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q2993809",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "arts council of the Government of Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "société de la Couronne fondée pour agir à titre de conseiller artistique du gouvernement du Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -2789,6 +3400,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q3014122",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "Canadian singer-songwriter"
+      },
+      {
+        "@language": "fr",
+        "@value": "auteur-compositeur-interprète et humoriste québécois"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -2828,6 +3449,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q3053458",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "performing arts presenting organization in Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "association canadienne dont la mission est de promouvoir les arts du cirque"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -2868,6 +3499,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q3067694",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "Canadian actor"
+      },
+      {
+        "@language": "fr",
+        "@value": "acteur québécois"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -2903,6 +3544,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q30739272",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "church in Laval, Québec"
+      },
+      {
+        "@language": "fr",
+        "@value": "église à Laval, Québec"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -2934,6 +3585,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q3130821",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "Canadian actor"
+      },
+      {
+        "@language": "fr",
+        "@value": "acteur canadien"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -2968,6 +3629,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q3150982",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "Canadian singer-songwriter"
+      },
+      {
+        "@language": "fr",
+        "@value": "auteure-compositrice-interprète canadienne"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -3011,6 +3682,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q3207467",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "French-speaking organization located in Calgary, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "organisme francophone à but non lucratif situé à Calgary, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -3054,6 +3735,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q3276151",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "Canadian drag queen"
+      },
+      {
+        "@language": "fr",
+        "@value": "dragqueen canadienne"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -3088,6 +3779,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q3287952",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "Canadian singer and composer"
+      },
+      {
+        "@language": "fr",
+        "@value": "personne oeuvrant dans le milieu du théâtre au Québec"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -3126,6 +3827,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q3330133",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "history museum in Montreal, Quebec, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "musée d'histoire à Montréal, Québec, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -3166,6 +3877,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q3502195",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "Canadian actress"
+      },
+      {
+        "@language": "fr",
+        "@value": "actrice canadienne"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -3209,6 +3930,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q3527604",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "Quebec theater broadcaster"
+      },
+      {
+        "@language": "fr",
+        "@value": "diffuseur dans le domaine théâtral québécois"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -3231,10 +3962,10 @@
     ],
     "http://www.wikidata.org/prop/direct/P31": [
       {
-        "@id": "http://www.wikidata.org/entity/Q24354"
+        "@id": "http://www.wikidata.org/entity/Q11812394"
       },
       {
-        "@id": "http://www.wikidata.org/entity/Q11812394"
+        "@id": "http://www.wikidata.org/entity/Q24354"
       },
       {
         "@id": "http://www.wikidata.org/entity/Q163740"
@@ -3251,6 +3982,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q38508181",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "arts centre and former cinema in North Bay, Ontario, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "salle de spectacle et ancienne salle de cinéma à North Bay, Ontario, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -3287,6 +4028,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q4345230",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "park in Ottawa, Ontario, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "parc à Ottawa en Ontario au Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -3326,6 +4077,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q442711",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "Canadian singer"
+      },
+      {
+        "@language": "fr",
+        "@value": "chanteur et acteur canadien"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -3369,6 +4130,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q4713708",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "cultural centre in Dartmouth, Nova Scotia, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "centre culturel à Dartmouth, Nouvelle-Écosse, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -3405,6 +4176,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q4801440",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "theatrical company in Vancouver, British Columbia, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "compagnie de théâtre de Vancouver"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -3441,6 +4222,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q4809965",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "nonprofit arts organization in Washington DC, USA"
+      },
+      {
+        "@language": "fr",
+        "@value": "organisme artistique à but non lucratif à Washington DC, États-Unis"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -3482,42 +4273,17 @@
     ]
   },
   {
-    "@id": "http://www.wikidata.org/entity/Q52897552",
-    "http://schema.org/name": [
+    "@id": "http://www.wikidata.org/entity/Q5323846",
+    "http://schema.org/disambiguatingDescription": [
       {
         "@language": "en",
-        "@value": "José Navas"
+        "@value": "multi-venue arts centre in Calgary, Alberta, Canada"
       },
       {
         "@language": "fr",
-        "@value": "José Navas"
-      },
-      {
-        "@language": "mul",
-        "@value": "José Navas"
+        "@value": "centre d'art multisalles à Calgary en Alberta, Canada"
       }
     ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K12-220"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P31": [
-      {
-        "@id": "http://www.wikidata.org/entity/Q5"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P7627": [
-      {
-        "@value": "K12-220"
-      }
-    ],
-    "@type": [
-      "http://schema.org/Person"
-    ]
-  },
-  {
-    "@id": "http://www.wikidata.org/entity/Q5323846",
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -3556,6 +4322,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q55218639",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "Inuit printmaker and draughtsperson, lived in Cape Dorset, Nunavut (1940–2020)"
+      },
+      {
+        "@language": "fr",
+        "@value": "dessinatrice canadienne"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -3587,6 +4363,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q55722052",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "Canadian journalist (1946–2025)"
+      },
+      {
+        "@language": "fr",
+        "@value": "journaliste et animatrice québécoise"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -3624,41 +4410,17 @@
     ]
   },
   {
-    "@id": "http://www.wikidata.org/entity/Q55724276",
-    "http://schema.org/name": [
+    "@id": "http://www.wikidata.org/entity/Q5929743",
+    "http://schema.org/disambiguatingDescription": [
       {
         "@language": "en",
-        "@value": "Amélie Dumoulin"
+        "@value": "live music venue and restaurant in Toronto, Ontario, Canada"
       },
       {
         "@language": "fr",
-        "@value": "Amélie Dumoulin"
+        "@value": "salle de concert à Toronto, en Ontario, au Canada"
       }
     ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K2-439"
-      },
-      {
-        "@id": "https://isni.org/isni/0000000447991913"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P31": [
-      {
-        "@id": "http://www.wikidata.org/entity/Q5"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P7627": [
-      {
-        "@value": "K2-439"
-      }
-    ],
-    "@type": [
-      "http://schema.org/Person"
-    ]
-  },
-  {
-    "@id": "http://www.wikidata.org/entity/Q5929743",
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -3705,6 +4467,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q63198804",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "theatre company based in Vancouver, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "compagnie de théâtre basée à Vancouver, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -3727,10 +4499,10 @@
     ],
     "http://www.wikidata.org/prop/direct/P31": [
       {
-        "@id": "http://www.wikidata.org/entity/Q708676"
+        "@id": "http://www.wikidata.org/entity/Q11812394"
       },
       {
-        "@id": "http://www.wikidata.org/entity/Q11812394"
+        "@id": "http://www.wikidata.org/entity/Q708676"
       }
     ],
     "http://www.wikidata.org/prop/direct/P7627": [
@@ -3744,6 +4516,12 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q63284553",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "Canadian sound designer"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -3771,6 +4549,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q65116509",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "performing artist in Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "relié au cinéma"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -3806,6 +4594,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q72183375",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "performing arts theatre in Margaretsville, Nova Scotia, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "théâtre à Margaretsville, en Nouvelle-Écosse"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -3832,10 +4630,10 @@
     ],
     "http://www.wikidata.org/prop/direct/P31": [
       {
-        "@id": "http://www.wikidata.org/entity/Q24354"
+        "@id": "http://www.wikidata.org/entity/Q96371632"
       },
       {
-        "@id": "http://www.wikidata.org/entity/Q96371632"
+        "@id": "http://www.wikidata.org/entity/Q24354"
       }
     ],
     "http://www.wikidata.org/prop/direct/P7627": [
@@ -3850,6 +4648,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q72980539",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "church in Ajax, Ontario, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "église à Ajax (Ontario, Canada)"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -3871,10 +4679,10 @@
     ],
     "http://www.wikidata.org/prop/direct/P31": [
       {
-        "@id": "http://www.wikidata.org/entity/Q1329623"
+        "@id": "http://www.wikidata.org/entity/Q16970"
       },
       {
-        "@id": "http://www.wikidata.org/entity/Q16970"
+        "@id": "http://www.wikidata.org/entity/Q1329623"
       }
     ],
     "http://www.wikidata.org/prop/direct/P7627": [
@@ -3888,6 +4696,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q80864432",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "performing arts building and former market hall in Peterborough, Ontario, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "bâtiment des arts de la scène et ancienne halle à Peterborough, Ontario, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -3926,6 +4744,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q88220933",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "church building and arts centre in Trois-Rivières, Québec, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "église et centre d'art à Trois-Rivières au Québec, Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
@@ -3943,10 +4771,10 @@
     ],
     "http://www.wikidata.org/prop/direct/P31": [
       {
-        "@id": "http://www.wikidata.org/entity/Q18674739"
+        "@id": "http://www.wikidata.org/entity/Q16970"
       },
       {
-        "@id": "http://www.wikidata.org/entity/Q16970"
+        "@id": "http://www.wikidata.org/entity/Q18674739"
       }
     ],
     "http://www.wikidata.org/prop/direct/P7627": [
@@ -3961,6 +4789,16 @@
   },
   {
     "@id": "http://www.wikidata.org/entity/Q94257361",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "performing artist in Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "artiste interprète au Canada"
+      }
+    ],
     "http://schema.org/name": [
       {
         "@language": "en",
