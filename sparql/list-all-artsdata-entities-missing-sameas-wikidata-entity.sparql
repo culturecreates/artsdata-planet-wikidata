@@ -7,7 +7,8 @@ CONSTRUCT {
   ?wikidataItem schema:sameAs ?isniURI .
   ?wikidataItem wdt:P7627 ?artsdataId .
   ?wikidataItem wdt:P31 ?nature .
-  ?wikidataItem schema:name ?nameEn, ?nameFr, ?nameMul .
+  ?wikidataItem schema:name ?nameEn, ?nameFr, ?nameMul ;
+    schema:disambiguatingDescription ?descEn, ?descFr, ?descMul .
   ?wikidataItem schema:url ?officialUrl .
 } WHERE {
   ?wikidataItem wdt:P7627 ?artsdataId .
@@ -25,6 +26,10 @@ CONSTRUCT {
   OPTIONAL { ?wikidataItem rdfs:label ?nameEn  . FILTER(LANG(?nameEn)  = "en")  }
   OPTIONAL { ?wikidataItem rdfs:label ?nameFr  . FILTER(LANG(?nameFr)  = "fr")  }
   OPTIONAL { ?wikidataItem rdfs:label ?nameMul . FILTER(LANG(?nameMul) = "mul") }
+
+  OPTIONAL { ?wikidataItem schema:description ?descEn  . FILTER(LANG(?descEn)  = "en")  }
+  OPTIONAL { ?wikidataItem schema:description ?descFr  . FILTER(LANG(?descFr)  = "fr")  }
+  OPTIONAL { ?wikidataItem schema:description ?descMul . FILTER(LANG(?descMul) = "mul") }
 
   OPTIONAL { ?wikidataItem wdt:P856 ?officialUrl . }
 
