@@ -24,6 +24,10 @@ jobs:
       - name: Query Wikidata for Artsdata entities missing a sameAs link
         run: |
           curl -sS -f \
+            --retry 6 \
+            --retry-all-errors \
+            --retry-delay 5 \
+            --retry-max-time 180 \
             -H "Accept: application/ld+json" \
             -H "User-Agent: artsdata-planet-wikidata/1.0 (https://github.com/culturecreates/artsdata-planet-wikidata)" \
             --data-urlencode "query=$(cat sparql/list-all-artsdata-entities-missing-sameas-wikidata-entity.sparql)" \
