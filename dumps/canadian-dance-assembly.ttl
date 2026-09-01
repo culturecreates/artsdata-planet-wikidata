@@ -1,0 +1,4539 @@
+@prefix schema: <http://schema.org/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix hint: <http://www.bigdata.com/queryHints#> .
+@prefix bd: <http://www.bigdata.com/rdf#> .
+@prefix bds: <http://www.bigdata.com/rdf/search#> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix mwapi: <https://www.mediawiki.org/ontology#API/> .
+@prefix gas: <http://www.bigdata.com/rdf/gas#> .
+@prefix wdsubgraph: <https://query.wikidata.org/subgraph/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix wdata: <http://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix wds: <http://www.wikidata.org/entity/statement/> .
+@prefix wdv: <http://www.wikidata.org/value/> .
+@prefix wdref: <http://www.wikidata.org/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix geof: <http://www.opengis.net/def/geosparql/function/> .
+@prefix mediawiki: <https://www.mediawiki.org/ontology#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix wikibaseqs: <http://wikiba.se/queryService#> .
+
+wd:Q126952762 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "Canadian choreographer and dancer"@en ;
+	schema:name "Lisa Phinney Langley"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6089> ;
+	schema:url <https://www.lisaphinney.ca> ;
+	schema:disambiguatingDescription "danseuse et chorégraphe canadienne"@fr ;
+	schema:name "Lisa Phinney Langley"@fr .
+
+wd:Q129106200 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "ballet company and festival organization in Moncton, NB, Canada"@en ;
+	schema:name "Atlantic Ballet Atlantique Canada"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-16> ;
+	schema:url <https://www.atlanticballet.ca/en/home/> ;
+	schema:name "Atlantic Ballet Atlantique Canada"@fr ;
+	schema:disambiguatingDescription "compagnie de ballet et organisme de festival à Moncton, N.-B., Canada"@fr ;
+	wdt:P31 wd:Q708676 .
+
+wd:Q126952848 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel du secteur de la danse au Canada"@fr ;
+	schema:name "Jera Wolfe"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5376> ;
+	schema:url <https://www.jerawolfe.com/> ;
+	schema:name "Jera Wolfe"@fr .
+
+wd:Q129106200 wdt:P31 wd:Q805233 , wd:Q108669279 .
+
+wd:Q126952848 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952174 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Young Lungs Dance Exchange"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-197> ;
+	schema:url <http://www.younglungs.ca> ;
+	schema:name "Young Lungs Dance Exchange"@fr .
+
+wd:Q126952581 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "Métis professional in the dance sector in what is known as Canada"@en ;
+	schema:name "André Bessette"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6422> ;
+	schema:disambiguatingDescription "professionnel métis du secteur de la danse sur le territoire aujourd'hui appellé Canada"@fr ;
+	schema:name "André Bessette"@fr .
+
+wd:Q126952174 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952175 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Zata Omm Dance Projects"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-198> ;
+	schema:url <http://www.zataomm.org> ;
+	schema:name "Zata Omm Dance Projects"@fr ;
+	schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952172 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Vizari Arts"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-195> ;
+	schema:url <https://vazariarts.com/> ;
+	schema:name "Vizari Arts"@fr ;
+	schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952168 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "The Dance Current"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-189> ;
+	schema:url <http://www.thedancecurrent.com> ;
+	schema:name "The Dance Current"@fr .
+
+wd:Q126952173 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Wen Wei Dance"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-196> ;
+	schema:url <http://www.wenweidance.ca> ;
+	schema:name "Wen Wei Dance"@fr .
+
+wd:Q126952168 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952173 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952169 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "The Richmond Academy Of Dance"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-192> ;
+	schema:url <http://www.richmondacademyofdance.com> ;
+	schema:name "The Richmond Academy Of Dance"@fr ;
+	schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952143 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr ;
+	schema:name "Kidd Pivot Performing Arts Society"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-80> ;
+	schema:url <http://www.kiddpivot.org> .
+
+wd:Q126952140 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "theatre company based in Toronto, Ontario"@en ;
+	schema:name "Kaeja d’Dance"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-485> ;
+	schema:url <https://www.kaeja.org/> ;
+	schema:name "Kaeja d’Dance"@fr .
+
+wd:Q126952143 schema:name "Kidd Pivot Performing Arts Society"@fr .
+
+wd:Q126952144 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Halifax, Nova Scotia, Canada"@en ;
+	schema:name "Kinetic"@fr ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5277> ;
+	schema:url <http://www.kineticstudio.ca> .
+
+wd:Q126952143 wdt:P31 wd:Q708676 ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en .
+
+wd:Q126952150 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Mocean Dance"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-178> ;
+	schema:url <http://www.moceandance.com> ;
+	schema:name "Mocean Dance"@fr .
+
+wd:Q126952144 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q126952134 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Good Women Dance Collective"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-167> ;
+	schema:url <http://www.goodwomen.ca> ;
+	schema:name "Good Women Dance Collective"@fr .
+
+wd:Q126952135 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr ;
+	schema:name "Ground Up Dance Festival"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-168> ;
+	schema:url <https://www.groundupdancefestival.ca/> ;
+	schema:name "Ground Up Dance Festival"@fr .
+
+wd:Q126952139 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "dance company based in Toronto, Ontario"@en ;
+	schema:name "Human Body Expression Dance Company"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-72> ;
+	schema:url <https://hbedance.com/> ;
+	schema:name "Human Body Expression Dance Company"@fr ;
+	schema:disambiguatingDescription "organisme de danse basée à Toronto, Ontario"@fr .
+
+wd:Q126952151 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène basé à Toronto, en Ontario"@fr ;
+	schema:name "Moonhorse Dance Theatre"@fr ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-179> ;
+	schema:url <https://www.moonhorsedance.com/> .
+
+wd:Q126952136 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr ;
+	schema:name "Healthy Dancer Canada"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-169> ;
+	schema:url <https://www.healthydancercanada.org> ;
+	schema:name "Healthy Dancer Canada"@fr .
+
+wd:Q126952131 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "FakeKnot"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-164> ;
+	schema:url <http://www.ralphescamillan.com/fakeknot> ;
+	schema:name "FakeKnot"@fr .
+
+wd:Q126952132 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Friday Creeations"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-165> ;
+	schema:url <https://www.fridaycreeations.ca/> ;
+	schema:name "Friday Creeations"@fr .
+
+wd:Q126952150 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952144 wdt:P31 wd:Q708676 .
+
+wd:Q126952134 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952138 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Hub 14"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-170> ;
+	schema:name "Hub 14"@fr .
+
+wd:Q126952146 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Lua Shayenne Dance Company"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-174> ;
+	schema:url <https://luashayenne.com/> ;
+	schema:name "Lua Shayenne Dance Company"@fr .
+
+wd:Q126952131 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952141 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Kala Dance Collective"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-171> ;
+	schema:name "Kala Dance Collective"@fr .
+
+wd:Q126952132 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952128 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Dancers' Studio West"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-161> ;
+	schema:url <http://www.dswlive.ca> ;
+	schema:name "Dancers' Studio West"@fr .
+
+wd:Q126952140 schema:disambiguatingDescription "groupe de théâtre basé à Toronto, Ontario"@fr .
+
+wd:Q126952146 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952144 wdt:P31 wd:Q7168296 .
+
+wd:Q126952133 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Frog In Hand"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-166> ;
+	schema:url <https://www.froginhand.com/> ;
+	schema:name "Frog In Hand"@fr .
+
+wd:Q126952142 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "KasheDance"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-172> ;
+	schema:url <http://www.kashedance.com/> ;
+	schema:name "KasheDance"@fr .
+
+wd:Q126952147 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Mafa Dance Village"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-175> ;
+	schema:url <https://www.mafadancevillage.ca/> ;
+	schema:name "Mafa Dance Village"@fr .
+
+wd:Q126952138 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952151 wdt:P31 wd:Q107095432 ;
+	schema:url <http://www.moonhorsedance.com> .
+
+wd:Q126952128 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952144 schema:name "Kinetic"@en .
+
+wd:Q126952141 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952133 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952140 wdt:P31 wd:Q2393314 .
+
+wd:Q126952142 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952129 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "DD Arts"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-162> ;
+	schema:url <https://www.ddarts.ca/> ;
+	schema:name "DD Arts"@fr .
+
+wd:Q126952147 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952129 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952134 wdt:P31 wd:Q107095432 .
+
+wd:Q126952145 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "LookUp Theatre"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-173> ;
+	schema:url <https://www.lookuptheatre.com/> ;
+	schema:name "LookUp Theatre"@fr .
+
+wd:Q126952135 schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en .
+
+wd:Q126952145 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952136 schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en .
+
+wd:Q126952159 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr ;
+	schema:name "Rachel Meyer Society"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-185> ;
+	schema:url <https://rachelmeyer.ca/> ;
+	schema:name "Rachel Meyer Society"@fr .
+
+wd:Q126952167 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "compagnie de danse canadienne"@fr ;
+	schema:name "The Chimera Project Dance Theatre"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5150> ;
+	schema:url <http://www.chimeradt.com> ;
+	schema:name "The Chimera Project Dance Theatre"@fr .
+
+wd:Q126952155 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Ottawa Dance Directive"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-181> ;
+	schema:url <https://odd-cdc.org/> ;
+	schema:name "Ottawa Dance Directive"@fr .
+
+wd:Q126952151 schema:name "Moonhorse Dance Theatre"@en .
+
+wd:Q126952156 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Out Innerspace"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-182> ;
+	schema:url <http://outinnerspace.ca> ;
+	schema:name "Out Innerspace"@fr .
+
+wd:Q126952157 wdt:P31 wd:Q2393314 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "groupe de théâtre basé à Toronto, Ontario"@fr ;
+	schema:name "pounds per square inch performance"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-183> ;
+	schema:url <https://www.poundspersquareinch.net/> ;
+	schema:name "pounds per square inch performance"@fr .
+
+wd:Q126952151 schema:disambiguatingDescription "performing arts presenting organization based in Toronto, Ontario"@en .
+
+wd:Q126952165 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "agence de diffusion des arts de la scène à Toronto, Ontario"@fr ;
+	schema:name "Sara Porter Productions"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-191> ;
+	schema:url <https://www.saraporter.ca/> ;
+	schema:name "Sara Porter Productions"@fr .
+
+wd:Q126952170 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Tribal Crackling Wind"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-193> ;
+	schema:url <http://www.tribalcracklingwind.ca> ;
+	schema:name "Tribal Crackling Wind"@fr .
+
+wd:Q126952155 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952157 schema:disambiguatingDescription "dance company based in Toronto, Ontario"@en .
+
+wd:Q126952156 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952152 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Moonlight Ballet"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-180> ;
+	schema:url <https://www.moonlightballet.ca/> ;
+	schema:name "Moonlight Ballet"@fr .
+
+wd:Q126952170 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952160 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Raven Spirit Dance Society"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-289> ;
+	schema:url <http://www.ravenspiritdance.com> ;
+	schema:name "Raven Spirit Dance Society"@fr .
+
+wd:Q126952158 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "groupe de théâtre basé à Toronto, Ontario"@fr ;
+	schema:name "ProArteDanza"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-184> ;
+	schema:url <https://www.proartedanza.com/> ;
+	schema:name "ProArteDanza"@fr .
+
+wd:Q126952166 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Tara Luz Danse"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-194> ;
+	schema:url <http://www.taraluzdanse.ca> ;
+	schema:name "Tara Luz Danse"@fr .
+
+wd:Q126952152 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952158 schema:disambiguatingDescription "dance company based in Toronto, Ontario"@en .
+
+wd:Q126952160 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952148 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Margie Gillis Dance Foundation"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-176> ;
+	schema:url <http://www.margiegillis.org> ;
+	schema:name "Margie Gillis Dance Foundation"@fr .
+
+wd:Q126952165 schema:disambiguatingDescription "booking agency in Toronto, Ontario, Canada"@en .
+
+wd:Q126952166 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952161 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "REAson d'etre dance productions"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-186> ;
+	schema:url <https://reasondetre.com> ;
+	schema:name "REAson d'etre dance productions"@fr .
+
+wd:Q126952162 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Rock Bottom Movement"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-187> ;
+	schema:url <https://www.rockbottommovement.com/> ;
+	schema:name "Rock Bottom Movement"@fr .
+
+wd:Q126952153 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Neighborhood Dance Works"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-328> ;
+	schema:url <http://neighbourhooddanceworks.com/> ;
+	schema:name "Neighborhood Dance Works"@fr .
+
+wd:Q126952148 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952161 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952157 wdt:P31 wd:Q107095432 .
+
+wd:Q126952165 wdt:P31 wd:Q64581117 .
+
+wd:Q126952162 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952149 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Method Dance"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-177> ;
+	schema:url <http://methoddance.ca> ;
+	schema:name "Method Dance"@fr .
+
+wd:Q126952153 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952163 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Sahana Dance Company"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-188> ;
+	schema:url <https://www.sahanadancecompany.com/> ;
+	schema:name "Sahana Dance Company"@fr .
+
+wd:Q126952164 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Sampradaya Dance Creations"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-190> ;
+	schema:url <http://www.sampradaya.ca> ;
+	schema:name "Sampradaya Dance Creations"@fr .
+
+wd:Q126952149 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952158 wdt:P31 wd:Q2393314 .
+
+wd:Q126952162 wdt:P31 wd:Q7168296 .
+
+wd:Q126952163 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952164 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952159 schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en .
+
+wd:Q126952167 schema:disambiguatingDescription "Canadian dance company"@en .
+
+wd:Q2945952 wdt:P31 wd:Q5189488 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène située à Ottawa, Ontario, Canada"@fr ;
+	schema:name "National Arts Centre"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-29> ;
+	schema:url <https://nac-cna.ca/fr/> ;
+	schema:name "Centre national des Arts"@fr .
+
+wd:Q2881270 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de danse basée à Toronto, Ontario"@fr ;
+	schema:name "The National Ballet of Canada"@fr ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-105> ;
+	schema:url <https://national.ballet.ca> .
+
+wd:Q2945952 wdt:P31 wd:Q708676 ;
+	schema:url <https://nac-cna.ca/en/> .
+
+wd:Q2881270 schema:disambiguatingDescription "ballet company based in Toronto, Ontario, Canada"@en .
+
+wd:Q3115233 wdt:P31 wd:Q805233 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "ballet company based in Montreal, Quebec"@en ;
+	schema:name "Les Grands Ballets Canadiens"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-93> ;
+	schema:url <http://www.grandsballets.com> , <https://grandsballets.com> ;
+	schema:name "Les Grands Ballets canadiens de Montréal"@fr .
+
+wd:Q2945952 wdt:P31 wd:Q7168296 ;
+	schema:disambiguatingDescription "performing arts presenting organization in Ottawa, Ontario, Canada"@en .
+
+wd:Q3115233 schema:disambiguatingDescription "compagnie canadienne de ballet"@fr .
+
+wd:Q3484990 wdt:P31 wd:Q2393314 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "Canadian contemporary dance company founded by Roger Sinha"@en ;
+	schema:name "Sinha Danse"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-200> ;
+	schema:url <https://sinhadanse.com/> , <https://sinhadanse.com/en/home/> ;
+	schema:name "Sinha Danse"@fr .
+
+wd:Q4851638 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "groupe des arts de la scène à Toronto au Canada"@fr ;
+	schema:name "Jörgen Dance"@fr ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-29> ;
+	schema:url <https://www.jorgendance.ca> .
+
+wd:Q3115233 wdt:P31 wd:Q107095432 .
+
+wd:Q3484990 schema:disambiguatingDescription "compagnie de danse contemporaine axée sur la diversité fondée par Roger Sinha"@fr .
+
+wd:Q3115233 wdt:P31 wd:Q708676 .
+
+wd:Q2945952 wdt:P31 wd:Q105815710 .
+
+wd:Q4851638 wdt:P31 wd:Q107095432 ;
+	schema:name "Jörgen Dance"@en .
+
+wd:Q2881270 wdt:P31 wd:Q805233 ;
+	schema:name "The National Ballet of Canada"@en .
+
+wd:Q3484990 wdt:P31 wd:Q107095432 .
+
+wd:Q4851638 wdt:P31 wd:Q708676 .
+
+wd:Q3115233 wdt:P31 wd:Q2393314 .
+
+wd:Q2945952 wdt:P31 wd:Q107095432 .
+
+wd:Q5172618 wdt:P31 wd:Q2393314 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "dance company based in Toronto, Ontario"@en ;
+	schema:name "CORPUS"@fr ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-171> ;
+	schema:url <http://www.corpus.ca> ;
+	schema:disambiguatingDescription "organisme de danse basée à Toronto, Ontario"@fr ;
+	schema:url <https://www.corpus.ca/fr/francais/> .
+
+wd:Q5215398 wdt:P31 wd:Q2393314 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Dancer Transition Resource Centre"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-202> ;
+	schema:url <https://dtrc.ca> .
+
+wd:Q7826332 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène basé à Toronto, en Ontario"@fr ;
+	schema:name "Toronto Dance Theatre"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-146> ;
+	schema:url <http://www.tdt.org> ;
+	schema:name "Toronto Dance Theatre"@fr .
+
+wd:Q4851638 schema:disambiguatingDescription "performing arts group in Toronto, Ontario, Canada"@en .
+
+wd:Q5029654 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr ;
+	schema:name "Canadian Actors' Equity Association"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-201> ;
+	schema:url <http://www.caea.com> ;
+	schema:name "Canadian Actors' Equity Association"@fr .
+
+wd:Q5029229 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr ;
+	schema:name "Canada's National Ballet School"@fr ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-199> ;
+	schema:url <https://www.nbs-enb.ca/> .
+
+wd:Q7375025 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "Canadian ballet company"@en ;
+	schema:name "Royal Winnipeg Ballet"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-205> ;
+	schema:url <http://www.rwb.org/> ;
+	schema:name "Royal Winnipeg Ballet"@fr .
+
+wd:Q5215398 wdt:P31 wd:Q43229 .
+
+wd:Q7826332 wdt:P31 wd:Q167037 ;
+	schema:url <https://tdt.org/> .
+
+wd:Q5029654 wdt:P31 wd:Q178790 .
+
+wd:Q5215398 wdt:P31 wd:Q107095432 ;
+	schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr ;
+	schema:name "Centre de ressources et transition pour danseurs"@fr .
+
+wd:Q5029229 wdt:P31 wd:Q23005233 ;
+	schema:disambiguatingDescription "school in Toronto, Ontario, Canada"@en ;
+	wdt:P31 wd:Q18674739 .
+
+wd:Q5172618 schema:url <https://www.corpus.ca/> .
+
+wd:Q5029229 schema:name "Canada National Ballet School"@en .
+
+wd:Q7826332 wdt:P31 wd:Q2393314 .
+
+wd:Q5029654 schema:disambiguatingDescription "Canadian performers union"@en .
+
+wd:Q7375025 wdt:P31 wd:Q708676 .
+
+wd:Q5215398 schema:url <http://www.crtd.ca/> .
+
+wd:Q5172618 schema:name "CORPUS"@en .
+
+wd:Q7826332 wdt:P31 wd:Q107095432 .
+
+wd:Q7375025 wdt:P31 wd:Q805233 ;
+	schema:disambiguatingDescription "compagnie de ballet canadienne"@fr .
+
+wd:Q5172618 wdt:P31 wd:Q107095432 .
+
+wd:Q7826332 schema:disambiguatingDescription "performing arts presenting organization based in Toronto, Ontario"@en .
+
+wd:Q16654775 wdt:P31 wd:Q2393314 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "Canadian dance company"@en ;
+	schema:name "Ballets Jazz Montréal"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-21> ;
+	schema:url <https://www.bjmdanse.ca/> ;
+	schema:name "Ballets Jazz Montréal"@fr .
+
+wd:Q24190785 wdt:P31 wd:Q805233 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr ;
+	schema:name "Ballet BC"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-17> ;
+	schema:url <http://www.balletbc.com> , <https://balletbc.com> ;
+	schema:name "Ballet BC"@fr .
+
+wd:Q16640268 wdt:P31 wd:Q2393314 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "dance company in Montreal, QC, Canada"@en ;
+	schema:name "RUBBERBANDance Group"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-122> ;
+	schema:url <https://rbdg.ca/en/> , <https://rbdg.ca/es/> ;
+	schema:disambiguatingDescription "compagnie de danse à Montréal, QC., Canada"@fr ;
+	schema:name "Groupe RUBBERBANDance"@fr .
+
+wd:Q24190785 wdt:P31 wd:Q107095432 ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en .
+
+wd:Q16654775 schema:disambiguatingDescription "compagnie de danse canadienne"@fr .
+
+wd:Q16640268 wdt:P31 wd:Q107095432 ;
+	schema:url <https://rbdg.ca/> .
+
+wd:Q16654775 wdt:P31 wd:Q163740 .
+
+wd:Q16640268 wdt:P31 wd:Q708676 .
+
+wd:Q22312861 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Vancouver, British Columbia, Canada"@en ;
+	schema:name "The Dance Centre"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-306> ;
+	schema:url <http://www.thedancecentre.ca> ;
+	schema:name "The Dance Centre"@fr .
+
+wd:Q16654775 wdt:P31 wd:Q107095432 .
+
+wd:Q22312861 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Vancouver en Colombie-Britannique, Canada"@fr .
+
+wd:Q24190785 wdt:P31 wd:Q2393314 .
+
+wd:Q22312861 wdt:P31 wd:Q7168296 .
+
+wd:Q111469365 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "nonprofit organization from India"@en ;
+	schema:name "Anandam"@fr ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-144> ;
+	schema:url <http://www.anandamoldagehome.org/> , <https://www.anandam.ca/home> .
+
+wd:Q102341350 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "compagnie de danse canadienne"@fr ;
+	schema:name "Kaha:wi Dance Theatre"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-206> ;
+	schema:url <http://kahawidance.org> , <https://www.kahawidance.org/> ;
+	wdt:P31 wd:Q708676 ;
+	schema:disambiguatingDescription "Canadian dance company"@en .
+
+wd:Q111469365 wdt:P31 wd:Q163740 ;
+	schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr ;
+	schema:name "Anandam"@en .
+
+wd:Q102341350 schema:name "Kaha:wi Dance Theatre"@fr .
+
+wd:Q104212777 wdt:P31 wd:Q2393314 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "Indigenous dance company from British Columbia, Canada"@en ;
+	schema:name "Dancers of Damelahamid"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-147> ;
+	schema:url <https://damelahamid.ca> ;
+	schema:name "Dancers of Damelahamid"@fr .
+
+wd:Q111857169 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion de spectacles au Canada"@fr ;
+	schema:name "La danse sur les routes du Québec"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-321> ;
+	schema:url <https://ladansesurlesroutes.com/> , <https://www.ladansesurlesroutes.com/> ;
+	schema:name "La danse sur les routes du Québec"@fr .
+
+wd:Q104212777 schema:disambiguatingDescription "compagnie de danse autochtone de la Colombie-Britannique, Canada"@fr .
+
+wd:Q112510120 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de festival basé à Toronto, Ontario"@fr ;
+	schema:name "Fall for Dance North"@fr ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-58> ;
+	schema:url <http://www.ffdnorth.com> .
+
+wd:Q104080636 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "dance company"@en ;
+	schema:name "Zab Maboungou / Compagnie Danse Nyata Nyata"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-142> ;
+	schema:url <http://www.nyata-nyata.org/> ;
+	schema:name "Zab Maboungou / Compagnie Danse Nyata Nyata"@fr .
+
+wd:Q111857169 schema:disambiguatingDescription "performing arts presenting organization in Canada"@en .
+
+wd:Q112510120 wdt:P31 wd:Q107095432 ;
+	schema:url <https://www.ffdnorth.com/> .
+
+wd:Q102341350 wdt:P31 wd:Q2393314 .
+
+wd:Q111857169 wdt:P31 wd:Q2393314 .
+
+wd:Q104080636 schema:disambiguatingDescription "compagnie de danse"@fr ;
+	wdt:P31 wd:Q16861871 .
+
+wd:Q110830996 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "artiste du Canada"@fr ;
+	schema:name "Sophia  Wolfe"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-1281> ;
+	schema:name "Sophia Wolfe"@fr .
+
+wd:Q104212777 wdt:P31 wd:Q107095432 .
+
+wd:Q104080636 wdt:P31 wd:Q2393314 .
+
+wd:Q104212777 wdt:P31 wd:Q708676 .
+
+wd:Q109517570 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "dance company"@en ;
+	schema:name "tiger princess dance projects"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-143> ;
+	schema:url <http://www.princessproductions.ca> .
+
+wd:Q110830996 schema:disambiguatingDescription "Japanese-Canadian artist"@en .
+
+wd:Q109517570 schema:url <https://princessproductions.ca/tiger/> ;
+	schema:name "tiger princess dance projects"@fr ;
+	schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q111857169 wdt:P31 wd:Q107095432 .
+
+wd:Q85774656 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in St. John's, Newfoundland and Labrador, Canada"@en ;
+	schema:name "Kittiwake Dance Theatre"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5228> ;
+	schema:url <http://www.kittiwakedancetheatre.ca> ;
+	schema:name "Kittiwake Dance Theatre"@fr .
+
+wd:Q53146719 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Naishi Wang"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-7256> ;
+	schema:url <https://naishi.dance/> ;
+	schema:name "Naishi Wang"@fr .
+
+wd:Q54912657 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "arts service organization in Canada"@en ;
+	schema:name "The Candance Network"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-68> ;
+	schema:url <https://www.candance.ca/> ;
+	wdt:P31 wd:Q708676 ;
+	schema:disambiguatingDescription "organisme de service aux arts au Canada"@fr ;
+	schema:name "The Candance Network"@fr .
+
+wd:Q100450330 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "travaille dans le milieu du théâtre au Québec"@fr ;
+	schema:name "Fannie Bellefeuille"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-376> ;
+	schema:url <https://www.quebecdanse.org/bellefeuille-fannie> ;
+	schema:name "Fannie Bellefeuille"@fr .
+
+wd:Q101988660 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "Canadian dancer and choreographer"@en ;
+	schema:name "Margaret Grenier"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-104> ;
+	schema:url <http://www.damelahamid.ca> ;
+	schema:name "Margaret Grenier"@fr .
+
+wd:Q85774656 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à St. John's en Terre-Neuve-et-Labrador, Canada"@fr .
+
+wd:Q24191114 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "Canadian modern dance company"@en ;
+	schema:name "Winnipeg's Contemporary Dancers"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-204> ;
+	schema:url <http://www.winnipegscontemporarydancers.ca/> ;
+	schema:name "Winnipeg's Contemporary Dancers"@fr .
+
+wd:Q54912657 wdt:P31 wd:Q2178147 .
+
+wd:Q101988660 schema:disambiguatingDescription "danseuse et chorégraphe canadienne"@fr .
+
+wd:Q85774656 wdt:P31 wd:Q7168296 .
+
+wd:Q100965291 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "dance organization"@en ;
+	schema:name "Danse K par K"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-141> ;
+	schema:url <https://dansekpark.com/> ;
+	schema:name "Danse K par K"@fr .
+
+wd:Q61415247 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "Canadian choreographer"@en ;
+	schema:name "Ame Henderson"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-7176> ;
+	schema:url <http://www.publicrecordings.org> ;
+	schema:name "Ame Henderson"@fr .
+
+wd:Q88012814 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "researcher"@en ;
+	schema:name "Alida Esmail"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-4943> ;
+	schema:url <http://www.alidaesmail.ca> , <https://www.quebecdanse.org/esmail-alida> ;
+	schema:name "Alida Esmail"@fr .
+
+wd:Q24191114 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q100965291 schema:disambiguatingDescription "organisation dans le domaine de la danse"@fr .
+
+wd:Q88012814 schema:disambiguatingDescription "artiste interprète au Canada"@fr .
+
+wd:Q55586252 wdt:P31 wd:Q163740 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "Canadian nonprofit arts organization"@en ;
+	schema:name "Festival des Arts de Saint-Sauveur"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-60> ;
+	schema:url <http://festivaldesarts.ca> , <http://www.festivaldesarts.ca> ;
+	schema:name "Festival des Arts de Saint-Sauveur"@fr .
+
+wd:Q53146719 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q55586252 schema:disambiguatingDescription "organisme sans but lucratif voué à la découverte et au rayonnement des meilleurs chorégraphes, danseurs et musiciens"@fr .
+
+wd:Q61415247 schema:disambiguatingDescription "chorégraphe canadienne"@fr .
+
+wd:Q54912507 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Compagnie Flak"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-76> ;
+	schema:url <https://flak.org/jose-navas/> ;
+	schema:name "Compagnie Flak"@fr .
+
+wd:Q55586252 wdt:P31 wd:Q107095432 .
+
+wd:Q101113326 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "dance organization in Moncton, New Brunswick, Canada"@en ;
+	schema:name "DansEncorps"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-287> ;
+	schema:url <http://www.dansencorps.ca/> ;
+	schema:name "DansEncorps"@fr ;
+	schema:disambiguatingDescription "organisme de danse à Moncton au Nouveau-Brunswick, Canada"@fr .
+
+wd:Q54912507 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q100965291 wdt:P31 wd:Q2393314 .
+
+wd:Q65043110 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Dance Collection Danse"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-203> ;
+	schema:url <https://www.dcd.ca/> ;
+	schema:name "Dance Collection Danse"@fr .
+
+wd:Q101113326 wdt:P31 wd:Q708676 .
+
+wd:Q85774656 wdt:P31 wd:Q107095432 .
+
+wd:Q65043110 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q100450330 schema:disambiguatingDescription "work in the theatrical field"@en .
+
+wd:Q101113326 wdt:P31 wd:Q7168296 .
+
+wd:Q112510133 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Vancouver, Canada"@fr ;
+	schema:name "New Works"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-330> ;
+	schema:url <https://www.newworks.ca/> ;
+	schema:name "New Works"@fr .
+
+wd:Q112572947 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts company in Ottawa, Canada"@en ;
+	schema:name "Propeller Dance"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-20> ;
+	schema:url <http://www.propellerdance.com> .
+
+wd:Q112572959 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "compagnie en arts de la scène à Calgary, Alberta, Canada"@fr ;
+	schema:name "Decidedly Jazz Danceworks"@fr ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-169> ;
+	schema:url <https://www.decidedlyjazz.com> .
+
+wd:Q112572947 schema:name "Propeller Dance"@fr ;
+	schema:disambiguatingDescription "compagnie en arts de la scène à Ottawa, Canada"@fr ;
+	schema:url <https://propellerdance.com> .
+
+wd:Q112510120 wdt:P31 wd:Q708676 ;
+	schema:disambiguatingDescription "festival organization based in Toronto, Ontario"@en ;
+	schema:name "Fall for Dance North"@en ;
+	wdt:P31 wd:Q132241 .
+
+wd:Q112570683 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "dance company based in Toronto, Ontario"@en ;
+	schema:name "Dance Umbrella of Ontario"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-32> ;
+	schema:url <https://danceumbrella.net> ;
+	schema:disambiguatingDescription "organisme de danse basée à Toronto, Ontario"@fr ;
+	schema:name "Dance Umbrella of Ontario"@fr .
+
+wd:Q112570684 wdt:P31 wd:Q5354754 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "artists agency in Canada"@en ;
+	schema:name "Eponymous"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-50> ;
+	schema:url <https://www.eponymous.ca/> ;
+	schema:name "Eponymous"@fr .
+
+wd:Q112570683 wdt:P31 wd:Q5354754 ;
+	schema:url <https://danceumbrella.net/> .
+
+wd:Q112572947 wdt:P31 wd:Q107095432 .
+
+wd:Q112570684 schema:disambiguatingDescription "agence d'artistes au Canada"@fr .
+
+wd:Q112572947 wdt:P31 wd:Q708676 .
+
+wd:Q112570683 wdt:P31 wd:Q2089936 .
+
+wd:Q112570684 wdt:P31 wd:Q107095432 .
+
+wd:Q112572959 wdt:P31 wd:Q105815710 .
+
+wd:Q112510133 wdt:P31 wd:Q107095432 ;
+	schema:disambiguatingDescription "performing arts presenting organization in Vancouver, Canada"@en ;
+	wdt:P31 wd:Q708676 .
+
+wd:Q112572959 wdt:P31 wd:Q1561361 , wd:Q107095432 .
+
+wd:Q112602605 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "artiste interprète au Canada"@fr ;
+	schema:name "Susanna Hood"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-4251> ;
+	schema:url <http://susannahood.ca> , <https://www.quebecdanse.org/hood-susanna> ;
+	schema:name "Susanna Hood"@fr .
+
+wd:Q112602622 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "performing artist in Canada"@en ;
+	schema:name "Léa Tremblay Fong"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-4266> ;
+	schema:url <http://leatremblayfong.com/> , <https://www.quebecdanse.org/fong-lea-tremblay> ;
+	schema:name "Léa Tremblay Fong"@fr .
+
+wd:Q112572959 schema:name "Decidedly Jazz Danceworks"@en .
+
+wd:Q112602540 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "performing artist in Canada"@en ;
+	schema:name "Sarah Williams"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-4198> ;
+	schema:url <https://www.quebecdanse.org/williams-sarah> .
+
+wd:Q113502011 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "indigenous artist in what is known as Canada"@en ;
+	schema:name "Cameron Fraser-Monroe"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K3-17> ;
+	schema:name "Cameron Fraser-Monroe"@fr .
+
+wd:Q114429981 wdt:P31 wd:Q2393314 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "groupe des arts de la scène à Sherbrooke au Québec, Canada"@fr ;
+	schema:name "Compagnie de danse Sursaut"@fr ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-148> ;
+	schema:url <https://www.sursaut.ca> .
+
+wd:Q113488561 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Nanaimo en Colombie-Britannique, Canada"@fr ;
+	schema:name "Port Theatre"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-116> ;
+	schema:url <https://www.porttheatre.com> ;
+	schema:name "Port Theatre"@fr .
+
+wd:Q112602540 schema:name "Sarah Williams"@fr .
+
+wd:Q114429981 wdt:P31 wd:Q105815710 .
+
+wd:Q113488561 wdt:P31 wd:Q7168296 .
+
+wd:Q112602892 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "artiste interprète au Canada"@fr ;
+	schema:name "Laura Perron"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-4487> ;
+	schema:url <https://lauraperron124.wixsite.com/willowseeds> , <https://www.quebecdanse.org/perron-laura> , <https://www.willowseeds.com> ;
+	schema:name "Laura Perron"@fr .
+
+wd:Q112602605 schema:disambiguatingDescription "performing artist in Canada"@en .
+
+wd:Q112602906 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "artiste interprète au Canada"@fr ;
+	schema:name "Karine Rathle"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-4500> ;
+	schema:url <https://karinerathle.com/> , <https://www.quebecdanse.org/rathle-karine> ;
+	schema:name "Karine Rathle"@fr .
+
+wd:Q112602573 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "artiste interprète au Canada"@fr ;
+	schema:name "Karen Fennell"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-4226> ;
+	schema:url <https://www.quebecdanse.org/fennell-karen> ;
+	schema:name "Karen Fennell"@fr .
+
+wd:Q112572959 schema:disambiguatingDescription "performing arts company in Calgary, Alberta, Canada"@en .
+
+wd:Q112602820 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "artiste interprète au Canada"@fr ;
+	schema:name "Nancy Rheault"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-4426> ;
+	schema:url <https://sursaut.ca/> , <https://www.quebecdanse.org/rheault-nancy> ;
+	schema:name "Nancy Rheault"@fr .
+
+wd:Q113488561 schema:disambiguatingDescription "performing arts organization in Nanaimo, British Columbia, Canada"@en .
+
+wd:Q112602617 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "artiste interprète au Canada"@fr ;
+	schema:name "Dominique Turcotte"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-4262> ;
+	schema:url <https://www.dominiqueturcotteballet.com> , <https://www.quebecdanse.org/turcotte-dominique> ;
+	schema:name "Dominique Turcotte"@fr .
+
+wd:Q112572959 wdt:P31 wd:Q163740 .
+
+wd:Q112602791 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "artiste interprète au Canada"@fr ;
+	schema:name "Catherine Pelletier-Voyer"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-4402> ;
+	schema:url <http://tftfdanse.com> , <https://www.quebecdanse.org/voyer-catherine-pelletier> ;
+	schema:name "Catherine Pelletier-Voyer"@fr .
+
+wd:Q114429981 wdt:P31 wd:Q107095432 .
+
+wd:Q113502011 schema:disambiguatingDescription "artiste autochtone sur le territoire aujourd'hui appelé Canada"@fr .
+
+wd:Q112602892 schema:disambiguatingDescription "performing artist in Canada"@en .
+
+wd:Q112602622 schema:disambiguatingDescription "artiste interprète au Canada"@fr .
+
+wd:Q112602540 schema:disambiguatingDescription "artiste interprète au Canada"@fr .
+
+wd:Q112602906 schema:disambiguatingDescription "performing artist in Canada"@en .
+
+wd:Q112602573 schema:disambiguatingDescription "performing artist in Canada"@en .
+
+wd:Q112602820 schema:disambiguatingDescription "performing artist in Canada"@en .
+
+wd:Q114429981 wdt:P31 wd:Q708676 .
+
+wd:Q112602617 schema:disambiguatingDescription "performing artist in Canada"@en .
+
+wd:Q112602791 schema:disambiguatingDescription "performing artist in Canada"@en .
+
+wd:Q114429981 schema:disambiguatingDescription "performing arts group in Sherbrooke, Quebec, Canada"@en .
+
+wd:Q114430003 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "Canadian dance company"@en ;
+	schema:name "Studio 303"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-336> ;
+	schema:url <http://www.studio303.ca/> ;
+	schema:name "Studio 303"@fr ;
+	schema:url <https://www.studio303.ca/en/> .
+
+wd:Q114429981 schema:name "Sursaut Dance Company"@en .
+
+wd:Q125251763 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "artiste autochtone sur le territoire aujourd'hui appelé Canada"@fr ;
+	schema:name "Victoria May"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K3-203> ;
+	schema:url <https://viktoise.wixsite.com/victoriamay/home-1> .
+
+wd:Q126358102 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "dance company based in Toronto, Ontario"@en ;
+	schema:name "Citadel + Compagnie"@fr ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-201> ;
+	schema:url <https://www.citadelcie.com/> ;
+	schema:disambiguatingDescription "organisme de danse basée à Toronto, Ontario"@fr .
+
+wd:Q114430003 wdt:P31 wd:Q2393314 ;
+	schema:disambiguatingDescription "organisation dans le domaine de la danse"@fr .
+
+wd:Q126358102 wdt:P31 wd:Q107095432 ;
+	schema:name "Citadel + Compagnie"@en ;
+	schema:url <http://citadelcie.com> , <https://www.citadelcie.com> , <https://www.citadelcie.com/fr/page-daccueil-2/> .
+
+wd:Q115210841 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "expeditor"@en ;
+	schema:name "Gilles Savary"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-4588> ;
+	schema:name "Gilles Savary"@fr ;
+	schema:disambiguatingDescription "travailleur culturel spécialisé en danse au Québec"@fr .
+
+wd:Q125256983 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme artistique autochtone sur le territoire appelé Canada"@en ;
+	schema:name "Aeris Körper"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K3-180> ;
+	schema:url <http://aeriskorper.com> ;
+	schema:name "Aeris Körper"@fr .
+
+wd:Q125766439 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Québec"@fr ;
+	schema:name "Sylvie Desrosiers"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-7338> ;
+	schema:url <https://www.quebecdanse.org/sylvie-desrosiers> ;
+	schema:name "Sylvie Desrosiers"@fr .
+
+wd:Q126358102 wdt:P31 wd:Q708676 .
+
+wd:Q125754426 wdt:P31 wd:Q163740 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "Ontario’s premier umbrella dance organization"@en ;
+	schema:name "Dance Ontario"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-145> ;
+	schema:url <http://www.danceontario.ca> ;
+	schema:name "Dance Ontario"@fr .
+
+wd:Q125251777 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "indigenous artist in what is known as Canada"@en ;
+	schema:name "Jeanette Kotowich"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K3-212> ;
+	schema:url <http://www.movementhealing.com> ;
+	schema:name "Jeanette Kotowich"@fr .
+
+wd:Q125606504 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "dance: made in canada | fait au canada"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-309> ;
+	schema:url <https://dancemadeincanada.ca/> ;
+	schema:name "dance: made in canada/ fait au canada Festival"@fr .
+
+wd:Q125256983 wdt:P31 wd:Q3152824 .
+
+wd:Q125754426 schema:disambiguatingDescription "principal organisme de danse-cadre de l'Ontario"@fr .
+
+wd:Q125606504 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr ;
+	wdt:P31 wd:Q220505 .
+
+wd:Q125766439 schema:disambiguatingDescription "dance artist in Quebec, Canada"@en .
+
+wd:Q125256983 schema:disambiguatingDescription "artiste autochtone sur le territoire aujourd'hui appelé Canada"@fr .
+
+wd:Q125251777 schema:disambiguatingDescription "artiste autochtone sur le territoire aujourd'hui appelé Canada"@fr .
+
+wd:Q125251763 schema:disambiguatingDescription "indigenous artist in what is known as Canada"@en ;
+	schema:name "Victoria May"@fr .
+
+wd:Q114868316 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "performing artist in Montreal, Canada"@en ;
+	schema:name "Rhodnie Désir"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-139> ;
+	schema:url <http://www.rhodniedesir.com> ;
+	schema:name "Rhodnie Désir"@fr ;
+	schema:disambiguatingDescription "artiste de la scène à Montréal, Canada"@fr .
+
+wd:Q126952126 wdt:P31 wd:Q2178147 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "arts service organization based in Vancouver, British Columbia, Canada"@en ;
+	schema:name "Dance West Network"@fr ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-324> ;
+	schema:url <https://dancewest.net/> ;
+	schema:disambiguatingDescription "organisme de service aux arts basé à Vancouver en Colombie-Britannique, Canada"@fr .
+
+wd:Q126952121 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr ;
+	schema:name "Côté Danse"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-155> ;
+	schema:url <https://cotedanse.com/en/home/> ;
+	schema:name "Côté Danse"@fr .
+
+wd:Q126952130 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr ;
+	schema:name "Dreamwalker Dance"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-163> ;
+	schema:url <http://www.dreamwalkerdance.com> ;
+	schema:name "Dreamwalker Dance"@fr .
+
+wd:Q126952124 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Dance Nova Scotia"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-158> ;
+	schema:url <http://www.dancens.ca> ;
+	schema:name "Dance Nova Scotia"@fr .
+
+wd:Q126952127 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "dance company based in Toronto, Ontario"@en ;
+	schema:name "Dancemakers Centre for Creation"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-160> ;
+	schema:url <https://dancemakers.org/> ;
+	schema:name "Dancemakers Centre for Creation"@fr ;
+	schema:disambiguatingDescription "organisme de danse basée à Toronto, Ontario"@fr .
+
+wd:Q126952124 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952127 schema:url <https://www.dancemakers.org> .
+
+wd:Q126952125 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Dance Saskatchewan"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-159> ;
+	schema:url <http://www.dancesask.com> ;
+	schema:name "Dance Saskatchewan"@fr .
+
+wd:Q126952126 wdt:P31 wd:Q107095432 ;
+	schema:name "Dance West Network"@en .
+
+wd:Q126952125 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952121 schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en .
+
+wd:Q126952126 wdt:P31 wd:Q708676 .
+
+wd:Q126952130 schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en .
+
+wd:Q126952126 wdt:P31 wd:Q3152824 .
+
+wd:Q126370476 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "compagnie en arts de la scène à Calgary en Alberta, Canada"@fr ;
+	schema:name "Three Left Feet"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-205> ;
+	schema:url <http://www.threeleftfeet.ca> ;
+	schema:name "Three Left Feet"@fr .
+
+wd:Q126952112 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Ballet Edmonton"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-151> ;
+	schema:url <http://balletedmonton.ca> ;
+	schema:name "Ballet Edmonton"@fr .
+
+wd:Q126952113 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts group in Kelowna, British Columbia, Canada"@en ;
+	schema:name "Ballet Kelowna"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5377> ;
+	schema:url <https://www.balletkelowna.ca> ;
+	schema:name "Ballet Kelowna"@fr .
+
+wd:Q126370476 schema:disambiguatingDescription "performing arts company in Calgary, Alberta, Canada"@en .
+
+wd:Q126952117 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Compaigni V'ni Dansi"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-287> ;
+	schema:url <http://www.vnidansi.ca> ;
+	schema:name "Compaigni V'ni Dansi"@fr .
+
+wd:Q126952113 schema:disambiguatingDescription "groupe des arts de la scène à Kelowna en Colombie-Britannique au Canada"@fr .
+
+wd:Q126952111 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr ;
+	schema:name "Arts Orillia"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-150> ;
+	schema:url <https://www.artsorillia.ca/> ;
+	schema:name "Arts Orillia"@fr .
+
+wd:Q126952112 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952108 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Public Recordings Performance Projects"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-148> ;
+	schema:url <http://publicrecordings.org> ;
+	schema:name "Public Recordings Performance Projects"@fr .
+
+wd:Q126952117 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952122 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Dance Arts Institute"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-156> ;
+	schema:url <http://danceartsinstitute.ca> ;
+	schema:name "Dance Arts Institute"@fr .
+
+wd:Q126952108 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126370476 wdt:P31 wd:Q107095432 .
+
+wd:Q126952113 wdt:P31 wd:Q107095432 .
+
+wd:Q126952122 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952109 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Little Pear Garden Collective"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-149> ;
+	schema:url <http://www.littlepeargarden.com> ;
+	schema:name "Little Pear Garden Collective"@fr .
+
+wd:Q126952123 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Dance NL"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-157> ;
+	schema:url <http://www.dancenl.ca> ;
+	schema:name "Dance NL"@fr .
+
+wd:Q126370476 wdt:P31 wd:Q708676 .
+
+wd:Q126952113 wdt:P31 wd:Q708676 .
+
+wd:Q126952109 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952105 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Nova Dance"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-146> ;
+	schema:url <https://novadance.ca> ;
+	schema:name "Nova Dance"@fr .
+
+wd:Q126952123 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952114 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "CADA EAST / Canadian Alliance of Dance Artists East"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-152> ;
+	schema:url <https://cadaontario.camp8.org> ;
+	schema:name "CADA EAST / Canadian Alliance of Dance Artists East"@fr .
+
+wd:Q126952119 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Company 605"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-154> ;
+	schema:url <https://company605.ca/> ;
+	schema:name "Company 605"@fr .
+
+wd:Q126952110 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Animals of Distinction Arts Society"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-11> ;
+	schema:url <http://www.animalsofdistinction.org> ;
+	schema:name "Animals of Distinction Arts Society"@fr .
+
+wd:Q126952105 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952114 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952116 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "CanAsian Dance Festival"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-302> ;
+	schema:url <http://www.canasiandance.com> ;
+	schema:name "CanAsian Dance Festival"@fr .
+
+wd:Q126952119 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952110 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952115 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "CADA West/ Canadian Alliance of Dance Artists (West)"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-153> ;
+	schema:url <http://www.cadawest.org> ;
+	schema:name "CADA West/ Canadian Alliance of Dance Artists (West)"@fr ;
+	wdt:P31 wd:Q6815100 .
+
+wd:Q126952106 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en ;
+	schema:name "Fujiwara Dance Inventions"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-373> ;
+	schema:url <http://www.fujiwaradance.com> ;
+	schema:name "Fujiwara Dance Inventions"@fr .
+
+wd:Q126952116 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952115 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952106 schema:disambiguatingDescription "membre corporatif de L’Assemblée canadienne de la danse"@fr .
+
+wd:Q126952111 schema:disambiguatingDescription "corporate member of Canadian Dance Assembly"@en .
+
+wd:Q52635106 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Ziyian Kwan"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Ziyian Kwan"@fr .
+
+wd:Q42564292 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "actress"@en ;
+	schema:name "Brittany Gudmundson"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Brittany Gudmundson"@fr .
+
+wd:Q126952551 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Mary-Louise Albert"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.bcmovementarts.com> ;
+	schema:name "Mary-Louise Albert"@fr .
+
+wd:Q126952554 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Tânia Amaral"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://pynksyshell.com> ;
+	schema:name "Tânia Amaral"@fr .
+
+wd:Q52907818 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Brodie Stevenson"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Brodie Stevenson"@fr .
+
+wd:Q109459541 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "dancer, choreographer, presenter, producer, curator and arts educator"@en ;
+	schema:name "Yvonne Ng"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.princessproductions.ca> .
+
+wd:Q126952552 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Carla Alcantara"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.tempodva.com> ;
+	schema:name "Carla Alcantara"@fr .
+
+wd:Q126952553 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Patricia Allison"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <https://patriciaallison.ca/> ;
+	schema:name "Patricia Allison"@fr .
+
+wd:Q126952558 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Jacinte Armstrong"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.jacintearmstrong.com> ;
+	schema:name "Jacinte Armstrong"@fr .
+
+wd:Q126952559 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Jean Assamoa"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.akwabacultural.com> ;
+	schema:name "Jean Assamoa"@fr .
+
+wd:Q56264229 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "Canadian dancer and choreographer"@en ;
+	schema:name "Denise Fujiwara"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.fujiwaradance.com> ;
+	schema:name "Denise Fujiwara"@fr .
+
+wd:Q52619692 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Kaitlin Standeven"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Kaitlin Standeven"@fr .
+
+wd:Q109459541 schema:name "Yvonne Ng"@fr .
+
+wd:Q42709438 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Clarence Tang"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Clarence Tang"@fr .
+
+wd:Q119164709 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "Canadian choreographer"@en ;
+	schema:name "Alysa Pires"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <https://www.alysapires.com/> ;
+	schema:name "Alysa Pires"@fr .
+
+wd:Q42709438 schema:disambiguatingDescription "actor"@en .
+
+wd:Q126952550 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Mohamed Moumen Albaridi"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Mohamed Moumen Albaridi"@fr .
+
+wd:Q126952548 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Sarah Gallos"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Sarah Gallos"@fr .
+
+wd:Q126952549 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Sarah Adam"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Sarah Adam"@fr .
+
+wd:Q126952555 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Giovanna Andreotti"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Giovanna Andreotti"@fr .
+
+wd:Q125764464 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "researcher"@en ;
+	schema:name "Helen Duval"@fr ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <https://www.quebecdanse.org/duval-helene> ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Québec"@fr ;
+	schema:name "Helen Duval"@en .
+
+wd:Q110816183 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "Canadian dance performer, artist-scholar, dance educator, cultural arts programmer and arts consultant; Artistic Director of Coco Collective"@en ;
+	schema:name "Collette Murray"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.misscocomurray.com/> ;
+	schema:name "Collette \"Coco\" Murray"@fr .
+
+wd:Q52635106 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952551 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q56264229 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952554 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952552 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q113505976 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Cora Kozaris"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Cora Kozaris"@fr .
+
+wd:Q126952553 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q113505977 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Daniella Beltrami"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Daniella Beltrami"@fr .
+
+wd:Q126952558 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952559 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q125764113 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Quebec"@en ;
+	schema:name "Jamila Shani Joseph"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <https://www.quebecdanse.org/joseph-jamila-shani> ;
+	schema:name "Jamila Shani Joseph"@fr ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Québec"@fr .
+
+wd:Q52907818 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q119164709 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q52619692 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q110816183 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q125763984 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Quebec"@en ;
+	schema:name "Charles Gao"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://charlesjgao.com> ;
+	schema:name "Charles Gao"@fr .
+
+wd:Q109459541 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q125763984 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Québec"@fr .
+
+wd:Q106962583 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Andrew Kyrzyk"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Andrew Kyrzyk"@fr .
+
+wd:Q126952550 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952548 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952549 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952555 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q113505976 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q113505977 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q42564292 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q106962583 schema:disambiguatingDescription "actor"@en .
+
+wd:Q126952573 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Andrew Barrett"@fr ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.impulsethatre.ca> .
+
+wd:Q126952560 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Maria Avila"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://mariaavilaflamenco.com> ;
+	schema:name "Maria Avila"@fr .
+
+wd:Q126952561 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Flany Ba"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://kizombaregina.com> ;
+	schema:name "Flany Ba"@fr .
+
+wd:Q126952564 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Zelma Badu-Younge"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://Azaguno.com> ;
+	schema:name "Zelma Badu-Younge"@fr .
+
+wd:Q126952570 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Stephanie Ballard"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.mts.net/~sballard> ;
+	schema:name "Stephanie Ballard"@fr .
+
+wd:Q126952571 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Jobina Bardai"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.jobinabardai.com> ;
+	schema:name "Jobina Bardai"@fr .
+
+wd:Q126952582 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Arnaldo Betancourt"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://moovottawa.com> ;
+	schema:name "Arnaldo Betancourt"@fr .
+
+wd:Q126952583 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Nova Bhattacharya"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.novadance.ca> ;
+	schema:name "Nova Bhattacharya"@fr .
+
+wd:Q126952580 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Carolina Bergonzoni"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://carolinabergonzoni.org> ;
+	schema:name "Carolina Bergonzoni"@fr .
+
+wd:Q126952565 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Kristen Bailey"@en ;
+	schema:memberOf wd:Q71859269 .
+
+wd:Q126952587 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Lacey Blowers"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <https://prairienorthdance.ca> ;
+	schema:name "Lacey Blowers"@fr .
+
+wd:Q126952584 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "lo bil"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://lo-bil.tumblr.com> ;
+	schema:name "lo bil"@fr .
+
+wd:Q126952556 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Serenella Argueta"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Serenella Argueta"@fr .
+
+wd:Q126952557 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Elizabeth Armitage"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Elizabeth Armitage"@fr .
+
+wd:Q126952563 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Zahra Badua"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Zahra Badua"@fr .
+
+wd:Q126952566 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Natasha Bakht"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Natasha Bakht"@fr .
+
+wd:Q126952565 schema:name "Kristen Bailey"@fr .
+
+wd:Q126952574 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Danielle Baskerville"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Danielle Baskerville"@fr .
+
+wd:Q126952578 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Melanie Bennett"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Melanie Bennett"@fr .
+
+wd:Q126952579 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Miriam Benoy"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Miriam Benoy"@fr .
+
+wd:Q126952576 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Julian Beairsto"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Julian Beairsto"@fr .
+
+wd:Q126952577 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Mélanie Bennett"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Mélanie Bennett"@fr .
+
+wd:Q126952586 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Heath Birkholz"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Heath Birkholz"@fr .
+
+wd:Q126952590 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Sandra Bodenhamer"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Sandra Bodenhamer"@fr .
+
+wd:Q126952591 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Eliane Bowden"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Eliane Bowden"@fr .
+
+wd:Q126952588 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Sydney Bluck"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Sydney Bluck"@fr .
+
+wd:Q126952573 schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Andrew Barrett"@en .
+
+wd:Q126952560 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952561 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952564 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952570 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952571 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952582 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952583 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952580 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952587 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952584 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952565 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952556 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952557 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952563 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952566 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952574 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952578 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952579 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952576 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952577 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952586 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952590 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952591 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952588 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952597 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Angela Brown"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://angelabrown.ca> .
+
+wd:Q126952602 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Josh Cameron"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Josh Cameron"@fr .
+
+wd:Q126952610 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Peter Chen"@en ;
+	schema:memberOf wd:Q71859269 .
+
+wd:Q126952603 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Heather Cameron"@en ;
+	schema:memberOf wd:Q71859269 .
+
+wd:Q126952592 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Lauren Brady"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://laurenbrady.ca> .
+
+wd:Q126952615 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Emily Clarke"@en ;
+	schema:memberOf wd:Q71859269 .
+
+wd:Q126952589 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Audrey Boccara"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Audrey Boccara"@fr .
+
+wd:Q126952594 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Bryn Bridgen"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Bryn Bridgen"@fr .
+
+wd:Q126952596 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Dawn Briscoe"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Dawn Briscoe"@fr .
+
+wd:Q126952603 schema:name "Heather Cameron"@fr .
+
+wd:Q126952606 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Brianne Chan"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Brianne Chan"@fr .
+
+wd:Q126952607 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Kingston Chan"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Kingston Chan"@fr .
+
+wd:Q126952605 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Olivia Cesarano"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Olivia Cesarano"@fr .
+
+wd:Q126952610 schema:name "Peter Chen"@fr .
+
+wd:Q126952611 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Yvonne Chew"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Yvonne Chew"@fr .
+
+wd:Q126952609 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Yu Chieh (David) Chen"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Yu Chieh (David) Chen"@fr .
+
+wd:Q126952615 schema:name "Emily Clarke"@fr .
+
+wd:Q126952612 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Fan-Rong Chiu"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Fan-Rong Chiu"@fr .
+
+wd:Q126952613 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Alicia Clark"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Alicia Clark"@fr .
+
+wd:Q126952595 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Julia Bridger"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <https://www.balletvictoria.ca/bio-julia-jones-whitehead/> ;
+	schema:name "Julia Bridger"@fr .
+
+wd:Q126952592 schema:name "Lauren Brady"@fr .
+
+wd:Q126952593 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Robyn Breen"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://newfounddance.com> ;
+	schema:name "Robyn Breen"@fr .
+
+wd:Q126952598 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Blessyl Buan"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.drblessyl.com> ;
+	schema:name "Blessyl Buan"@fr .
+
+wd:Q126952599 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Johanna Bundon"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.johannabundon.com> ;
+	schema:name "Johanna Bundon"@fr .
+
+wd:Q126952597 schema:name "Angela Brown"@fr .
+
+wd:Q126952600 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Allison Burns"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.allisoneb.com> ;
+	schema:name "Allison Burns"@fr .
+
+wd:Q126952601 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Susie Burpee"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.susieburpee.com> ;
+	schema:name "Susie Burpee"@fr .
+
+wd:Q126952604 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Mackenzie Carlson"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.mackenziercarlson.com> ;
+	schema:name "Mackenzie Carlson"@fr .
+
+wd:Q126952608 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Kaili Che"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.kailiche.ca> ;
+	schema:name "Kaili Che"@fr .
+
+wd:Q126952614 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Brianna Clarke"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://briclarke.ca> ;
+	schema:name "Brianna Clarke"@fr .
+
+wd:Q126952597 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952592 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952595 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952593 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952598 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952602 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952610 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952599 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952603 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952600 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952601 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952604 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952615 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952608 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952589 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952594 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952614 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952596 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952606 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952607 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952605 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952611 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952609 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952612 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952613 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952618 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Bill Coleman"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <https://www.bill-coleman.com/about> .
+
+wd:Q126952628 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Allison Cummings"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.soreforpunchingyou@gmail.com> ;
+	schema:name "Allison Cummings"@fr .
+
+wd:Q126952635 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Geoffrey Dollar"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.gddanceinitiatives.ca> ;
+	schema:name "Geoffrey Dollar"@fr .
+
+wd:Q126952638 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Leelee Oluwatoyosi Eko Davis"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.leeleedavis.com> ;
+	schema:name "Leelee Oluwatoyosi Eko Davis"@fr .
+
+wd:Q126952642 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Alyssa Favero"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://alyssafavero.squarespace.com> ;
+	schema:name "Alyssa Favero"@fr .
+
+wd:Q126952617 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Caitlin Coflin"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Caitlin Coflin"@fr .
+
+wd:Q126952623 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Andrea Cownden"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Andrea Cownden"@fr .
+
+wd:Q126952620 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Alexandra Contreras"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Alexandra Contreras"@fr .
+
+wd:Q126952626 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Joanne Cuffe"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Joanne Cuffe"@fr .
+
+wd:Q126952627 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Tracy Cumberbatch"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Tracy Cumberbatch"@fr .
+
+wd:Q126952624 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Shondra Cromwell-Krywulak"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Shondra Cromwell-Krywulak"@fr .
+
+wd:Q126952625 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Kaleah Crump"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Kaleah Crump"@fr .
+
+wd:Q126952630 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Tanya Dahms"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Tanya Dahms"@fr .
+
+wd:Q126952631 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Renata De la Cruz Monteon"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Renata De la Cruz Monteon"@fr .
+
+wd:Q126952629 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Jennifer Dahl"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Jennifer Dahl"@fr .
+
+wd:Q126952634 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Caleb Di Pomponio"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Caleb Di Pomponio"@fr .
+
+wd:Q126952632 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Maria Belen de Rama"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Maria Belen de Rama"@fr .
+
+wd:Q126952633 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Palak Dhiman"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Palak Dhiman"@fr .
+
+wd:Q126952639 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Camille Ensminger"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Camille Ensminger"@fr .
+
+wd:Q126952636 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Beth Durnie"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Beth Durnie"@fr .
+
+wd:Q126952637 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Prathyusha Dwibhashi"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Prathyusha Dwibhashi"@fr .
+
+wd:Q126952618 schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Bill Coleman"@fr .
+
+wd:Q126952619 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Miriam Colvin"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.myriadprojects.ca/> ;
+	schema:name "Miriam Colvin"@fr .
+
+wd:Q126952616 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Sara Coffin"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.saracoffin.ca> ;
+	schema:name "Sara Coffin"@fr .
+
+wd:Q126952622 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Rayn Cook-Thomas"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://movement74.ca> ;
+	schema:name "Rayn Cook-Thomas"@fr .
+
+wd:Q126952621 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Constance Cooke"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.constancecooke.com> ;
+	schema:name "Constance Cooke"@fr .
+
+wd:Q126952628 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952635 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952638 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952642 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952617 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952623 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952620 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952626 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952627 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952624 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952625 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952630 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952631 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952629 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952634 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952632 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952633 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952639 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952636 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952637 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952619 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952616 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952622 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952621 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952644 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Heather Finn"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.speedriverphysio.com> ;
+	schema:name "Heather Finn"@fr .
+
+wd:Q126952667 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Linda Hayes"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.Hayes*Music> .
+
+wd:Q126952650 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Francesca Frewer"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://francescafrewer.wix.com/home> ;
+	schema:name "Francesca Frewer"@fr .
+
+wd:Q126952648 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Emmalena Fredriksson"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.emmalena.se> ;
+	schema:name "Emmalena Fredriksson"@fr .
+
+wd:Q126952649 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Luciana Freire D'Anunciação"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://lucianaf.com> ;
+	schema:name "Luciana Freire D'Anunciação"@fr .
+
+wd:Q126952655 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Alexei Geronimo"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <https://alexei-geronimo.com/> ;
+	schema:name "Alexei Geronimo"@fr .
+
+wd:Q126952652 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Natalie Fullerton"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.nataliefullerton.com> ;
+	schema:name "Natalie Fullerton"@fr .
+
+wd:Q126952658 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Danielle Gould"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://daniellegould.com> ;
+	schema:name "Danielle Gould"@fr .
+
+wd:Q126952656 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Rachel Ginter"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <https://www.youtube.com/watch?v=zPMr0dhlJTQ> ;
+	schema:name "Rachel Ginter"@fr .
+
+wd:Q126952657 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Meghan Goodman"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.meghangoodman.com> ;
+	schema:name "Meghan Goodman"@fr .
+
+wd:Q126952663 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Amy Hampton"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.akadance.ca> ;
+	schema:name "Amy Hampton"@fr .
+
+wd:Q126952661 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Edz Gyamfi"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.edzgyamfi.com> ;
+	schema:name "Edz Gyamfi"@fr .
+
+wd:Q126952667 schema:name "Linda Hayes"@fr .
+
+wd:Q126952664 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Liat Har Lev"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.liliflamenco.com> ;
+	schema:name "Liat Har Lev"@fr .
+
+wd:Q126952643 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Maria Fekecz-Mangan"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Maria Fekecz-Mangan"@fr .
+
+wd:Q126952640 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Enna Esquivel"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Enna Esquivel"@fr .
+
+wd:Q126952641 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Tasha Faye Evans"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Tasha Faye Evans"@fr .
+
+wd:Q126952646 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Janita Frantsi"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Janita Frantsi"@fr .
+
+wd:Q126952651 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Natasha Frid Finlay"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Natasha Frid Finlay"@fr .
+
+wd:Q126952654 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Hayley Gawthrop"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Hayley Gawthrop"@fr .
+
+wd:Q126952653 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Jessie Garon"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Jessie Garon"@fr .
+
+wd:Q126952659 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Raven Grenier"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Raven Grenier"@fr .
+
+wd:Q126952662 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Robert Halley"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Robert Halley"@fr .
+
+wd:Q126952660 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Stacey Grubb"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Stacey Grubb"@fr .
+
+wd:Q126952666 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Oksana Hayduk"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Oksana Hayduk"@fr .
+
+wd:Q126952665 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Sophia Hassenstein"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Sophia Hassenstein"@fr .
+
+wd:Q126952644 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952667 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952650 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952648 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952649 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952655 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952652 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952658 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952656 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952657 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952663 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952661 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952664 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952643 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952640 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952641 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952646 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952651 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952654 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952653 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952659 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952662 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952660 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952666 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952665 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952675 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Emily Hughes"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.emilyhughes.ca> .
+
+wd:Q126952690 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Sarah Kennedy"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <https://sarahhhkennedyy.weebly.com> .
+
+wd:Q126952685 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Paula Johnson"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://paulabridgetjohnson.com> .
+
+wd:Q126952688 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Yurie Kaneko"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Yurie Kaneko"@fr .
+
+wd:Q126952671 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Kiera Hill"@en ;
+	schema:memberOf wd:Q71859269 .
+
+wd:Q126952677 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Sarah Hutton"@en ;
+	schema:memberOf wd:Q71859269 .
+
+wd:Q126952675 schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Emily Hughes"@fr .
+
+wd:Q126952673 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Sarah Hopkin"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <https://www.sarahhopkin.ca/> ;
+	schema:name "Sarah Hopkin"@fr .
+
+wd:Q126952670 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Georgia Hidson"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Georgia Hidson"@fr .
+
+wd:Q126952671 schema:name "Kiera Hill"@fr .
+
+wd:Q126952669 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Brelene Hemington-Laskoski"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Brelene Hemington-Laskoski"@fr .
+
+wd:Q126952674 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Stacey Horton"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Stacey Horton"@fr .
+
+wd:Q126952672 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Kathryn Hood"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Kathryn Hood"@fr .
+
+wd:Q126952678 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Hannah Ilkiw"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Hannah Ilkiw"@fr .
+
+wd:Q126952679 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Tetsuya Imura"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Tetsuya Imura"@fr .
+
+wd:Q126952676 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Abby Hunter"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Abby Hunter"@fr .
+
+wd:Q126952677 schema:name "Sarah Hutton"@fr .
+
+wd:Q126952682 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Sebastian Issighos"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Sebastian Issighos"@fr .
+
+wd:Q126952683 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Desiree James"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Desiree James"@fr .
+
+wd:Q126952684 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Rumi Jeraj"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Rumi Jeraj"@fr .
+
+wd:Q126952691 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Emma Kerson"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Emma Kerson"@fr .
+
+wd:Q126952689 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Anushka Kashyap"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Anushka Kashyap"@fr .
+
+wd:Q126952694 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Karla Kloeble"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Karla Kloeble"@fr .
+
+wd:Q126952695 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Roxanne Korpan"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Roxanne Korpan"@fr .
+
+wd:Q126952692 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Shawn Kim"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Shawn Kim"@fr .
+
+wd:Q126952681 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Candice Irwin"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://candicejmirwin.com> ;
+	schema:name "Candice Irwin"@fr .
+
+wd:Q126952686 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Meredith Kalaman"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.meredithkalaman.com> ;
+	schema:name "Meredith Kalaman"@fr .
+
+wd:Q126952687 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Arno Kamolika"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.arnokamolika.com> ;
+	schema:name "Arno Kamolika"@fr .
+
+wd:Q126952685 schema:name "Paula Johnson"@fr .
+
+wd:Q126952690 schema:name "Sarah Kennedy"@fr ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952685 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952673 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952688 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952671 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952677 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952670 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952669 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952674 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952672 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952678 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952679 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952676 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952682 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952683 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952684 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952691 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952689 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952694 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952695 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952692 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952681 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952686 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952687 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952699 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Holly LaRoche"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <https://www.hollylaroche.com> ;
+	schema:name "Holly LaRoche"@fr .
+
+wd:Q126952702 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Juolin Lee"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <https://juolinlee.com> ;
+	schema:name "Juolin Lee"@fr .
+
+wd:Q126952703 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Lilia Leon Tovar"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.lilialeon.com> ;
+	schema:name "Lilia Leon Tovar"@fr .
+
+wd:Q126952700 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Mayumi Lashbrook"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.mayumilashbrook.com> ;
+	schema:name "Mayumi Lashbrook"@fr .
+
+wd:Q126952704 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Irina Lerman"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <https://www.irinalerman.com> ;
+	schema:name "Irina Lerman"@fr .
+
+wd:Q126952711 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Shannon Litzenberger"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.shannonlitzenberger.com> ;
+	schema:name "Shannon Litzenberger"@fr .
+
+wd:Q126952708 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Jalianne Li"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <https://www.surfacedance.com> ;
+	schema:name "Jalianne Li"@fr .
+
+wd:Q126952709 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Stephanie Lilley"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.vivadancecompany.com> ;
+	schema:name "Stephanie Lilley"@fr .
+
+wd:Q126952718 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Mafa Makhubalo"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.mafadancevillge.dance> ;
+	schema:name "Mafa Makhubalo"@fr .
+
+wd:Q126952719 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Miki Mappin"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.mikimappin.com> ;
+	schema:name "Miki Mappin"@fr .
+
+wd:Q126952716 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Rachel Maddock"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.rachelmaddock.com> ;
+	schema:name "Rachel Maddock"@fr .
+
+wd:Q126952693 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Jane Kirby"@en ;
+	schema:memberOf wd:Q71859269 .
+
+wd:Q126952707 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Kevin Li"@en ;
+	schema:memberOf wd:Q71859269 .
+
+wd:Q126952693 schema:name "Jane Kirby"@fr .
+
+wd:Q126952698 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Louis Laberge-Côté"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Louis Laberge-Côté"@fr .
+
+wd:Q126952696 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Samantha Krystal"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Samantha Krystal"@fr .
+
+wd:Q126952701 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Carmen Leardi"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Carmen Leardi"@fr .
+
+wd:Q126952706 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Yuetong Li"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Yuetong Li"@fr .
+
+wd:Q126952707 schema:name "Kevin Li"@fr .
+
+wd:Q126952705 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Krystal HoiKei Leung"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Krystal HoiKei Leung"@fr .
+
+wd:Q126952710 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Suzanne Liska"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Suzanne Liska"@fr .
+
+wd:Q126952714 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Danielle Mackenzie Long"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Danielle Mackenzie Long"@fr .
+
+wd:Q126952715 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Rebecca MacLeod"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Rebecca MacLeod"@fr .
+
+wd:Q126952712 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Kimberly Low"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Kimberly Low"@fr .
+
+wd:Q126952713 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Jia Yi Luo"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Jia Yi Luo"@fr .
+
+wd:Q126952717 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Bailey Madill"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Bailey Madill"@fr .
+
+wd:Q126952699 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952697 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "Russian-Canadian dancer"@en ;
+	schema:name "Ekaterina Kuznetsova"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://katyakuznetsova.com> .
+
+wd:Q126952702 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952703 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952700 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952704 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952711 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952708 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952709 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952718 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952697 schema:name "Ekaterina Kuznetsova"@fr .
+
+wd:Q126952719 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952716 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952693 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952697 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952707 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952698 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952696 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952701 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952706 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952705 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952710 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952714 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952715 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952712 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952713 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952717 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952723 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Lisa Martin"@fr ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://company605.ca> .
+
+wd:Q126952743 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Sally Morgan"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.sallymorgan.ca> ;
+	schema:name "Sally Morgan"@fr .
+
+wd:Q126952722 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Brodie Marples"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://brodiemarples.com> ;
+	schema:name "Brodie Marples"@fr .
+
+wd:Q126952726 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Ludovica Mazzucato"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <https://www.galleriataralli.com> ;
+	schema:name "Ludovica Mazzucato"@fr .
+
+wd:Q126952727 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Nikki McCall"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.dancewithnikki.ca> ;
+	schema:name "Nikki McCall"@fr .
+
+wd:Q126952724 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Victoria Mata"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.victoriamata.com> ;
+	schema:name "Victoria Mata"@fr .
+
+wd:Q126952725 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Espirito Santo Mauricio"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.espirirosantodance.com> ;
+	schema:name "Espirito Santo Mauricio"@fr .
+
+wd:Q126952728 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Molly McDermott"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.storyforcemotion.com> ;
+	schema:name "Molly McDermott"@fr .
+
+wd:Q126952729 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Belinda McGuire"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.belindamcguire.org> ;
+	schema:name "Belinda McGuire"@fr .
+
+wd:Q126952720 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Alexa Mardon"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Alexa Mardon"@fr .
+
+wd:Q126952721 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Darian Mark"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Darian Mark"@fr .
+
+wd:Q126952730 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Kiara McIlravey"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Kiara McIlravey"@fr .
+
+wd:Q126952731 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Michelle McMillan"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Michelle McMillan"@fr .
+
+wd:Q126952734 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Sierra Megas"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Sierra Megas"@fr .
+
+wd:Q126952735 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Marcus Merasty"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Marcus Merasty"@fr .
+
+wd:Q126952732 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Allison McNeill"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Allison McNeill"@fr .
+
+wd:Q126952733 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Sarah McQueston"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Sarah McQueston"@fr .
+
+wd:Q126952738 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Nina Milanovski"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Nina Milanovski"@fr .
+
+wd:Q126952739 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Ysadora Miranda Dias"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Ysadora Miranda Dias"@fr .
+
+wd:Q126952736 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Sarah Mercer"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Sarah Mercer"@fr .
+
+wd:Q126952737 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Brenna Metzmeier"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Brenna Metzmeier"@fr .
+
+wd:Q126952740 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Stephanie Mitro"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Stephanie Mitro"@fr .
+
+wd:Q126952741 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Connie Moker Wernikowski"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Connie Moker Wernikowski"@fr .
+
+wd:Q126952746 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Shelby Nilsen"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Shelby Nilsen"@fr .
+
+wd:Q126952747 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Tracey Norman"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.traceynorman.com> ;
+	schema:name "Tracey Norman"@fr .
+
+wd:Q126952723 schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Lisa Martin"@en .
+
+wd:Q126952743 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952722 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952726 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952727 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952724 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952725 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952728 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952729 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952747 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952720 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952721 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952730 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952731 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952734 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952735 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952732 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952733 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952738 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952739 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952736 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952737 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952740 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952741 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952746 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952777 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Nailah Renuka"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://nailahrenuka.com> ;
+	schema:name "Nailah Renuka"@fr .
+
+wd:Q126952786 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Laura Ross"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://Laura-ross.com> ;
+	schema:name "Laura Ross"@fr .
+
+wd:Q126952787 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Isabelle Rousseau"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.moveandbemoved.ca> ;
+	schema:name "Isabelle Rousseau"@fr .
+
+wd:Q126952790 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Mio Sakamoto"@fr ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <https://millodanceprojects.com> .
+
+wd:Q126952791 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Julia Sasso"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.juliasasso.com> ;
+	schema:name "Julia Sasso"@fr .
+
+wd:Q126952795 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Nathalie Scott-Hsiung"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://hustleatrs.com> ;
+	schema:name "Nathalie Scott-Hsiung"@fr .
+
+wd:Q126952792 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Anya Saugstad"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://anyasaugstad.com> ;
+	schema:name "Anya Saugstad"@fr .
+
+wd:Q126952793 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Nicole Schlemm"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://luciterradance.com> ;
+	schema:name "Nicole Schlemm"@fr .
+
+wd:Q126952796 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Olivia Shaffer"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.oliviashaffer.ca> ;
+	schema:name "Olivia Shaffer"@fr .
+
+wd:Q126952802 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Eilish Shin-Culhane"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://eilishsc.com> ;
+	schema:name "Eilish Shin-Culhane"@fr .
+
+wd:Q126952803 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Kaia Shukin"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.kaiashukin.com> ;
+	schema:name "Kaia Shukin"@fr .
+
+wd:Q126952778 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Rohana Rezel"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Rohana Rezel"@fr .
+
+wd:Q126952776 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Margarita Rebetskaia"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Margarita Rebetskaia"@fr .
+
+wd:Q126952782 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Jamie Robinson"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Jamie Robinson"@fr .
+
+wd:Q126952783 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Davi Rodrigues de Araujo"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Davi Rodrigues de Araujo"@fr .
+
+wd:Q126952780 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Marisa Ricci"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Marisa Ricci"@fr .
+
+wd:Q126952781 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Katherine Robidoux"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Katherine Robidoux"@fr .
+
+wd:Q126952784 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Danah Rosales"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Danah Rosales"@fr .
+
+wd:Q126952785 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Harmanie Rose Taylor"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Harmanie Rose Taylor"@fr .
+
+wd:Q126952789 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Hana Rutka"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Hana Rutka"@fr .
+
+wd:Q126952794 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Brandon Schwinn"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Brandon Schwinn"@fr .
+
+wd:Q126952798 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Elisha Shen"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Elisha Shen"@fr .
+
+wd:Q126952799 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Magdalena Shew"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Magdalena Shew"@fr .
+
+wd:Q126952797 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Kiera Shaw"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Kiera Shaw"@fr .
+
+wd:Q126952790 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Mio Sakamoto"@en .
+
+wd:Q126952788 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "dancer and choreographer in Canada"@en ;
+	schema:name "Lucy Rupert"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.blueceilingdance.com> ;
+	schema:name "Lucy Rupert"@fr .
+
+wd:Q126952777 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952786 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952787 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952791 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952788 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952795 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952792 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952793 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952796 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952802 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952803 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952778 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952776 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952782 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952783 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952780 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952781 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952784 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952785 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952789 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952794 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952798 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952799 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952797 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952754 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Soyoung Park"@en ;
+	schema:memberOf wd:Q71859269 .
+
+wd:Q126952744 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Kaitlin Nelson"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Kaitlin Nelson"@fr .
+
+wd:Q126952745 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Allison Nichol Longtin"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Allison Nichol Longtin"@fr .
+
+wd:Q126952749 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Atri Nundy"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Atri Nundy"@fr .
+
+wd:Q126952754 schema:name "Soyoung Park"@fr .
+
+wd:Q126952755 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Nicole Pavia"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Nicole Pavia"@fr .
+
+wd:Q126952753 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Bee Pallomina"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Bee Pallomina"@fr .
+
+wd:Q126952757 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Rina Pellerin"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Rina Pellerin"@fr .
+
+wd:Q126952763 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Candice Pike"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Candice Pike"@fr .
+
+wd:Q126952767 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Amelia Prior"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Amelia Prior"@fr .
+
+wd:Q126952764 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Flavie Pinchon"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Flavie Pinchon"@fr .
+
+wd:Q126952765 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Thushara Premarajan"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Thushara Premarajan"@fr .
+
+wd:Q126952768 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Amanda Pye"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Amanda Pye"@fr .
+
+wd:Q126952774 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Jamie Ranney"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Jamie Ranney"@fr .
+
+wd:Q126952772 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Kira Radosevic"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Kira Radosevic"@fr .
+
+wd:Q126952751 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Jane Ogilvie"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <https://flamencojane.com/> ;
+	schema:name "Jane Ogilvie"@fr .
+
+wd:Q126952748 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "David Norsworthy"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.davidnorsworthy.com> ;
+	schema:name "David Norsworthy"@fr .
+
+wd:Q126952752 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Jullianna Oke"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://julliannaoke.cargo.site> ;
+	schema:name "Jullianna Oke"@fr .
+
+wd:Q126952758 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Juan Pereira Duarte"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://duartejuan.com> ;
+	schema:name "Juan Pereira Duarte"@fr .
+
+wd:Q126952756 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Jillian Peever"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.jillianpeever.com> ;
+	schema:name "Jillian Peever"@fr .
+
+wd:Q126952760 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Deanna Peters"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://mutablesubject.ca> ;
+	schema:name "Deanna Peters"@fr .
+
+wd:Q126952761 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Taisa Petruk"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <https://www.riverfrontinterarts.ca> ;
+	schema:name "Taisa Petruk"@fr .
+
+wd:Q126952766 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Racheal Prince"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://Dancenovella.com> ;
+	schema:name "Racheal Prince"@fr .
+
+wd:Q126952771 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Liliona Quarmyne"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <https://lilionaq.com> ;
+	schema:name "Liliona Quarmyne"@fr .
+
+wd:Q126952775 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Kathleen Rea"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.reasondetre.com/> ;
+	schema:name "Kathleen Rea"@fr .
+
+wd:Q126952773 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Elvina Raharja"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.elvinaraharja.com> ;
+	schema:name "Elvina Raharja"@fr .
+
+wd:Q126952751 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952748 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952754 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952752 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952758 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952756 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952760 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952761 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952766 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952744 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952745 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952749 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952755 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952753 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952757 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952763 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952767 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952764 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952765 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952768 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952774 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952772 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952771 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952775 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952773 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952814 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Michèle Steinwald"@fr ;
+	schema:memberOf wd:Q71859269 .
+
+wd:Q126952815 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Iris (Jamie) Stewart-Bosch"@fr ;
+	schema:memberOf wd:Q71859269 .
+
+wd:Q126952812 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Damarise Ste Marie"@fr ;
+	schema:memberOf wd:Q71859269 .
+
+wd:Q126952813 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Kelly Steadman"@fr ;
+	schema:memberOf wd:Q71859269 .
+
+wd:Q126952823 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Bayani Trinidad"@fr ;
+	schema:memberOf wd:Q71859269 .
+
+wd:Q126952821 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Kaitlin Torrance"@fr ;
+	schema:memberOf wd:Q71859269 .
+
+wd:Q126952826 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Claire Turner Reid"@fr ;
+	schema:memberOf wd:Q71859269 .
+
+wd:Q126952824 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Kaya Tsurumi"@fr ;
+	schema:memberOf wd:Q71859269 .
+
+wd:Q126952820 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Kylie Thompson"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <https://web.archive.org/web/20200131224004/http://www.kyliethompson.ca/> ;
+	schema:name "Kylie Thompson"@fr .
+
+wd:Q126952810 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Cara Spooner"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.caraspooner.com> .
+
+wd:Q126952809 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Andrea Spaziani"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.andreaspaziani.com> .
+
+wd:Q126952820 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952810 schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Cara Spooner"@fr .
+
+wd:Q126952809 schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Andrea Spaziani"@fr .
+
+wd:Q126952818 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Yulia Terekh"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://vancouversambaschool.com> ;
+	schema:name "Yulia Terekh"@fr .
+
+wd:Q126952819 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Rosanna Terracciano"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.rosannaflamenco.com> ;
+	schema:name "Rosanna Terracciano"@fr .
+
+wd:Q126952816 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Alex Tam"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://alextam.ca> ;
+	schema:name "Alex Tam"@fr .
+
+wd:Q126952817 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "erψn tempest"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.eryntempest.com> ;
+	schema:name "erψn tempest"@fr .
+
+wd:Q126952822 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Jhoely Triana"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.jhoelytrianaflamenco.com> ;
+	schema:name "Jhoely Triana"@fr .
+
+wd:Q126952827 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Sarah Hin Ching U"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <https://www.sarah-u.com/> ;
+	schema:name "Sarah Hin Ching U"@fr .
+
+wd:Q126952800 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Allie Shiff"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Allie Shiff"@fr .
+
+wd:Q126952801 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "momoko shimada"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "momoko shimada"@fr .
+
+wd:Q126952806 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Kenzie Skoglund"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Kenzie Skoglund"@fr .
+
+wd:Q126952807 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Jordyn Skrove"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Jordyn Skrove"@fr .
+
+wd:Q126952804 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Cara Siu"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Cara Siu"@fr .
+
+wd:Q126952805 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Zuri Skeete"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Zuri Skeete"@fr .
+
+wd:Q126952811 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Kate Stashko"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Kate Stashko"@fr .
+
+wd:Q126952808 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Mackenzie Smart"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Mackenzie Smart"@fr .
+
+wd:Q126952814 schema:name "Michèle Steinwald"@en .
+
+wd:Q126952815 schema:name "Iris (Jamie) Stewart-Bosch"@en .
+
+wd:Q126952812 schema:name "Damarise Ste Marie"@en .
+
+wd:Q126952813 schema:name "Kelly Steadman"@en .
+
+wd:Q126952823 schema:name "Bayani Trinidad"@en .
+
+wd:Q126952821 schema:name "Kaitlin Torrance"@en .
+
+wd:Q126952826 schema:name "Claire Turner Reid"@en .
+
+wd:Q126952824 schema:name "Kaya Tsurumi"@en .
+
+wd:Q126952852 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Angela Xu"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Angela Xu"@fr .
+
+wd:Q126952853 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Cindy Cin-Ling Yip"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Cindy Cin-Ling Yip"@fr .
+
+wd:Q126952857 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Vanessa Yuen"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Vanessa Yuen"@fr .
+
+wd:Q126952818 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952819 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952816 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952817 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952822 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952827 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952800 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952801 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952806 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952807 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952804 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952805 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952811 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952808 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952814 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952815 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952812 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952813 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952823 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952821 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952826 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952824 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952852 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952853 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952857 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952849 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Marissa Wong"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <https://www.thefallingcompany.com/> ;
+	schema:name "Marissa Wong"@fr .
+
+wd:Q126952854 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Stephanie Yip"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://performinfgartsmedicine.ca> ;
+	schema:name "Stephanie Yip"@fr .
+
+wd:Q126952855 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "William Yong"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.zataomm.org> ;
+	schema:name "William Yong"@fr .
+
+wd:Q126952846 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Sarah Williams"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Sarah Williams"@fr .
+
+wd:Q126952825 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Ezgi Turker"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.ezgiturker.com/> ;
+	schema:name "Ezgi Turker"@fr .
+
+wd:Q126952831 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Barbara Vargas"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.breakingbarres.com> ;
+	schema:name "Barbara Vargas"@fr .
+
+wd:Q126952830 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Caitlin Unrau"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Caitlin Unrau"@fr .
+
+wd:Q126952828 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Koya Uehara"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Koya Uehara"@fr .
+
+wd:Q126952834 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Raena Waddell"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Raena Waddell"@fr .
+
+wd:Q126952835 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Lillian Wallman"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Lillian Wallman"@fr .
+
+wd:Q126952832 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Celina Villarroel Whiting"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Celina Villarroel Whiting"@fr .
+
+wd:Q126952839 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Nadia White"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Nadia White"@fr .
+
+wd:Q126952836 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Anna Wang-Albini"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Anna Wang-Albini"@fr .
+
+wd:Q126952842 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Kara Wiebe"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Kara Wiebe"@fr .
+
+wd:Q126952843 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Amber Wiens"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Amber Wiens"@fr .
+
+wd:Q126952840 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Phyllis Whyte"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Phyllis Whyte"@fr .
+
+wd:Q126952841 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Amanda Wiebe"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Amanda Wiebe"@fr .
+
+wd:Q126952847 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Leah Wilton"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Leah Wilton"@fr .
+
+wd:Q126952844 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Nomi Wiersma"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Nomi Wiersma"@fr .
+
+wd:Q126952845 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Oriah Wiersma"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Oriah Wiersma"@fr .
+
+wd:Q126952829 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Ikue Ueno"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://ikueueno.com> .
+
+wd:Q126952850 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "Kelsey Wright"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "Kelsey Wright"@fr .
+
+wd:Q126952829 schema:name "Ikue Ueno"@fr .
+
+wd:Q126952851 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr ;
+	schema:name "I-Ying Wu"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:name "I-Ying Wu"@fr .
+
+wd:Q126952838 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Calder White"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://vimeo.com/calderwhite> ;
+	schema:name "Calder White"@fr .
+
+wd:Q126952837 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:disambiguatingDescription "professional in the dance sector in Canada"@en ;
+	schema:name "Josephine Watson"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <http://www.josephinewatson.ca> ;
+	schema:name "Josephine Watson"@fr .
+
+wd:Q126952849 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952854 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952855 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952846 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952825 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952831 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952829 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952830 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952828 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952834 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952835 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952832 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952839 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952836 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952842 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952843 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952840 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952841 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952847 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952844 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952845 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952850 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952851 schema:disambiguatingDescription "professional in the dance sector in Canada"@en .
+
+wd:Q126952838 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
+
+wd:Q126952837 schema:disambiguatingDescription "professionnel.le du secteur de la danse au Canada"@fr .
