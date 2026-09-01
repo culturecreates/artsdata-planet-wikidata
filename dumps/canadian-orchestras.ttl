@@ -1,0 +1,1052 @@
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix hint: <http://www.bigdata.com/queryHints#> .
+@prefix bd: <http://www.bigdata.com/rdf#> .
+@prefix bds: <http://www.bigdata.com/rdf/search#> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix mwapi: <https://www.mediawiki.org/ontology#API/> .
+@prefix gas: <http://www.bigdata.com/rdf/gas#> .
+@prefix wdsubgraph: <https://query.wikidata.org/subgraph/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix wdata: <http://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix wds: <http://www.wikidata.org/entity/statement/> .
+@prefix wdv: <http://www.wikidata.org/value/> .
+@prefix wdref: <http://www.wikidata.org/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix geof: <http://www.opengis.net/def/geosparql/function/> .
+@prefix mediawiki: <https://www.mediawiki.org/ontology#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix wikibaseqs: <http://wikiba.se/queryService#> .
+
+wd:Q138414310 a schema:Organization ;
+	schema:name "Orchestre symphonique de l'Isle"@fr ;
+	schema:sameAs wd:Q138414310 ;
+	schema:url <https://www.osimontreal.com> .
+
+wd:Q110895156 a schema:Organization ;
+	schema:name "Music4Life Ensemble"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6865> , wd:Q110895156 ;
+	schema:url <https://www.music4lifeensemble.ca/> .
+
+wd:Q110895162 a schema:Organization ;
+	schema:name "Nova Scotia Youth Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6872> , wd:Q110895162 ;
+	schema:url <https://symphonynovascotia.ca/nsyo/> .
+
+wd:Q110895163 a schema:Organization ;
+	schema:name "Oakville Chamber Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6873> , wd:Q110895163 ;
+	schema:url <https://www.oakvillechamber.org/> .
+
+wd:Q110895160 a schema:Organization ;
+	schema:name "Northumberland Orchestra & Choir"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6871> , wd:Q110895160 ;
+	schema:url <https://www.northumberlandmusic.ca/> .
+
+wd:Q110895161 a schema:Organization ;
+	schema:name "North York Concert Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6870> , wd:Q110895161 ;
+	schema:url <https://www.nyco.on.ca> .
+
+wd:Q110895164 a schema:Organization ;
+	schema:name "Oakville Symphony"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6875> , wd:Q110895164 ;
+	schema:url <https://www.oakvillesymphony.com> .
+
+wd:Q110895167 a schema:Organization ;
+	schema:name "Okanagan Symphony Youth Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6884> , wd:Q110895167 ;
+	schema:url <https://okanagansymphony.com/21-22-osyo/> .
+
+wd:Q110895165 a schema:Organization ;
+	schema:name "Oakville Symphony Youth Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6876> , wd:Q110895165 ;
+	schema:url <https://www.osyo.ca/> .
+
+wd:Q110895169 a schema:Organization ;
+	schema:name "Orchestra Breva"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6887> , wd:Q110895169 ;
+	schema:url <http://orchestrabreva.com> .
+
+wd:Q110895170 a schema:Organization ;
+	schema:name "Orchestra Kingston"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6888> , wd:Q110895170 ;
+	schema:url <https://www.orchestrakingston.ca> .
+
+wd:Q110895168 a schema:Organization ;
+	schema:name "Ontario Philharmonic"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6886> , wd:Q110895168 ;
+	schema:url <https://www.ontariophil.ca> .
+
+wd:Q110895174 a schema:Organization ;
+	schema:name "Orchestre de l'Agora"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-543> , wd:Q110895174 ;
+	schema:url <https://orchestreagora.com/> .
+
+wd:Q110895175 a schema:Organization ;
+	schema:name "Orchestre Philharmonique de la Relève du Québec"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6892> , wd:Q110895175 ;
+	schema:url <https://www.oprq.org> .
+
+wd:Q110895178 a schema:Organization ;
+	schema:name "Orchestre symphonique du Saguenay-Lac-Saint-Jean"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6895> , wd:Q110895178 ;
+	schema:url <https://www.lorchestre.org> .
+
+wd:Q110895179 a schema:Organization ;
+	schema:name "Ottawa Chamber Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6896> , wd:Q110895179 ;
+	schema:url <https://www.ottawachamberorchestra.com> .
+
+wd:Q110895176 a schema:Organization ;
+	schema:name "Orchestre symphonique de Drummondville"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5739> , wd:Q110895176 ;
+	schema:url <https://www.osdrummondville.com> .
+
+wd:Q110895177 a schema:Organization ;
+	schema:name "Orchestre Philharmonique du Québec"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K5-1346> , wd:Q110895177 ;
+	schema:url <https://philharmonique.quebec/> .
+
+wd:Q110895182 a schema:Organization ;
+	schema:name "Peterborough Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6900> , wd:Q110895182 ;
+	schema:url <http://thepso.org/> .
+
+wd:Q110895180 a schema:Organization ;
+	schema:name "Parkdale United Church Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6898> , wd:Q110895180 ;
+	schema:url <https://www.parkdaleorchestra.ca/> .
+
+wd:Q110895184 a schema:Organization ;
+	schema:name "Prince George Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6902> , wd:Q110895184 ;
+	schema:url <https://www.pgso.com> .
+
+wd:Q110895185 a schema:Organization ;
+	schema:name "Quinte Symphony"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6903> , wd:Q110895185 ;
+	schema:url <https://thequintesymphony.com/> .
+
+wd:Q110895187 a schema:Organization ;
+	schema:name "Rocky Mountain Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6907> , wd:Q110895187 ;
+	schema:url <https://www.rockymountainsymphony.ca> .
+
+wd:Q110895188 a schema:Organization ;
+	schema:name "Rose Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6908> , wd:Q110895188 ;
+	schema:url <https://www.theroseorchestra.org/> .
+
+wd:Q110895189 a schema:Organization ;
+	schema:name "Scarborough Philharmonic Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6910> , wd:Q110895189 ;
+	schema:url <https://www.spo.ca> .
+
+wd:Q110895190 a schema:Organization ;
+	schema:name "Sinfonia de Lanaudière"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6911> , wd:Q110895190 ;
+	schema:url <https://www.sinfonia-lanaudiere.org> .
+
+wd:Q110895191 a schema:Organization ;
+	schema:name "Sinfonia Toronto"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6912> , wd:Q110895191 ;
+	schema:url <https://www.sinfoniatoronto.com> .
+
+wd:Q110895192 a schema:Organization ;
+	schema:name "Sooke Philharmonic Orchestra and Chorus"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6913> , wd:Q110895192 ;
+	schema:url <https://www.sookephil.ca/> .
+
+wd:Q110895193 a schema:Organization ;
+	schema:name "South Saskatchewan Youth Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6952> , wd:Q110895193 ;
+	schema:url <https://www.ssyo.ca> .
+
+wd:Q110895194 a schema:Organization ;
+	schema:name "Stratford Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6915> , wd:Q110895194 ;
+	schema:url <https://www.stratfordsymphonyorchestra.ca> .
+
+wd:Q110895195 a schema:Organization ;
+	schema:name "Strings Attached Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6916> , wd:Q110895195 ;
+	schema:url <https://stringsattachedorchestra.com> .
+
+wd:Q110895198 a schema:Organization ;
+	schema:name "Surrey Youth Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6953> , wd:Q110895198 ;
+	schema:url <https://www.surreyyouthorchestra.com> .
+
+wd:Q110895196 a schema:Organization ;
+	schema:name "Summerhill Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6918> , wd:Q110895196 ;
+	schema:url <https://summerhillorchestra.wordpress.com/> .
+
+wd:Q110895199 a schema:Organization ;
+	schema:name "Symphony 21"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6920> , wd:Q110895199 ;
+	schema:url <https://symphony21.ca/> .
+
+wd:Q110895197 a schema:Organization ;
+	schema:name "Surrey City Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6919> , wd:Q110895197 ;
+	schema:url <https://surreycityorchestra.squarespace.com> .
+
+wd:Q110895202 a schema:Organization ;
+	schema:name "Timmins Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6961> , wd:Q110895202 ;
+	schema:url <http://timminssymphony.com/> .
+
+wd:Q110895203 a schema:Organization ;
+	schema:name "Timmins Youth Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6962> , wd:Q110895203 ;
+	schema:url <https://www.timminssymphony.com/> .
+
+wd:Q110895201 a schema:Organization ;
+	schema:name "Thunder Bay Symphony Youth Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6960> , wd:Q110895201 ;
+	schema:url <https://tbsyo.ca/> .
+
+wd:Q110895204 a schema:Organization ;
+	schema:name "Toronto Chinese Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6955> , wd:Q110895204 ;
+	schema:url <https://www.torontochineseorchestra.com/> .
+
+wd:Q110895207 a schema:Organization ;
+	schema:name "Vancouver Philharmonic Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6922> , wd:Q110895207 ;
+	schema:url <https://www.vanphil.ca> .
+
+wd:Q110895210 a schema:Organization ;
+	schema:name "Victoria Chamber Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6923> , wd:Q110895210 ;
+	schema:url <https://www.victoriachamberorchestra.org/> .
+
+wd:Q110895211 a schema:Organization ;
+	schema:name "West Coast Symphony"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6925> , wd:Q110895211 ;
+	schema:url <https://westcoastsymphony.ca> .
+
+wd:Q110895213 a schema:Organization ;
+	schema:name "Winnipeg Youth Orchestras"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6958> , wd:Q110895213 ;
+	schema:url <http://winnipegyouthorchestras.ca/> .
+
+wd:Q110895212 a schema:Organization ;
+	schema:name "White Rock City Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6926> , wd:Q110895212 ;
+	schema:url <https://www.wrco.ca> .
+
+wd:Q110895156 schema:name "Music4Life Ensemble"@fr .
+
+wd:Q110895162 schema:name "Nova Scotia Youth Orchestra"@fr .
+
+wd:Q110895163 schema:name "Oakville Chamber Orchestra"@fr .
+
+wd:Q110895160 schema:name "Northumberland Orchestra & Choir"@fr .
+
+wd:Q110895161 schema:name "North York Concert Orchestra"@fr .
+
+wd:Q110895167 schema:name "Okanagan Symphony Youth Orchestra"@fr .
+
+wd:Q110895164 schema:name "Oakville Symphony"@fr .
+
+wd:Q110895165 schema:name "Oakville Symphony Youth Orchestra"@fr .
+
+wd:Q110895169 schema:name "Orchestra Breva"@fr .
+
+wd:Q110895170 schema:name "Orchestra Kingston"@fr .
+
+wd:Q110895168 schema:name "Ontario Philharmonic"@fr .
+
+wd:Q110895174 schema:name "Orchestre de l'Agora"@fr .
+
+wd:Q110895175 schema:name "Orchestre Philharmonique de la Relève du Québec"@fr .
+
+wd:Q110895178 schema:name "Orchestre symphonique du Saguenay-Lac-Saint-Jean"@fr .
+
+wd:Q110895179 schema:name "Ottawa Chamber Orchestra"@fr .
+
+wd:Q110895176 schema:name "Orchestre symphonique de Drummondville"@fr .
+
+wd:Q110895177 schema:name "Orchestre Philharmonique du Québec"@fr .
+
+wd:Q110895182 schema:name "Peterborough Symphony Orchestra"@fr .
+
+wd:Q110895180 schema:name "Parkdale United Church Orchestra"@fr .
+
+wd:Q110895184 schema:name "Prince George Symphony Orchestra"@fr .
+
+wd:Q110895187 schema:name "Rocky Mountain Symphony Orchestra"@fr .
+
+wd:Q110895185 schema:name "Quinte Symphony"@fr .
+
+wd:Q110895188 schema:name "Rose Orchestra"@fr .
+
+wd:Q110895190 schema:name "Sinfonia de Lanaudière"@fr .
+
+wd:Q110895191 schema:name "Sinfonia Toronto"@fr .
+
+wd:Q110895189 schema:name "Scarborough Philharmonic Orchestra"@fr .
+
+wd:Q110895194 schema:name "Stratford Symphony Orchestra"@fr .
+
+wd:Q110895195 schema:name "Strings Attached Orchestra"@fr .
+
+wd:Q110895192 schema:name "Sooke Philharmonic Orchestra and Chorus"@fr .
+
+wd:Q110895193 schema:name "South Saskatchewan Youth Orchestra"@fr .
+
+wd:Q110895198 schema:name "Surrey Youth Orchestra"@fr .
+
+wd:Q110895199 schema:name "Symphony 21"@fr .
+
+wd:Q110895196 schema:name "Summerhill Orchestra"@fr .
+
+wd:Q110895202 schema:name "Timmins Symphony Orchestra"@fr .
+
+wd:Q110895197 schema:name "Surrey City Orchestra"@fr .
+
+wd:Q110895203 schema:name "Timmins Youth Orchestra"@fr .
+
+wd:Q110895201 schema:name "Thunder Bay Symphony Youth Orchestra"@fr .
+
+wd:Q110895204 schema:name "Toronto Chinese Orchestra"@fr .
+
+wd:Q110895207 schema:name "Vancouver Philharmonic Orchestra"@fr .
+
+wd:Q110895210 schema:name "Victoria Chamber Orchestra"@fr .
+
+wd:Q110895211 schema:name "West Coast Symphony"@fr .
+
+wd:Q110895213 schema:name "Winnipeg Youth Orchestras"@fr .
+
+wd:Q110895212 schema:name "White Rock City Orchestra"@fr .
+
+wd:Q110895177 schema:name "Orchestre Philharmonique du Québec"@mul .
+
+wd:Q110895214 a schema:Organization ;
+	schema:name "York Chamber Ensemble"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6963> , wd:Q110895214 ;
+	schema:url <http://yorkchamberensemble.ca/> ;
+	schema:name "York Chamber Ensemble"@fr , "York Chamber Ensemble"@mul .
+
+wd:Q110895206 a schema:Organization ;
+	schema:name "Vancouver Island Symphony"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6111> , wd:Q110895206 ;
+	schema:url <https://www.vancouverislandsymphony.com> ;
+	schema:name "Vancouver Island Symphony"@fr .
+
+wd:Q137771227 a schema:Organization ;
+	schema:name "Mandle Philharmonic"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6400> , wd:Q137771227 ;
+	schema:url <https://mandlephil.com> ;
+	schema:name "Mandle Philharmonic"@fr , "Mandle Philharmonic"@mul .
+
+wd:Q110895206 schema:name "Vancouver Island Symphony"@mul .
+
+wd:Q110895189 schema:name "Scarborough Philharmonic Orchestra"@mul .
+
+wd:Q110895172 a schema:Organization ;
+	schema:name "Orchestra Toronto"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K3-182> , wd:Q110895172 ;
+	schema:url <https://www.orchestratoronto.ca> ;
+	schema:name "Orchestra Toronto"@fr .
+
+wd:Q138414310 schema:name "Orchestre symphonique de l'Isle"@en .
+
+wd:Q110895144 a schema:Organization ;
+	schema:name "Kanata Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6850> , wd:Q110895144 ;
+	schema:url <https://www.kanatasymphony.ca/> .
+
+wd:Q110895145 a schema:Organization ;
+	schema:name "Kingston Youth Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6854> , wd:Q110895145 ;
+	schema:url <https://www.kingstonsymphony.ca/about/kingston-symphony-association/kingston-symphony-youth-ensembles/> .
+
+wd:Q110895148 a schema:Organization ;
+	schema:name "Kitchener-Waterloo Symphony Youth Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6858> , wd:Q110895148 ;
+	schema:url <https://www.kwsymphony.on.ca/yop.htm> .
+
+wd:Q110895149 a schema:Organization ;
+	schema:name "La Jeunesse Youth Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6859> , wd:Q110895149 ;
+	schema:url <https://www.ljyo.ca/> .
+
+wd:Q110895150 a schema:Organization ;
+	schema:name "Lethbridge Symphony"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6860> , wd:Q110895150 ;
+	schema:url <https://www.lethbridgesymphony.org> .
+
+wd:Q110895151 a schema:Organization ;
+	schema:name "London Community Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6861> , wd:Q110895151 ;
+	schema:url <https://www.lco-on.ca/eng/> .
+
+wd:Q110895154 a schema:Organization ;
+	schema:name "Milton Philharmonic Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6862> , wd:Q110895154 ;
+	schema:url <http://miltonphilharmonic.com/> .
+
+wd:Q110895155 a schema:Organization ;
+	schema:name "Mississauga Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6863> , wd:Q110895155 ;
+	schema:url <https://www.mississaugasymphony.ca/> .
+
+wd:Q110895158 a schema:Organization ;
+	schema:name "Niagara Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6868> , wd:Q110895158 ;
+	schema:url <https://www.niagarasymphony.com> .
+
+wd:Q110895159 a schema:Organization ;
+	schema:name "North Bay Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6869> , wd:Q110895159 ;
+	schema:url <https://www.northbaysymphony.org> .
+
+wd:Q110895147 a schema:Organization ;
+	schema:name "Kitchener-Waterloo Community Orchestra"@fr ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6856> , wd:Q110895147 ;
+	schema:url <https://www.kwco.org/> .
+
+wd:Q110895144 schema:name "Kanata Symphony Orchestra"@fr .
+
+wd:Q110895145 schema:name "Kingston Youth Orchestra"@fr .
+
+wd:Q110895148 schema:name "Kitchener-Waterloo Symphony Youth Orchestra"@fr .
+
+wd:Q110895150 schema:name "Lethbridge Symphony"@fr .
+
+wd:Q110895149 schema:name "La Jeunesse Youth Orchestra"@fr .
+
+wd:Q110895151 schema:name "London Community Orchestra"@fr .
+
+wd:Q110895154 schema:name "Milton Philharmonic Orchestra"@fr .
+
+wd:Q110895155 schema:name "Mississauga Symphony Orchestra"@fr .
+
+wd:Q110895158 schema:name "Niagara Symphony Orchestra"@fr .
+
+wd:Q110895159 schema:name "North Bay Symphony Orchestra"@fr .
+
+wd:Q110895153 a schema:Organization ;
+	schema:name "London Symphonia"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6866> , wd:Q110895153 ;
+	schema:url <https://www.londonsymphonia.ca/> ;
+	schema:name "London Symphonia"@fr .
+
+wd:Q60791849 a schema:Organization ;
+	schema:name "Okavango African Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6885> , wd:Q60791849 .
+
+wd:Q122712166 a schema:Organization ;
+	schema:name "Ceòl Mór"@en ;
+	schema:sameAs wd:Q122712166 , <https://isni.org/isni/0000000106997620> .
+
+wd:Q820525 a schema:Organization ;
+	schema:name "CBC Radio Orchestra"@en ;
+	schema:sameAs wd:Q820525 ;
+	schema:name "Orquestra da Rádio CBC"@fr .
+
+wd:Q5674181 a schema:Organization ;
+	schema:name "Hart House Symphonic Band"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6845> , wd:Q5674181 .
+
+wd:Q2028678 a schema:Organization ;
+	schema:name "Orchestre de chambre de McGill"@mul ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6890> , wd:Q2028678 .
+
+wd:Q11887248 a schema:Organization ;
+	schema:name "Pelimanni Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6899> , wd:Q11887248 .
+
+wd:Q7826306 a schema:Organization ;
+	schema:name "Toronto Chamber Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6954> , wd:Q7826306 , <https://isni.org/isni/0000000108067152> ;
+	schema:name "Toronto Chamber Orchestra"@fr .
+
+wd:Q7074253 a schema:Organization ;
+	schema:name "Oakville Ensemble"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6874> , wd:Q7074253 .
+
+wd:Q2028678 schema:name "Orchestre de chambre McGill"@fr .
+
+wd:Q3355361 a schema:Organization ;
+	schema:name "Symphony New Brunswick"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-157> , wd:Q3355361 ;
+	schema:url <https://www.symphonienb.ca/acceuil> ;
+	schema:name "Symphonie Nouveau-Brunswick"@fr , "Symphony New Brunswick"@mul .
+
+wd:Q6507375 a schema:Organization ;
+	schema:name "Nouvel Ensemble Moderne"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6249> , wd:Q6507375 , <https://isni.org/isni/0000000119424194> ;
+	schema:url <http://lenem.ca/> .
+
+wd:Q6418036 a schema:Organization ;
+	schema:name "Kitchener-Waterloo Symphony"@fr ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6857> , wd:Q6418036 , <https://isni.org/isni/0000000103368036> ;
+	schema:url <https://kwsymphony.ca> .
+
+wd:Q6507375 schema:name "Nouvel Ensemble Moderne"@fr .
+
+wd:Q7661632 a schema:Organization ;
+	schema:name "Symphony Nova Scotia"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5271> , wd:Q7661632 , <https://isni.org/isni/0000000107425894> ;
+	schema:url <https://symphonynovascotia.ca/> .
+
+wd:Q3355286 a schema:Organization ;
+	schema:name "Orchestre de la Francophonie"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6891> , wd:Q3355286 ;
+	schema:url <https://www.orchestrefranco.com> ;
+	schema:name "Orchestre de la Francophonie"@fr .
+
+wd:Q2822381 a schema:Organization ;
+	schema:name "Ottawa Youth Orchestra Academy"@en ;
+	schema:sameAs wd:Q2822381 ;
+	schema:url <http://www.oyoa-aojo.ca/> ;
+	schema:name "Académie des orchestres des jeunes d'Ottawa"@fr .
+
+wd:Q7661632 schema:name "Symphony Nova Scotia"@fr .
+
+wd:Q5645101 a schema:Organization ;
+	schema:name "Hamilton Philharmonic Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-238> , wd:Q5645101 , <https://isni.org/isni/0000000087771940> ;
+	schema:url <https://hpo.org/> .
+
+wd:Q6413609 a schema:Organization ;
+	schema:name "Kingston Symphony"@mul ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-344> , wd:Q6413609 ;
+	schema:url <https://www.kingstonsymphony.ca/> .
+
+wd:Q7826533 a schema:Organization ;
+	schema:name "Toronto Symphony Youth Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6964> , wd:Q7826533 ;
+	schema:url <https://www.tso.ca/tsyo> ;
+	schema:name "Toronto Symphony Youth Orchestra"@fr .
+
+wd:Q1981398 a schema:Organization ;
+	schema:name "Calgary Philharmonic Orchestra"@mul ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5588> , wd:Q1981398 , <https://isni.org/isni/000000010340376X> ;
+	schema:url <https://calgaryphil.com> .
+
+wd:Q6053771 a schema:Organization ;
+	schema:name "International Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6848> , wd:Q6053771 ;
+	schema:url <http://theiso.org/> ;
+	schema:name "International Symphony Orchestra"@fr .
+
+wd:Q3355335 a schema:Organization ;
+	schema:name "Ottawa Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6897> , wd:Q3355335 , <https://isni.org/isni/0000000103366348> ;
+	schema:url <https://www.ottawasymphony.com> .
+
+wd:Q5645101 schema:name "Hamilton Philharmonic Orchestra"@fr .
+
+wd:Q5547999 a schema:Organization ;
+	schema:name "Georgian Bay Symphony"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6842> , wd:Q5547999 ;
+	schema:url <https://www.georgianbaysymphony.ca> .
+
+wd:Q3355349 a schema:Organization ;
+	schema:name "Sherbrooke Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6951> , wd:Q3355349 , <https://isni.org/isni/0000000101339768> ;
+	schema:url <https://www.ossherbrooke.com> .
+
+wd:Q5399179 a schema:Organization ;
+	schema:name "Esprit Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6398> , wd:Q5399179 , <https://isni.org/isni/0000000106997356> ;
+	schema:url <https://www.espritorchestra.com> .
+
+wd:Q5547999 schema:name "Georgian Bay Symphony"@fr .
+
+wd:Q5254784 a schema:Organization ;
+	schema:name "Delta Youth Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6821> , wd:Q5254784 ;
+	schema:url <https://www.rdyo.ca> ;
+	schema:name "Delta Youth Orchestra"@fr .
+
+wd:Q7785176 a schema:Organization ;
+	schema:name "Thirteen Strings"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6921> , wd:Q7785176 ;
+	schema:url <http://thirteenstrings.ca/> .
+
+wd:Q5339104 a schema:Organization ;
+	schema:name "Edmonton Symphony Orchestra"@mul ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6826> , wd:Q5339104 , <https://isni.org/isni/0000000093864772> ;
+	schema:url <https://www.winspearcentre.com/> .
+
+wd:Q7785176 schema:name "Thirteen Strings Chamber Orchestra"@fr .
+
+wd:Q3355335 schema:name "Orchestre symphonique d'Ottawa"@fr .
+
+wd:Q3355349 schema:name "Orchestre symphonique de Sherbrooke"@fr .
+
+wd:Q5339104 schema:name "Edmonton Symphony Orchestra"@en , "Edmonton Symphony Orchestra"@fr .
+
+wd:Q3236096 a schema:Organization ;
+	schema:name "Les Violons du Roy"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-94> , wd:Q3236096 , <https://isni.org/isni/0000000110142713> ;
+	schema:url <https://www.violonsduroy.com/fr/> .
+
+wd:Q6413609 schema:name "Kingston Symphony"@en , "Orchestre symphonique de Kingston"@fr .
+
+wd:Q3236096 schema:name "Les Violons du Roy"@fr .
+
+wd:Q3355335 schema:url <https://fr.ottawasymphony.com/> .
+
+wd:Q5399179 schema:name "Esprit Orchestra"@mul , "L'Orchestre Esprit"@fr .
+
+wd:Q602381 a schema:Organization ;
+	schema:name "Vancouver Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-347> , wd:Q602381 , <https://isni.org/isni/0000000119556592> ;
+	schema:url <https://www.vancouversymphony.ca/> .
+
+wd:Q218658 a schema:Organization ;
+	schema:name "Tafelmusik"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-134> , wd:Q218658 , <https://isni.org/isni/0000000114637879> ;
+	schema:url <https://tafelmusik.org/> .
+
+wd:Q7633533 a schema:Organization ;
+	schema:name "Sudbury Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6917> , wd:Q7633533 ;
+	schema:url <http://sudburysymphony.com/> , <https://www.sudburysymphony.com> ;
+	schema:name "Sudbury Symphony Orchestra"@fr .
+
+wd:Q7100241 a schema:Organization ;
+	schema:name "Orchestra London Canada"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6889> , wd:Q7100241 ;
+	schema:url <https://www.orchestralondon.ca/> ;
+	schema:name "Orchestra London Canada"@fr .
+
+wd:Q7304011 a schema:Organization ;
+	schema:name "Red Deer Symphony"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6904> , wd:Q7304011 ;
+	schema:url <https://www.rdso.ca/> .
+
+wd:Q602381 schema:name "Orchestre symphonique de Vancouver"@fr .
+
+wd:Q1629035 a schema:Organization ;
+	schema:name "I Musici de Montréal Chamber Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6847> , wd:Q1629035 , <https://isni.org/isni/0000000092806458> ;
+	schema:url <https://imusici.com/> .
+
+wd:Q7006131 a schema:Organization ;
+	schema:name "New Brunswick Youth Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-459> , wd:Q7006131 ;
+	schema:url <https://www.nbyo-ojnb.ca> , <https://www.nbyo-ojnb.ca/accueil> ;
+	schema:name "Orchestre des jeunes du Nouveau-Brunswick"@fr .
+
+wd:Q1981398 schema:name "Calgary Philharmonic Orchestra"@en .
+
+wd:Q1629035 schema:name "I Musici de Montréal"@fr .
+
+wd:Q218658 schema:name "Tafelmusik"@fr .
+
+wd:Q2748745 a schema:Organization ;
+	schema:name "National Arts Centre Orchestra"@mul ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-103> , wd:Q2748745 , <https://isni.org/isni/0000000119549077> ;
+	schema:url <http://nac-cna.ca/en/orchestra> , <https://nac-cna.ca/fr/orchestra> .
+
+wd:Q1981398 schema:name "Orchestre philharmonique de Calgary"@fr .
+
+wd:Q2861299 a schema:Organization ;
+	schema:name "Arion Baroque Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6809> , wd:Q2861299 ;
+	schema:url <https://www.arionbaroque.com> ;
+	schema:name "Arion Orchestre Baroque"@fr .
+
+wd:Q7425696 a schema:Organization ;
+	schema:name "Saskatoon Youth Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6950> , wd:Q7425696 ;
+	schema:url <https://www.syo.ca> ;
+	schema:name "Saskatoon Youth Orchestra"@fr .
+
+wd:Q7914273 a schema:Organization ;
+	schema:name "Vancouver Youth Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6957> , wd:Q7914273 , <https://isni.org/isni/0000000446495168> ;
+	schema:url <https://www.vyso.com> .
+
+wd:Q218658 schema:name "Tafelmusik"@mul .
+
+wd:Q2748745 schema:name "National Arts Centre Orchestra"@en .
+
+wd:Q7427408 a schema:Organization ;
+	schema:name "Sault Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6909> , wd:Q7427408 ;
+	schema:url <https://www.saultsymphony.ca/> ;
+	schema:name "Sault Symphony Orchestra"@fr .
+
+wd:Q7304011 schema:name "Red Deer Symphony"@fr , "Red Deer Symphony"@mul ;
+	schema:url <http://www.rdso.ca> .
+
+wd:Q2748745 schema:name "Orchestre du Centre national des arts"@fr .
+
+wd:Q3355347 a schema:Organization ;
+	schema:name "Orchestre symphonique de Trois-Rivières"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K5-1029> , wd:Q3355347 ;
+	schema:url <https://www.ostr.ca/> .
+
+wd:Q3355361 schema:url <https://symphonynb.com> .
+
+wd:Q3355347 schema:name "Orchestre symphonique de Trois-Rivières"@fr .
+
+wd:Q684435 a schema:Organization ;
+	schema:name "Toronto Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-147> , wd:Q684435 , <https://isni.org/isni/0000000113129442> ;
+	schema:url <https://www.tso.ca/> .
+
+wd:Q7425688 a schema:Organization ;
+	schema:name "Saskatoon Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6052> , wd:Q7425688 ;
+	schema:url <https://www.saskatoonsymphony.org> ;
+	schema:name "Saskatoon Symphony Orchestra"@fr .
+
+wd:Q684435 schema:name "Orchestre symphonique de Toronto"@fr .
+
+wd:Q6749982 a schema:Organization ;
+	schema:name "Manitoba Chamber Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5589> , wd:Q6749982 , <https://isni.org/isni/0000000101496464> ;
+	schema:url <https://themco.ca> .
+
+wd:Q3355340 a schema:Organization ;
+	schema:name "Orchestre Symphonique de Lévis"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6894> , wd:Q3355340 ;
+	schema:url <http://oslevis.org> .
+
+wd:Q3355348 a schema:Organization ;
+	schema:name "Regina Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6905> , wd:Q3355348 ;
+	schema:url <http://www.reginasymphony.com/> , <https://www.reginasymphony.com> .
+
+wd:Q3355340 schema:name "Orchestre symphonique de Lévis"@fr .
+
+wd:Q3355348 schema:name "Orchestre symphonique de Regina"@fr .
+
+wd:Q7798947 a schema:Organization ;
+	schema:name "Thunder Bay Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6959> , wd:Q7798947 ;
+	schema:url <https://www.tbso.ca> ;
+	schema:name "Thunder Bay Symphony Orchestra"@fr .
+
+wd:Q6749982 schema:name "Manitoba Chamber Orchestra"@fr .
+
+wd:Q6418036 schema:name "Kitchener-Waterloo Symphony"@en .
+
+wd:Q110895116 a schema:Organization ;
+	schema:name "Alberta Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6730> , wd:Q110895116 ;
+	schema:url <https://www.albertasymphony.com/> .
+
+wd:Q110895117 a schema:Organization ;
+	schema:name "Allegra Chamber Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6808> , wd:Q110895117 ;
+	schema:url <https://allegrachamberorchestra.com/> .
+
+wd:Q110895118 a schema:Organization ;
+	schema:name "Ardeleana Chamber Music Society/Whispering River Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6819> , wd:Q110895118 ;
+	schema:url <https://www.whisperingrivermusic.com/> .
+
+wd:Q110895119 a schema:Organization ;
+	schema:name "Brantford Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-552> , wd:Q110895119 ;
+	schema:url <https://www.brantfordsymphony.ca> .
+
+wd:Q110895122 a schema:Organization ;
+	schema:name "Calgary Youth Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6820> , wd:Q110895122 ;
+	schema:url <https://www.cyo.ab.ca> .
+
+wd:Q110895120 a schema:Organization ;
+	schema:name "Burlington Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-216> , wd:Q110895120 ;
+	schema:url <https://burlingtonsymphony.ca/> .
+
+wd:Q110895123 a schema:Organization ;
+	schema:name "Cambridge Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6811> , wd:Q110895123 ;
+	schema:url <https://www.cambridgeorchestra.ca> .
+
+wd:Q110895121 a schema:Organization ;
+	schema:name "Calgary Civic Symphony"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6810> , wd:Q110895121 ;
+	schema:url <https://www.calgarycivicsymphony.ca> .
+
+wd:Q110895124 a schema:Organization ;
+	schema:name "Cathedral Bluffs Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6812> , wd:Q110895124 ;
+	schema:url <https://www.cathedralbluffs.com> .
+
+wd:Q110895125 a schema:Organization ;
+	schema:name "Chilliwack Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6813> , wd:Q110895125 ;
+	schema:url <https://chilliwacksymphony.com/> .
+
+wd:Q110895126 a schema:Organization ;
+	schema:name "Concordia University Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6814> , wd:Q110895126 ;
+	schema:url <https://concordia.ab.ca/faculty-arts/departments/fine-arts-degree/cso/> .
+
+wd:Q110895127 a schema:Organization ;
+	schema:name "Counterpoint Community Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6815> , wd:Q110895127 ;
+	schema:url <https://www.ccorchestra.org> .
+
+wd:Q110895128 a schema:Organization ;
+	schema:name "Deep River Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6816> , wd:Q110895128 ;
+	schema:url <https://www.drso.ca> .
+
+wd:Q110895129 a schema:Organization ;
+	schema:name "Divertimento Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6822> , wd:Q110895129 ;
+	schema:url <https://www.divertimento.ca> .
+
+wd:Q110895130 a schema:Organization ;
+	schema:name "Dundas Valley Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6823> , wd:Q110895130 ;
+	schema:url <https://www.dundasvalleyorchestra.ca/> .
+
+wd:Q110895131 a schema:Organization ;
+	schema:name "Durham Chamber Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6824> , wd:Q110895131 ;
+	schema:url <https://www.durhamchamberorchestra.com/> .
+
+wd:Q110895134 a schema:Organization ;
+	schema:name "Edmonton Philharmonic Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6825> , wd:Q110895134 ;
+	schema:url <http://edmontonphilharmonic.com/> .
+
+wd:Q110895132 a schema:Organization ;
+	schema:name "Durham Youth Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6839> , wd:Q110895132 ;
+	schema:url <https://www.dyomusic.com> .
+
+wd:Q110895135 a schema:Organization ;
+	schema:name "Edmonton Youth Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6827> , wd:Q110895135 ;
+	schema:url <https://www.eyso.com> .
+
+wd:Q110895136 a schema:Organization ;
+	schema:name "Etobicoke Philharmonic Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6840> , wd:Q110895136 ;
+	schema:url <https://www.eporchestra.ca> .
+
+wd:Q110895137 a schema:Organization ;
+	schema:name "Fredericton Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-165> , wd:Q110895137 ;
+	schema:url <http://frederictonsymphonyorchestra.blogspot.com> .
+
+wd:Q110895139 a schema:Organization ;
+	schema:name "Greater Victoria Youth Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6843> , wd:Q110895139 ;
+	schema:url <https://www.gvyo.org> .
+
+wd:Q110895140 a schema:Organization ;
+	schema:name "Guelph Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6844> , wd:Q110895140 ;
+	schema:url <https://www.guelphsymphony.com> .
+
+wd:Q110895141 a schema:Organization ;
+	schema:name "Huronia Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6846> , wd:Q110895141 ;
+	schema:url <https://www.huroniasymphony.ca/> .
+
+wd:Q110895142 a schema:Organization ;
+	schema:name "Italian Canadian Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6853> , wd:Q110895142 ;
+	schema:url <https://www.italiancanadiansymphonyorchestra.com/> .
+
+wd:Q110895143 a schema:Organization ;
+	schema:name "Kamloops Symphony"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6849> , wd:Q110895143 ;
+	schema:url <https://www.kamloopssymphony.com/> .
+
+wd:Q110895146 a schema:Organization ;
+	schema:name "Kitchener-Waterloo Chamber Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6855> , wd:Q110895146 ;
+	schema:url <https://www.kwchamberorchestra.ca> .
+
+wd:Q110895147 schema:name "Kitchener-Waterloo Community Orchestra"@en .
+
+wd:Q110895116 schema:name "Alberta Symphony Orchestra"@fr .
+
+wd:Q110895117 schema:name "Allegra Chamber Orchestra"@fr .
+
+wd:Q110895118 schema:name "Ardeleana Chamber Music Society/Whispering River Orchestra"@fr .
+
+wd:Q110895119 schema:name "Brantford Symphony Orchestra"@fr .
+
+wd:Q110895122 schema:name "Calgary Youth Orchestra"@fr .
+
+wd:Q110895123 schema:name "Cambridge Symphony Orchestra"@fr .
+
+wd:Q110895120 schema:name "Burlington Symphony Orchestra"@fr .
+
+wd:Q110895121 schema:name "Calgary Civic Symphony"@fr .
+
+wd:Q110895124 schema:name "Cathedral Bluffs Symphony Orchestra"@fr .
+
+wd:Q110895126 schema:name "Concordia University Orchestra"@fr .
+
+wd:Q110895125 schema:name "Chilliwack Symphony Orchestra"@fr .
+
+wd:Q110895127 schema:name "Counterpoint Community Orchestra"@fr .
+
+wd:Q110895128 schema:name "Deep River Symphony Orchestra"@fr .
+
+wd:Q110895130 schema:name "Dundas Valley Orchestra"@fr .
+
+wd:Q110895134 schema:name "Edmonton Philharmonic Orchestra"@fr .
+
+wd:Q110895131 schema:name "Durham Chamber Orchestra"@fr .
+
+wd:Q110895129 schema:name "Divertimento Orchestra"@fr .
+
+wd:Q110895135 schema:name "Edmonton Youth Orchestra"@fr .
+
+wd:Q110895132 schema:name "Durham Youth Orchestra"@fr .
+
+wd:Q110895136 schema:name "Etobicoke Philharmonic Orchestra"@fr .
+
+wd:Q110895137 schema:name "Fredericton Symphony Orchestra"@fr .
+
+wd:Q110895139 schema:name "Greater Victoria Youth Orchestra"@fr .
+
+wd:Q110895140 schema:name "Guelph Symphony Orchestra"@fr .
+
+wd:Q110895142 schema:name "Italian Canadian Symphony Orchestra"@fr .
+
+wd:Q110895141 schema:name "Huronia Symphony Orchestra"@fr .
+
+wd:Q110895143 schema:name "Kamloops Symphony"@fr .
+
+wd:Q110895146 schema:name "Kitchener-Waterloo Chamber Orchestra"@fr .
+
+wd:Q8025818 a schema:Organization ;
+	schema:name "Winnipeg Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5294> , wd:Q8025818 , <https://isni.org/isni/0000000093190667> ;
+	schema:url <http://www.wso.ca/> , <https://wso.ca> .
+
+wd:Q105763526 a schema:Organization ;
+	schema:name "Kawartha Youth Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6851> , wd:Q105763526 ;
+	schema:url <https://www.kawarthayouthorchestra.org/> ;
+	schema:name "Orchestre des jeunes de Kawartha"@fr .
+
+wd:Q8025818 schema:name "l'Orchestre symphonique de Winnipeg"@fr .
+
+wd:Q107228128 a schema:Organization ;
+	schema:name "Orchestre National de jazz de Montréal"@fr ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K5-1345> , wd:Q107228128 , <https://isni.org/isni/0000000480593423> ;
+	schema:url <https://www.onjm.ca/> ;
+	schema:name "Montreal National Jazz Orchestra"@en , "Orchestre National de jazz"@mul .
+
+wd:Q13234227 a schema:Organization ;
+	schema:name "Orchestre symphonique de l'Estuaire"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6893> , wd:Q13234227 ;
+	schema:url <http://www.ose.qc.ca/index.php> , <https://www.ose.qc.ca> ;
+	schema:name "Orchestre symphonique de l'Estuaire"@fr .
+
+wd:Q107354234 a schema:Organization ;
+	schema:name "Kindred Spirits Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6852> , wd:Q107354234 ;
+	schema:url <https://www.KSOrchestra.ca> ;
+	schema:name "Kindred Spirits Orchestra"@fr .
+
+wd:Q109564235 a schema:Organization ;
+	schema:name "Toronto Youth Wind Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6956> , wd:Q109564235 ;
+	schema:url <https://tywo.ca/> , <https://www.tywo.ca> ;
+	schema:name "Toronto Youth Wind Orchestra"@fr .
+
+wd:Q104708983 a schema:Organization ;
+	schema:name "Galileo"@fr ;
+	schema:sameAs wd:Q104708983 ;
+	schema:url <https://orchestregalileo.com> .
+
+wd:Q110895133 a schema:Organization ;
+	schema:name "Edmonton Music Enrichment Program"@en ;
+	schema:sameAs wd:Q110895133 ;
+	schema:url <https://www.musicenrichment.ca> ;
+	schema:name "Edmonton Music Enrichment Program"@fr .
+
+wd:Q48791544 a schema:Organization ;
+	schema:name "Prince Edward Island Symphony Orchestra"@mul ;
+	schema:sameAs wd:Q48791544 ;
+	schema:url <https://www.peisymphony.com> .
+
+wd:Q104708983 schema:url <https://www.orchestregalileo.com/> .
+
+wd:Q17636127 a schema:Organization ;
+	schema:name "Orchestre symphonique de Laval"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-533> , wd:Q17636127 ;
+	schema:url <http://www.osl.qc.ca> , <https://www.osl.ca/> ;
+	schema:name "Orchestre symphonique de Laval"@fr .
+
+wd:Q48791544 schema:name "Prince Edward Island Symphony Orchestra"@en , "Prince Edward Island Symphony Orchestra"@fr .
+
+wd:Q7914273 schema:name "Vancouver Youth Symphony Orchestra"@fr .
+
+wd:Q104708983 schema:name "Galileo"@en .
+
+wd:Q29829847 a schema:Organization ;
+	schema:name "Montreal Youth Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6864> , wd:Q29829847 ;
+	schema:url <https://www.osjm.org/> ;
+	schema:name "Orchestre symphonique des jeunes de Montréal"@fr .
+
+wd:Q10341731 a schema:Organization ;
+	schema:name "Newfoundland Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6867> , wd:Q10341731 ;
+	schema:url <http://nsomusic.ca/> ;
+	schema:name "Newfoundland Symphony Orchestra"@fr .
+
+wd:Q85790402 a schema:Organization ;
+	schema:name "Okanagan Symphony Orchestra"@en ;
+	schema:sameAs wd:Q85790402 ;
+	schema:url <https://okanagansymphony.com> ;
+	schema:name "Okanagan Symphony Orchestra"@fr .
+
+wd:Q8024712 a schema:Organization ;
+	schema:name "Windsor Symphony Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6927> , wd:Q8024712 ;
+	schema:url <https://www.windsorsymphony.com> ;
+	schema:name "Windsor Symphony Orchestra"@fr .
+
+wd:Q7927075 a schema:Organization ;
+	schema:name "Victoria Symphony"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6924> , wd:Q7927075 ;
+	schema:url <https://victoriasymphony.ca> ;
+	schema:name "Victoria Symphony"@fr .
+
+wd:Q107902625 a schema:Organization ;
+	schema:name "Richmond Hill Philharmonic Orchestra"@en ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6906> , wd:Q107902625 ;
+	schema:url <https://rhpo.ca/> ;
+	schema:name "Richmond Hill Philharmonic Orchestra"@fr .
