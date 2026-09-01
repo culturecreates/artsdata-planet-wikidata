@@ -1,0 +1,1450 @@
+@prefix schema: <http://schema.org/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix hint: <http://www.bigdata.com/queryHints#> .
+@prefix bd: <http://www.bigdata.com/rdf#> .
+@prefix bds: <http://www.bigdata.com/rdf/search#> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix mwapi: <https://www.mediawiki.org/ontology#API/> .
+@prefix gas: <http://www.bigdata.com/rdf/gas#> .
+@prefix wdsubgraph: <https://query.wikidata.org/subgraph/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix wdata: <http://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix wds: <http://www.wikidata.org/entity/statement/> .
+@prefix wdv: <http://www.wikidata.org/value/> .
+@prefix wdref: <http://www.wikidata.org/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix geof: <http://www.opengis.net/def/geosparql/function/> .
+@prefix mediawiki: <https://www.mediawiki.org/ontology#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix wikibaseqs: <http://wikiba.se/queryService#> .
+
+wd:Q129448961 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Charlottetown, Prince Edward Island, Canada"@en ;
+	schema:name "The Guild"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5290> ;
+	schema:url <https://www.theguildpei.com> .
+
+wd:Q129448877 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Charlottetown en Île-du-Prince-Édouard, Canada"@fr ;
+	schema:name "Confederation Centre of the Arts"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-214> ;
+	schema:url <http://www.confederationcentre.com/> , <https://confederationcentre.com/fr/> .
+
+wd:Q129448961 schema:name "The Guild"@fr .
+
+wd:Q129448941 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Souris en Île-du-Prince-Édouard, Canada"@fr ;
+	schema:name "Souris Show Hall"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5288> ;
+	schema:url <https://sourisshowhall.com/> .
+
+wd:Q130156651 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Margaretsville, Nova Scotia, Canada"@en ;
+	schema:name "Evergreen Theatre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5311> ;
+	schema:url <http://www.evergreentheatre.ca/> .
+
+wd:Q129448941 schema:name "Souris Show Hall"@fr .
+
+wd:Q130156651 schema:name "Evergreen Theatre"@fr .
+
+wd:Q129448961 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Charlottetown en Île-du-Prince-Édouard, Canada"@fr .
+
+wd:Q130156651 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Margaretsville en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448877 wdt:P31 wd:Q7168296 ;
+	schema:disambiguatingDescription "performing arts presenting organization in Charlottetown, Prince Edward Island, Canada"@en .
+
+wd:Q129448941 wdt:P31 wd:Q7168296 ;
+	schema:disambiguatingDescription "performing arts presenting organization in Souris, Prince Edward Island, Canada"@en .
+
+wd:Q129448935 wdt:P31 wd:Q3269648 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "community organization in Tignish, Prince Edward Island, Canada"@en ;
+	schema:name "Le Conseil Rév. S.-É.-Perrey inc."@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5285> ;
+	schema:name "Le Conseil Rév. S.-É.-Perrey inc."@fr ;
+	schema:disambiguatingDescription "organisme communautaire à Tignish en Île-du-Prince-Édouard, Canada"@fr .
+
+wd:Q129448963 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Irishtown-Summerside, Newfoundland & Labrador, Canada"@en ;
+	schema:name "So Long to Summer Festival"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5291> ;
+	schema:url <https://www.solongtosummer.ca> ;
+	schema:name "So Long to Summer Festival"@fr ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Irishtown-Summerside en Terre-Neuve-et-Labrador, Canada"@fr .
+
+wd:Q129448877 wdt:P31 wd:Q163740 ;
+	schema:name "Centre des arts de la Confédération"@fr .
+
+wd:Q129448939 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Charlottetown, Prince Edward Island, Canada"@en ;
+	schema:name "Small Halls Inc."@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5287> ;
+	schema:url <http://www.smallhalls.com/> ;
+	schema:name "Small Halls Inc."@fr ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Charlottetown en Île-du-Prince-Édouard, Canada"@fr .
+
+wd:Q129448935 wdt:P31 wd:Q7168296 .
+
+wd:Q129448900 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Charlottetown, Prince Edward Island, Canada"@en ;
+	schema:name "Florence Simmons Performance Hall"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5283> ;
+	schema:url <https://www.hollandcollege.com/about/fsph/> ;
+	schema:name "Florence Simmons Performance Hall"@fr ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Charlottetown en Île-du-Prince-Édouard, Canada"@fr .
+
+wd:Q129448935 wdt:P31 wd:Q5341295 .
+
+wd:Q129448963 wdt:P31 wd:Q7168296 .
+
+wd:Q129448937 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Mont-Carmel, Prince Edward Island, Canada"@en ;
+	schema:name "Mont-Carmel Summer Concert Series"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5286> ;
+	schema:url <https://www.cooperativeculturelledemontcarmel.com/english/summer-concert-series/> ;
+	schema:name "Série de spectacles à Mont-Carmel"@fr .
+
+wd:Q129448898 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Montague, Prince Edward Island, Canada"@en ;
+	schema:name "Cloggeroo - the Island Folk Festival"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5282> ;
+	schema:url <https://cloggeroo.com> ;
+	schema:name "Cloggeroo - the Island Folk Festival"@fr .
+
+wd:Q129448933 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Georgetown, Prince Edward Island, Canada"@en ;
+	schema:name "King's Playhouse"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5284> ;
+	schema:url <https://www.kingsplayhouse.com/> ;
+	schema:name "King's Playhouse"@fr .
+
+wd:Q129448961 wdt:P31 wd:Q708676 .
+
+wd:Q129448937 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Mont-Carmel en Île-du-Prince-Édouard, Canada"@fr .
+
+wd:Q130156651 wdt:P31 wd:Q708676 .
+
+wd:Q129448898 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Montague en Île-du-Prince-Édouard, Canada"@fr .
+
+wd:Q129448933 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Georgetown en Île-du-Prince-Édouard, Canada"@fr .
+
+wd:Q129448898 schema:url <https://cloggeroo.com/fr/accueil/> .
+
+wd:Q24190268 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Wolfville en Nouvelle-Écosse, Canada"@fr ;
+	schema:name "Devour! The Food Film Fest"@fr ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5248> ;
+	schema:url <https://devourfest.com/> .
+
+wd:Q7726774 wdt:P31 wd:Q1792623 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Summerside, Prince Edward Island, Canada"@en ;
+	schema:name "The College of Piping and Celtic Performing Arts of Canada"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-22> ;
+	schema:url <https://www.collegeofpiping.com> ;
+	schema:name "The College of Piping and Celtic Performing Arts of Canada"@fr .
+
+wd:Q7661632 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "orchestre basé à Halifax en Nouvelle-Écosse, Canada"@fr ;
+	schema:name "Symphony Nova Scotia"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5271> ;
+	schema:url <https://symphonynovascotia.ca/> ;
+	schema:name "Symphony Nova Scotia"@fr .
+
+wd:Q38276435 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "cinema in Bonavista, Newfoundland, Canada"@en ;
+	schema:name "Garrick Theatre"@fr ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5225> ;
+	schema:url <http://www.garricktheatre.ca> .
+
+wd:Q6995703 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"@fr ;
+	schema:name "Neptune Theatre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5261> ;
+	schema:url <http://neptunetheatre.com/> ;
+	schema:name "Neptune Theatre"@fr .
+
+wd:Q7726774 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Summerside en Île-du-Prince-Édouard, Canada"@fr .
+
+wd:Q38276435 wdt:P31 wd:Q41253 .
+
+wd:Q6819865 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Windsor en Nouvelle-Écosse, Canada"@fr ;
+	schema:name "Mermaid Theatre of Nova Scotia"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5257> ;
+	schema:url <https://www.mermaidtheatre.ca/> .
+
+wd:Q85774656 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à St. John's en Terre-Neuve-et-Labrador, Canada"@fr ;
+	schema:name "Kittiwake Dance Theatre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5228> ;
+	schema:url <http://www.kittiwakedancetheatre.ca> ;
+	schema:name "Kittiwake Dance Theatre"@fr .
+
+wd:Q24190268 wdt:P31 wd:Q108669279 ;
+	schema:disambiguatingDescription "performing arts presenting organization in Wolfville, Nova Scotia, Canada"@en ;
+	schema:name "Devour! The Food Film Fest"@en .
+
+wd:Q85774656 wdt:P31 wd:Q7168296 ;
+	schema:disambiguatingDescription "performing arts presenting organization in St. John's, Newfoundland and Labrador, Canada"@en .
+
+wd:Q6819865 wdt:P31 wd:Q742421 ;
+	schema:disambiguatingDescription "performing arts presenting organization in Windsor, Nova Scotia, Canada"@en ;
+	schema:name "Mermaid Theatre of Nova Scotia"@fr .
+
+wd:Q38276435 schema:disambiguatingDescription "salle de cinéma à Bonavista, Terre-Neuve, Canada"@fr ;
+	schema:name "Garrick Theatre"@en .
+
+wd:Q6819865 wdt:P31 wd:Q708676 .
+
+wd:Q7497904 wdt:P31 wd:Q742421 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Parrsboro, Nova Scotia, Canada"@en ;
+	schema:name "Ship's Company Theatre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5270> ;
+	schema:url <http://shipscompanytheatre.com/> ;
+	schema:name "Ship's Company Theatre"@fr ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Parrsboro en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q7661632 wdt:P31 wd:Q163740 ;
+	schema:disambiguatingDescription "orchestra based in Halifax, Nova Scotia, Canada"@en .
+
+wd:Q6995703 wdt:P31 wd:Q163740 ;
+	schema:disambiguatingDescription "performing arts presenting organization in Halifax, Nova Scotia, Canada"@en .
+
+wd:Q7497904 wdt:P31 wd:Q708676 .
+
+wd:Q6819865 wdt:P31 wd:Q7168296 .
+
+wd:Q72194414 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Dartmouth, Nova Scotia, Canada"@en ;
+	schema:name "Eastern Front Theatre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-127> ;
+	schema:url <https://www.easternfronttheatre.com> ;
+	schema:name "Eastern Front Theatre"@fr ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Dartmouth en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q7497904 wdt:P31 wd:Q7168296 .
+
+wd:Q7661632 wdt:P31 wd:Q42998 .
+
+wd:Q7726774 wdt:P31 wd:Q708676 .
+
+wd:Q6995703 wdt:P31 wd:Q742421 .
+
+wd:Q7661632 wdt:P31 wd:Q708676 .
+
+wd:Q6995703 wdt:P31 wd:Q708676 .
+
+wd:Q85774656 wdt:P31 wd:Q107095432 .
+
+wd:Q7726774 wdt:P31 wd:Q7168296 .
+
+wd:Q104412772 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Fredericton, NB, Canada"@en ;
+	schema:name "Fredericton Playhouse"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-51> ;
+	schema:url <https://www.theplayhouse.ca/> ;
+	schema:name "Fredericton Playhouse"@fr .
+
+wd:Q105528951 wdt:P31 wd:Q32178211 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à St. John's en Terre-Neuve-et-Labrador, Canada"@fr ;
+	schema:name "The Tuckamore Festival"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-523> ;
+	schema:url <http://www.tuckamorefestival.ca/> ;
+	schema:name "The Tuckamore Festival"@fr .
+
+wd:Q112510071 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Summerside en Île-du-Prince-Édouard, Canada"@fr ;
+	schema:name "Harbourfront Theatre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-26> ;
+	schema:url <https://www.harbourfronttheatre.com/> ;
+	schema:name "Harbourfront Theatre"@fr .
+
+wd:Q105722852 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Annapolis Royal en Nouvelle-Écosse, Canada"@fr ;
+	schema:name "King's Theatre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-524> ;
+	schema:url <https://www.kingstheatre.ca/> ;
+	schema:name "King's Theatre"@fr .
+
+wd:Q111724594 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Kensingston en Île-du-Prince-Édouard, Canada"@fr ;
+	schema:name "Under the Spire Music Festival"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-91> ;
+	schema:url <https://underthespire.ca/> ;
+	schema:name "Under the Spire Music Festival"@fr .
+
+wd:Q105528951 wdt:P31 wd:Q708676 ;
+	schema:disambiguatingDescription "performing arts presenting organization in St. John's, Newfoundland and Labrador, Canada"@en .
+
+wd:Q104412772 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Fredericton, N.-B., Canada"@fr .
+
+wd:Q112510074 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Halifax, Nova Scotia, Canada"@en ;
+	schema:name "Prismatic Arts Festival"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-30> ;
+	schema:url <https://www.prismaticfestival.com> ;
+	schema:name "Prismatic Arts Festival"@fr ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q111724594 wdt:P31 wd:Q108669279 ;
+	schema:disambiguatingDescription "performing arts presenting organization in Kensington, Prince Edward Island, Canada"@en .
+
+wd:Q111748080 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Mont-Carmel, Prince Edward Island, Canada"@en ;
+	schema:name "Coopérative de développement culturel et patrimonial de Mont-Carmel"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5289> ;
+	schema:url <https://www.cooperativeculturelledemontcarmel.com> ;
+	schema:name "Coopérative de développement culturel et patrimonial de Mont-Carmel"@fr .
+
+wd:Q105722852 wdt:P31 wd:Q7062022 ;
+	schema:disambiguatingDescription "performing arts presenting organization in Annapolis Royal, Nova Scotia, Canada"@en .
+
+wd:Q111724395 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Chester, Nova Scotia, Canada"@en ;
+	schema:name "Chester Playhouse"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-47> ;
+	schema:url <https://chesterplayhouse.ca> ;
+	schema:name "Chester Playhouse"@fr .
+
+wd:Q111748080 schema:url <https://www.cooperativeculturelledemontcarmel.com/english/> ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Mont-Carmel en Île-du-Prince-Édouard, Canada"@fr .
+
+wd:Q112510135 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Halifax, Nova Scotia, Canada"@en ;
+	schema:name "Cecilia Concerts"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-107> ;
+	schema:url <https://www.ceciliaconcerts.ca/> ;
+	schema:name "Cecilia Concerts"@fr .
+
+wd:Q111724395 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Chester en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q112510135 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q111724395 wdt:P31 wd:Q7168296 .
+
+wd:Q111724594 wdt:P31 wd:Q708676 .
+
+wd:Q112510074 wdt:P31 wd:Q108669279 .
+
+wd:Q105722852 wdt:P31 wd:Q708676 .
+
+wd:Q111748080 wdt:P31 wd:Q4539 .
+
+wd:Q105528951 wdt:P31 wd:Q108669279 .
+
+wd:Q112510071 wdt:P31 wd:Q708676 ;
+	schema:disambiguatingDescription "performing arts presenting organization in Summerside, Prince Edward Island, Canada"@en .
+
+wd:Q104412772 wdt:P31 wd:Q708676 .
+
+wd:Q105528951 wdt:P31 wd:Q7062022 .
+
+wd:Q112510135 wdt:P31 wd:Q7168296 .
+
+wd:Q129104504 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion et production des arts de la scène à Saint Jean, N.-B., Canada"@fr ;
+	schema:name "Saint John Theatre Company"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5202> ;
+	schema:url <http://www.saintjohntheatrecompany.com/> ;
+	schema:name "Saint John Theatre Company"@fr .
+
+wd:Q126952144 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Halifax, Nova Scotia, Canada"@en ;
+	schema:name "Kinetic"@fr ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5277> ;
+	schema:url <http://www.kineticstudio.ca> .
+
+wd:Q115012692 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "indigenous-led arts organization based in St. John's, Newfoundland, Canada"@en ;
+	schema:name "First Light"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-291> ;
+	schema:url <https://firstlightnl.ca/> .
+
+wd:Q120625885 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Happy Valley-Goose Bay, NL, Canada"@en ;
+	schema:name "Eastern Labrador Arts Alliance"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-168> ;
+	schema:url <http://www.obrienartscentre.ca/> ;
+	schema:name "Eastern Labrador Arts Alliance"@fr .
+
+wd:Q126952144 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q116174062 wdt:P31 wd:Q163740 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Saint Jean, N.-B., Canada"@fr ;
+	schema:name "Imperial Theatre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-130> ;
+	schema:url <https://imperialtheatre.ca> .
+
+wd:Q128259888 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Halifax, Nova Scotia, Canada"@en ;
+	schema:name "Dalhousie Arts Centre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-157> ;
+	schema:url <https://www.dal.ca/dept/arts-centre.html> .
+
+wd:Q116174062 schema:name "Imperial Theatre"@fr .
+
+wd:Q129104482 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in St. Andrews, NB, Canada"@en ;
+	schema:name "Paddlefest NB"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5201> ;
+	schema:url <https://www.paddlefestnb.ca> ;
+	schema:name "Paddlefest NB"@fr .
+
+wd:Q117090701 wdt:P31 wd:Q163740 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Moncton, New Brunswick, Canada"@en ;
+	schema:name "Théâtre Capitol"@fr ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-197> ;
+	schema:url <http://www.capitol.nb.ca> .
+
+wd:Q120625885 schema:disambiguatingDescription "organisme de diffusion des arts de la scène en Terre-Neuve-et-Labrador, Canada"@fr .
+
+wd:Q128259888 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q115012692 wdt:P31 wd:Q3269648 ;
+	schema:disambiguatingDescription "organisme d'arts autochtone à Saint-Jean de Terre-Neuve, Terre-Neuve-et-Labrador, Canada"@fr ;
+	schema:name "First Light"@fr .
+
+wd:Q129104482 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à St. Andrews, N.-B., Canada"@fr .
+
+wd:Q117090701 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Moncton, Nouveau-Brunswick, Canada"@fr ;
+	schema:name "Capitol Theatre"@en .
+
+wd:Q126952144 wdt:P31 wd:Q708676 .
+
+wd:Q112570967 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Riverview, NB, Canada"@en ;
+	schema:name "Riverview Arts Centre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-12> ;
+	schema:url <https://riverviewartscentre.ca/> ;
+	schema:name "Riverview Arts Centre"@fr .
+
+wd:Q129104504 wdt:P31 wd:Q105815710 ;
+	schema:disambiguatingDescription "performing arts presenting and producing organization in Saint John, NB, Canada"@en .
+
+wd:Q115012692 wdt:P31 wd:Q708676 .
+
+wd:Q126952144 wdt:P31 wd:Q7168296 .
+
+wd:Q116174062 wdt:P31 wd:Q708676 ;
+	schema:disambiguatingDescription "performing arts presenting organization in Saint John, NB, Canada"@en .
+
+wd:Q112570967 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Riverview, N.-B., Canada"@fr ;
+	wdt:P31 wd:Q7168296 .
+
+wd:Q129104396 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Florenceville-Bristol, NB, Canada"@en ;
+	schema:name "Carleton Victoria Arts Council"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5197> ;
+	schema:url <http://www.cvarts.ca/> ;
+	schema:name "Carleton Victoria Arts Council"@fr .
+
+wd:Q126952144 schema:name "Kinetic"@en .
+
+wd:Q117090701 wdt:P31 wd:Q708676 .
+
+wd:Q129104396 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Florenceville-Bristol, N.-B., Canada"@fr .
+
+wd:Q128259888 schema:name "Dalhousie Arts Centre"@fr .
+
+wd:Q129104517 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Sussex, N.-B., Canada"@fr ;
+	schema:name "Ax Arts & Culture Centre of Sussex"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5206> ;
+	schema:url <https://axartscentre.ca/> ;
+	schema:name "Ax Arts & Culture Centre of Sussex"@fr .
+
+wd:Q129104515 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Harvey, NB, Canada"@en ;
+	schema:name "The Harvey Hall"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5205> ;
+	schema:name "The Harvey Hall"@fr ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Harvey, N.-B., Canada"@fr .
+
+wd:Q116174062 wdt:P31 wd:Q7168296 .
+
+wd:Q129104515 wdt:P31 wd:Q708676 .
+
+wd:Q129104396 wdt:P31 wd:Q7168296 .
+
+wd:Q117090701 wdt:P31 wd:Q7168296 .
+
+wd:Q129104517 wdt:P31 wd:Q7168296 .
+
+wd:Q129104504 wdt:P31 wd:Q708676 .
+
+wd:Q129106200 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "ballet company and festival organization in Moncton, NB, Canada"@en ;
+	schema:name "Atlantic Ballet Atlantique Canada"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-16> ;
+	schema:url <https://www.atlanticballet.ca/en/home/> .
+
+wd:Q129106195 wdt:P31 wd:Q5260434 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "arts organization in Riverview, NB, Canada"@en ;
+	schema:name "Town of Riverview, Parks and Recreation"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5203> ;
+	schema:url <https://www.townofriverview.ca/parks-and-recreation> ;
+	schema:name "Town of Riverview, Parks and Recreation"@fr .
+
+wd:Q129106200 schema:name "Atlantic Ballet Atlantique Canada"@fr .
+
+wd:Q129106974 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Woody Point, Newfoundland and Labrador, Canada"@en ;
+	schema:name "Writers at Woody Point"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5193> ;
+	schema:url <https://www.writersatwoodypoint.com/> ;
+	schema:name "Writers at Woody Point"@fr .
+
+wd:Q129447941 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Bangor, Maine, USA"@en ;
+	schema:name "Launchpad"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5220> ;
+	schema:url <http://www.wearelaunchpad.org/> .
+
+wd:Q129106974 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Woody Point en Terre-Neuve-et-Labrador, Canada"@fr .
+
+wd:Q129447941 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Bangor, Maine, É.-U."@fr .
+
+wd:Q129448011 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Clarenville, Newfoundland and Labrador, Canada"@en ;
+	schema:name "Eastlink Events Centre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5222> ;
+	schema:url <https://eastlinkeventscentre.ca/> ;
+	schema:name "Eastlink Events Centre"@fr .
+
+wd:Q129106200 schema:disambiguatingDescription "compagnie de ballet et organisme de festival à Moncton, N.-B., Canada"@fr .
+
+wd:Q129106974 wdt:P31 wd:Q3269648 .
+
+wd:Q129106195 schema:disambiguatingDescription "organisme des arts à Riverview, N.-B., Canada"@fr .
+
+wd:Q129106200 wdt:P31 wd:Q708676 .
+
+wd:Q129448011 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Clarenville en Terre-Neuve-et-Labrador, Canada"@fr .
+
+wd:Q129106184 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Fredericton, NB, Canada"@en ;
+	schema:name "Charlotte Street Arts Centre"@fr ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5196> ;
+	schema:url <http://www.charlottestreetarts.ca/> .
+
+wd:Q129106190 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Bertrand, NB, Canada"@en ;
+	schema:name "Musique Saint-Joachim"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5200> ;
+	schema:url <https://www.musiquestjoachim.com> ;
+	schema:name "Musique Saint-Joachim"@fr ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Bertrand, N.-B., Canada"@fr .
+
+wd:Q129106188 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Kilburn, NB, Canada"@en ;
+	schema:name "Larlee Creek Hullabaloo"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5199> ;
+	schema:url <http://www.larleecreekmusic.ca/> ;
+	schema:name "Larlee Creek Hullabaloo"@fr .
+
+wd:Q129106184 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Fredericton, N.-B., Canada"@fr .
+
+wd:Q129106188 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Kilburn, N.-B., Canada"@fr .
+
+wd:Q129106184 wdt:P31 wd:Q7168296 ;
+	schema:name "Charlotte Street Arts Centre"@en .
+
+wd:Q129106190 wdt:P31 wd:Q7168296 .
+
+wd:Q129106186 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Fredericton, NB, Canada"@en ;
+	schema:name "Harvest Jazz and Blues Festival"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5198> ;
+	schema:url <http://www.harvestjazzandblues.com/> ;
+	schema:name "Harvest Jazz and Blues Festival"@fr .
+
+wd:Q129104517 schema:disambiguatingDescription "performing arts presenting organization in Sussex, NB, Canada"@en .
+
+wd:Q129447941 schema:name "Launchpad"@fr .
+
+wd:Q129106974 wdt:P31 wd:Q7168296 .
+
+wd:Q129448009 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Corner Brook, Newfoundland and Labrador, Canada"@en ;
+	schema:name "Corner Brook Arts & Culture"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5221> ;
+	schema:url <https://artsandculturecentre.com/cornerbrook/Online/default.asp> ;
+	schema:name "Corner Brook Arts & Culture"@fr .
+
+wd:Q129106183 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Moncton, NB, Canada"@en ;
+	schema:name "Atlantic Dance Festival Danse Atlantique"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5195> ;
+	schema:url <https://www.ciedansencorps.com/adfda> .
+
+wd:Q129106186 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Fredericton, N.-B., Canada"@fr .
+
+wd:Q129106183 schema:name "Atlantic Dance Festival Danse Atlantique"@fr .
+
+wd:Q129448009 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Corner Brook en Terre-Neuve-et-Labrador, Canada"@fr .
+
+wd:Q129106183 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Moncton, N.-B., Canada"@fr .
+
+wd:Q129448043 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Gander, Newfoundland and Labrador, Canada"@en ;
+	schema:name "Gander Arts & Culture Centre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5224> ;
+	schema:url <https://artsandculturecentre.com/gander/Online/default.asp> .
+
+wd:Q129106193 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Fredericton, NB, Canada"@en ;
+	schema:name "Shivering Songs Festival"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-155> ;
+	schema:url <http://www.shiveringsongs.com/> ;
+	schema:name "Shivering Songs Festival"@fr .
+
+wd:Q129448043 schema:name "Gander Arts & Culture Centre"@fr .
+
+wd:Q129106198 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Miramichi, NB, Canada"@en ;
+	schema:name "Vogue Group"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5204> ;
+	schema:name "Vogue Group"@fr ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Miramichi, N.-B., Canada"@fr .
+
+wd:Q129106186 wdt:P31 wd:Q708676 .
+
+wd:Q129106200 wdt:P31 wd:Q805233 .
+
+wd:Q129448043 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Gander en Terre-Neuve-et-Labrador, Canada"@fr .
+
+wd:Q129106200 wdt:P31 wd:Q108669279 .
+
+wd:Q129106193 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Fredericton, N.-B., Canada"@fr .
+
+wd:Q129106195 wdt:P31 wd:Q108669279 .
+
+wd:Q129448006 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène en Terre-Neuve-et-Labrador, Canada"@fr ;
+	schema:name "Arts & Culture Centres"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-160> ;
+	schema:url <https://www.artsandculturecentre.com/> ;
+	schema:name "Arts & Culture Centres"@fr ;
+	schema:disambiguatingDescription "performing arts presenting organization in Newfoundland and Labrador, Canada"@en .
+
+wd:Q129448040 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Eastport en Terre-Neuve-et-Labrador, Canada"@fr ;
+	schema:name "Eastport Peninsula Heritage Society"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5223> ;
+	schema:url <http://www.beachesheritagecentre.ca/> ;
+	schema:name "Eastport Peninsula Heritage Society"@fr .
+
+wd:Q129448044 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Bonavista, Newfoundland and Labrador, Canada"@en ;
+	schema:name "Garrick Theatre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5225> ;
+	schema:url <http://www.garricktheatre.ca/> .
+
+wd:Q129448045 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Grand Falls-Windsor en Terre-Neuve-et-Labrador, Canada"@fr ;
+	schema:name "Gordon Pinsent Centre for the Arts"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5226> ;
+	schema:url <https://artsandculturecentre.com/gfw/Online/default.asp> ;
+	schema:name "Gordon Pinsent Centre for the Arts"@fr .
+
+wd:Q129448044 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Bonavista en Terre-Neuve-et-Labrador, Canada"@fr .
+
+wd:Q129448065 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Labrador City, Newfoundland and Labrador, Canada"@en ;
+	schema:name "Labrador West Arts & Culture Centre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5229> ;
+	schema:url <https://artsandculturecentre.com/labwest/Online/default.asp> ;
+	schema:name "Labrador West Arts & Culture Centre"@fr .
+
+wd:Q129448074 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Stephenville, Newfoundland and Labrador, Canada"@en ;
+	schema:name "Stephenville Arts & Culture Centre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5233> ;
+	schema:url <https://artsandculturecentre.com/stephenville/Online/default.asp> ;
+	schema:name "Stephenville Arts & Culture Centre"@fr .
+
+wd:Q129448047 wdt:P31 wd:Q3269648 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "community organization in Torbay, Newfoundland and Labrador, Canada"@en ;
+	schema:name "Jack Byrne Regional Sport & Entertainment Centre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5227> ;
+	schema:url <http://www.jackbyrnearena.com/> ;
+	schema:name "Jack Byrne Regional Sport & Entertainment Centre"@fr .
+
+wd:Q129448065 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Labrador City en Terre-Neuve-et-Labrador, Canada"@fr .
+
+wd:Q129448069 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in St. John's, Newfoundland and Labrador, Canada"@en ;
+	schema:name "Resource Centre for the Arts"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5231> ;
+	schema:url <http://www.lspuhall.ca/> .
+
+wd:Q129448074 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Stephenville en Terre-Neuve-et-Labrador, Canada"@fr .
+
+wd:Q129448076 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Stephenville, Newfoundland and Labrador, Canada"@en ;
+	schema:name "Stephenville Theatre Festival"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5234> ;
+	schema:url <http://www.stephenvilletheatrefestival.com/> ;
+	schema:name "Stephenville Theatre Festival"@fr .
+
+wd:Q129448450 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Liverpool, Nova Scotia, Canada"@en ;
+	schema:name "Astor Theatre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5240> ;
+	schema:url <http://astortheatre.ns.ca/wp/> .
+
+wd:Q129448047 schema:disambiguatingDescription "organisme communautaire à Torbay en Terre-Neuve-et-Labrador, Canada"@fr .
+
+wd:Q129448069 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à St. John's en Terre-Neuve-et-Labrador, Canada"@fr .
+
+wd:Q129448076 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Stephenville en Terre-Neuve-et-Labrador, Canada"@fr .
+
+wd:Q129448450 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Liverpool en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448069 wdt:P31 wd:Q7168296 .
+
+wd:Q129448067 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in St. John's, Newfoundland and Labrador, Canada"@en ;
+	schema:name "Neighbourhood Dance Works"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-328> ;
+	schema:url <https://www.neighbourhooddanceworks.com> .
+
+wd:Q129448450 wdt:P31 wd:Q7168296 .
+
+wd:Q129448067 schema:name "Neighbourhood Dance Works"@fr .
+
+wd:Q129448069 schema:name "Resource Centre for the Arts"@fr .
+
+wd:Q129448110 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Corner Brook, Newfoundland and Labrador, Canada"@en ;
+	schema:name "Camber Arts"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5236> ;
+	schema:url <https://www.camberarts.ca> ;
+	schema:name "Camber Arts"@fr .
+
+wd:Q129448040 wdt:P31 wd:Q108669279 ;
+	schema:disambiguatingDescription "performing arts presenting organization in Eastport, Newfoundland and Labrador, Canada"@en .
+
+wd:Q129448067 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à St. John's en Terre-Neuve-et-Labrador, Canada"@fr .
+
+wd:Q129448110 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Corner Brook en Terre-Neuve-et-Labrador, Canada"@fr .
+
+wd:Q129448068 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in St. John's, Newfoundland and Labrador, Canada"@en ;
+	schema:name "Newfoundland and Labrador Folk Festival"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5230> ;
+	schema:url <http://www.nlfolk.com/> ;
+	schema:name "Newfoundland and Labrador Folk Festival"@fr .
+
+wd:Q129448072 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Corner Brook, Newfoundland and Labrador, Canada"@en ;
+	schema:name "Rotary Arts Centre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5232> ;
+	schema:url <http://rotaryartscentre.ca/> ;
+	schema:name "Rotary Arts Centre"@fr .
+
+wd:Q129448110 wdt:P31 wd:Q7168296 .
+
+wd:Q129448068 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à St. John's en Terre-Neuve-et-Labrador, Canada"@fr .
+
+wd:Q129448072 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Corner Brook en Terre-Neuve-et-Labrador, Canada"@fr .
+
+wd:Q129448450 schema:name "Astor Theatre"@fr .
+
+wd:Q129448109 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Corner Brook, Newfoundland and Labrador, Canada"@en ;
+	schema:name "CB Nuit"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5235> ;
+	schema:url <https://www.cbnuit.com> ;
+	schema:name "CB Nuit"@fr .
+
+wd:Q129448067 wdt:P31 wd:Q708676 .
+
+wd:Q129448040 wdt:P31 wd:Q708676 .
+
+wd:Q129448044 schema:name "Garrick Theatre"@fr .
+
+wd:Q129448109 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Corner Brook en Terre-Neuve-et-Labrador, Canada"@fr .
+
+wd:Q129448112 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "government department and performing arts presenting organization in Samiajij Miawpukek, Newfoundland and Labrador, Canada"@en ;
+	schema:name "Miawpukek First Nation - TCR Department"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5237> ;
+	schema:url <http://www.mfngov.ca> ;
+	schema:name "Miawpukek First Nation - TCR Department"@fr .
+
+wd:Q129448068 wdt:P31 wd:Q708676 .
+
+wd:Q129448112 schema:disambiguatingDescription "département gouvernemental et organisme de diffusion des arts de la scène à Samiajij Miawpukek en Terre-Neuve-et-Labrador, Canada"@fr .
+
+wd:Q129448076 wdt:P31 wd:Q108669279 .
+
+wd:Q129448446 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Wolfville, Nova Scotia, Canada"@en ;
+	schema:name "Acadia University Performing Arts"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5238> ;
+	schema:url <https://pas.acadiau.ca/home.html> .
+
+wd:Q129448067 wdt:P31 wd:Q7168296 .
+
+wd:Q129448446 schema:name "Acadia University Performing Arts"@fr ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Wolfville en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448045 schema:disambiguatingDescription "performing arts presenting organization in Grand Falls-Windsor in Newfoundland and Labrador, Canada"@en .
+
+wd:Q129448475 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Guysborough, Nova Scotia, Canada"@en ;
+	schema:name "Chedabucto Place Association"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5242> ;
+	schema:url <https://chedabuctoplacetheatre.com/> ;
+	schema:name "Chedabucto Place Association"@fr .
+
+wd:Q129448452 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Halifax, Nova Scotia, Canada"@en ;
+	schema:name "Bella Rose Arts Centre"@fr ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5241> ;
+	schema:url <https://www.bellaroseartscentre.com/> .
+
+wd:Q129448501 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Dartmouth, Nova Scotia, Canada"@en ;
+	schema:name "Dartmouth Community Concerts"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5245> ;
+	schema:url <http://dartmouthcommunityconcert.ca/> ;
+	schema:name "Dartmouth Community Concerts"@fr .
+
+wd:Q129448556 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"@fr ;
+	schema:name "JazzEast & Halifax Jazz Festival"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5253> ;
+	schema:url <https://www.halifaxjazzfestival.ca/> .
+
+wd:Q129448452 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448556 schema:name "JazzEast & Halifax Jazz Festival"@fr .
+
+wd:Q129448475 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Guysborough en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448452 schema:name "Bella Rose Arts Centre"@en .
+
+wd:Q129448501 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Dartmouth en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448448 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Antigonish, Nova Scotia, Canada"@en ;
+	schema:name "Antigonish Performing Arts Series"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5239> ;
+	schema:url <https://people.stfx.ca/msteinit/about.htm> ;
+	schema:name "Antigonish Performing Arts Series"@fr .
+
+wd:Q129448452 wdt:P31 wd:Q7168296 .
+
+wd:Q129448448 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Antigonish en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448501 wdt:P31 wd:Q7168296 .
+
+wd:Q129448506 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Pictou, Nova Scotia, Canada"@en ;
+	schema:name "deCoste Centre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5246> ;
+	schema:url <http://www.decostecentre.ca/> ;
+	schema:name "deCoste Centre"@fr ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Pictou en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448509 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Wolfville, Nova Scotia, Canada"@en ;
+	schema:name "Deep Roots Music Festival"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5247> ;
+	schema:url <https://deeprootsmusic.ca> ;
+	schema:name "Deep Roots Music Festival"@fr .
+
+wd:Q129448556 wdt:P31 wd:Q708676 .
+
+wd:Q129448547 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Newport Landing, Nova Scotia, Canada"@en ;
+	schema:name "Full Circle Festival"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5249> ;
+	schema:url <http://www.fullcirclefestival.ca/> ;
+	schema:name "Full Circle Festival"@fr .
+
+wd:Q129448506 wdt:P31 wd:Q7168296 .
+
+wd:Q129448477 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "government body and performing arts presenting organization in Sydney, Nova Scotia, Canada"@en ;
+	schema:name "Cape Breton Regional Municipality"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5243> ;
+	schema:disambiguatingDescription "organe gouvernemental et organisme de diffusion des arts de la scène à Sydney en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448479 wdt:P31 wd:Q3269648 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "community organization and performing arts presenting organization in Dartmouth, Nova Scotia, Canada"@en ;
+	schema:name "Conseil communautaire du Grand-Havre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5244> ;
+	schema:url <https://ccgh.ca/> ;
+	schema:name "Conseil communautaire du Grand-Havre"@fr .
+
+wd:Q129448509 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Wolfville en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448547 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Newport Landing en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448550 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in New Glasgow, Nova Scotia, Canada"@en ;
+	schema:name "Glasgow Square Theatre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5250> ;
+	schema:url <http://www.glasgowsquare.com/> ;
+	schema:name "Glasgow Square Theatre"@fr .
+
+wd:Q129448479 schema:disambiguatingDescription "organisme communautaire et organisme de diffusion des arts de la scène à Dartmouth en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448503 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Halifax, Nova Scotia, Canada"@en ;
+	schema:name "Debut Atlantic"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-151> ;
+	schema:url <https://www.debutatlantic.ca/> .
+
+wd:Q129448550 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à New Glasgow en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448503 schema:name "Début Atlantique"@fr .
+
+wd:Q129448552 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Tatamagouche, Nova Scotia, Canada"@en ;
+	schema:name "The Grace Arts Centre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5251> ;
+	schema:url <http://www.gracejollymore.com/> ;
+	schema:name "The Grace Arts Centre"@fr .
+
+wd:Q129448503 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448477 schema:name "Cape Breton Regional Municipality"@fr .
+
+wd:Q129448552 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Tatamagouche en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448509 wdt:P31 wd:Q708676 .
+
+wd:Q129448547 wdt:P31 wd:Q708676 .
+
+wd:Q129448552 wdt:P31 wd:Q7168296 .
+
+wd:Q129448503 wdt:P31 wd:Q6815100 .
+
+wd:Q129448479 wdt:P31 wd:Q7168296 .
+
+wd:Q129448475 wdt:P31 wd:Q708676 .
+
+wd:Q129448554 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Lockeport, Nova Scotia, Canada"@en ;
+	schema:name "Harmony Bazaar Festival of Women and Song Society"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5252> ;
+	schema:url <http://www.harmonybazaar.com/> ;
+	schema:name "Harmony Bazaar Festival of Women and Song Society"@fr .
+
+wd:Q129448509 wdt:P31 wd:Q7168296 .
+
+wd:Q129448503 wdt:P31 wd:Q708676 .
+
+wd:Q129448554 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Lockeport en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448556 schema:disambiguatingDescription "performing arts presenting organization in Halifax, Nova Scotia, Canada"@en .
+
+wd:Q129448616 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Antigonish en Nouvelle-Écosse, Canada"@fr ;
+	schema:name "Nova Scotia Summer Fest"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5263> ;
+	schema:url <http://novascotiasummerfest.ca/> .
+
+wd:Q129448580 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Lunenburg, Nova Scotia, Canada"@en ;
+	schema:name "Lunenburg Folk Harbour Society"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5254> ;
+	schema:url <http://www.folkharbour.com/> .
+
+wd:Q129448616 schema:name "Nova Scotia Summer Fest"@fr .
+
+wd:Q129448580 schema:name "Lunenburg Folk Harbour Society"@fr .
+
+wd:Q129448591 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Musquodoboit Harbour en Nouvelle-Écosse, Canada"@fr ;
+	schema:name "Musquodoboit Valley Bicentennial"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5258> ;
+	schema:url <http://bicentennialtheatre.ca/> .
+
+wd:Q129448593 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Lunenburg, Nova Scotia, Canada"@en ;
+	schema:name "Musique Royale"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5259> ;
+	schema:url <http://www.musiqueroyale.com/> .
+
+wd:Q129448591 schema:name "Musquodoboit Valley Bicentennial"@fr .
+
+wd:Q129448587 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Truro en Nouvelle-Écosse, Canada"@fr ;
+	schema:name "Marigold Cultural Centre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5256> ;
+	schema:url <http://www.marigoldcentre.ca/> .
+
+wd:Q129448593 schema:name "Musique Royale"@fr .
+
+wd:Q129448587 schema:name "Marigold Cultural Centre"@fr .
+
+wd:Q129448580 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Lunenburg en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448593 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Lunenburg en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448587 wdt:P31 wd:Q7168296 ;
+	schema:disambiguatingDescription "performing arts presenting organization in Truro, Nova Scotia, Canada"@en .
+
+wd:Q129448643 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Halifax, Nova Scotia, Canada"@en ;
+	schema:name "Re-Jigged Festival"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5267> ;
+	schema:url <http://www.rejiggedfestival.com/> ;
+	schema:name "Re-Jigged Festival"@fr .
+
+wd:Q129448614 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Halifax, Nova Scotia, Canada"@en ;
+	schema:name "Nocturne: Art at Night"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5262> ;
+	schema:url <http://www.nocturnehalifax.ca/> ;
+	schema:name "Nocturne: Art at Night"@fr .
+
+wd:Q129448643 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448585 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Saulnierville, Nova Scotia, Canada"@en ;
+	schema:name "L'association Le Moulin de la Baie"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5255> ;
+	schema:name "L'association Le Moulin de la Baie"@fr ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Saulnierville en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448614 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448593 wdt:P31 wd:Q7168296 .
+
+wd:Q129448580 wdt:P31 wd:Q708676 .
+
+wd:Q129448645 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Glace Bay en Nouvelle-Écosse, Canada"@fr ;
+	schema:name "Savoy Theatre"@fr ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5268> ;
+	schema:url <http://www.savoytheatre.com/> .
+
+wd:Q129448621 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Pictou, Nova Scotia, Canada"@en ;
+	schema:name "Pictou Lobster Carnival"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5265> ;
+	schema:url <https://pictoulobstercarnival.ca> ;
+	schema:name "Pictou Lobster Carnival"@fr ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Pictou en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448645 wdt:P31 wd:Q7168296 ;
+	schema:name "Savoy Theatre"@en .
+
+wd:Q129448616 wdt:P31 wd:Q108669279 ;
+	schema:disambiguatingDescription "performing arts presenting organization in Antigonish, Nova Scotia, Canada"@en .
+
+wd:Q129448582 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Halifax, Nova Scotia, Canada"@en ;
+	schema:name "Live Art Dance Productions"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-323> ;
+	schema:url <https://liveartdance.ca> ;
+	schema:name "Live Art Dance Productions"@fr .
+
+wd:Q129448595 wdt:P31 wd:Q742421 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Guysborough, Nova Scotia, Canada"@en ;
+	schema:name "Mulgrave Road Theatre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5260> ;
+	schema:url <http://www.mulgraveroad.ca/> ;
+	schema:name "Mulgrave Road Theatre"@fr .
+
+wd:Q129448623 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Port Hawkesbury Nova Scotia, Canada"@en ;
+	schema:name "Port Hawkesbury Civic Centre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5266> ;
+	schema:url <http://www.phcivic.com/> ;
+	schema:name "Port Hawkesbury Civic Centre"@fr .
+
+wd:Q129448619 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Shelburne, Nova Scotia, Canada"@en ;
+	schema:name "Osprey Arts Centre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5264> ;
+	schema:url <http://ospreyartscentre.ca/> ;
+	schema:name "Osprey Arts Centre"@fr .
+
+wd:Q129448582 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448595 wdt:P31 wd:Q708676 ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Guysborough en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448623 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Port Hawkesbury en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448619 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Shelburne en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448593 wdt:P31 wd:Q108669279 .
+
+wd:Q129448619 wdt:P31 wd:Q7168296 .
+
+wd:Q129448595 wdt:P31 wd:Q7168296 .
+
+wd:Q129448621 wdt:P31 wd:Q7168296 .
+
+wd:Q129448582 wdt:P31 wd:Q708676 .
+
+wd:Q129448645 wdt:P31 wd:Q163740 .
+
+wd:Q129448591 schema:disambiguatingDescription "performing arts presenting organization in Musquodoboit Harbour, Nova Scotia, Canada"@en .
+
+wd:Q129448725 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Antigonish, Nova Scotia, Canada"@en ;
+	schema:name "Festival Antigonish Summer Theatre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5275> ;
+	schema:url <https://www.festivalantigonish.ca/> ;
+	schema:name "Festival Antigonish Summer Theatre"@fr .
+
+wd:Q129448683 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Yarmouth en Nouvelle-Écosse, Canada"@fr ;
+	schema:name "Th'YARC Playhouse and Art Centre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5272> ;
+	schema:url <http://www.yarcplayhouse.com/> ;
+	schema:name "Th'YARC Playhouse and Art Centre"@fr .
+
+wd:Q129448725 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Antigonish en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448727 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Sydney, Nova Scotia, Canada"@en ;
+	schema:name "Highland Arts Theatre Association"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5276> ;
+	schema:url <https://www.highlandartstheatre.com/> ;
+	schema:name "Highland Arts Theatre Association"@fr .
+
+wd:Q129448750 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Annapolis Royal en Nouvelle-Écosse, Canada"@fr ;
+	schema:name "Festival of Dance Annapolis Royal (FODAR)"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-161> ;
+	schema:url <https://fodar.ca/> ;
+	schema:name "Festival of Dance Annapolis Royal (FODAR)"@fr .
+
+wd:Q129448727 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Sydney en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448700 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Sydney, Nova Scotia, Canada"@en ;
+	schema:name "Celtic Colours International Festival"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5273> ;
+	schema:url <https://celtic-colours.com> ;
+	schema:name "Celtic Colours International Festival"@fr .
+
+wd:Q129448701 wdt:P31 wd:Q5154974 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Halifax, Nova Scotia, Canada"@en ;
+	schema:name "Culture Link / Light House Arts Centre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5274> ;
+	schema:url <https://www.lighthouseartscentre.ca> ;
+	schema:name "Culture Link / Light House Arts Centre"@fr .
+
+wd:Q129448875 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Wellington, Prince Edward Island, Canada"@en ;
+	schema:name "Centre Expo-Festival"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5280> ;
+	schema:url <https://www.villagemusical.ca> , <https://www.villagemusical.ca/fr/> ;
+	schema:name "Centre Expo-Festival"@fr .
+
+wd:Q129448701 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448700 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Sydney en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448875 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Wellington en Île-du-Prince-Édouard, Canada"@fr .
+
+wd:Q129448645 schema:disambiguatingDescription "performing arts presenting organization in Glace Bay, Nova Scotia, Canada"@en .
+
+wd:Q129448725 wdt:P31 wd:Q708676 .
+
+wd:Q129448879 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Prince Edward Island, Canada"@en ;
+	schema:name "Community of Kinkora"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5281> ;
+	schema:url <https://kinkorapei.ca> ;
+	schema:name "Community of Kinkora"@fr ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène en Île-du-Prince-Édouard, Canada"@fr .
+
+wd:Q129448701 wdt:P31 wd:Q7168296 .
+
+wd:Q129448725 wdt:P31 wd:Q7168296 .
+
+wd:Q129448750 wdt:P31 wd:Q108669279 ;
+	schema:disambiguatingDescription "performing arts presenting organization in Annapolis Royal, Nova Scotia, Canada"@en .
+
+wd:Q129448727 wdt:P31 wd:Q163740 .
+
+wd:Q129448746 wdt:P31 wd:Q108669279 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in New Glasgow, Nova Scotia, Canada"@en ;
+	schema:name "Riverfront Jubilee Festival"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5278> ;
+	schema:url <http://www.thejubilee.ca> ;
+	schema:name "Riverfront Jubilee Festival"@fr ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à New Glasgow en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448748 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Halifax, Nova Scotia, Canada"@en ;
+	schema:name "The Stage at St. Andrew's"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5279> ;
+	schema:url <https://saintandrewshfx.ca/the-stage> ;
+	schema:name "The Stage at St. Andrew's"@fr ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Halifax en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448668 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Mabou, Nova Scotia, Canada"@en ;
+	schema:name "Strathspey Performing Arts Centre"@en ;
+	schema:memberOf wd:Q72193736 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5269> ;
+	schema:url <https://www.strathspeyplace.com> ;
+	schema:name "Strathspey Performing Arts Centre"@fr ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Mabou en Nouvelle-Écosse, Canada"@fr .
+
+wd:Q129448683 wdt:P31 wd:Q708676 ;
+	schema:disambiguatingDescription "performing arts presenting organization in Yarmouth, Nova Scotia, Canada"@en .
+
+wd:Q129448700 wdt:P31 wd:Q108669279 .
+
+wd:Q129448746 wdt:P31 wd:Q708676 .
+
+wd:Q129448727 wdt:P31 wd:Q708676 .
