@@ -1,0 +1,1212 @@
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix hint: <http://www.bigdata.com/queryHints#> .
+@prefix bd: <http://www.bigdata.com/rdf#> .
+@prefix bds: <http://www.bigdata.com/rdf/search#> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix mwapi: <https://www.mediawiki.org/ontology#API/> .
+@prefix gas: <http://www.bigdata.com/rdf/gas#> .
+@prefix wdsubgraph: <https://query.wikidata.org/subgraph/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix wdata: <http://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix wds: <http://www.wikidata.org/entity/statement/> .
+@prefix wdv: <http://www.wikidata.org/value/> .
+@prefix wdref: <http://www.wikidata.org/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix geof: <http://www.opengis.net/def/geosparql/function/> .
+@prefix mediawiki: <https://www.mediawiki.org/ontology#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix wikibaseqs: <http://wikiba.se/queryService#> .
+
+wd:Q138003847 wdt:P31 wd:Q742421 ;
+	a schema:Organization ;
+	schema:name "Theatre Passe Muraille"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6644> , wd:Q138003847 ;
+	schema:url <https://www.passemuraille.ca/> ;
+	schema:name "Theatre Passe Muraille"@fr ;
+	schema:memberOf wd:Q64402570 ;
+	schema:name "Theatre Passe Muraille"@mul .
+
+wd:Q137944118 wdt:P31 wd:Q742421 ;
+	a schema:Organization ;
+	schema:name "TheatreTO"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6633> , wd:Q137944118 ;
+	schema:url <https://theatre.to/> ;
+	schema:name "TheatreTO"@fr .
+
+wd:Q137944125 wdt:P31 wd:Q4827314 ;
+	a schema:Organization ;
+	schema:name "Canada Ireland Foundation"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6587> , wd:Q137944125 ;
+	schema:url <https://www.canadairelandfoundation.com/> ;
+	schema:name "Canada Ireland Foundation"@fr .
+
+wd:Q137944139 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:name "Viv Moore"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6546> , wd:Q137944139 ;
+	schema:url <https://www.vivmoore.com/> ;
+	schema:name "Viv Moore"@fr .
+
+wd:Q137944140 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:name "Sarah Weatherwax"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6542> , wd:Q137944140 ;
+	schema:url <https://www.sarahweatherwax.com/> ;
+	schema:name "Sarah Weatherwax"@fr .
+
+wd:Q137944116 wdt:P31 wd:Q742421 ;
+	a schema:Organization ;
+	schema:name "The Bloor West Village Players"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6628> , wd:Q137944116 ;
+	schema:url <https://villageplayers.net/> ;
+	schema:name "The Bloor West Village Players"@fr .
+
+wd:Q137944124 wdt:P31 wd:Q64581117 ;
+	a schema:Organization ;
+	schema:name "Second Act Actor Productions"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6619> , wd:Q137944124 ;
+	schema:url <https://secondactactorproductions.com/> ;
+	schema:name "Second Act Actor Productions"@fr .
+
+wd:Q137944120 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:name "Two2Mango"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6518> , wd:Q137944120 ;
+	schema:url <https://www.two2mango.com/> ;
+	schema:name "Two2Mango"@fr .
+
+wd:Q137944132 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:name "Jobina Sitoh"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6534> , wd:Q137944132 ;
+	schema:url <https://www.jobinasitoh.com/> ;
+	schema:name "Jobina Sitoh"@fr .
+
+wd:Q137944113 wdt:P31 wd:Q742421 ;
+	a schema:Organization ;
+	schema:name "Renaissance Canadian Theatre Company"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6616> , wd:Q137944113 ;
+	schema:url <https://renaissancetheatre.wordpress.com/> ;
+	schema:name "Renaissance Canadian Theatre Company"@fr .
+
+wd:Q367149 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Stratford Festival of Canada"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-130> , wd:Q367149 , <https://isni.org/isni/0000000102187444> ;
+	schema:url <https://www.stratfordfestival.ca/> ;
+	schema:name "Stratford Festival of Canada"@fr .
+
+wd:Q3527838 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Théâtre français de Toronto"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-143> , wd:Q3527838 ;
+	schema:url <https://theatrefrancais.com/fr/> ;
+	wdt:P31 wd:Q163740 ;
+	schema:name "Théâtre français de Toronto"@fr ;
+	schema:memberOf wd:Q124301446 ;
+	schema:url <https://www.theatrefrancais.com> .
+
+wd:Q2915268 wdt:P31 wd:Q20819922 ;
+	a schema:Organization ;
+	schema:name "Canadian Opera Company"@en ;
+	schema:memberOf wd:Q127268850 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5143> , wd:Q2915268 , <https://isni.org/isni/0000000121842483> ;
+	schema:url <https://www.coc.ca/> .
+
+wd:Q1777200 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "The Second City"@fr ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-222> , wd:Q1777200 ;
+	schema:url <http://www.secondcity.com/> .
+
+wd:Q5568832 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:name "Glenn Gould Foundation"@mul ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6409> , wd:Q5568832 , <https://isni.org/isni/0000000085223916> ;
+	schema:url <https://www.glenngould.ca/> .
+
+wd:Q5172618 wdt:P31 wd:Q2393314 ;
+	a schema:Organization ;
+	schema:name "CORPUS"@fr ;
+	schema:memberOf wd:Q124301446 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-171> , wd:Q5172618 , <https://isni.org/isni/0000000115085009> ;
+	schema:url <http://www.corpus.ca> , <https://www.corpus.ca/fr/francais/> .
+
+wd:Q684435 wdt:P31 wd:Q163740 ;
+	a schema:Organization ;
+	schema:name "Toronto Symphony Orchestra"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-147> , wd:Q684435 , <https://isni.org/isni/0000000113129442> ;
+	schema:url <https://www.tso.ca/> .
+
+wd:Q2881270 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:name "The National Ballet of Canada"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-105> , wd:Q2881270 , <https://isni.org/isni/0000000121956974> ;
+	schema:url <https://national.ballet.ca> .
+
+wd:Q5172618 wdt:P31 wd:Q107095432 ;
+	schema:name "CORPUS"@en ;
+	schema:memberOf wd:Q7826264 .
+
+wd:Q2915268 wdt:P31 wd:Q708676 ;
+	schema:name "Canadian Opera Company"@fr .
+
+wd:Q2881270 wdt:P31 wd:Q805233 ;
+	schema:memberOf wd:Q7826264 .
+
+wd:Q5172618 schema:memberOf wd:Q71859269 ;
+	schema:url <https://www.corpus.ca/> .
+
+wd:Q2881270 schema:memberOf wd:Q85541788 .
+
+wd:Q1777200 schema:name "The Second City"@en ;
+	schema:url <https://www.secondcity.com/> .
+
+wd:Q2881270 schema:name "The National Ballet of Canada"@fr .
+
+wd:Q684435 wdt:P31 wd:Q708676 ;
+	schema:name "Orchestre symphonique de Toronto"@fr .
+
+wd:Q367149 schema:memberOf wd:Q64402570 .
+
+wd:Q684435 wdt:P31 wd:Q42998 .
+
+wd:Q1777200 wdt:P31 wd:Q2416217 .
+
+wd:Q4737423 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Alumnae Theatre Company"@fr ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6581> , wd:Q4737423 ;
+	schema:url <http://www.alumnaetheatre.com/index.html> .
+
+wd:Q367149 wdt:P31 wd:Q1751626 .
+
+wd:Q2915268 schema:memberOf wd:Q7826264 .
+
+wd:Q5568832 wdt:P31 wd:Q4827314 .
+
+wd:Q4737423 schema:url <https://alumnaetheatre.com/> ;
+	schema:name "Alumnae Theatre Company"@en .
+
+wd:Q7075523 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Obsidian Theatre"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6605> , wd:Q7075523 ;
+	schema:url <https://www.obsidiantheatre.com/> .
+
+wd:Q5568832 schema:name "The Glenn Gould Foundation"@en , "The Glenn Gould Foundation"@fr .
+
+wd:Q7034089 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:name "Nightwood Theatre"@mul ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5933> , wd:Q7034089 ;
+	schema:url <https://www.nightwoodtheatre.net/> .
+
+wd:Q6681647 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Young People’s Theatre"@fr ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K3-177> , wd:Q6681647 ;
+	schema:url <https://www.youngpeoplestheatre.org> , <https://www.youngpeoplestheatre.org/> ;
+	wdt:P31 wd:Q105815710 , wd:Q24354 .
+
+wd:Q7368570 wdt:P31 wd:Q4830453 ;
+	a schema:Organization ;
+	schema:name "Roseneath Theatre"@fr ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6618> , wd:Q7368570 ;
+	schema:url <https://www.roseneath.ca> .
+
+wd:Q7684566 wdt:P31 wd:Q20819922 ;
+	a schema:Organization ;
+	schema:name "Tapestry Opera"@fr ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5145> , wd:Q7684566 ;
+	schema:url <http://www.tapestryopera.com> .
+
+wd:Q7368570 schema:name "Roseneath Theatre"@en ;
+	schema:url <https://www.roseneath.ca/> .
+
+wd:Q6681647 schema:memberOf wd:Q110938829 .
+
+wd:Q7075523 schema:name "Obsidian Theatre"@fr .
+
+wd:Q7684566 schema:name "Tapestry Opera"@en ;
+	schema:url <https://tapestryopera.com/> .
+
+wd:Q7564521 wdt:P31 wd:Q2596417 ;
+	a schema:Organization ;
+	schema:name "Soulpepper Theatre Co"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6623> , wd:Q7564521 ;
+	schema:url <https://www.soulpepper.ca/> ;
+	schema:name "Soulpepper Theatre Co"@fr .
+
+wd:Q6681647 wdt:P31 wd:Q163740 , wd:Q3152824 ;
+	schema:name "Young People's Theatre"@en .
+
+wd:Q7826332 wdt:P31 wd:Q167037 ;
+	a schema:Organization ;
+	schema:name "Toronto Dance Theatre"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-146> , wd:Q7826332 , <https://isni.org/isni/0000000095902322> ;
+	schema:url <http://www.tdt.org> ;
+	wdt:P31 wd:Q107095432 ;
+	schema:url <https://tdt.org/> .
+
+wd:Q7034089 wdt:P31 wd:Q11812394 ;
+	schema:name "Nightwood Theatre"@en , "Nightwood Theatre"@fr .
+
+wd:Q7826332 schema:memberOf wd:Q71859269 ;
+	wdt:P31 wd:Q7168296 .
+
+wd:Q7564521 wdt:P31 wd:Q11812394 .
+
+wd:Q7826332 wdt:P31 wd:Q2393314 .
+
+wd:Q7564521 wdt:P31 wd:Q163740 .
+
+wd:Q7075523 schema:memberOf wd:Q64402570 ;
+	schema:url <http://www.obsidiantheatre.com/> .
+
+wd:Q7034089 wdt:P31 wd:Q742421 .
+
+wd:Q5568832 wdt:P31 wd:Q32178211 .
+
+wd:Q7684566 schema:memberOf wd:Q127268850 .
+
+wd:Q7368570 wdt:P31 wd:Q11812394 .
+
+wd:Q7826392 wdt:P31 wd:Q11483816 ;
+	a schema:Organization ;
+	schema:name "Toronto Fringe Festival"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6635> , wd:Q7826392 ;
+	schema:url <http://www.fringetoronto.com/> .
+
+wd:Q14875121 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Canadian Stage"@en ;
+	schema:memberOf wd:Q64402570 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-30> , wd:Q14875121 , <https://isni.org/isni/0000000103512093> ;
+	schema:url <https://www.canadianstage.com> ;
+	wdt:P31 wd:Q7168296 ;
+	schema:name "Canadian Stage"@fr ;
+	schema:memberOf wd:Q85541788 ;
+	schema:url <https://www.canadianstage.com/> ;
+	schema:memberOf wd:Q7826264 .
+
+wd:Q7826392 wdt:P31 wd:Q132241 ;
+	schema:name "Toronto Fringe Festival"@fr .
+
+wd:Q14875121 wdt:P31 wd:Q708676 .
+
+wd:Q7826332 schema:name "Toronto Dance Theatre"@fr .
+
+wd:Q7826392 schema:url <https://fringetoronto.com/> .
+
+wd:Q14875121 wdt:P31 wd:Q105815710 , wd:Q163740 ;
+	schema:name "Canadian Stage"@mul .
+
+wd:Q7826392 wdt:P31 wd:Q1751626 .
+
+wd:Q100965296 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:name "Crow’s Theatre"@mul ;
+	schema:memberOf wd:Q85541788 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-42> , wd:Q100965296 , <https://isni.org/isni/0000000480576666> ;
+	schema:url <https://www.crowstheatre.com> .
+
+wd:Q112510122 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:name "Wind in the leaves collective"@fr ;
+	schema:memberOf wd:Q85541788 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-83> , wd:Q112510122 ;
+	schema:url <https://windintheleavescollective.com/> ;
+	schema:name "Wind in the leaves collective"@en .
+
+wd:Q100965296 wdt:P31 wd:Q105815710 ;
+	schema:memberOf wd:Q7826264 .
+
+wd:Q71858441 wdt:P31 wd:Q742421 ;
+	a schema:Organization ;
+	schema:name "Eldritch Theatre"@fr ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6591> , wd:Q71858441 ;
+	schema:url <https://eldritchtheatre.ca> .
+
+wd:Q30272039 wdt:P31 wd:Q163740 ;
+	a schema:Organization ;
+	schema:name "Metcalf Foundation"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6601> , wd:Q30272039 , <https://isni.org/isni/0000000446608804> ;
+	schema:url <https://metcalffoundation.com/> ;
+	wdt:P31 wd:Q64581117 ;
+	schema:name "Metcalf Foundation"@fr ;
+	schema:url <http://metcalffoundation.com/> .
+
+wd:Q112570683 wdt:P31 wd:Q2089936 ;
+	a schema:Organization ;
+	schema:name "Dance Umbrella of Ontario"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-32> , wd:Q112570683 ;
+	schema:url <https://danceumbrella.net> .
+
+wd:Q100965231 wdt:P31 wd:Q64581117 ;
+	a schema:Organization ;
+	schema:name "Marquis Entertainment"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6600> , wd:Q100965231 ;
+	schema:url <https://mqent.ca/> .
+
+wd:Q112570683 wdt:P31 wd:Q107095432 ;
+	schema:memberOf wd:Q71859269 .
+
+wd:Q100965231 schema:name "Marquis Entertainment"@fr .
+
+wd:Q112570683 schema:url <https://danceumbrella.net/> ;
+	schema:memberOf wd:Q85541788 ;
+	wdt:P31 wd:Q5354754 .
+
+wd:Q100965296 wdt:P31 wd:Q11812394 ;
+	schema:memberOf wd:Q64402570 ;
+	schema:name "Crow’s Theatre"@en , "Crow’s Theatre"@fr .
+
+wd:Q14875168 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Hart House Theatre"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6596> , wd:Q14875168 ;
+	schema:url <https://harthouse.ca/theatre> ;
+	wdt:P31 wd:Q105815710 , wd:Q24354 .
+
+wd:Q100965296 wdt:P31 wd:Q163740 .
+
+wd:Q62473198 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Shakespeare in the Ruff"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6621> , wd:Q62473198 ;
+	schema:url <http://shakespeareintheruff.com/> , <https://shakespeareintheruff.com/> .
+
+wd:Q112510122 schema:memberOf wd:Q7826264 .
+
+wd:Q62473198 schema:name "Shakespeare in the Ruff"@fr .
+
+wd:Q71858441 schema:name "Eldritch Theatre"@en .
+
+wd:Q14875168 schema:name "Hart House Theatre"@fr .
+
+wd:Q137778672 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:name "Stakes and Embers"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6625> , wd:Q137778672 ;
+	schema:name "Stakes and Embers"@fr .
+
+wd:Q137944128 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:name "Devanshi Mishra"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6527> , wd:Q137944128 ;
+	schema:name "Devanshi Mishra"@fr .
+
+wd:Q137944129 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:name "Elliot Gosh"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6528> , wd:Q137944129 ;
+	schema:name "Elliot Gosh"@fr .
+
+wd:Q137944134 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:name "Kenzia Dalie"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6536> , wd:Q137944134 ;
+	schema:name "Kenzia Dalie"@fr .
+
+wd:Q137944110 wdt:P31 wd:Q742421 ;
+	a schema:Organization ;
+	schema:name "Pucker’s Company"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6614> , wd:Q137944110 ;
+	schema:name "Pucker’s Company"@fr .
+
+wd:Q137944135 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:name "MJ Kang"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6540> , wd:Q137944135 ;
+	schema:name "MJ Kang"@fr .
+
+wd:Q137944108 wdt:P31 wd:Q742421 ;
+	a schema:Organization ;
+	schema:name "Pitchin’in Productions"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6609> , wd:Q137944108 ;
+	schema:name "Pitchin’in Productions"@fr .
+
+wd:Q137944133 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:name "Kay Wong"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6535> , wd:Q137944133 ;
+	schema:name "Kay Wong"@fr .
+
+wd:Q137944138 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:name "Stephanie Caldeira"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6544> , wd:Q137944138 ;
+	schema:name "Stephanie Caldeira"@fr .
+
+wd:Q137944114 wdt:P31 wd:Q742421 ;
+	a schema:Organization ;
+	schema:name "Stagepunk Theatre"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6624> , wd:Q137944114 ;
+	schema:name "Stagepunk Theatre"@fr .
+
+wd:Q137944136 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:name "Rachana Joshi"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6541> , wd:Q137944136 ;
+	schema:name "Rachana Joshi"@fr .
+
+wd:Q137944137 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:name "Stavroula Karnouskou"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6543> , wd:Q137944137 ;
+	schema:name "Stavroula Karnouskou"@fr .
+
+wd:Q137944119 wdt:P31 wd:Q742421 ;
+	a schema:Organization ;
+	schema:name "Three Ships Collective"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6634> , wd:Q137944119 ;
+	schema:name "Three Ships Collective"@fr .
+
+wd:Q137944117 wdt:P31 wd:Q742421 ;
+	a schema:Organization ;
+	schema:name "Theatre Ya Knowww"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6632> , wd:Q137944117 ;
+	schema:name "Theatre Ya Knowww"@fr .
+
+wd:Q137944121 wdt:P31 wd:Q2393314 ;
+	a schema:Organization ;
+	schema:name "Ismailova Theatre of Dance"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6598> , wd:Q137944121 ;
+	schema:name "Ismailova Theatre of Dance"@fr .
+
+wd:Q137944126 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:name "Abigail Sullivan"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6521> , wd:Q137944126 .
+
+wd:Q137778610 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:name "Jack Cunningham"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6531> , wd:Q137778610 .
+
+wd:Q137778703 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:name "Byron Laviolette"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6525> , wd:Q137778703 ;
+	schema:name "Byron Laviolette"@fr .
+
+wd:Q137778567 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:name "Alicia DiStefano"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6523> , wd:Q137778567 ;
+	schema:name "Alicia DiStefano"@fr .
+
+wd:Q137778569 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:name "Azeem Nathoo"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6524> , wd:Q137778569 ;
+	schema:name "Azeem Nathoo"@fr .
+
+wd:Q137778610 schema:name "Jack Cunningham"@fr .
+
+wd:Q137944096 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:name "Travis Ouellette"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6545> , wd:Q137944096 ;
+	schema:name "Travis Ouellette"@fr .
+
+wd:Q137778615 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:name "Linda Joyce Nourse"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6537> , wd:Q137778615 ;
+	schema:name "Linda Joyce Nourse"@fr .
+
+wd:Q137778694 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Unbridled Theatre Collective"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6637> , wd:Q137778694 ;
+	schema:name "Unbridled Theatre Collective"@fr .
+
+wd:Q137778612 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:name "Janet Kish"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6533> , wd:Q137778612 ;
+	schema:name "Janet Kish"@fr .
+
+wd:Q131990989 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:name "TO Live"@mul ;
+	schema:memberOf wd:Q85541788 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-146> , wd:Q131990989 ;
+	schema:url <https://www.tolive.com/Home-Page> ;
+	wdt:P31 wd:Q7168296 ;
+	schema:name "TO Live"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:url <https://www.tolive.com/> .
+
+wd:Q128269667 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:name "A Yarn Or Two Arts Collective"@fr ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5380> , wd:Q128269667 ;
+	schema:url <https://www.kirkdunn.com> .
+
+wd:Q131990989 schema:name "TO Live"@fr .
+
+wd:Q136431828 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Tarragon Theatre"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6114> , wd:Q136431828 ;
+	schema:url <https://tarragontheatre.com/> .
+
+wd:Q131990989 wdt:P31 wd:Q163740 .
+
+wd:Q128269667 schema:name "A Yarn Or Two Arts Collective"@mul , "A Yarn Or Two Arts Collective"@en ;
+	schema:memberOf wd:Q85541788 .
+
+wd:Q137712366 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:name "Factory Theatre"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6354> , wd:Q137712366 ;
+	schema:url <https://www.factorytheatre.ca/> .
+
+wd:Q128269667 wdt:P31 wd:Q742421 ;
+	schema:memberOf wd:Q7826264 .
+
+wd:Q136431828 wdt:P31 wd:Q163740 .
+
+wd:Q127271989 wdt:P31 wd:Q20819922 ;
+	a schema:Organization ;
+	schema:name "Opera 5"@fr ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5141> , wd:Q127271989 ;
+	schema:url <https://opera5.ca/> ;
+	schema:name "Opera 5"@en ;
+	schema:memberOf wd:Q127268850 .
+
+wd:Q137778570 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:name "b current Performing Arts"@en ;
+	schema:memberOf wd:Q100710454 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6583> , wd:Q137778570 ;
+	schema:url <https://www.bcurrent.ca/> ;
+	schema:name "b current Performing Arts"@fr .
+
+wd:Q137712366 schema:name "Factory Theatre"@fr ;
+	wdt:P31 wd:Q11812394 ;
+	schema:name "Factory Theatre"@mul .
+
+wd:Q137772056 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "The Musical Stage Company"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-482> , wd:Q137772056 ;
+	schema:url <https://musicalstagecompany.com/> ;
+	schema:name "The Musical Stage Company"@fr , "The Musical Stage Company"@mul ;
+	wdt:P31 wd:Q105815710 .
+
+wd:Q127271989 schema:url <https://www.opera5.ca/> .
+
+wd:Q136471511 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:name "Derrick Chua"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6126> , wd:Q136471511 ;
+	schema:url <http://derrickchua.com> ;
+	schema:name "Derrick Chua"@fr , "Derrick Chua"@mul .
+
+wd:Q130608927 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Riot King"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6617> , wd:Q130608927 ;
+	schema:url <https://www.riotking.com/> .
+
+wd:Q137778570 schema:memberOf wd:Q7826264 .
+
+wd:Q137778566 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Actors Repertory Company"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6580> , wd:Q137778566 ;
+	schema:url <https://arcstage.com/> ;
+	schema:name "Actors Repertory Company"@fr .
+
+wd:Q136431828 schema:name "Tarragon Theatre"@mul , "Tarragon Theatre"@fr .
+
+wd:Q130608927 schema:name "Riot King"@fr .
+
+wd:Q136431828 wdt:P31 wd:Q708676 .
+
+wd:Q137778570 wdt:P31 wd:Q11812394 .
+
+wd:Q136471511 schema:memberOf wd:Q85541788 .
+
+wd:Q137944103 wdt:P31 wd:Q742421 ;
+	a schema:Organization ;
+	schema:name "Hard-Bitten Productions"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6595> , wd:Q137944103 ;
+	schema:url <https://www.hardbittenproductions.com/> ;
+	schema:name "Hard-Bitten Productions"@fr .
+
+wd:Q137778605 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Guild Festival Theatre"@en ;
+	schema:memberOf wd:Q100710454 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6594> , wd:Q137778605 ;
+	schema:url <https://www.guildfestivaltheatre.ca/> ;
+	schema:name "Guild Festival Theatre"@fr .
+
+wd:Q137778681 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "The King Black Box"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6629> , wd:Q137778681 ;
+	schema:url <https://www.thekingblackbox.com/> ;
+	schema:name "The King Black Box"@fr .
+
+wd:Q137944104 wdt:P31 wd:Q742421 ;
+	a schema:Organization ;
+	schema:name "It Could Still Happen"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6599> , wd:Q137944104 ;
+	schema:url <https://www.itcouldstillhappen.com/> ;
+	schema:name "It Could Still Happen"@fr .
+
+wd:Q137944109 wdt:P31 wd:Q742421 ;
+	a schema:Organization ;
+	schema:name "Project: Humanity"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6613> , wd:Q137944109 ;
+	schema:url <https://www.projecthumanity.ca/> ;
+	schema:name "Project: Humanity"@fr .
+
+wd:Q137778628 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Modern Times Stage Company"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-582> , wd:Q137778628 ;
+	schema:url <https://www.moderntimesstage.com/> ;
+	schema:name "Modern Times Stage Company"@fr .
+
+wd:Q137778695 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Video Cabaret International"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6638> , wd:Q137778695 ;
+	schema:url <https://videocab.com/video-cabaret> ;
+	schema:name "Video Cabaret International"@fr .
+
+wd:Q137778635 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:name "Nightswimming"@fr ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6604> , wd:Q137778635 ;
+	schema:url <https://nightswimming.ca/> .
+
+wd:Q137778570 schema:name "b current Performing Arts"@mul .
+
+wd:Q137778605 schema:memberOf wd:Q7826264 .
+
+wd:Q137944105 wdt:P31 wd:Q742421 ;
+	a schema:Organization ;
+	schema:name "NAGs Players"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6602> , wd:Q137944105 ;
+	schema:url <https://www.nagsplayers.com/> ;
+	schema:name "NAGs Players"@fr .
+
+wd:Q137778696 wdt:P31 wd:Q132241 ;
+	a schema:Organization ;
+	schema:name "WeeFestival of Arts and Culture"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-480> , wd:Q137778696 ;
+	schema:url <https://weefestival.ca/> ;
+	schema:name "WeeFestival of Arts and Culture"@fr .
+
+wd:Q137778575 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Bowtie Productions"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6585> , wd:Q137778575 ;
+	schema:url <https://bowtieproductions.ca/> ;
+	schema:name "Bowtie Productions"@fr .
+
+wd:Q137778622 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:name "Lynne Cormack"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6538> , wd:Q137778622 ;
+	schema:url <https://www.lynnecormack.com/> ;
+	schema:name "Lynne Cormack"@fr .
+
+wd:Q137778589 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:name "Dance Immersion"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-307> , wd:Q137778589 ;
+	schema:url <https://danceimmersion.ca/> ;
+	schema:name "Dance Immersion"@fr .
+
+wd:Q137778668 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Shakespeare BASH’d"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6620> , wd:Q137778668 ;
+	schema:url <https://www.shakespearebashd.com/> ;
+	schema:name "Shakespeare BASH’d"@fr .
+
+wd:Q137778584 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Crossroads Theatre"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6588> , wd:Q137778584 ;
+	schema:url <https://www.crossroadstheatre.org/> .
+
+wd:Q137778595 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Dandelion Theatre"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6589> , wd:Q137778595 ;
+	schema:url <https://www.dandeliontheatreto.com/> ;
+	schema:name "Dandelion Theatre"@fr .
+
+wd:Q137778571 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Bad Hats Theatre"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6584> , wd:Q137778571 ;
+	schema:url <https://badhatstheatre.com/> ;
+	schema:name "Bad Hats Theatre"@fr .
+
+wd:Q137778609 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:name "Ivory Conover"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6530> , wd:Q137778609 ;
+	schema:url <https://www.pureivory.ca/> ;
+	schema:name "Ivory Conover"@fr .
+
+wd:Q137944115 wdt:P31 wd:Q742421 ;
+	a schema:Organization ;
+	schema:name "Stories by Dan"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6626> , wd:Q137944115 ;
+	schema:url <https://www.storiesbydan.com/> ;
+	schema:name "Stories by Dan"@fr .
+
+wd:Q137778655 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:name "Outside the March"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6606> , wd:Q137778655 ;
+	schema:url <https://outsidethemarch.ca/> ;
+	schema:name "Outside the March"@fr .
+
+wd:Q137778698 wdt:P31 wd:Q3918 ;
+	a schema:Organization ;
+	schema:name "York University (Department of Theatre, Dance and Performance)"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6639> , wd:Q137778698 ;
+	schema:url <https://ampd.yorku.ca/department-of-theatre-dance-and-performance/> ;
+	schema:name "York University (Department of Theatre, Dance and Performance)"@fr .
+
+wd:Q137778577 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Cahoots Theatre"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6586> , wd:Q137778577 ;
+	schema:url <https://www.cahoots.ca/> ;
+	schema:name "Cahoots Theatre"@fr .
+
+wd:Q137778608 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Icarus Theatre"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6597> , wd:Q137778608 ;
+	schema:url <https://www.icarustheatre.ca/> ;
+	schema:name "Icarus Theatre"@fr .
+
+wd:Q137778594 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:name "DanceWorks"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-311> , wd:Q137778594 ;
+	schema:url <https://www.danceworks.ca/> ;
+	schema:name "DanceWorks"@fr .
+
+wd:Q137778678 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Talk Is Free Theatre"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-135> , wd:Q137778678 ;
+	schema:url <https://www.tift.ca/> ;
+	schema:name "Talk Is Free Theatre"@fr .
+
+wd:Q137944106 wdt:P31 wd:Q742421 ;
+	a schema:Organization ;
+	schema:name "Panoply Theatre Collective"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6607> , wd:Q137944106 ;
+	schema:url <https://panoplycollective.com/> ;
+	schema:name "Panoply Theatre Collective"@fr .
+
+wd:Q137778684 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Theatre Direct"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6630> , wd:Q137778684 ;
+	schema:url <https://theatredirect.ca/> ;
+	schema:name "Theatre Direct"@fr .
+
+wd:Q137778659 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Pleiades Theatre"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6610> , wd:Q137778659 ;
+	schema:url <https://www.pleiadestheatre.org/> ;
+	schema:name "Pleiades Theatre"@fr .
+
+wd:Q137778568 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Aluna Theatre"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6582> , wd:Q137778568 ;
+	schema:url <https://www.alunatheatre.ca/> ;
+	schema:name "Aluna Theatre"@fr .
+
+wd:Q137778626 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:name "Maxine Heppner"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6539> , wd:Q137778626 ;
+	schema:url <https://www.acrossoceans.org/> ;
+	schema:name "Maxine Heppner"@fr .
+
+wd:Q137944112 wdt:P31 wd:Q742421 ;
+	a schema:Organization ;
+	schema:name "Puppetmongers Theatre"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6615> , wd:Q137944112 ;
+	schema:url <https://puppetmongers.com/> ;
+	schema:name "Puppetmongers Theatre"@fr .
+
+wd:Q137778685 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Theatre Gargantua"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6631> , wd:Q137778685 ;
+	schema:url <https://theatregargantua.ca/> .
+
+wd:Q137778661 wdt:P31 wd:Q3918 ;
+	a schema:Organization ;
+	schema:name "Programs for 50+TMU"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6612> , wd:Q137778661 ;
+	schema:url <https://continuing.torontomu.ca/> ;
+	schema:name "Programs for 50+TMU"@fr .
+
+wd:Q137778699 wdt:P31 wd:Q64581117 ;
+	a schema:Organization ;
+	schema:name "Young Associates"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6640> , wd:Q137778699 ;
+	schema:url <https://www.youngassociates.ca/> ;
+	schema:name "Young Associates"@fr .
+
+wd:Q137778689 wdt:P31 wd:Q2467461 ;
+	a schema:Organization ;
+	schema:name "Toronto Metropolitan University School of Performance"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6636> , wd:Q137778689 ;
+	schema:url <https://www.torontomu.ca/performance/> ;
+	schema:name "Toronto Metropolitan University School of Performance"@fr .
+
+wd:Q137778679 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Thaumatrope Theatre"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6627> , wd:Q137778679 ;
+	schema:url <https://www.thaumatropetheatre.com/> ;
+	schema:name "Thaumatrope Theatre"@fr .
+
+wd:Q137944102 wdt:P31 wd:Q742421 ;
+	a schema:Organization ;
+	schema:name "Garner Theatre Productions"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6593> , wd:Q137944102 ;
+	schema:url <https://www.garnertheatreproductions.com/> ;
+	schema:name "Garner Theatre Productions"@fr .
+
+wd:Q137778584 schema:name "Crossroads Theatre"@fr .
+
+wd:Q137778671 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:name "Small but Mighty Productions"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6622> , wd:Q137778671 ;
+	schema:url <https://smallbutmightyproductions.ca/> ;
+	schema:name "Small but Mighty Productions"@fr .
+
+wd:Q137778635 schema:name "Nightswimming"@en .
+
+wd:Q137778601 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:name "Esmeralda Enrique Spanish Dance Company"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6592> , wd:Q137778601 ;
+	schema:url <https://www.flamencos.net/> ;
+	schema:name "Esmeralda Enrique Spanish Dance Company"@fr .
+
+wd:Q137944107 wdt:P31 wd:Q742421 ;
+	a schema:Organization ;
+	schema:name "Parry Riposte Productions"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6608> , wd:Q137944107 ;
+	schema:url <https://parryriposte.ca/> ;
+	schema:name "Parry Riposte Productions"@fr .
+
+wd:Q137778660 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:name "Princess Productions"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6611> , wd:Q137778660 ;
+	schema:url <https://princessproductions.ca/princess/> .
+
+wd:Q137778685 schema:name "Theatre Gargantua"@fr .
+
+wd:Q137778631 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:name "Necessary Angel Theatre Company"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6603> , wd:Q137778631 ;
+	schema:url <https://www.necessaryangel.com/> ;
+	schema:name "Necessary Angel Theatre Company"@fr .
+
+wd:Q137778660 schema:name "Princess Productions"@fr .
+
+wd:Q137944126 schema:name "Abigail Sullivan"@fr .
+
+wd:Q137944127 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:name "Davinder Malhi"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6526> , wd:Q137944127 ;
+	schema:name "Davinder Malhi"@fr .
+
+wd:Q137944101 wdt:P31 wd:Q742421 ;
+	a schema:Organization ;
+	schema:name "Downstage Theatre Company"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6590> , wd:Q137944101 ;
+	schema:name "Downstage Theatre Company"@fr .
+
+wd:Q137944130 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:name "Inji Zayba Zaheer"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6529> , wd:Q137944130 ;
+	schema:name "Inji Zayba Zaheer"@fr .
+
+wd:Q137944131 wdt:P31 wd:Q5 ;
+	a schema:Person ;
+	schema:name "Jamani Mateen"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-6532> , wd:Q137944131 ;
+	schema:name "Jamani Mateen"@fr .
+
+wd:Q112570683 schema:name "Dance Umbrella of Ontario"@fr .
+
+wd:Q126358102 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:name "Citadel + Compagnie"@en ;
+	schema:memberOf wd:Q85541788 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-201> , wd:Q126358102 ;
+	schema:url <http://citadelcie.com> , <https://www.citadelcie.com> , <https://www.citadelcie.com/fr/page-daccueil-2/> ;
+	wdt:P31 wd:Q7168296 ;
+	schema:name "Citadel + Compagnie"@fr ;
+	schema:memberOf wd:Q71859269 ;
+	schema:url <https://www.citadelcie.com/> ;
+	wdt:P31 wd:Q107095432 ;
+	schema:memberOf wd:Q7826264 .
+
+wd:Q124389163 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:name "The Theatre Centre"@en ;
+	schema:memberOf wd:Q85541788 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-152> , wd:Q124389163 ;
+	schema:url <https://theatrecentre.org/> ;
+	schema:name "The Theatre Centre"@fr ;
+	wdt:P31 wd:Q11812394 ;
+	schema:memberOf wd:Q7826264 ;
+	wdt:P31 wd:Q7168296 , wd:Q163740 .
+
+wd:Q126370134 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:name "SummerWorks Performance Festival"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-204> , wd:Q126370134 ;
+	schema:url <https://summerworks.ca/> ;
+	schema:name "SummerWorks Performance Festival"@fr .
+
+wd:Q126952157 wdt:P31 wd:Q2393314 ;
+	a schema:Organization ;
+	schema:name "pounds per square inch performance"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-183> , wd:Q126952157 ;
+	schema:url <https://www.poundspersquareinch.net/> ;
+	schema:name "pounds per square inch performance"@fr .
+
+wd:Q126370134 schema:memberOf wd:Q85541788 ;
+	schema:url <http://summerworks.ca> .
+
+wd:Q126952157 schema:memberOf wd:Q125754426 .
+
+wd:Q126952151 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:name "Moonhorse Dance Theatre"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-179> , wd:Q126952151 ;
+	schema:url <https://www.moonhorsedance.com/> .
+
+wd:Q126370134 wdt:P31 wd:Q132241 .
+
+wd:Q126952151 wdt:P31 wd:Q107095432 ;
+	schema:memberOf wd:Q7826264 ;
+	schema:url <http://www.moonhorsedance.com> .
+
+wd:Q126952127 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:name "Dancemakers Centre for Creation"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-160> , wd:Q126952127 ;
+	schema:url <https://dancemakers.org/> ;
+	schema:name "Dancemakers Centre for Creation"@fr .
+
+wd:Q126370134 wdt:P31 wd:Q108669279 .
+
+wd:Q126952157 wdt:P31 wd:Q107095432 ;
+	schema:memberOf wd:Q7826264 .
+
+wd:Q126952151 schema:name "Moonhorse Dance Theatre"@fr .
+
+wd:Q126370134 wdt:P31 wd:Q708676 .
+
+wd:Q126952158 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:name "ProArteDanza"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-184> , wd:Q126952158 ;
+	schema:url <https://www.proartedanza.com/> ;
+	schema:name "ProArteDanza"@fr .
+
+wd:Q126952140 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:name "Kaeja d’Dance"@en ;
+	schema:memberOf wd:Q71859269 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-485> , wd:Q126952140 ;
+	schema:url <https://www.kaeja.org/> ;
+	schema:name "Kaeja d’Dance"@fr .
+
+wd:Q126952127 schema:url <https://www.dancemakers.org> .
+
+wd:Q126952140 schema:memberOf wd:Q125754426 .
+
+wd:Q126952161 wdt:P31 wd:Q107095432 ;
+	a schema:Organization ;
+	schema:name "REAson d'etre dance productions"@en ;
+	schema:memberOf wd:Q7826264 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K4-186> , wd:Q126952161 ;
+	schema:url <https://reasondetre.com> .
+
+wd:Q126952158 wdt:P31 wd:Q2393314 ;
+	schema:memberOf wd:Q7826264 .
+
+wd:Q126952161 schema:name "REAson d'etre dance productions"@mul .
+
+wd:Q126952140 wdt:P31 wd:Q2393314 ;
+	schema:memberOf wd:Q7826264 .
+
+wd:Q126952161 schema:name "REAson d'etre dance productions"@fr .
+
+wd:Q126952127 schema:memberOf wd:Q71859269 .
+
+wd:Q126952161 schema:memberOf wd:Q71859269 .
