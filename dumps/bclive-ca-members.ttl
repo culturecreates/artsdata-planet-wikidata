@@ -1,0 +1,1684 @@
+@prefix schema: <http://schema.org/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sesame: <http://www.openrdf.org/schema/sesame#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix hint: <http://www.bigdata.com/queryHints#> .
+@prefix bd: <http://www.bigdata.com/rdf#> .
+@prefix bds: <http://www.bigdata.com/rdf/search#> .
+@prefix psn: <http://www.wikidata.org/prop/statement/value-normalized/> .
+@prefix pqn: <http://www.wikidata.org/prop/qualifier/value-normalized/> .
+@prefix prn: <http://www.wikidata.org/prop/reference/value-normalized/> .
+@prefix mwapi: <https://www.mediawiki.org/ontology#API/> .
+@prefix gas: <http://www.bigdata.com/rdf/gas#> .
+@prefix wdsubgraph: <https://query.wikidata.org/subgraph/> .
+@prefix wdtn: <http://www.wikidata.org/prop/direct-normalized/> .
+@prefix psv: <http://www.wikidata.org/prop/statement/value/> .
+@prefix ps: <http://www.wikidata.org/prop/statement/> .
+@prefix pqv: <http://www.wikidata.org/prop/qualifier/value/> .
+@prefix pq: <http://www.wikidata.org/prop/qualifier/> .
+@prefix prv: <http://www.wikidata.org/prop/reference/value/> .
+@prefix pr: <http://www.wikidata.org/prop/reference/> .
+@prefix wdno: <http://www.wikidata.org/prop/novalue/> .
+@prefix p: <http://www.wikidata.org/prop/> .
+@prefix wikibase: <http://wikiba.se/ontology#> .
+@prefix wdata: <http://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix wds: <http://www.wikidata.org/entity/statement/> .
+@prefix wdv: <http://www.wikidata.org/value/> .
+@prefix wdref: <http://www.wikidata.org/reference/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix geof: <http://www.opengis.net/def/geosparql/function/> .
+@prefix mediawiki: <https://www.mediawiki.org/ontology#> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix wikibaseqs: <http://wikiba.se/queryService#> .
+
+wd:Q112510080 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène sur Saltspring Island en Colombie-Britannique, Canada"@fr ;
+	schema:name "ArtSpring"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-34> ;
+	schema:url <https://artspring.ca> ;
+	schema:name "ArtSpring"@fr ;
+	schema:disambiguatingDescription "performing arts organization in Saltspring Island, British Columbia, Canada"@en .
+
+wd:Q112511010 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr ;
+	schema:name "Centennial Theatre"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-93> ;
+	schema:url <https://www.nvrc.ca/centennial-theatre> ;
+	schema:name "Centennial Theatre"@fr .
+
+wd:Q107093494 wdt:P31 wd:Q64581117 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "booking agency in Montreal, Québec, Canada"@en ;
+	schema:name "Boulev’Art Inc."@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-40> ;
+	schema:url <https://www.boulevart.ca/> ;
+	schema:name "Boulev’Art Inc."@fr ;
+	schema:url <https://www.boulevart.ca> .
+
+wd:Q112510080 wdt:P31 wd:Q7168296 .
+
+wd:Q112510105 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Vernon, British Columbia, Canada"@en ;
+	schema:name "Vernon and District Performing Arts Centre Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-71> ;
+	schema:url <https://www.vdpac.ca> ;
+	schema:name "Vernon and District Performing Arts Centre Society"@fr ;
+	schema:disambiguatingDescription "organisme des arts de la scène à Vernon, Colombie-Britannique, Canada"@fr .
+
+wd:Q112570685 wdt:P31 wd:Q64581117 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "booking agency in Montreal, Québec, Canada"@en ;
+	schema:name "Latitude 45 Arts"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-55> ;
+	schema:url <https://www.latitude45arts.com> , <https://www.latitude45arts.com/> ;
+	schema:name "Latitude 45 Arts"@fr .
+
+wd:Q107436693 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Vancouver, Colombie-Britannique, Canada"@fr ;
+	schema:name "Vancouver Civic Theatres"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-69> ;
+	schema:url <https://vancouvercivictheatres.com/> .
+
+wd:Q107093494 wdt:P31 wd:Q6881511 .
+
+wd:Q105751339 wdt:P31 wd:Q7062022 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Nelson, British Columbia, Canada"@en ;
+	schema:name "Capitol Theatre Restoration Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-529> ;
+	schema:url <https://www.capitoltheatre.ca> .
+
+wd:Q107436693 schema:name "Vancouver Civic Theatres"@fr .
+
+wd:Q107093494 wdt:P31 wd:Q5354754 .
+
+wd:Q112510065 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in traditional unceded Ktunaxa territory (Cranbrook, British Columbia, Canada)"@en ;
+	schema:name "Key City Theatre"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-15> ;
+	schema:url <https://www.keycitytheatre.com> ;
+	schema:name "Key City Theatre"@fr .
+
+wd:Q112570690 wdt:P31 wd:Q64581117 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "booking agency in Toronto, Ontario, Canada"@en ;
+	schema:name "AIM Booking Agency"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-167> ;
+	schema:url <https://www.aimbookingagency.com/> .
+
+wd:Q107093494 schema:disambiguatingDescription "agence de tournée au Canada"@fr .
+
+wd:Q112570690 schema:name "AIM Booking Agency"@fr .
+
+wd:Q112510065 schema:disambiguatingDescription "organisme de diffusion des arts de la scène dans le territoire traditionnel non cédé des Ktunaxas (à Cranbrook, C.-B., Canada)"@fr .
+
+wd:Q112510095 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Victoria, British Columbia, Canada"@en ;
+	schema:name "The Royal and McPherson Theatres Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-37> ;
+	schema:url <https://www.rmts.bc.ca> ;
+	schema:name "The Royal and McPherson Theatres Society"@fr .
+
+wd:Q112510105 wdt:P31 wd:Q7168296 .
+
+wd:Q112510114 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts group in Vancouver, British Columbia, Canada"@en ;
+	schema:name "Full Circle: First Nations Performance"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-81> ;
+	schema:url <https://fullcircle.ca/> ;
+	schema:name "Full Circle: First Nations Performance"@fr ;
+	schema:disambiguatingDescription "groupe des arts de la scène au Canada"@fr .
+
+wd:Q112510065 wdt:P31 wd:Q7168296 .
+
+wd:Q112570685 wdt:P31 wd:Q5354754 .
+
+wd:Q112510095 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Victoria, Colombie-Britannique, Canada"@fr .
+
+wd:Q112570685 schema:disambiguatingDescription "agence de tournée au Canada"@fr .
+
+wd:Q112510095 wdt:P31 wd:Q7168296 .
+
+wd:Q105751339 wdt:P31 wd:Q708676 ;
+	schema:name "Capitol Theatre Restoration Society"@fr .
+
+wd:Q112570690 wdt:P31 wd:Q5354754 .
+
+wd:Q112511010 schema:disambiguatingDescription "performing arts organization in North Vancouver, British Columbia, Canada"@en .
+
+wd:Q112510080 wdt:P31 wd:Q163740 .
+
+wd:Q107436693 schema:disambiguatingDescription "performing arts presenting organization in Vancouver, British Columbia, Canada"@en .
+
+wd:Q105751339 wdt:P31 wd:Q7168296 .
+
+wd:Q112510114 wdt:P31 wd:Q105815710 .
+
+wd:Q112570690 schema:disambiguatingDescription "agence de tournée au Canada"@fr .
+
+wd:Q112570695 wdt:P31 wd:Q5354754 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "agence de tournée au Canada"@fr ;
+	schema:name "Maverick Cooperative"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-103> ;
+	schema:url <https://maverickcooperative.com/> ;
+	schema:name "Maverick Cooperative"@fr .
+
+wd:Q112570693 wdt:P31 wd:Q5354754 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "booking agency in Saint-Jérôme, Québec, Canada"@en ;
+	schema:name "Cusson Management"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-100> ;
+	schema:url <https://www.cussonmanagement.com> , <https://www.cussonmanagement.com/> ;
+	schema:name "Cusson Management"@fr .
+
+wd:Q112572953 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr ;
+	schema:name "Mission Folk Music Festival Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-56> ;
+	schema:url <https://www.missionfolkmusicfestival.ca> ;
+	schema:name "Mission Folk Music Festival Society"@fr .
+
+wd:Q112774900 wdt:P31 wd:Q163740 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Maple Ridge, British Columbia, Canada"@en ;
+	schema:name "Arts On Maple Ridge-Pitt Meadows"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-67> ;
+	schema:url <https://arts-on.org/> ;
+	schema:name "Arts On Maple Ridge-Pitt Meadows"@fr .
+
+wd:Q113488561 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Nanaimo en Colombie-Britannique, Canada"@fr ;
+	schema:name "Port Theatre"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-116> ;
+	schema:url <https://www.porttheatre.com> ;
+	schema:name "Port Theatre"@fr .
+
+wd:Q112570688 wdt:P31 wd:Q5354754 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "booking agency in Montreal, Québec, Canada"@en ;
+	schema:name "Agence Station Bleue"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-85> ;
+	schema:url <https://stationbleue.com/> , <https://stationbleue.com/en/> .
+
+wd:Q112774900 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Maple Ridge, C.-B, Canada"@fr .
+
+wd:Q112570688 schema:name "Agence Station Bleue"@fr ;
+	wdt:P31 wd:Q64581117 ;
+	schema:disambiguatingDescription "agence de tournée au Canada"@fr .
+
+wd:Q112572952 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr ;
+	schema:name "Inner Fish Performance"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-53> ;
+	schema:url <https://innerfishperformance.ca> , <https://livingthingsfestival.com/> ;
+	schema:name "Inner Fish Performance"@fr .
+
+wd:Q112570694 wdt:P31 wd:Q64581117 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "booking agency in Georgina, Ontario, Canada"@en ;
+	schema:name "Bailiwick Booking Agency"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-101> ;
+	schema:url <https://bailiwick.biz/> ;
+	schema:name "Bailiwick Booking Agency"@fr .
+
+wd:Q112570693 wdt:P31 wd:Q64581117 ;
+	schema:disambiguatingDescription "agence de tournée au Canada"@fr .
+
+wd:Q112572953 wdt:P31 wd:Q108669279 ;
+	schema:disambiguatingDescription "performing arts organization in Mission, British Columbia, Canada"@en .
+
+wd:Q113488561 wdt:P31 wd:Q7168296 .
+
+wd:Q112572868 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "groupe des arts de la scène au Canada"@fr ;
+	schema:name "Productions Strada"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-545> ;
+	schema:url <https://www.strada.ca> ;
+	schema:name "Productions Strada"@fr .
+
+wd:Q112570695 wdt:P31 wd:Q64581117 ;
+	schema:disambiguatingDescription "booking agency in Nanaimo, British Columbia, Canada"@en .
+
+wd:Q112570694 wdt:P31 wd:Q5354754 .
+
+wd:Q112572868 schema:disambiguatingDescription "performing arts group in Quebec, Quebec, Canada"@en .
+
+wd:Q112774900 wdt:P31 wd:Q708676 .
+
+wd:Q112572952 wdt:P31 wd:Q7168296 ;
+	schema:disambiguatingDescription "performing arts organization in Kelowna, British Columbia, Canada"@en .
+
+wd:Q112572953 wdt:P31 wd:Q708676 .
+
+wd:Q112570694 schema:disambiguatingDescription "agence de tournée au Canada"@fr .
+
+wd:Q112774900 wdt:P31 wd:Q7168296 .
+
+wd:Q75642113 wdt:P31 wd:Q43229 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr ;
+	schema:name "Powell Street Festival Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5455> ;
+	schema:url <https://www.powellstreetfestival.com> ;
+	schema:name "Powell Street Festival Society"@fr .
+
+wd:Q336701 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr ;
+	schema:name "Butchart Gardens"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5430> ;
+	schema:url <https://www.butchartgardens.com> ;
+	schema:name "The Butchart Gardens"@fr .
+
+wd:Q105751339 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q4851638 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts group in Toronto, Ontario, Canada"@en ;
+	schema:name "Jörgen Dance"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-29> ;
+	schema:url <https://www.jorgendance.ca> ;
+	schema:name "Jörgen Dance"@fr .
+
+wd:Q20712459 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "compagnie en théâtre à Vancouver au Canada"@fr ;
+	schema:name "Green Thumb Theatre"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5408> ;
+	schema:url <https://www.greenthumb.bc.ca> ;
+	schema:name "Green Thumb Theatre"@fr .
+
+wd:Q98374244 wdt:P31 wd:Q7062022 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "booking agency in Calgary, Alberta, Canada"@en ;
+	schema:name "Prairie Debut"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-10> ;
+	schema:url <https://prairiedebut.com/> ;
+	schema:name "Prairie Debut"@fr .
+
+wd:Q336701 schema:disambiguatingDescription "floral display gardens and performing arts organization in Brentwood Bay, British Columbia, Canada"@en ;
+	schema:url <https://fr.butchartgardens.com/> .
+
+wd:Q75642113 wdt:P31 wd:Q7168296 ;
+	schema:disambiguatingDescription "performing arts organization in Vancouver, British Columbia, Canada"@en .
+
+wd:Q98374244 wdt:P31 wd:Q64581117 ;
+	schema:disambiguatingDescription "agence de tournée au Canada"@fr .
+
+wd:Q336701 wdt:P31 wd:Q1107656 .
+
+wd:Q4851638 schema:disambiguatingDescription "groupe des arts de la scène à Toronto au Canada"@fr .
+
+wd:Q5045569 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts group in Vancouver, British Columbia, Canada"@en ;
+	schema:name "Carousel Theatre for Young People"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5392> ;
+	schema:url <http://www.carouseltheatre.ca> ;
+	schema:name "Carousel Theatre for Young People"@fr ;
+	schema:disambiguatingDescription "groupe des arts de la scène au Canada"@fr .
+
+wd:Q336701 wdt:P31 wd:Q3469910 .
+
+wd:Q4851638 wdt:P31 wd:Q107095432 .
+
+wd:Q98374244 wdt:P31 wd:Q708676 , wd:Q2178147 .
+
+wd:Q20712459 wdt:P31 wd:Q105815710 ;
+	schema:disambiguatingDescription "theatre company based in Vancouver, Canada"@en .
+
+wd:Q4851638 wdt:P31 wd:Q708676 .
+
+wd:Q22312861 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Vancouver, British Columbia, Canada"@en ;
+	schema:name "The Dance Centre"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-306> ;
+	schema:url <http://www.thedancecentre.ca> ;
+	schema:name "The Dance Centre"@fr ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Vancouver en Colombie-Britannique, Canada"@fr .
+
+wd:Q5045569 wdt:P31 wd:Q742421 .
+
+wd:Q22312861 wdt:P31 wd:Q7168296 .
+
+wd:Q7432178 wdt:P31 wd:Q15726214 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "district scolaire canadien en Colombie-Britannique"@fr ;
+	schema:name "School District 23 Central Okanagan"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5420> ;
+	schema:url <https://www.sd23.bc.ca> ;
+	schema:name "School District 23 Central Okanagan"@fr ;
+	schema:disambiguatingDescription "school district in British Columbia, Canada"@en .
+
+wd:Q7432227 wdt:P31 wd:Q15726214 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "district scolaire canadien en Colombie-Britannique"@fr ;
+	schema:name "School District 83 North Okanagan-Shuswap"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5421> ;
+	schema:url <https://sd83.bc.ca/> ;
+	schema:name "School District 83 North Okanagan-Shuswap"@fr ;
+	schema:disambiguatingDescription "school district in British Columbia, Canada"@en .
+
+wd:Q128242805 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Fanny Bay, British Columbia, Canada"@en ;
+	schema:name "Fanny Bay Community Association"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5404> ;
+	schema:url <https://www.fannybaycommunity.com> ;
+	schema:name "Fanny Bay Community Association"@fr .
+
+wd:Q128242823 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr ;
+	schema:name "North Okanagan Community Concert Association"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5443> ;
+	schema:url <https://nocca.ca/> ;
+	schema:name "North Okanagan Community Concert Association"@fr .
+
+wd:Q126952113 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts group in Kelowna, British Columbia, Canada"@en ;
+	schema:name "Ballet Kelowna"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5377> ;
+	schema:url <https://www.balletkelowna.ca> .
+
+wd:Q128242814 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Kitimat, British Columbia, Canada"@en ;
+	schema:name "Kitimat Concert Association"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5433> ;
+	schema:url <https://www.kitimatconcerts.ca> ;
+	schema:name "Kitimat Concert Association"@fr .
+
+wd:Q128242819 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organization in Parksville, British Columbia, Canada"@en ;
+	schema:name "Parksville Pastoral Charge"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5450> ;
+	schema:url <https://www.kucparksville.ca> ;
+	schema:name "Parksville Pastoral Charge"@fr .
+
+wd:Q128242800 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr ;
+	schema:name "Creston Concert Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5399> ;
+	schema:url <https://www.crestonconcertsociety.ca> ;
+	schema:name "Creston Concert Society"@fr .
+
+wd:Q127381732 wdt:P31 wd:Q163740 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Sidney, British Columbia, Canada"@en ;
+	schema:name "Mary Winspear Centre"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-209> ;
+	schema:url <https://marywinspear.ca> .
+
+wd:Q128242805 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q127381732 schema:name "Mary Winspear Centre"@fr .
+
+wd:Q128242796 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Tofino, British Columbia, Canada"@en ;
+	schema:name "Clayoquot Sound Community Theatre Association"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5396> ;
+	schema:url <https://www.tofinotheatre.com> ;
+	schema:name "Clayoquot Sound Community Theatre Association"@fr .
+
+wd:Q128242819 schema:disambiguatingDescription "organisme canadien basée à Parksville, Colombie Britannique"@fr .
+
+wd:Q128242814 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242810 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Summerland, British Columbia, Canada"@en ;
+	schema:name "Summerland Arts Council"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5427> ;
+	schema:url <https://www.summerland.ca/discover/arts-culture> ;
+	schema:name "Summerland Arts Council"@fr .
+
+wd:Q128242796 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242816 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Prince George, British Columbia, Canada"@en ;
+	schema:name "Knox Performance Centre"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5434> ;
+	schema:url <https://www.knoxcentre.ca> ;
+	schema:name "Knox Performance Centre"@fr .
+
+wd:Q128242821 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Lillooet, British Columbia, Canada"@en ;
+	schema:name "Lillooet Music Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5436> ;
+	schema:url <https://www.lillooetmusic.ca> .
+
+wd:Q127414296 wdt:P31 wd:Q2393314 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts group in Vancouver, British Columbia, Canada"@en ;
+	schema:name "Inverso Productions"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5187> ;
+	schema:url <https://inverso.ca> .
+
+wd:Q128242821 schema:name "Lillooet Music Society"@fr .
+
+wd:Q127414296 schema:name "Inverso Productions"@fr .
+
+wd:Q128242810 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q127414296 schema:disambiguatingDescription "groupe des arts de la scène au Canada"@fr .
+
+wd:Q128242830 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Madeira Park, British Columbia, Canada"@en ;
+	schema:name "Pender Harbour Music Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5452> ;
+	schema:url <https://www.penderharbourmusic.ca> ;
+	schema:name "Pender Harbour Music Society"@fr .
+
+wd:Q126952113 wdt:P31 wd:Q107095432 .
+
+wd:Q128242816 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242821 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242830 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q127414296 wdt:P31 wd:Q105815710 .
+
+wd:Q127381732 wdt:P31 wd:Q7168296 ;
+	schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q126952113 wdt:P31 wd:Q708676 ;
+	schema:name "Ballet Kelowna"@fr .
+
+wd:Q128242826 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Parksville, British Columbia, Canada"@en ;
+	schema:name "Oceanside Classical Concerts"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5444> ;
+	schema:url <https://www.oceansideclassicalconcerts.ca> ;
+	schema:name "Oceanside Classical Concerts"@fr .
+
+wd:Q128242793 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Agassiz, British Columbia, Canada"@en ;
+	schema:name "Cheam Vista Classical Concerts Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5393> ;
+	schema:url <https://www.cheamvistaclassicalconcerts.com> ;
+	schema:name "Cheam Vista Classical Concerts Society"@fr .
+
+wd:Q128242823 schema:disambiguatingDescription "performing arts organization in Vernon, British Columbia, Canada"@en .
+
+wd:Q127724476 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme des arts la scène au Canada"@fr ;
+	schema:name "Alberni Classical Concerts Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5382> ;
+	schema:url <https://www.alberniclassicalconcerts.ca> ;
+	schema:name "Alberni Classical Concerts Society"@fr .
+
+wd:Q128242807 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Gabriola, British Columbia, Canada"@en ;
+	schema:name "Gabriola Songs Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5407> ;
+	schema:url <https://www.gabriolatheatrecentre.ca> ;
+	schema:name "Gabriola Songs Society"@fr .
+
+wd:Q128242808 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Daajing Giids, British Columbia, Canada"@en ;
+	schema:name "Haida Gwaii Arts Council"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5410> ;
+	schema:url <https://www.hgartscouncil.ca> ;
+	schema:name "Haida Gwaii Arts Council"@fr .
+
+wd:Q128242826 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242793 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242807 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242581 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Grand Forks, British Columbia, Canada"@en ;
+	schema:name "Boundary Country Arts Council"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5390> ;
+	schema:url <https://www.gemtheatre.net> ;
+	schema:name "Boundary Country Arts Council"@fr .
+
+wd:Q128242798 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Denman Island, British Columbia, Canada"@en ;
+	schema:name "Concerts Denman"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5397> ;
+	schema:url <https://www.concertsdenman.com> ;
+	schema:name "Concerts Denman"@fr .
+
+wd:Q128242808 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242828 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Osoyoos, British Columbia, Canada"@en ;
+	schema:name "Osoyoos and District Arts Council"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5447> ;
+	schema:url <https://www.osoyoosartscouncil.com> ;
+	schema:name "Osoyoos and District Arts Council"@fr .
+
+wd:Q128242803 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Spences Bridge, British Columbia, Canada"@en ;
+	schema:name "Spences Bridge Community Club"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5426> ;
+	schema:url <https://www.desertdaze.ca> ;
+	schema:name "Spences Bridge Community Club"@fr .
+
+wd:Q128242581 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242798 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242828 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242803 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242819 wdt:P31 wd:Q708676 .
+
+wd:Q127724476 schema:disambiguatingDescription "performing arts organization in Canada"@en .
+
+wd:Q128242800 schema:disambiguatingDescription "performing arts organization in Creston, British Columbia, Canada"@en .
+
+wd:Q114429981 wdt:P31 wd:Q2393314 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts group in Sherbrooke, Quebec, Canada"@en ;
+	schema:name "Compagnie de danse Sursaut"@fr ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-148> ;
+	schema:url <https://www.sursaut.ca> .
+
+wd:Q124254132 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr ;
+	schema:name "Phoenix Theatre"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-187> ;
+	schema:url <https://www.fortnelsonshow.com> , <https://www.fortnelsonshow.com/> .
+
+wd:Q114429981 wdt:P31 wd:Q708676 ;
+	schema:disambiguatingDescription "groupe des arts de la scène à Sherbrooke au Québec, Canada"@fr ;
+	schema:name "Sursaut Dance Company"@en .
+
+wd:Q123938478 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts group in Victoria, British Columbia, Canada"@en ;
+	schema:name "SNAFU Society of Unexpected Spectacles"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5418> ;
+	schema:url <https://www.snafudance.com/> ;
+	schema:name "SNAFU Society of Unexpected Spectacles"@fr .
+
+wd:Q122170553 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr ;
+	schema:name "The Farquhar at UVic"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-192> ;
+	schema:url <https://www.uvic.ca/farquhar/index.php> ;
+	schema:name "The Farquhar at UVic"@fr .
+
+wd:Q123938478 schema:disambiguatingDescription "groupe des arts de la scène au Canada"@fr .
+
+wd:Q124254132 wdt:P31 wd:Q7168296 ;
+	schema:name "Phoenix Theatre"@fr .
+
+wd:Q126952113 schema:disambiguatingDescription "groupe des arts de la scène à Kelowna en Colombie-Britannique au Canada"@fr .
+
+wd:Q125427891 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme des arts de la scène à Kelowna en Colombie-Britannique, Canada"@fr ;
+	schema:name "Rotary Centre for the Arts"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5186> ;
+	schema:url <https://www.rotarycentreforthearts.com> ;
+	schema:name "Rotary Centre for the Arts"@fr .
+
+wd:Q125536860 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Oliver, British Columbia, Canada"@en ;
+	schema:name "Oliver Community Theatre Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5305> ;
+	schema:url <https://www.venablestheatre.ca> .
+
+wd:Q122170553 schema:url <https://www.uvic.ca/farquhar> .
+
+wd:Q114429981 wdt:P31 wd:Q105815710 .
+
+wd:Q122170553 wdt:P31 wd:Q7168296 .
+
+wd:Q125536860 schema:name "Oliver Community Theatre Society"@fr .
+
+wd:Q125427891 wdt:P31 wd:Q7168296 .
+
+wd:Q114429982 wdt:P31 wd:Q2393314 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "groupe des arts de la scène au Canada"@fr ;
+	schema:name "José Navas/Compagnie Flak"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-76> ;
+	schema:url <https://flak.org/jose-navas/en/> ;
+	schema:name "José Navas/Compagnie Flak"@fr .
+
+wd:Q124254132 schema:disambiguatingDescription "performing arts organization in Fort Nelson, British Columbia, Canada"@en .
+
+wd:Q114429982 wdt:P31 wd:Q43229 .
+
+wd:Q125427891 wdt:P31 wd:Q163740 ;
+	schema:disambiguatingDescription "performing arts organization in Kelowna, British Columbia, Canada"@en .
+
+wd:Q125536860 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q113488561 schema:disambiguatingDescription "performing arts organization in Nanaimo, British Columbia, Canada"@en .
+
+wd:Q125256982 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "groupe des arts de la scène au Canada"@fr ;
+	schema:name "Wild Mint Arts"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K3-190> ;
+	schema:url <https://www.wildmintarts.com> ;
+	schema:name "Wild Mint Arts"@fr .
+
+wd:Q114429981 wdt:P31 wd:Q107095432 .
+
+wd:Q114429982 wdt:P31 wd:Q105815710 .
+
+wd:Q122170553 schema:disambiguatingDescription "performing arts organization in Victoria, British Columbia, Canada"@en .
+
+wd:Q114429982 schema:disambiguatingDescription "performing arts group in Montreal, Quebec, Canada"@en .
+
+wd:Q125256982 schema:disambiguatingDescription "performing arts group in Cochrane, Alberta, Canada"@en .
+
+wd:Q124248300 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Duncan, British Columbia, Canada"@en ;
+	schema:name "Cowichan Performing Arts Centre"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-186> ;
+	schema:url <https://cowichanpac.ca> ;
+	schema:name "Cowichan Performing Arts Centre"@fr ;
+	schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242838 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Quesnel, British Columbia, Canada"@en ;
+	schema:name "Quesnel and District Community Arts Council"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5414> ;
+	schema:url <https://www.quesnelarts.com/> ;
+	schema:name "Quesnel and District Community Arts Council"@fr .
+
+wd:Q128242858 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Abbotsford, British Columbia, Canada"@en ;
+	schema:name "Abbotsford Arts Centre"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5381> ;
+	schema:url <https://www.abbyschools.ca/> ;
+	schema:name "Abbotsford Arts Centre"@fr .
+
+wd:Q128242907 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Kelowna, British Columbia, Canada"@en ;
+	schema:name "Festivals and Special Events Development Society of Kelowna"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5405> ;
+	schema:url <https://www.festivalskelowna.com> ;
+	schema:name "Festivals and Special Events Development Society of Kelowna"@fr .
+
+wd:Q128242891 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr ;
+	schema:name "City of Delta"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5395> ;
+	schema:url <https://www.delta.ca> ;
+	schema:name "City of Delta"@fr .
+
+wd:Q128242911 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Penticton, British Columbia, Canada"@en ;
+	schema:name "Ha Ha Ha Kidzfest Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5409> ;
+	schema:url <https://www.hahahakidzfest.com> ;
+	schema:name "Ha Ha Ha Kidzfest Society"@fr .
+
+wd:Q128242838 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242858 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242950 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Prince Rupert, British Columbia, Canada"@en ;
+	schema:name "Lester Centre of the Arts"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5435> ;
+	schema:url <https://www.lestercentre.ca> ;
+	schema:name "Lester Centre of the Arts"@fr .
+
+wd:Q128242834 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Prince George, British Columbia, Canada"@en ;
+	schema:name "Prince George Community and District Arts Council"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5457> ;
+	schema:url <https://www.studio2880.com> ;
+	schema:name "Prince George Community and District Arts Council"@fr .
+
+wd:Q128242847 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Terrace, British Columbia, Canada"@en ;
+	schema:name "Terrace Concert Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5429> ;
+	schema:name "Terrace Concert Society"@fr .
+
+wd:Q128242911 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242849 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr ;
+	schema:name "Vernon Jazz Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5465> ;
+	schema:url <https://www.vernonjazz.com> ;
+	schema:name "Vernon Jazz Society"@fr .
+
+wd:Q128242840 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Quesnel, British Columbia, Canada"@en ;
+	schema:name "Quesnel Live Arts"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5413> ;
+	schema:url <https://www.QLA.ca> ;
+	schema:name "Quesnel Live Arts"@fr .
+
+wd:Q128242950 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242845 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Sooke, British Columbia, Canada"@en ;
+	schema:name "Sooke Festival Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5425> ;
+	schema:url <https://www.sookemusicfestival.ca/> ;
+	schema:name "Sooke Festival Society"@fr .
+
+wd:Q128242834 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242854 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Whistler, British Columbia, Canada"@en ;
+	schema:name "Whistler Chamber Music Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5464> ;
+	schema:url <https://www.whistlerchambermusic.ca> ;
+	schema:name "Whistler Chamber Music Society"@fr .
+
+wd:Q128242946 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Wells, British Columbia, Canada"@en ;
+	schema:name "Island Mountain Arts"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-123> ;
+	schema:url <https://www.imarts.com> ;
+	schema:name "Island Mountain Arts"@fr .
+
+wd:Q128242840 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242907 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242845 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242836 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Heriot Bay, British Columbia, Canada"@en ;
+	schema:name "Quadra Island Recreation Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5472> ;
+	schema:url <https://quadraconcerts.ca> ;
+	schema:name "Quadra Island Recreation Society"@fr .
+
+wd:Q128242854 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242946 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242841 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Rossland, British Columbia, Canada"@en ;
+	schema:name "Rossland Council for Arts and Culture"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5417> ;
+	schema:url <https://rosslandartscouncil.com> ;
+	schema:name "Rossland Council for Arts and Culture"@fr .
+
+wd:Q128242904 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Coquitlam, British Columbia, Canada"@en ;
+	schema:name "Société francophone de Maillardville"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5424> ;
+	schema:url <https://maillardville.com/> ;
+	schema:name "Société francophone de Maillardville"@fr .
+
+wd:Q128242836 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242856 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Langford, British Columbia, Canada"@en ;
+	schema:name "17 Black Events"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5379> ;
+	schema:url <https://www.17blackevents.com> ;
+	schema:name "17 Black Events"@fr .
+
+wd:Q128242841 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242861 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Sointula, British Columbia, Canada"@en ;
+	schema:name "BC Movement Arts Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5386> ;
+	schema:url <https://www.bcmovementarts.com> ;
+	schema:name "BC Movement Arts Society"@fr .
+
+wd:Q128242832 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Pender Island, British Columbia, Canada"@en ;
+	schema:name "Pender Island Concert Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5453> ;
+	schema:url <https://penderislandchamber.com/listing/pender-island-concert-society/> .
+
+wd:Q128242904 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242832 schema:name "Pender Island Concert Society"@fr .
+
+wd:Q128242953 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Powell River, British Columbia, Canada"@en ;
+	schema:name "Max Cameron Theatre"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5439> ;
+	schema:url <https://www.maxcamerontheatre.ca> ;
+	schema:name "Max Cameron Theatre"@fr .
+
+wd:Q128242856 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242851 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Tofino, British Columbia, Canada"@en ;
+	schema:name "West Coast Winter Music Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5463> ;
+	schema:url <https://westcoastwintermusic.ca> ;
+	schema:name "West Coast Winter Music Society"@fr .
+
+wd:Q128242864 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à North Vancouver en Colombie-Britannique, Canada"@fr ;
+	schema:name "BlueShore Financial Centre for the Performing Arts"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5389> ;
+	schema:url <https://www.capilanou.ca/centre> .
+
+wd:Q128242847 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242864 schema:name "BlueShore Financial Centre for the Performing Arts"@fr .
+
+wd:Q128242861 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242914 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Bowen Island, British Columbia, Canada"@en ;
+	schema:name "Hearth Arts on Bowen"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5508> ;
+	schema:url <https://www.thehearth.ca> ;
+	schema:name "Hearth Arts on Bowen"@fr .
+
+wd:Q128242832 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242953 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242849 schema:disambiguatingDescription "performing arts organization in Vernon, British Columbia, Canada"@en .
+
+wd:Q128242866 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Smithers, British Columbia, Canada"@en ;
+	schema:name "Bulkley Valley Concert Association"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5391> ;
+	schema:url <https://www.bvca.me> ;
+	schema:name "Bulkley Valley Concert Association"@fr .
+
+wd:Q128242851 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242914 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242864 schema:disambiguatingDescription "performing arts organization in North Vancouver, British Columbia, Canada"@en .
+
+wd:Q128242901 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Lake Country, British Columbia, Canada"@en ;
+	schema:name "Creekside Theatre"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5398> ;
+	schema:url <https://www.creeksidetheatre.com> ;
+	schema:name "Creekside Theatre"@fr .
+
+wd:Q128242866 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242891 schema:disambiguatingDescription "performing arts organization in Delta, British Columbia, Canada"@en .
+
+wd:Q128242901 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128243022 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Prince George, British Columbia, Canada"@en ;
+	schema:name "Prince George Folkfest Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5458> ;
+	schema:url <https://www.coldsnapfestival.com> ;
+	schema:name "Prince George Folkfest Society"@fr .
+
+wd:Q128243175 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Vancouver en Colombie-Britannique, Canada"@fr ;
+	schema:name "Chan Centre for the Performing Arts"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-346> ;
+	schema:url <https://www.chancentre.com> ;
+	schema:name "Chan Centre for the Performing Arts"@fr .
+
+wd:Q128243178 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Chilliwack en C.-B., Canada"@fr ;
+	schema:name "Chilliwack Cultural Centre"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5394> ;
+	schema:url <https://www.chilliwackculturalcentre.ca> ;
+	schema:name "Chilliwack Cultural Centre"@fr .
+
+wd:Q128243027 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Wells, British Columbia, Canada"@en ;
+	schema:name "Sunset Theatre Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-196> ;
+	schema:url <https://www.sunset-theatre.com> .
+
+wd:Q128242987 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Nanaimo, British Columbia, Canada"@en ;
+	schema:name "Nanaimo Blues Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5441> ;
+	schema:url <https://nanaimoblues.ca> .
+
+wd:Q128243144 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Surrey, British Columbia, Canada"@en ;
+	schema:name "Bell Performing Arts Centre"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5388> ;
+	schema:url <https://www.bellperformingartscentre.com> .
+
+wd:Q128243027 schema:name "Sunset Theatre Society"@fr .
+
+wd:Q128242987 schema:name "Nanaimo Blues Society"@fr .
+
+wd:Q128243144 schema:name "Bell Performing Arts Centre"@fr .
+
+wd:Q128243207 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Coquitlam, British Columbia, Canada"@en ;
+	schema:name "Evergreen Cultural Centre Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-212> ;
+	schema:url <https://www.evergreenculturalcentre.ca> ;
+	schema:name "Evergreen Cultural Centre Society"@fr .
+
+wd:Q128243100 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr ;
+	schema:name "Arts Revelstoke"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5383> ;
+	schema:url <https://www.artsrevelstoke.com> ;
+	schema:name "Arts Revelstoke"@fr .
+
+wd:Q128243178 wdt:P31 wd:Q7168296 ;
+	schema:disambiguatingDescription "performing arts presenting organization in Chilliwack, British Columbia, Canada"@en .
+
+wd:Q128243022 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128243207 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Coquitlam en Colombie-Britannique au Canada"@fr .
+
+wd:Q128243027 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128243144 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128243207 wdt:P31 wd:Q7168296 .
+
+wd:Q128243270 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in New Westminster, British Columbia, Canada"@en ;
+	schema:name "Massey Theatre Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5437> ;
+	schema:url <https://www.masseytheatre.com> ;
+	schema:name "Massey Theatre Society"@fr ;
+	schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242990 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Parksville, British Columbia, Canada"@en ;
+	schema:name "Parksville and District Historical Society and Museum"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5449> ;
+	schema:url <https://parksvillemuseum.com> ;
+	schema:name "Parksville and District Historical Society and Museum"@fr .
+
+wd:Q128243097 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr ;
+	schema:name "Okanagan Screen Arts Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5445> ;
+	schema:url <https://www.thetowne.ca> .
+
+wd:Q128243025 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Burnaby, British Columbia, Canada"@en ;
+	schema:name "Shadbolt Centre for the Arts"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-215> ;
+	schema:url <https://shadboltcentre.com> .
+
+wd:Q128243097 schema:name "Okanagan Screen Arts Society"@fr .
+
+wd:Q128243025 schema:name "Shadbolt Centre for the Arts"@fr .
+
+wd:Q128243242 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Golden, British Columbia, Canada"@en ;
+	schema:name "Kicking Horse Culture"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5432> ;
+	schema:url <https://www.kickinghorseculture.ca> ;
+	schema:name "Kicking Horse Culture"@fr .
+
+wd:Q128243064 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Gibsons, British Columbia, Canada"@en ;
+	schema:name "The Coast Recital Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5469> ;
+	schema:url <https://www.coastrecitalsociety.ca> ;
+	schema:name "The Coast Recital Society"@fr .
+
+wd:Q128242990 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128243025 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Burnaby en Colombie-Britannique au Canada"@fr .
+
+wd:Q128243178 wdt:P31 wd:Q163740 .
+
+wd:Q128243107 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Whistler, British Columbia, Canada"@en ;
+	schema:name "Arts Whistler"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5384> ;
+	schema:url <https://www.artswhistler.com> ;
+	schema:name "Arts Whistler"@fr .
+
+wd:Q128243242 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128243064 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128243207 wdt:P31 wd:Q163740 .
+
+wd:Q128243270 wdt:P31 wd:Q163740 .
+
+wd:Q128243107 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128242987 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128243100 schema:disambiguatingDescription "performing arts organization in Revelstoke, British Columbia, Canada"@en .
+
+wd:Q128243175 schema:disambiguatingDescription "performing arts presenting organization in Vancouver, British Columbia, Canada"@en .
+
+wd:Q128243097 schema:disambiguatingDescription "performing arts organization in Vernon, British Columbia, Canada"@en .
+
+wd:Q128269785 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts group in White Rock, British Columbia, Canada"@en ;
+	schema:name "Tiller's Folly"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5462> ;
+	schema:url <https://www.tillersfolly.com> ;
+	schema:name "Tiller's Folly"@fr .
+
+wd:Q128243383 wdt:P31 wd:Q163740 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Salmon Arm, British Columbia, Canada"@en ;
+	schema:name "Salmon Arm Folk Music Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5419> ;
+	schema:url <https://www.rootsandblues.ca> ;
+	schema:name "Salmon Arm Folk Music Society"@fr .
+
+wd:Q128268856 wdt:P31 wd:Q11812394 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts group in Vancouver, British Columbia, Canada"@en ;
+	schema:name "Axis Theatre Company"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5385> ;
+	schema:url <https://www.axistheatre.com> ;
+	schema:name "Axis Theatre Company"@fr .
+
+wd:Q128269785 schema:disambiguatingDescription "groupe des arts de la scène au Canada"@fr .
+
+wd:Q128243383 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128269671 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "groupe des arts de la scène au Canada"@fr ;
+	schema:name "Debbie Lee Dance Company"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5401> ;
+	schema:name "Debbie Lee Dance Company"@fr .
+
+wd:Q128243461 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme des arts de la scène à Campbell River en Colombie-Britannique, Canada"@fr ;
+	schema:name "Tidemark Theatre"@fr ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5461> ;
+	schema:url <https://www.tidemarktheatre.com> .
+
+wd:Q128269680 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts group in Kelowna, British Columbia, Canada"@en ;
+	schema:name "Freeze the Fall"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5406> ;
+	schema:url <https://freezethefallband.com/> ;
+	schema:name "Freeze the Fall"@fr .
+
+wd:Q128268856 schema:disambiguatingDescription "groupe des arts de la scène au Canada"@fr .
+
+wd:Q128269667 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "theatre company based in Toronto, Ontario"@en ;
+	schema:name "A Yarn Or Two Arts Collective"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5380> ;
+	schema:url <https://www.kirkdunn.com> ;
+	schema:name "A Yarn Or Two Arts Collective"@fr .
+
+wd:Q128269799 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts group in Vancouver, British Columbia, Canada"@en ;
+	schema:name "RAGMOP Theatre"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5415> ;
+	schema:url <https://ragmoptheatre.com> .
+
+wd:Q128269815 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "groupe des arts de la scène au Canada"@fr ;
+	schema:name "Wonderheads"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-193> ;
+	schema:url <https://www.wonderheads.com> .
+
+wd:Q128270023 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts group in North Vancouver, British Columbia, Canada"@en ;
+	schema:name "First Impressions Theatre"@fr ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5329> ;
+	schema:url <https://www.firstimpressionstheatre.com> .
+
+wd:Q131749585 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Mission en Colombie-Britannique, Canada"@fr ;
+	schema:name "Clarke Theatre"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5879> ;
+	schema:url <https://www.mission.ca/clarke-theatre> ;
+	schema:name "Clarke Theatre"@fr .
+
+wd:Q129293980 wdt:P31 wd:Q64581117 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "booking agency in Toronto, Ontario, Canada"@en ;
+	schema:name "Andrew Kwan Artists Management"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K14-119> ;
+	schema:url <https://www.andrewkwanartists.com> ;
+	schema:name "Andrew Kwan Artists Management"@fr .
+
+wd:Q129294098 wdt:P31 wd:Q64581117 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "booking agency in New Westminster, British Columbia, Canada"@en ;
+	schema:name "PKF Productions."@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5471> ;
+	schema:name "PKF Productions"@fr .
+
+wd:Q129294549 wdt:P31 wd:Q43229 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "organization in Burnaby, British Columbia, Canada"@en ;
+	schema:name "Actsafe Safety Association"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5456> ;
+	schema:url <https://actsafe.ca> ;
+	schema:name "Actsafe Safety Association"@fr .
+
+wd:Q128269810 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "groupe des arts de la scène au Canada"@fr ;
+	schema:name "The Wheat in the Barley"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5460> ;
+	schema:url <https://www.wheatinthebarley.com> ;
+	schema:name "The Wheat in the Barley"@fr .
+
+wd:Q128270023 schema:disambiguatingDescription "groupe des arts de la scène au Canada"@fr ;
+	schema:name "First Impressions Theatre"@en .
+
+wd:Q129385033 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "groupe des arts de la scène au Canada"@fr ;
+	schema:name "Jessica McMann Arts"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5411> ;
+	schema:url <https://www.jessicamcmann.com> .
+
+wd:Q128269806 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts group in Portland, Oregon, United States of America"@en ;
+	schema:name "Seffarine"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5422> ;
+	schema:url <https://www.seffarine.com> .
+
+wd:Q129385033 schema:name "Jessica McMann Arts"@fr .
+
+wd:Q128269806 schema:name "Seffarine"@fr .
+
+wd:Q129294094 wdt:P31 wd:Q64581117 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "agence de tournée au Canada"@fr ;
+	schema:name "The Feldman Agency"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5459> ;
+	schema:url <https://www.feldman-agency.com> ;
+	schema:name "The Feldman Agency"@fr .
+
+wd:Q128269806 schema:disambiguatingDescription "groupe des arts de la scène à Portland, Oregon, États-Unis"@fr .
+
+wd:Q129294075 wdt:P31 wd:Q64581117 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "booking agency in Winnipeg, Manitoba, Canada"@en ;
+	schema:name "Paquin Artists Agency"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5448> ;
+	schema:url <https://www.paquinartistsagency.com> ;
+	schema:name "Paquin Artists Agency"@fr .
+
+wd:Q129294076 wdt:P31 wd:Q64581117 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "booking agency in Smithers, British Columbia, Canada"@en ;
+	schema:name "Plaid People Music Agency"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5454> ;
+	schema:url <https://www.plaidpeoplemusic.com> ;
+	schema:name "Plaid People Music Agency"@fr ;
+	schema:disambiguatingDescription "agence de tournée au Canada"@fr .
+
+wd:Q128269802 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts group in Radium Hot Springs, British Columbia, Canada"@en ;
+	schema:name "Rhythm By Nature"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5416> ;
+	schema:url <https://www.rhythmbynature.ca> ;
+	schema:name "Rhythm By Nature"@fr .
+
+wd:Q129294075 schema:disambiguatingDescription "agence de tournée à Winnipeg en Manitoba, Canada"@fr .
+
+wd:Q128269807 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts group in Delta, British Columbia, Canada"@en ;
+	schema:name "shameless hussy productions"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-457> ;
+	schema:url <https://www.shamelesshussy.com> ;
+	schema:name "shameless hussy productions"@fr .
+
+wd:Q129294549 schema:disambiguatingDescription "organisme canadien"@fr .
+
+wd:Q129385033 schema:disambiguatingDescription "performing arts group in Cochrane, Alberta, Canada"@en .
+
+wd:Q129293837 wdt:P31 wd:Q64581117 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "booking agency in Vancouver, British Columbia, Canada"@en ;
+	schema:name "Jonathon Paterson"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5412> ;
+	schema:name "Jonathon Paterson"@fr .
+
+wd:Q129294096 wdt:P31 wd:Q64581117 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "booking agency in Vancouver, British Columbia, Canada"@en ;
+	schema:name "Cubbyhole Artists"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5400> ;
+	schema:url <https://www.cubbyholeartists.com> ;
+	schema:name "Cubbyhole Artists"@fr ;
+	schema:disambiguatingDescription "agence de tournée au Canada"@fr .
+
+wd:Q129294072 wdt:P31 wd:Q64581117 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "booking agency in Smithers, British Columbia, Canada"@en ;
+	schema:name "Near North Music"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5442> ;
+	schema:url <https://www.nearnorthmusic.com> ;
+	schema:name "Near North Music"@fr ;
+	schema:disambiguatingDescription "agence de tournée au Canada"@fr .
+
+wd:Q128269802 schema:disambiguatingDescription "groupe des arts de la scène au Canada"@fr .
+
+wd:Q128269807 schema:disambiguatingDescription "groupe des arts de la scène au Canada"@fr .
+
+wd:Q129293980 schema:disambiguatingDescription "agence de tournée à Toronto en Ontario, Canada"@fr .
+
+wd:Q129294098 schema:disambiguatingDescription "agence de tournée au Canada"@fr .
+
+wd:Q128269799 schema:name "RAGMOP Theatre"@fr ;
+	schema:disambiguatingDescription "groupe des arts de la scène au Canada"@fr .
+
+wd:Q128243495 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Vancouver, British Columbia, Canada"@en ;
+	schema:name "Vancouver Fringe Theatre Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5466> ;
+	schema:url <https://www.vancouverfringe.com> .
+
+wd:Q128269674 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts group in Delta, British Columbia, Canada"@en ;
+	schema:name "Delta Stageworks"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5402> ;
+	schema:url <https://deltastageworks.ca> .
+
+wd:Q128243495 schema:name "Vancouver Fringe Theatre Society"@fr .
+
+wd:Q128269674 schema:name "Delta Stageworks"@fr .
+
+wd:Q128268982 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts group in London, Ontario, Canada"@en ;
+	schema:name "DuffleBag Theatre"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K10-182> ;
+	schema:url <https://dufflebag.com> ;
+	schema:name "DuffleBag Theatre"@fr .
+
+wd:Q128268929 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts group in Victoria, British Columbia, Canada"@en ;
+	schema:name "Ballet Victoria"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5387> ;
+	schema:url <https://www.balletvictoria.ca> ;
+	schema:name "Ballet Victoria"@fr .
+
+wd:Q128269796 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts group in Ucluelet, British Columbia, Canada"@en ;
+	schema:name "Pacific Rim Arts Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5451> ;
+	schema:url <https://www.pacificrimarts.ca> .
+
+wd:Q128268929 schema:disambiguatingDescription "groupe des arts de la scène au Canada"@fr .
+
+wd:Q128269796 schema:name "Pacific Rim Arts Society"@fr .
+
+wd:Q128243387 wdt:P31 wd:Q708676 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts presenting organization in Courtenay, British Columbia, Canada"@en ;
+	schema:name "Sid Williams Theatre Society"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5423> ;
+	schema:url <https://www.sidwilliamstheatre.com> ;
+	schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Courtenay, Colombie-Britannique au Canada"@fr ;
+	schema:name "Sid Williams Theatre Society"@fr .
+
+wd:Q128243461 wdt:P31 wd:Q7168296 .
+
+wd:Q128243465 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Trail, British Columbia, Canada"@en ;
+	schema:name "Trail and District Arts Council"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5467> ;
+	schema:url <https://www.trail-arts.com> .
+
+wd:Q128243461 schema:disambiguatingDescription "performing arts organization in Campbell River, British Columbia, Canada"@en ;
+	schema:name "Tidemark Theatre"@en .
+
+wd:Q128243465 schema:name "Trail and District Arts Council"@fr .
+
+wd:Q128269674 schema:disambiguatingDescription "groupe des arts de la scène au Canada"@fr .
+
+wd:Q128268982 schema:disambiguatingDescription "groupe des arts de la scène au Canada"@fr .
+
+wd:Q128269791 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts group in Chilliwack, British Columbia, Canada"@en ;
+	schema:name "Molly's Comedy Cabaret"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5440> ;
+	schema:url <https://mollyscomedycabaret.com/> ;
+	schema:name "Molly’s Comedy Cabaret"@fr .
+
+wd:Q128269796 schema:disambiguatingDescription "groupe des arts de la scène au Canada"@fr .
+
+wd:Q128243387 wdt:P31 wd:Q7168296 .
+
+wd:Q128269680 schema:disambiguatingDescription "groupe des arts de la scène au Canada"@fr .
+
+wd:Q128269791 schema:disambiguatingDescription "groupe des arts de la scène à Chilliwack en Colombie-Britannique au Canada"@fr .
+
+wd:Q128243465 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q128269661 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts group in Victoria, British Columbia, Canada"@en ;
+	schema:name "The Cheesecake Burlesque Revue"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5470> ;
+	schema:url <https://www.cheesecakeburlesque.com> ;
+	schema:name "The Cheesecake Burlesque Revue"@fr .
+
+wd:Q128269667 schema:disambiguatingDescription "groupe de théâtre basé à Toronto, Ontario"@fr .
+
+wd:Q128269661 schema:disambiguatingDescription "groupe des arts de la scène au Canada"@fr .
+
+wd:Q128269787 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts group in Sumner, Washington, United States of America"@en ;
+	schema:name "Matt Baker Comedy and Stunt Show"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5438> ;
+	schema:url <https://www.comedystuntshow.com> ;
+	schema:name "Matt Baker Comedy and Stunt Show"@fr .
+
+wd:Q128269667 wdt:P31 wd:Q742421 .
+
+wd:Q128269671 schema:disambiguatingDescription "performing arts group in Gabriola Island, British Columbia, Canada"@en .
+
+wd:Q128243383 wdt:P31 wd:Q7168296 .
+
+wd:Q128269787 schema:disambiguatingDescription "groupe des arts de la scène à Sumner, Washington, États-Unis"@fr .
+
+wd:Q128243389 wdt:P31 wd:Q7168296 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts organization in Surrey, British Columbia, Canada"@en ;
+	schema:name "Surrey Civic Theatres"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5428> ;
+	schema:url <https://surrey.ca/arts-culture/surrey-civic-theatres> ;
+	schema:name "Surrey Civic Theatres"@fr .
+
+wd:Q128269793 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts group in Vancouver, British Columbia, Canada"@en ;
+	schema:name "Orchestra of Sound"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5446> ;
+	schema:url <https://www.orchestraofsound.com> ;
+	schema:name "Orchestra of Sound"@fr ;
+	schema:disambiguatingDescription "groupe des arts de la scène au Canada"@fr .
+
+wd:Q128269677 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts group in Victoria, British Columbia, Canada"@en ;
+	schema:name "Dock Side Drive"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5403> ;
+	schema:url <https://www.docksidedrive.ca> ;
+	schema:name "Dock Side Drive"@fr ;
+	schema:disambiguatingDescription "groupe des arts de la scène au Canada"@fr .
+
+wd:Q128243389 schema:disambiguatingDescription "organisme de diffusion des arts de la scène à Surrey en Colombie-Britannique, Canada"@fr .
+
+wd:Q128243495 schema:disambiguatingDescription "organisme des arts de la scène au Canada"@fr .
+
+wd:Q129294034 wdt:P31 wd:Q64581117 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "booking agency in Vancouver, British Columbia, Canada"@en ;
+	schema:name "KBAM! Kevin Bruce Arts Management"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5431> ;
+	schema:url <https://www.kbamonline.com/> ;
+	schema:name "KBAM! Kevin Bruce Arts Management"@fr .
+
+wd:Q129294094 schema:disambiguatingDescription "booking agency in Toronto, Ontario, Canada"@en .
+
+wd:Q128269814 wdt:P31 wd:Q105815710 ;
+	a schema:Organization ;
+	schema:disambiguatingDescription "performing arts group in Guelph, Ontario, Canada"@en ;
+	schema:name "Tragedy Ann"@en ;
+	schema:memberOf wd:Q75640653 ;
+	schema:sameAs <http://kg.artsdata.ca/resource/K2-5468> ;
+	schema:url <https://tragedyannmusic.com> ;
+	schema:name "Tragedy Ann"@fr .
+
+wd:Q129294034 schema:disambiguatingDescription "agence de tournée à Vancouver en Colombie-Britannique au Canada"@fr .
+
+wd:Q129293837 schema:disambiguatingDescription "agence de tournée au Canada"@fr .
+
+wd:Q128269814 schema:disambiguatingDescription "groupe des arts de la scène au Canada"@fr .
+
+wd:Q131749585 schema:disambiguatingDescription "performing arts presenting organization in Mission, British Columbia, Canada"@en .
+
+wd:Q128269810 schema:disambiguatingDescription "performing arts group in White Rock, British Columbia, Canada"@en .
+
+wd:Q128269815 schema:disambiguatingDescription "performing arts group in Victoria, British Columbia, Canada"@en ;
+	schema:name "Wonderheads"@fr .
