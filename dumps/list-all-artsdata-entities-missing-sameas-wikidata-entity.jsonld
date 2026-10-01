@@ -95,87 +95,42 @@
     ]
   },
   {
-    "@id": "http://www.wikidata.org/entity/Q105547738",
+    "@id": "http://www.wikidata.org/entity/Q109784380",
     "http://schema.org/disambiguatingDescription": [
       {
         "@language": "en",
-        "@value": "performing arts building in Ottawa, Ontario, Canada"
+        "@value": "Innu singer-songwriter and film director"
       },
       {
         "@language": "fr",
-        "@value": "bâtiment des arts de la scène à Ottawa, Ontario, Canada"
+        "@value": "autrice-compositrice interprète et réalisatrice canadienne"
       }
     ],
     "http://schema.org/name": [
       {
         "@language": "en",
-        "@value": "National Arts Centre"
+        "@value": "Karen Pinette Fontaine"
       },
       {
         "@language": "fr",
-        "@value": "Centre national des Arts"
+        "@value": "Karen Pinette Fontaine"
       },
       {
         "@language": "mul",
-        "@value": "National Arts Centre"
+        "@value": "Karen Pinette Fontaine"
       }
     ],
     "http://schema.org/sameAs": [
       {
-        "@id": "http://kg.artsdata.ca/resource/K11-2"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P31": [
-      {
-        "@id": "http://www.wikidata.org/entity/Q3469910"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P7627": [
-      {
-        "@value": "K11-2"
-      }
-    ],
-    "@type": [
-      "http://www.wikidata.org/entity/Q3469910"
-    ]
-  },
-  {
-    "@id": "http://www.wikidata.org/entity/Q106274222",
-    "http://schema.org/disambiguatingDescription": [
-      {
-        "@language": "en",
-        "@value": "Canadian musician"
+        "@id": "http://kg.artsdata.ca/resource/K2-5568"
       },
       {
-        "@language": "fr",
-        "@value": "chanteuse canadienne"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Andréanne A. Malette"
-      },
-      {
-        "@language": "fr",
-        "@value": "Andréanne A. Malette"
-      },
-      {
-        "@language": "mul",
-        "@value": "Andréanne A. Malette"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K13-16"
-      },
-      {
-        "@id": "https://isni.org/isni/0000000451137234"
+        "@id": "https://isni.org/isni/0000000491574228"
       }
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://andreanneamalette.com"
+        "@id": "https://nikamowin.com/fr/artiste/kanen"
       }
     ],
     "http://www.wikidata.org/prop/direct/P31": [
@@ -185,64 +140,11 @@
     ],
     "http://www.wikidata.org/prop/direct/P7627": [
       {
-        "@value": "K13-16"
+        "@value": "K2-5568"
       }
     ],
     "@type": [
       "http://schema.org/Person"
-    ]
-  },
-  {
-    "@id": "http://www.wikidata.org/entity/Q111668873",
-    "http://schema.org/disambiguatingDescription": [
-      {
-        "@language": "en",
-        "@value": "cabaret-style performance space located inside the National Arts Centre in Ottawa, Canada"
-      },
-      {
-        "@language": "fr",
-        "@value": "salle de spectacle de style cabaret, situé à l'intérieur du Centre national des Arts à Ottawa"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Fourth Stage"
-      },
-      {
-        "@language": "fr",
-        "@value": "Quatrième Salle"
-      },
-      {
-        "@language": "mul",
-        "@value": "Fourth Stage"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-17"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://nac-cna.ca/en/venue/fourth-stage"
-      },
-      {
-        "@id": "https://nac-cna.ca/fr/venue/fourth-stage"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P31": [
-      {
-        "@id": "http://www.wikidata.org/entity/Q112688641"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P7627": [
-      {
-        "@value": "K11-17"
-      }
-    ],
-    "@type": [
-      "http://www.wikidata.org/entity/Q112688641"
     ]
   },
   {
@@ -935,51 +837,6 @@
     ]
   },
   {
-    "@id": "http://www.wikidata.org/entity/Q135500176",
-    "http://schema.org/disambiguatingDescription": [
-      {
-        "@language": "en",
-        "@value": "performance hall inside Kingston Grand Theatre in Kingston, Ontario, Canada"
-      },
-      {
-        "@language": "fr",
-        "@value": "salle de spectacle à l'intérieur du Kingston Grand Theatre à Kingston, Ontario, Canada"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Regina Rosen Auditorium"
-      },
-      {
-        "@language": "fr",
-        "@value": "Regina Rosen Auditorium"
-      },
-      {
-        "@language": "mul",
-        "@value": "Regina Rosen Auditorium"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-77"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P31": [
-      {
-        "@id": "http://www.wikidata.org/entity/Q112688641"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P7627": [
-      {
-        "@value": "K11-77"
-      }
-    ],
-    "@type": [
-      "http://www.wikidata.org/entity/Q112688641"
-    ]
-  },
-  {
     "@id": "http://www.wikidata.org/entity/Q136558407",
     "http://schema.org/disambiguatingDescription": [
       {
@@ -1358,42 +1215,39 @@
     ]
   },
   {
-    "@id": "http://www.wikidata.org/entity/Q140407534",
+    "@id": "http://www.wikidata.org/entity/Q140446219",
     "http://schema.org/disambiguatingDescription": [
       {
         "@language": "en",
-        "@value": "Canadian singer-songwriter from Quebec"
+        "@value": "québécois comedian"
       },
       {
         "@language": "fr",
-        "@value": "auteure-compositrice-interprète canadienne originaire du Québec"
+        "@value": "humoriste québécois"
       }
     ],
     "http://schema.org/name": [
       {
         "@language": "en",
-        "@value": "Marilyne Léonard"
+        "@value": "Anas Hassouna"
       },
       {
         "@language": "fr",
-        "@value": "Marilyne Léonard"
+        "@value": "Anas Hassouna"
       },
       {
         "@language": "mul",
-        "@value": "Marilyne Léonard"
+        "@value": "Anas Hassouna"
       }
     ],
     "http://schema.org/sameAs": [
       {
-        "@id": "http://kg.artsdata.ca/resource/K5-387"
-      },
-      {
-        "@id": "https://isni.org/isni/0000000507961485"
+        "@id": "http://kg.artsdata.ca/resource/K5-1420"
       }
     ],
     "http://schema.org/url": [
       {
-        "@id": "https://marilyneleonard.com/"
+        "@id": "https://www.anashassouna.ca/"
       }
     ],
     "http://www.wikidata.org/prop/direct/P31": [
@@ -1403,57 +1257,11 @@
     ],
     "http://www.wikidata.org/prop/direct/P7627": [
       {
-        "@value": "K5-387"
+        "@value": "K5-1420"
       }
     ],
     "@type": [
       "http://schema.org/Person"
-    ]
-  },
-  {
-    "@id": "http://www.wikidata.org/entity/Q16675360",
-    "http://schema.org/disambiguatingDescription": [
-      {
-        "@language": "en",
-        "@value": "Performing arts theater in Laval, Québec"
-      },
-      {
-        "@language": "fr",
-        "@value": "salle inaugurée en 1979 et baptisée en hommage au grand compositeur québécois"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Salle André-Mathieu"
-      },
-      {
-        "@language": "fr",
-        "@value": "salle André-Mathieu"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-211"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.co-motion.ca/nos-salles-de-spectacles/salle-andre-mathieu/"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P31": [
-      {
-        "@id": "http://www.wikidata.org/entity/Q112688641"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P7627": [
-      {
-        "@value": "K11-211"
-      }
-    ],
-    "@type": [
-      "http://www.wikidata.org/entity/Q112688641"
     ]
   },
   {
@@ -1590,6 +1398,56 @@
     ]
   },
   {
+    "@id": "http://www.wikidata.org/entity/Q3170042",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "Canadian humorist"
+      },
+      {
+        "@language": "fr",
+        "@value": "humoriste québécois"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Jean-Thomas Jobin"
+      },
+      {
+        "@language": "fr",
+        "@value": "Jean-Thomas Jobin"
+      },
+      {
+        "@language": "mul",
+        "@value": "Jean-Thomas Jobin"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K5-365"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "https://jeanthomasjobin.com/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K5-365"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
     "@id": "http://www.wikidata.org/entity/Q3330133",
     "http://schema.org/disambiguatingDescription": [
       {
@@ -1718,10 +1576,10 @@
     ],
     "http://www.wikidata.org/prop/direct/P31": [
       {
-        "@id": "http://www.wikidata.org/entity/Q22746"
+        "@id": "http://www.wikidata.org/entity/Q117187730"
       },
       {
-        "@id": "http://www.wikidata.org/entity/Q117187730"
+        "@id": "http://www.wikidata.org/entity/Q22746"
       }
     ],
     "http://www.wikidata.org/prop/direct/P7627": [
@@ -1824,7 +1682,8 @@
       }
     ],
     "@type": [
-      "http://schema.org/Organization"
+      "http://www.wikidata.org/entity/Q1329623",
+      "http://www.wikidata.org/entity/Q3469910"
     ]
   },
   {
@@ -1921,10 +1780,10 @@
     ],
     "http://www.wikidata.org/prop/direct/P31": [
       {
-        "@id": "http://www.wikidata.org/entity/Q24354"
+        "@id": "http://www.wikidata.org/entity/Q96371632"
       },
       {
-        "@id": "http://www.wikidata.org/entity/Q96371632"
+        "@id": "http://www.wikidata.org/entity/Q24354"
       }
     ],
     "http://www.wikidata.org/prop/direct/P7627": [
@@ -1982,7 +1841,8 @@
       }
     ],
     "@type": [
-      "http://schema.org/Organization"
+      "http://www.wikidata.org/entity/Q1329623",
+      "http://www.wikidata.org/entity/Q16970"
     ]
   },
   {
@@ -2018,10 +1878,10 @@
     ],
     "http://www.wikidata.org/prop/direct/P31": [
       {
-        "@id": "http://www.wikidata.org/entity/Q2080521"
+        "@id": "http://www.wikidata.org/entity/Q3469910"
       },
       {
-        "@id": "http://www.wikidata.org/entity/Q3469910"
+        "@id": "http://www.wikidata.org/entity/Q2080521"
       }
     ],
     "http://www.wikidata.org/prop/direct/P7627": [
