@@ -388,98 +388,6 @@
     ]
   },
   {
-    "@id": "http://www.wikidata.org/entity/Q124294186",
-    "http://schema.org/disambiguatingDescription": [
-      {
-        "@language": "en",
-        "@value": "performance hall inside Maison de la culture de Trois-Rivières in Quebec, Canada"
-      },
-      {
-        "@language": "fr",
-        "@value": "salle de spectacle à l'intérieur de la Maison de la culture de Trois-Rivières au Québec, Canada"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Salle Louis-Philippe-Poisson"
-      },
-      {
-        "@language": "fr",
-        "@value": "Salle Louis-Philippe-Poisson"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K5-454"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.culture3r.com/lieux/salle-louis-philippe-poisson/"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P31": [
-      {
-        "@id": "http://www.wikidata.org/entity/Q112688641"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P7627": [
-      {
-        "@value": "K5-454"
-      }
-    ],
-    "@type": [
-      "http://www.wikidata.org/entity/Q112688641"
-    ]
-  },
-  {
-    "@id": "http://www.wikidata.org/entity/Q124295548",
-    "http://schema.org/disambiguatingDescription": [
-      {
-        "@language": "en",
-        "@value": "performance hall inside Cégep de Trois-Rivières in Quebec, Canada"
-      },
-      {
-        "@language": "fr",
-        "@value": "salle de spectacle à l'intérieur du Cégep de Trois-Rivières au Québec, Canada"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Théâtre du Cégep de Trois-Rivières"
-      },
-      {
-        "@language": "fr",
-        "@value": "Théâtre du Cégep de Trois-Rivières"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K16-246"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://www.culture3r.com/lieux/theatre-cegep-de-trois-rivieres/"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P31": [
-      {
-        "@id": "http://www.wikidata.org/entity/Q112688641"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P7627": [
-      {
-        "@value": "K16-246"
-      }
-    ],
-    "@type": [
-      "http://www.wikidata.org/entity/Q112688641"
-    ]
-  },
-  {
     "@id": "http://www.wikidata.org/entity/Q124767584",
     "http://schema.org/disambiguatingDescription": [
       {
@@ -656,6 +564,107 @@
     ]
   },
   {
+    "@id": "http://www.wikidata.org/entity/Q126952143",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "corporate member of Canadian Dance Assembly"
+      },
+      {
+        "@language": "fr",
+        "@value": "membre corporatif de L’Assemblée canadienne de la danse"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Kidd Pivot Performing Arts Society"
+      },
+      {
+        "@language": "fr",
+        "@value": "Kidd Pivot Performing Arts Society"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K10-80"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "http://www.kiddpivot.org"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q107095432"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q708676"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q2393314"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K10-80"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q126952153",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "corporate member of Canadian Dance Assembly"
+      },
+      {
+        "@language": "fr",
+        "@value": "membre corporatif de L’Assemblée canadienne de la danse"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Neighborhood Dance Works"
+      },
+      {
+        "@language": "fr",
+        "@value": "Neighborhood Dance Works"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K10-328"
+      }
+    ],
+    "http://schema.org/url": [
+      {
+        "@id": "http://neighbourhooddanceworks.com/"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q107095432"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q2393314"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K10-328"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
+    ]
+  },
+  {
     "@id": "http://www.wikidata.org/entity/Q131391843",
     "http://schema.org/disambiguatingDescription": [
       {
@@ -694,6 +703,50 @@
     ],
     "@type": [
       "http://www.wikidata.org/entity/Q57660343"
+    ]
+  },
+  {
+    "@id": "http://www.wikidata.org/entity/Q131421367",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "performing arts presenting organization in Provost, Alberta, Canada"
+      },
+      {
+        "@language": "fr",
+        "@value": "organisme de diffusion des arts de la scène à Provost en Alberta, Canada"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Provost Performing Arts Guild"
+      },
+      {
+        "@language": "fr",
+        "@value": "Provost Performing Arts Guild"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-5641"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q7168296"
+      },
+      {
+        "@id": "http://www.wikidata.org/entity/Q107171870"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-5641"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Organization"
     ]
   },
   {
@@ -744,51 +797,6 @@
     ],
     "@type": [
       "http://www.wikidata.org/entity/Q18674739"
-    ]
-  },
-  {
-    "@id": "http://www.wikidata.org/entity/Q135338813",
-    "http://schema.org/disambiguatingDescription": [
-      {
-        "@language": "en",
-        "@value": "performance hall and event venue in Saint John, Canada"
-      },
-      {
-        "@language": "fr",
-        "@value": "salle de spectacle et lieu d'événements à Saint John, Canada"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "BMO Studio Theatre"
-      },
-      {
-        "@language": "fr",
-        "@value": "Salle BMO"
-      },
-      {
-        "@language": "mul",
-        "@value": "BMO Studio Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-112"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P31": [
-      {
-        "@id": "http://www.wikidata.org/entity/Q112688641"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P7627": [
-      {
-        "@value": "K11-112"
-      }
-    ],
-    "@type": [
-      "http://www.wikidata.org/entity/Q112688641"
     ]
   },
   {
@@ -1357,6 +1365,54 @@
     ]
   },
   {
+    "@id": "http://www.wikidata.org/entity/Q28335055",
+    "http://schema.org/disambiguatingDescription": [
+      {
+        "@language": "en",
+        "@value": "Canadian Inuit artist (1930–2016)"
+      },
+      {
+        "@language": "fr",
+        "@value": "dessinatrice, graveure, artiste du textile et sculptrice"
+      }
+    ],
+    "http://schema.org/name": [
+      {
+        "@language": "en",
+        "@value": "Victoria Mamnguqsualuk"
+      },
+      {
+        "@language": "fr",
+        "@value": "Victoria Mamnguqsualuk"
+      },
+      {
+        "@language": "mul",
+        "@value": "Victoria Mamnguqsualuk"
+      }
+    ],
+    "http://schema.org/sameAs": [
+      {
+        "@id": "http://kg.artsdata.ca/resource/K2-174"
+      },
+      {
+        "@id": "https://isni.org/isni/0000000073920327"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P31": [
+      {
+        "@id": "http://www.wikidata.org/entity/Q5"
+      }
+    ],
+    "http://www.wikidata.org/prop/direct/P7627": [
+      {
+        "@value": "K2-174"
+      }
+    ],
+    "@type": [
+      "http://schema.org/Person"
+    ]
+  },
+  {
     "@id": "http://www.wikidata.org/entity/Q30739272",
     "http://schema.org/disambiguatingDescription": [
       {
@@ -1576,10 +1632,10 @@
     ],
     "http://www.wikidata.org/prop/direct/P31": [
       {
-        "@id": "http://www.wikidata.org/entity/Q117187730"
+        "@id": "http://www.wikidata.org/entity/Q22746"
       },
       {
-        "@id": "http://www.wikidata.org/entity/Q22746"
+        "@id": "http://www.wikidata.org/entity/Q117187730"
       }
     ],
     "http://www.wikidata.org/prop/direct/P7627": [
@@ -1743,60 +1799,6 @@
     ]
   },
   {
-    "@id": "http://www.wikidata.org/entity/Q72183375",
-    "http://schema.org/disambiguatingDescription": [
-      {
-        "@language": "en",
-        "@value": "performing arts theatre in Margaretsville, Nova Scotia, Canada"
-      },
-      {
-        "@language": "fr",
-        "@value": "théâtre à Margaretsville, en Nouvelle-Écosse"
-      }
-    ],
-    "http://schema.org/name": [
-      {
-        "@language": "en",
-        "@value": "Evergreen Theatre"
-      },
-      {
-        "@language": "fr",
-        "@value": "théâtre Evergreen"
-      },
-      {
-        "@language": "mul",
-        "@value": "Evergreen Theatre"
-      }
-    ],
-    "http://schema.org/sameAs": [
-      {
-        "@id": "http://kg.artsdata.ca/resource/K11-157"
-      }
-    ],
-    "http://schema.org/url": [
-      {
-        "@id": "https://evergreentheatre.ca/"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P31": [
-      {
-        "@id": "http://www.wikidata.org/entity/Q96371632"
-      },
-      {
-        "@id": "http://www.wikidata.org/entity/Q24354"
-      }
-    ],
-    "http://www.wikidata.org/prop/direct/P7627": [
-      {
-        "@value": "K11-157"
-      }
-    ],
-    "@type": [
-      "http://www.wikidata.org/entity/Q96371632",
-      "http://www.wikidata.org/entity/Q24354"
-    ]
-  },
-  {
     "@id": "http://www.wikidata.org/entity/Q72980539",
     "http://schema.org/disambiguatingDescription": [
       {
@@ -1829,10 +1831,10 @@
     ],
     "http://www.wikidata.org/prop/direct/P31": [
       {
-        "@id": "http://www.wikidata.org/entity/Q1329623"
+        "@id": "http://www.wikidata.org/entity/Q16970"
       },
       {
-        "@id": "http://www.wikidata.org/entity/Q16970"
+        "@id": "http://www.wikidata.org/entity/Q1329623"
       }
     ],
     "http://www.wikidata.org/prop/direct/P7627": [
@@ -1878,10 +1880,10 @@
     ],
     "http://www.wikidata.org/prop/direct/P31": [
       {
-        "@id": "http://www.wikidata.org/entity/Q3469910"
+        "@id": "http://www.wikidata.org/entity/Q2080521"
       },
       {
-        "@id": "http://www.wikidata.org/entity/Q2080521"
+        "@id": "http://www.wikidata.org/entity/Q3469910"
       }
     ],
     "http://www.wikidata.org/prop/direct/P7627": [
